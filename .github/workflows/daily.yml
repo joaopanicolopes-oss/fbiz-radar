@@ -1,0 +1,31 @@
+name: FBIZ RADAR Daily Update
+
+on:
+  schedule:
+    # Executa todos os dias às 09:30 UTC (06:30 Horário de Brasília)
+    - cron: '30 9 * * *'
+  workflow_dispatch: # Permite disparar manualmente pelo painel do GitHub
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Executar Script de Coleta de Notícias
+        run: python fetch_news.py
+
+      - name: Commitar e Fazer Push do JSON Atualizado
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news_data.json
+          git commit -m "auto: atualização diária FBIZ RADAR [skip ci]" || exit 0
+          git push
