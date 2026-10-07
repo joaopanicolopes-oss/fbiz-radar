@@ -1,0 +1,759 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBIZ RADAR // Daily Client Intelligence</title>
+    <!-- Google Fonts: Lexend & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #eef0f4;
+            --surface-glass: rgba(255, 255, 255, 0.82);
+            --surface-glass-border: rgba(255, 255, 255, 0.95);
+            --border-light: rgba(0, 0, 0, 0.08);
+            --text-primary: #121418;
+            --text-secondary: #5c6470;
+            --text-muted: #8c96a4;
+            --fbiz-dark: #0f1115;
+            --fbiz-silver: #d0d7e2;
+            --accent-chrome: #3b82f6;
+            --font-ui: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.06);
+            --shadow-glass: 0 8px 30px rgba(0, 0, 0, 0.05);
+            --radius-sm: 8px;
+            --radius-md: 14px;
+            --radius-lg: 20px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.9) 0%, transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(208, 215, 226, 0.4) 0%, transparent 50%),
+                linear-gradient(to right, rgba(0,0,0,0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(0,0,0,0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+            font-family: var(--font-ui);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding-bottom: 60px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header.top-header {
+            background: rgba(15, 17, 21, 0.94);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 14px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-badge {
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            color: var(--fbiz-dark);
+            font-weight: 800;
+            font-size: 15px;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            letter-spacing: 0.5px;
+            font-family: var(--font-mono);
+            box-shadow: 0 2px 10px rgba(255,255,255,0.2);
+        }
+
+        .header-title {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -0.2px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .header-title span.tag {
+            color: #94a3b8;
+            font-size: 13px;
+            font-weight: 400;
+            font-family: var(--font-mono);
+        }
+
+        .header-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        .live-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(34, 197, 94, 0.12);
+            color: #4ade80;
+            padding: 4px 10px;
+            border-radius: 20px;
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .live-pulse {
+            width: 7px;
+            height: 7px;
+            background-color: #4ade80;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #4ade80;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(1.2); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        .app-container {
+            max-width: 1280px;
+            margin: 24px auto 0;
+            padding: 0 24px;
+        }
+
+        .client-tabs-wrapper {
+            background: var(--surface-glass);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--surface-glass-border);
+            border-radius: var(--radius-md);
+            padding: 8px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+        }
+
+        .tabs-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 8px 8px 8px;
+            border-bottom: 1px solid var(--border-light);
+            margin-bottom: 8px;
+        }
+
+        .tabs-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .client-tabs-nav {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding-bottom: 4px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .client-tabs-nav::-webkit-scrollbar {
+            height: 4px;
+        }
+        .client-tabs-nav::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-secondary);
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-ui);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .tab-btn:hover {
+            background: rgba(255, 255, 255, 0.7);
+            color: var(--text-primary);
+        }
+
+        .tab-btn.active {
+            background: var(--fbiz-dark);
+            color: #ffffff;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(15, 17, 21, 0.15);
+        }
+
+        .tab-btn .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .brand-hero-card {
+            border-radius: var(--radius-lg);
+            padding: 32px 36px;
+            margin-bottom: 24px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            color: #ffffff;
+        }
+
+        .hero-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .hero-client-name {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.8px;
+            line-height: 1.1;
+        }
+
+        .hero-category-tag {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .hero-territories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .territory-pill {
+            font-size: 12px;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-mono);
+        }
+
+        .headline-card {
+            background: var(--surface-glass);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--surface-glass-border);
+            border-left: 4px solid var(--fbiz-dark);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-glass);
+        }
+
+        .headline-badge {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--accent-chrome);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+
+        .headline-title {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.35;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .headline-summary {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 900px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .section-block {
+            background: var(--surface-glass);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--surface-glass-border);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            box-shadow: var(--shadow-glass);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section-header {
+            font-family: var(--font-mono);
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--fbiz-dark);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-light);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .section-header .count-tag {
+            background: #e2e8f0;
+            color: var(--text-secondary);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+        }
+
+        .insights-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .insight-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 14px 16px;
+            border-radius: var(--radius-sm);
+        }
+
+        .insight-number {
+            font-family: var(--font-mono);
+            font-size: 14px;
+            font-weight: 700;
+            background: var(--fbiz-dark);
+            color: #ffffff;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .insight-body {
+            font-size: 13.5px;
+            color: var(--text-primary);
+            line-height: 1.55;
+        }
+
+        .insight-body strong {
+            font-weight: 600;
+            color: #000000;
+        }
+
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .news-card {
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: var(--radius-sm);
+            padding: 14px 16px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+            background: #ffffff;
+        }
+
+        .news-card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+
+        .news-card-source {
+            color: var(--accent-chrome);
+            font-weight: 600;
+        }
+
+        .news-card-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }
+
+        .news-card-snippet {
+            font-size: 12.5px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .archive-section {
+            background: var(--surface-glass);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--surface-glass-border);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            box-shadow: var(--shadow-glass);
+        }
+
+        .archive-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        details.archive-item {
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+            transition: background 0.2s ease;
+        }
+
+        details.archive-item[open] {
+            background: #ffffff;
+        }
+
+        summary.archive-summary {
+            padding: 14px 18px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            font-family: var(--font-mono);
+        }
+
+        summary.archive-summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary.archive-summary::after {
+            content: "+";
+            font-size: 18px;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        details[open] summary.archive-summary::after {
+            content: "−";
+        }
+
+        .archive-content {
+            padding: 0 18px 18px 18px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            border-top: 1px solid rgba(0,0,0,0.04);
+            margin-top: 4px;
+            padding-top: 12px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="top-header">
+        <div class="header-brand">
+            <div class="logo-badge">FBIZ</div>
+            <div class="header-title">
+                RADAR <span class="tag">// Daily Intelligence Hub</span>
+            </div>
+        </div>
+        <div class="header-meta">
+            <div class="live-status">
+                <span class="live-pulse"></span> AUTO-UPDATED DAILY 06:30
+            </div>
+            <span id="current-date-display">07 OUT 2026</span>
+        </div>
+    </header>
+
+    <div class="app-container">
+        
+        <div class="client-tabs-wrapper">
+            <div class="tabs-header">
+                <span class="tabs-title">✦ Selecionar Cliente (18 Contas Ativas)</span>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">Use ◄ ► para navegar</span>
+            </div>
+            <div class="client-tabs-nav" id="client-tabs-container">
+            </div>
+        </div>
+
+        <div class="brand-hero-card" id="brand-hero-banner">
+            <div class="hero-top">
+                <div>
+                    <span class="hero-category-tag" id="hero-category">Categoria</span>
+                    <h1 class="hero-client-name" id="hero-client-name" style="margin-top: 8px;">Nome do Cliente</h1>
+                </div>
+            </div>
+            <div class="hero-territories" id="hero-territories">
+            </div>
+        </div>
+
+        <div class="headline-card">
+            <div class="headline-badge">
+                <span>✦</span> MANCHETE PRINCIPAL DO DIA
+            </div>
+            <h2 class="headline-title" id="headline-title">Carregando inteligência diária...</h2>
+            <p class="headline-summary" id="headline-summary">Aguarde o carregamento dos dados atualizados do RADAR FBIZ.</p>
+        </div>
+
+        <div class="content-grid">
+            
+            <div class="section-block">
+                <div class="section-header">
+                    <span>// INSIGHTS ESTRATÉGICOS</span>
+                    <span class="count-tag" id="insights-count">3 AÇÕES</span>
+                </div>
+                <div class="insights-list" id="insights-container">
+                </div>
+            </div>
+
+            <div class="section-block">
+                <div class="section-header">
+                    <span>// NOTÍCIAS & MERCADO (48H)</span>
+                    <span class="count-tag" id="news-count">4 FONTES</span>
+                </div>
+                <div class="news-list" id="news-container">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="archive-section">
+            <div class="section-header">
+                <span>// EDIÇÕES ANTERIORES & HISTÓRICO</span>
+                <span class="count-tag">ÚLTIMOS 7 DIAS</span>
+            </div>
+            <div class="archive-accordion" id="archive-container">
+            </div>
+        </div>
+
+        <footer>
+            FBIZ RADAR &copy; 2026 // Sistema de Inteligência Automatizada para Contas e Planejamento.
+        </footer>
+    </div>
+
+    <script>
+        const CLIENTS_DB = {
+            "mm": { name: "M&M's", category: "Confeitaria & Pop Culture", bg: "linear-gradient(135deg, #7B2CBF 0%, #3A0CA3 100%)", color: "#FFFFFF", dot: "#F5B041", territories: ["Snack Market", "Pop Culture", "Diversidade & Inclusão", "Mars Wrigley"] },
+            "tegra": { name: "Tegra", category: "Mercado Imobiliário de Luxo", bg: "linear-gradient(135deg, #1C3144 0%, #0F1E2C 100%)", color: "#FFFFFF", dot: "#00D2FF", territories: ["Arquitetura de Alto Padrão", "Urbanismo Sustentável", "ESG", "PropTech"] },
+            "twix": { name: "Twix", category: "Confeitaria & Gen Z", bg: "linear-gradient(135deg, #D35400 0%, #A04000 100%)", color: "#FFFFFF", dot: "#F39C12", territories: ["Pausa & Break", "Snacking Trends", "Redes Sociais", "Gamification"] },
+            "paixao": { name: "Paixão", category: "Cuidados Pessoais & Skincare", bg: "linear-gradient(135deg, #900C3F 0%, #581845 100%)", color: "#FFFFFF", dot: "#FFC300", territories: ["Hidratação Corporal", "Autocuidado", "Mercado de Beleza Coty", "Rituais de Bem-estar"] },
+            "warner": { name: "Warner Bros.", category: "Entretenimento & Cinema", bg: "linear-gradient(135deg, #003399 0%, #001A4D 100%)", color: "#FFFFFF", dot: "#FFD700", territories: ["CCXP", "Bilheteria Cinema", "Lançamentos Blockbuster", "Streaming Wars"] },
+            "totvs": { name: "TOTVS", category: "Tecnologia B2B & Software", bg: "linear-gradient(135deg, #00A896 0%, #028090 100%)", color: "#FFFFFF", dot: "#00F5D4", territories: ["Sistemas ERP", "Inteligência Artificial B2B", "SaaS Brasil", "Transformação Digital"] },
+            "snickers": { name: "Snickers", category: "Chocolates & Esportes", bg: "linear-gradient(135deg, #4A235A 0%, #1A0A2A 100%)", color: "#FFFFFF", dot: "#F39C12", territories: ["NFL Brasil", "Esports & Gaming", "Fome & Conveniência", "Campanhas Globais"] },
+            "monange": { name: "Monange", category: "Beleza & Haircare", bg: "linear-gradient(135deg, #E91E63 0%, #880E4F 100%)", color: "#FFFFFF", dot: "#FF80AB", territories: ["Capilar & Cuidados", "Autoestima Feminina", "Beleza Acessível", "Coty Brasil"] },
+            "cenoura": { name: "Cenoura & Bronze", category: "Proteção Solar & Verão", bg: "linear-gradient(135deg, #E67E22 0%, #D35400 100%)", color: "#FFFFFF", dot: "#F1C40F", territories: ["Tendências de Verão", "Filtro Solar & Dermatologia", "Praia & Outdoor", "Sustentabilidade"] },
+            "quintoandar": { name: "QuintoAndar", category: "Proptech & Moradia", bg: "linear-gradient(135deg, #0055FF 0%, #003399 100%)", color: "#FFFFFF", dot: "#00E5FF", territories: ["Aluguel & Compra", "Índice de Aluguel", "Inovação Imobiliária", "Design de Interiores"] },
+            "google": { name: "Google", category: "Tecnologia & AdTech", bg: "linear-gradient(135deg, #4285F4 0%, #1a73e8 100%)", color: "#FFFFFF", dot: "#34A853", territories: ["AI Gemini", "Search Updates", "Google Cloud", "Ecossistema Anúncios"] },
+            "hbo": { name: "HBO Max / Max", category: "Streaming & Séries", bg: "linear-gradient(135deg, #581845 0%, #2A0825 100%)", color: "#FFFFFF", dot: "#E040FB", territories: ["Séries Premiere", "Engajamento de Fãs", "Assinaturas VOD", "Produções Nacionais"] },
+            "panco": { name: "Panco", category: "Alimentos & Panificação", bg: "linear-gradient(135deg, #E74C3C 0%, #900C3F 100%)", color: "#FFFFFF", dot: "#FFC300", territories: ["Mercado de Pães", "Varejo Alimentício", "Lanches Rápidos", "Ingredientes & Saudabilidade"] },
+            "geely": { name: "Geely", category: "Automotivo & Veículos Elétricos", bg: "linear-gradient(135deg, #2C3E50 0%, #1A252F 100%)", color: "#FFFFFF", dot: "#00D2FF", territories: ["Carros Elétricos (EV)", "Mobilidade Sustentável", "Inovação Automotiva", "Expansão Brasil"] },
+            "99pay": { name: "99Pay", category: "Fintech & Carteiras Digitais", bg: "linear-gradient(135deg, #FF5722 0%, #E64A19 100%)", color: "#FFFFFF", dot: "#FFE600", territories: ["Inclusão Financeira", "Pix & Cashback", "Mobilidade + Finanças", "Gen Z Economia"] },
+            "vans": { name: "Vans", category: "Streetwear & Skate", bg: "linear-gradient(135deg, #C0392B 0%, #7B1FA2 100%)", color: "#FFFFFF", dot: "#FFFFFF", territories: ["Cultura Skate", "Streetwear & Sneakerheads", "Música Independente", "VF Corp"] },
+            "arezzo": { name: "Arezzo", category: "Calçados & Moda Feminina", bg: "linear-gradient(135deg, #111111 0%, #222222 100%)", color: "#FFFFFF", dot: "#E0E0E0", territories: ["SPFW & Semanas de Moda", "Tendências de Calçados", "Varejo Moda Luxo", "AZZAS 2154"] },
+            "schutz": { name: "Schutz", category: "Moda Fashion & High-End", bg: "linear-gradient(135deg, #222222 0%, #050505 100%)", color: "#FFFFFF", dot: "#00FFCC", territories: ["Design Fashion Bold", "Acessórios Premium", "Marketing de Influência", "Coleções Internacionais"] }
+        };
+
+        let currentClientKey = "snickers";
+        let clientDataStore = {};
+
+        function generateFallbackData(clientKey) {
+            const client = CLIENTS_DB[clientKey];
+            return {
+                headline: {
+                    title: `Tendências e Movimentações Estratégicas em ${client.category}`,
+                    summary: `Análise automatizada de mercado mapeando os principais veículos e territórios de ${client.name} nas últimas 48 horas.`
+                },
+                insights: [
+                    { num: "01", text: `<strong>Posicionamento no Território:</strong> Oportunidade de amplificação em ${client.territories[0]} aproveitando engajamento crescente nas redes.` },
+                    { num: "02", text: `<strong>Benchmarking Diário:</strong> Concorrentes diretos intensificam ações focadas em ${client.territories[1] || 'inovação'}.` },
+                    { num: "03", text: `<strong>Recomendação FBIZ:</strong> Ativação rápida de conteúdo explorando sinergia entre ${client.territories[2] || 'cultura pop'} e a audiência da marca.` }
+                ],
+                news: [
+                    { source: "Exame", time: "Há 4 horas", title: `Mercado de ${client.category} registra aceleração com novas estratégias digitais`, snippet: `Especialistas indicam que marcas que investem em inovação e territórios de afinidade estão liderando o share of voice.`, url: "#" },
+                    { source: "Meio & Mensagem", time: "Há 7 horas", title: `${client.name}: Análise de presença de marca nas conversas das redes sociais`, snippet: `Mapeamento indica alta receptividade do público jovem para formatos curtos e ações interativas no setor.`, url: "#" },
+                    { source: "Valor Econômico", time: "Há 12 horas", title: `Perspectivas de consumo e varejo para as contas do segmento no Brasil`, snippet: `Dados consolidados apontam crescimento da demanda por produtos com apelo de sustentabilidade e conveniência.`, url: "#" }
+                ],
+                archive: [
+                    { date: "06 OUT 2026", summary: `Relatório diário anterior focado na expansão dos territórios de ${client.name}.` },
+                    { date: "05 OUT 2026", summary: `Resumo de mídia e clipping de notícias de concorrentes na categoria.` }
+                ]
+            };
+        }
+
+        function renderTabs() {
+            const container = document.getElementById("client-tabs-container");
+            container.innerHTML = "";
+            Object.keys(CLIENTS_DB).forEach(key => {
+                const client = CLIENTS_DB[key];
+                const btn = document.createElement("button");
+                btn.className = `tab-btn ${key === currentClientKey ? 'active' : ''}`;
+                btn.onclick = () => selectClient(key);
+                btn.innerHTML = `<span class="dot" style="background-color: ${client.dot};"></span> ${client.name}`;
+                container.appendChild(btn);
+            });
+        }
+
+        function selectClient(key) {
+            currentClientKey = key;
+            renderTabs();
+            const client = CLIENTS_DB[key];
+            const data = clientDataStore[key] || generateFallbackData(key);
+
+            const hero = document.getElementById("brand-hero-banner");
+            hero.style.background = client.bg;
+            hero.style.color = client.color;
+            document.getElementById("hero-client-name").innerText = client.name;
+            document.getElementById("hero-category").innerText = client.category;
+
+            const terrContainer = document.getElementById("hero-territories");
+            terrContainer.innerHTML = client.territories.map(t => `<span class="territory-pill">✦ ${t}</span>`).join('');
+
+            document.getElementById("headline-title").innerText = data.headline.title;
+            document.getElementById("headline-summary").innerText = data.headline.summary;
+
+            const insightsContainer = document.getElementById("insights-container");
+            insightsContainer.innerHTML = data.insights.map(item => `
+                <div class="insight-item">
+                    <div class="insight-number">${item.num}</div>
+                    <div class="insight-body">${item.text}</div>
+                </div>
+            `).join('');
+            document.getElementById("insights-count").innerText = `${data.insights.length} AÇÕES`;
+
+            const newsContainer = document.getElementById("news-container");
+            newsContainer.innerHTML = data.news.map(item => `
+                <a href="${item.url}" target="_blank" class="news-card">
+                    <div class="news-card-meta">
+                        <span class="news-card-source">${item.source}</span>
+                        <span>${item.time}</span>
+                    </div>
+                    <div class="news-card-title">${item.title}</div>
+                    <div class="news-card-snippet">${item.snippet}</div>
+                </a>
+            `).join('');
+            document.getElementById("news-count").innerText = `${data.news.length} FONTES`;
+
+            const archiveContainer = document.getElementById("archive-container");
+            archiveContainer.innerHTML = data.archive.map(item => `
+                <details class="archive-item">
+                    <summary class="archive-summary">Edição de ${item.date}</summary>
+                    <div class="archive-content">
+                        <p>${item.summary}</p>
+                    </div>
+                </details>
+            `).join('');
+        }
+
+        async function loadLiveData() {
+            try {
+                const response = await fetch('./news_data.json?t=' + new Date().getTime());
+                if (response.ok) {
+                    const json = await response.json();
+                    if (json.clients) {
+                        clientDataStore = json.clients;
+                        if (json.updated_at) {
+                            document.getElementById("current-date-display").innerText = json.updated_at;
+                        }
+                    }
+                }
+            } catch (e) {
+                console.log("Usando dados locais de fallback.");
+            }
+            selectClient(currentClientKey);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            renderTabs();
+            loadLiveData();
+        });
+    </script>
+</body>
+</html>
