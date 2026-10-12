@@ -1,5 +1,5 @@
 {
-  "updated_at": "11 OCT 2026 - 15:53",
+  "updated_at": "12 OCT 2026 - 19:14",
   "clients": {
     "mm": {
       "headline": {
@@ -31,7 +31,7 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta M&M's."
         }
       ]
@@ -66,7 +66,7 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Tegra."
         }
       ]
@@ -101,7 +101,7 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Twix."
         }
       ]
@@ -136,15 +136,15 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Paixão."
         }
       ]
     },
     "warner": {
       "headline": {
-        "title": "Digger naufraga nas bilheterias e pode dar prejuízo de US$ 250 milhões",
-        "summary": "Destaque em UOL: Digger naufraga nas bilheterias e pode dar prejuízo de US$ 250 milhões&nbsp;&nbsp;UOL..."
+        "title": "6 filmes que prometeram muito e floparam na estreia nos cinemas",
+        "summary": "Destaque em Canaltech: 6 filmes que prometeram muito e floparam na estreia nos cinemas&nbsp;&nbsp;Canaltech..."
       },
       "insights": [
         {
@@ -162,6 +162,20 @@
       ],
       "news": [
         {
+          "source": "Canaltech",
+          "time": "Últimas 48h",
+          "title": "6 filmes que prometeram muito e floparam na estreia nos cinemas",
+          "snippet": "6 filmes que prometeram muito e floparam na estreia nos cinemas&nbsp;&nbsp;Canaltech...",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ091dlh0b1d6cHRMSjAtLVA3aGJ2TnR6aEVFbzlWdXhkcjFhV1hzVXlNSmg2TVVoZmlCeDcwd0hiMjgyVk4wYzJ2LUMtV1VVV2w1aWVCSVl4Y05KY0tFVFQ0UnNwMkdLN2ozSjZvR1Y0T3NLNF9zcGFJaU1SVWJqQXhyZ0RWXzJBRmpJSjBBVmFEUVhTN0s5aGdXSQ?oc=5"
+        },
+        {
+          "source": "Tribuna do Sertão",
+          "time": "Últimas 48h",
+          "title": "Filme de Tom Cruise corre o risco de perder 245 milhões de dólares após queda de 60% no segundo fim de semana",
+          "snippet": "Filme de Tom Cruise corre o risco de perder 245 milhões de dólares após queda de 60% no segundo fim de semana&nbsp;&nbsp;Tribuna do Sertão...",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSUVqZXNJSmlhLWNucWdVa2xsRS01a1lMbFJVOTVLMVpoSmZNUzN2dlE0clpxN24ySFZ4QUIwZXF3bEFlZkR4eFBfVUlLajR4aVgzWXNqMzd0NWhMdE1iUHpsdm9vTnNPQ0MxMnl1MWxIV0Q1RktFamdrSkdOOE5BSUNVcEtNWGUycmJaeTFHWTk5X2lubjVjdW93M0xRbnVyVmtwUTVqc1hjekJRVzFMajhVZ2xub2Y0aU95MXNBeDB3aFZ1SFk0MmZHNzdhN25veWRoOF9TVjBpM3VrcHBDdzhjbC0tQnU2cEhxS1pnVE5wNW9IdElzZjRJRURIM2I1MHF3bg?oc=5"
+        },
+        {
           "source": "UOL",
           "time": "Últimas 48h",
           "title": "Digger naufraga nas bilheterias e pode dar prejuízo de US$ 250 milhões",
@@ -169,38 +183,24 @@
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeU9tckg2ZmpraDI2T0NhVm9nV1dGN244VnFSZUp4LUNUT05qM0dyRjFYQTZoZmJ2YkdMT0lLYzJUR29EUU9ocWJSZ2FQc04zdUF3bWhnZEgtX2Y4MVpKRENyY2tMTklSTHpqRktGMFdkSUk1ODBteDlXMHRmZGlVZWJCMGM4Ujdya1hCSTNKcEdlZmlUZm9qb0twX1pkaVlwN1VnZnNSLWljLXlrZDJtdWdtaw?oc=5"
         },
         {
-          "source": "Drops de Jogos",
+          "source": "Diário do Litoral",
           "time": "Últimas 48h",
-          "title": "Estúdios de jogos da Paramount e da Warner se tornam um só",
-          "snippet": "Estúdios de jogos da Paramount e da Warner se tornam um só&nbsp;&nbsp;Drops de Jogos...",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZWFreEZwbi1YcU9zdGhueWx0NkZzNS1GZjJQZmN3UDdQbFpwUVBkTHJkUS11RlZfckhQelI3UVpqWnJhOUs2d0ZDX2thZ09XLXpiMGZTanZ5c1RleTE2Z0VhQUtTbW5BTWdBMkYtM0Y0Z0IzbHdzWGlralBkVk9hN3lneXJTYzVIbWJUT1czMF9FcmVRSm11QXFuSUE4M2daMUNEcWxTX2VacUFHdmIyRGNOcWE?oc=5"
-        },
-        {
-          "source": "Gazeta de São Paulo",
-          "time": "Últimas 48h",
-          "title": "Hogwarts existe? Estúdio de Harry Potter na Inglaterra abre as portas dos bastidores e revela cenários, objetos e segredos que marcaram os filmes",
-          "snippet": "Hogwarts existe? Estúdio de Harry Potter na Inglaterra abre as portas dos bastidores e revela cenários, objetos e segredos que marcaram os filmes&nbsp;&nbsp;Gaz...",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSDRiOGNxTDMwNzlCbWRxZ2FybGd5dndDa3FrMVhJb2hQcG9Td2JCZEJ6WG5nRnV5REoyTVpmdVV6dF8yaXJnWFNvbTJXUDV2MlpnMnZVM0xDSmNoVU8waEVncldFd0NYRC0weWNET01fYk1QMkFkdVhZU3ZkOUxLblVZRlRlLTE1R2VKOTU0Y1FxMl9ueGZad0NsMzhPZXdpLUx1WHZ2ZzBZTXh1RnFyUlRDaDhLVTlYcTJnTVFwVFhodVNnaEQwaE1zNXBtdU1fRno2NXZVelVYcUF4OE5NTGxQRm5PT0llcGFiUnlzUDRCREtMenJiUlRvekxwQ0dFeXlHMEtDZVoyOWdq?oc=5"
-        },
-        {
-          "source": "einerd.com",
-          "time": "Últimas 48h",
-          "title": "O encontro mais bizarro entre Batman e Coringa no cinema",
-          "snippet": "O encontro mais bizarro entre Batman e Coringa no cinema&nbsp;&nbsp;einerd.com...",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sc3VRbXZRR0dfZTNMMTJzSUdSVEZnRy02S2Z3NTU1Z3R6azBRTnNySVNycnp6NE9jWWZpWDBtZ0dsdUtyYlVQR2NEM291akxrUERva2tVdlBHeTBFbTVBdG1LdFVZVnRkTW81Q3cyN1dBeENC?oc=5"
+          "title": "Tom Cruise quebra seu famoso hábito de 14 anos em 'Digger', produção cotada como o maior fracasso na história do cinema: \"Sempre adorei\"",
+          "snippet": "Tom Cruise quebra seu famoso hábito de 14 anos em 'Digger', produção cotada como o maior fracasso na história do cinema: \"Sempre adorei\"&nbsp;&nbsp;Diário do Li...",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTjUyVW9UMVhKTlVuMHhGX0xReXdBbjhDY2s5MmstR2w3VU5XcXlPOUxOOHhtbWM2RW5DQWJocFlUTUtNcWVRdEVDSmJOQjhMZFYxaHpfQnFJMnRNNFJqVDRxVlc3YllwNWszWDE4UHVOVWE2ZEZuT3FaNFRGOWdCaHVMZlY5SXlPczhuRVVBaFctODJrNFUyVlNhdzc1eGlONHJIY3ROWXREN2RtNGtnYVh0SllJcURtSnNwcnJzTmk4WWdxN2FDclZjWEQ0ZVJ5WXRNaWlfT1I1UlJxWEVJQjd0VWJiS25CemJBTEFVRzJKOEljNTRPTGFkMUZpaFNnOVNpQnZleUtrRFIweUE?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Warner Bros.."
         }
       ]
     },
     "totvs": {
       "headline": {
-        "title": "Progress Software expande atuação em infraestrutura de inteligência artificial no mercado corporativo brasileiro",
-        "summary": "Destaque em Brasil Inovador: Progress Software expande atuação em infraestrutura de inteligência artificial no mercado corporativo brasileiro&nbsp;&nbsp;Brasil Inovador..."
+        "title": "Universo TOTVS 2026 reforça aposta da empresa no agro com trilha dedicada ao setor focada em IA e gestão",
+        "summary": "Destaque em AgFeed: Universo TOTVS 2026 reforça aposta da empresa no agro com trilha dedicada ao setor focada em IA e gestão&nbsp;&nbsp;AgFeed..."
       },
       "insights": [
         {
@@ -218,31 +218,24 @@
       ],
       "news": [
         {
-          "source": "Brasil Inovador",
+          "source": "AgFeed",
           "time": "Últimas 48h",
-          "title": "Progress Software expande atuação em infraestrutura de inteligência artificial no mercado corporativo brasileiro",
-          "snippet": "Progress Software expande atuação em infraestrutura de inteligência artificial no mercado corporativo brasileiro&nbsp;&nbsp;Brasil Inovador...",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX1h2YVdWZUlBZmE1TFExeDRwa05GUU5MNHFRUWV2X2cwY20xcUk1UFZWNXJ2dzFFc1VlZmhDa2dsSUtod0NNakJJM3VEVl9qLUY1WWhPRUJlNmRXX2lnd2tOQkg2UzRzakUyMkdSZS1GZF94WDN6VWd4cGdUOG9fZHJhcnNxVU5hMGs4SjZZS2thdU9uSzRqMzlOMkpYNWswSlBQSHdNdXZHRm9hS3JuZHpQQUJpLUcwLWdLTUlYUXUzcmdHQ3ZOc0V5UlIxSE1JZU1YV2RzMWZxaXM?oc=5"
-        },
-        {
-          "source": "Brasil Inovador",
-          "time": "Últimas 48h",
-          "title": "Sam Altman da OpenAI afirma que os usuários e desenvolvedores vão usar agentes de IA autônomos com autoprompting",
-          "snippet": "Sam Altman da OpenAI afirma que os usuários e desenvolvedores vão usar agentes de IA autônomos com autoprompting&nbsp;&nbsp;Brasil Inovador...",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNjY0RnhXRFk2M2FDd0Zra25ZM1VDdWZLX2tNY1c1YzAxcl9WcnI2b0hqVEs5U3o3UFRSTmI5Sm9tTVpsQXlZdGY1ZjNFQzkxTzV1eDRuNmlCaU1OamVYbVY2RmhEUk5uWnFoTHo2TC0wRVF4WXF6NExIS2pvZGhpOUlYVTRBOTN4dGtSYkYxYTRmd2x2WnJjUUktM2h3TnBoTzEzQTd2SkVEdEVmdTRuaXhMWldvNEJKbHpZRkNaeGFZcUtvR0JVQ18tTUVYU0Nwdk5KVXVCN25Na28?oc=5"
+          "title": "Universo TOTVS 2026 reforça aposta da empresa no agro com trilha dedicada ao setor focada em IA e gestão",
+          "snippet": "Universo TOTVS 2026 reforça aposta da empresa no agro com trilha dedicada ao setor focada em IA e gestão&nbsp;&nbsp;AgFeed...",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYTg5Uk00MnIwcGljQVNJOUl0dl9UYm9qSVZreHpHR0FhU2ZNSkk5TENJVzZsanptRTBrWG1OYjZQQ3l0YVdWeGxsWGp1bE5lNEZJZWF2aGtnWHE0TTAxRGltajR1OXE4aVVnZkdZYU95MHJHOHJjcTZTZnhXVDNXcTZFTmt3M2RhOURiYU5FNWR6YlRBX2tnUmVMRXJ3a1djQ3hqdTZvNWhvejgxZ0VCWEwxZjV2OHFTeDF4bjl2eFdaUGl6Q1E1OW50amdjQQ?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta TOTVS."
         }
       ]
     },
     "snickers": {
       "headline": {
-        "title": "Movimentações no Setor de Chocolates & Esportes",
-        "summary": "Monitoramento contínuo das oportunidades e presença de marca em Snickers."
+        "title": "Google aposta em estrelas da NFL para promover buscas durante jogos de futebol americano",
+        "summary": "Destaque em MKT Esportivo: Google aposta em estrelas da NFL para promover buscas durante jogos de futebol americano&nbsp;&nbsp;MKT Esportivo..."
       },
       "insights": [
         {
@@ -260,24 +253,24 @@
       ],
       "news": [
         {
-          "source": "FBIZ Intelligence",
-          "time": "Hoje",
-          "title": "Varredura diária de marca concluída para Snickers",
-          "snippet": "Sem ruídos de crise identificados nas últimas horas nas buscas monitoradas.",
-          "url": "#"
+          "source": "MKT Esportivo",
+          "time": "Últimas 48h",
+          "title": "Google aposta em estrelas da NFL para promover buscas durante jogos de futebol americano",
+          "snippet": "Google aposta em estrelas da NFL para promover buscas durante jogos de futebol americano&nbsp;&nbsp;MKT Esportivo...",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON3dHOHlhRERVRmV5YTdmc2N5WDJGa2pwcURLRWtwejh6RVBxRWRsaGNUTkViZ2poUnFVZWdQU3dlNVZIZjFnT0JWTEpqSFR2eHFSdWFKSU5kdEZ6ZUZiUnp0ckxkQk5jRkNEX0VJX0Z0ZTZUNTRJTlVjdEpSRS1RQVFXOXpUY0NMbzZJRENURXlPYU9xek85dnJ3bkVZNC05MER3QVdDSklyV1JFUGh0UjRqc3d2WlBMSnFPYjFLckczOVR6?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Snickers."
         }
       ]
     },
     "monange": {
       "headline": {
-        "title": "Virginia Fonseca malha todos os dias: é preciso lavar o cabelo diariamente?",
-        "summary": "Destaque em Portal UAI: Virginia Fonseca malha todos os dias: é preciso lavar o cabelo diariamente?&nbsp;&nbsp;Portal UAI..."
+        "title": "4 máscaras capilares para quem busca cabelos mais saudáveis",
+        "summary": "Destaque em JC: 4 máscaras capilares para quem busca cabelos mais saudáveis&nbsp;&nbsp;JC..."
       },
       "insights": [
         {
@@ -295,37 +288,37 @@
       ],
       "news": [
         {
-          "source": "Portal UAI",
+          "source": "JC",
           "time": "Últimas 48h",
-          "title": "Virginia Fonseca malha todos os dias: é preciso lavar o cabelo diariamente?",
-          "snippet": "Virginia Fonseca malha todos os dias: é preciso lavar o cabelo diariamente?&nbsp;&nbsp;Portal UAI...",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTlhGQkJRTWUyLVcyMFl1NlBWeFdqNGQ0OFUtdjhOWFh5Yy13NmxGMlVQOE9FWlhYZG4zWWF0R0pSOW5XRDkyWFpCQWRMWE5LR1k2MF80ci10WVZ1MmhiQ3JZY29aV0twdlVSVXpETFdQVkJkenY2bWl6MlhqTTZ1YmFOWDljdUZQOUhBNzZyQU1qUkttZ01yMWg4ZUNIU1VLRWE5cFNsc3Bldi1NSFUwUkY5MUJMemh6Ujh5Sm9pcUpSY0V4TGhfQ2VnN3NtcmRVRGtRTjJzWDNsTGkwQ2RiN2Uzamx4QXVHWkhOdFNwdEnSAfABQVVfeXFMTU5YRkJCUU1lMi1XMjBZdTZQVnhXajRkNDhVLXY4TlhYeWMtdzZsRjJVUDhPRVpYWGRuM1lhdEdKUjluV0Q5MlhaQkFkTFhOS0dZNjBfNHItdFlWdTJoYkNyWWNvWldLcHZVUlV6RExXUFZCZHp2Nm1pejJYak02dWJhTlg5Y3VGUDlIQTc2ckFNalJLbWdNcjFoOGVDSFNVS0VhOXBTbHNwZXYtTUhVMFJGOTFCTHpoelI4eUpvaXFKUmNFeExoX0NlZzdzbXJkVURrUU4yc1gzbExpMENkYjdlM2pseEF1R1pITnRTcHRJ?oc=5"
+          "title": "4 máscaras capilares para quem busca cabelos mais saudáveis",
+          "snippet": "4 máscaras capilares para quem busca cabelos mais saudáveis&nbsp;&nbsp;JC...",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR2NDTlc4bkFLTk90RkNjTzhkS3V5enhFNVB4VnN3czRWazVndnhscEJiODIwWkVEWDJYNEZGclE1UHFwQi1fdW5SS0IwdkVjN3daMVNNcnVYTDAxYlBMRE91ZUVyTUlQbnFpbHZQQW1yM0xrQXpaRWZPdVQ5aUZmdDZaMDVOUVpKcThfMDNXcFFYUkhLMGFrZVpnRUxYOGl4b0UzNVAxal9jNXV4MmNXandjWm84aXFUU3g0?oc=5"
         },
         {
-          "source": "Jornal Opção",
+          "source": "Revista Ana Maria",
           "time": "Últimas 48h",
-          "title": "De cirurgiões-barbeiros às barbershops: como a profissão se reinventou ao longo dos séculos",
-          "snippet": "De cirurgiões-barbeiros às barbershops: como a profissão se reinventou ao longo dos séculos&nbsp;&nbsp;Jornal Opção...",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWE9YcktOREZWcG41ZEJoOHN6UXIzREJYSHB1VXV5Y3A3NEhaMUMtcTdMOUlqWE5aakRyY3NCYlRQaUhDYUR3VThZeEtENWNYc3NZeXVTZzB6bEJYaFoweGZNb0F3djFDcmlGSE5qaHlxbXRSZHZ3azNTWFZjVzJfYkc3a0x1anR3bTF0SHV6TVkzUTByUGhydFA2YVRHT2ZTeVFZQ040UTloUm5JOGNLMnR2U3hWOXFvbFRLQV9WY00tVDZldHdyNDVhdE0zd1FzVkFyQXNQQkRObmlDT1ktUQ?oc=5"
+          "title": "Queda de cabelo pós-parto pode durar meses; veja quando procurar ajuda",
+          "snippet": "Queda de cabelo pós-parto pode durar meses; veja quando procurar ajuda&nbsp;&nbsp;Revista Ana Maria...",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzh6MFIwQl8tUnlidkJmR2lDbGpRSTBDUEQxTTlwTTZDM2k1OUEzSUg4aTgwRFAzc0FIbHcxUlBUbldpTi1uTTRkS0lrNFRmQXZ3Z1BKTzhuSTRIZV9KVlFmQ1ZSNjJWWnJyVUZGY2lHTlNOY3duQ0gxdnRaSUp5LQ?oc=5"
         },
         {
-          "source": "Correio Braziliense",
+          "source": "Rádio Itatiaia",
           "time": "Últimas 48h",
-          "title": "Dermatologista explica as mudanças que podem aparecer na pele, no cabelo e nas unhas durante a menopausa",
-          "snippet": "Dermatologista explica as mudanças que podem aparecer na pele, no cabelo e nas unhas durante a menopausa&nbsp;&nbsp;Correio Braziliense...",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOel9lYjRzOW1vN1NiYm9BS1hYSVRtWWVqbG9rNEUwVFNFTzd5OTdNV1hiWWtTdzd1aG10MmpwMXI3TWF5a3VXSVNadXhQcTJGekx3dzM2OUd4RC1GblI3ekdPckY0Q1BLWUV4eFpaOVVMSUVPZEFoTmlyYS1Jam9PcTh4eHFFZHhiaTBFdmdQUzUzUWZlUmF1aDlwUEk3UQ?oc=5"
+          "title": "Aplicar azeite de oliva no cabelo realmente funciona? Entenda quais são os benefícios e como utilizar",
+          "snippet": "Aplicar azeite de oliva no cabelo realmente funciona? Entenda quais são os benefícios e como utilizar&nbsp;&nbsp;Rádio Itatiaia...",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVUxzYWdrUlFEZGVCeDB4eHhKQTg2VzlHalBKU01vU0FsZVdReXBOT2QtaDdsQXNVSVFXbExPTzRPcGwyVkVMWFM5ak1LRmRmWUw4Nl8zTlJOS01VTjJ1eVJPQmRSdmM0V21FcTMyWnU2M0hlTDU5T1ZDTHA3R0F5akV1WEJFeDNYbmtLRlljWEZQZl9KOVZGTXlNVDVmX2M3UWc2clBSQmR6VUx0dFdLVlE3SDNtSi1ZVHEwMWxmWUJqU2puOGppMTNsT3MxLVA2UVE?oc=5"
         },
         {
-          "source": "TNH1",
+          "source": "Gazeta de São Paulo",
           "time": "Últimas 48h",
-          "title": "⚠️Cabelo caindo na menopausa? Médica explica como cuidar #FiqueAlerta",
-          "snippet": "⚠️Cabelo caindo na menopausa? Médica explica como cuidar #FiqueAlerta&nbsp;&nbsp;TNH1...",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYTlGRjRLQmFMR2xnb1FxMXNLaEplOGk5ZVI0eHYxVTNjN2ljLWZJQUpBWXpzYUs1emJTNUNQaGNUa0Z0NkVrcGo3VlZLYVg4MHdyVmV5cV8wTG5wa1VNMTlMcDhjTDNJZ1dMR2s4TzhRWEZMNGJzY2hPcFVmU0tJQ0VBb3c4OVgtZ3JZZE84VUVqLUVlaF8tMkIyVjlkZ1RjbmhGc0t6THVzTDJjek1HeVRKcUIwMHNHMFh6VUlrU0ctN2NSNmJIaQ?oc=5"
+          "title": "Aplique de cabelo: o perrengue de Luciana Gimenez mostra o erro clássico que você deve evitar na rotina de cuidados diários",
+          "snippet": "Aplique de cabelo: o perrengue de Luciana Gimenez mostra o erro clássico que você deve evitar na rotina de cuidados diários&nbsp;&nbsp;Gazeta de São Paulo...",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVVlGb3VFbmtwYnNHMWlEVzM2RzJFQ0dSaXl4bEp4QUpVVmdGajRxWVlHNDJVUFQxcGZwVENWaFF3aWpjdnpJaVZfWlNibU9oeXVfTWQzQ05mV180ZDZ6d0VpV0toemhzNF8xOTZJVG9nTlotd3pVZi1yQmJYYjBDMTRXSW5WcVVUX2Jpc1hiTHhMTGdqR2FXYWF1OGI0el9pMkF1WFFFbGFvODBEc2NJRjFWYUh0d1c1a25rQ00teVB0UHotVjFxOXFlRHBOREdGVnZEWnREbkNCZWh4LWFJUmZUdVBoel9STl92bmxFOHJhMHJkVHdsc2RhTTg2c3ZZUk1HVXJIQkZ4dw?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Monange."
         }
       ]
@@ -360,15 +353,15 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Cenoura & Bronze."
         }
       ]
     },
     "quintoandar": {
       "headline": {
-        "title": "Homem paga o equivalente a cerca de R$ 335 por mês por apartamento de 3 quartos em uma cidade cheia de imóveis vazios",
-        "summary": "Destaque em Midiamax: Homem paga o equivalente a cerca de R$ 335 por mês por apartamento de 3 quartos em uma cidade cheia de imóveis vazios&nbsp;&nbsp;Midiamax..."
+        "title": "Mais imóveis vagos não impedem alta no aluguel de escritórios em São Paulo em 2026",
+        "summary": "Destaque em Economic News Brasil: Mais imóveis vagos não impedem alta no aluguel de escritórios em São Paulo em 2026&nbsp;&nbsp;Economic News Brasil..."
       },
       "insights": [
         {
@@ -386,45 +379,45 @@
       ],
       "news": [
         {
-          "source": "Midiamax",
+          "source": "Economic News Brasil",
           "time": "Últimas 48h",
-          "title": "Homem paga o equivalente a cerca de R$ 335 por mês por apartamento de 3 quartos em uma cidade cheia de imóveis vazios",
-          "snippet": "Homem paga o equivalente a cerca de R$ 335 por mês por apartamento de 3 quartos em uma cidade cheia de imóveis vazios&nbsp;&nbsp;Midiamax...",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMGo0THFscW81LXd2SS1BZWgtLW5obk9MT2h2S2dWRXpWbzBGT2FPZl9tRTBSMjM0SWtOeVhZNVVDRjNKTFBOdWlnOGdGSUdtdkIzY202ekRkRlFMUkRacnUzTkRWV196YXVyUHJFR0ptb1ZERm1JeVZpWlN0S1RYcQ?oc=5"
+          "title": "Mais imóveis vagos não impedem alta no aluguel de escritórios em São Paulo em 2026",
+          "snippet": "Mais imóveis vagos não impedem alta no aluguel de escritórios em São Paulo em 2026&nbsp;&nbsp;Economic News Brasil...",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV29TMUJYeGRxWUFsVWhfNThvcTNaRzdPWUJNSU44akxWYXdjSUM3WkRaNFd3Vy1MYkoyMGl6a1NRbXBvNUdWME9oRV9nYUljeFJ6WlN4MGl1TnJXMUN0S2JiMGZpekY0ZEo1TFJyUUQ1SG5kWlc5YUJ6Z3BPbld0eGtYcnZwSlNUM1hF?oc=5"
         },
         {
-          "source": "Diário de Petrópolis",
+          "source": "SBT News",
           "time": "Últimas 48h",
-          "title": "Aluguel por temporada: o que o proprietário precisa analisar?",
-          "snippet": "Aluguel por temporada: o que o proprietário precisa analisar?&nbsp;&nbsp;Diário de Petrópolis...",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR012cXQya2FkU2dEUVVHN0pBVWFjTk5xS3FoanZwUE5wZzJrdXl5QTRyM2ZaSFRaQkhic3ZTZ3Z3a3dRenBNNGZVaEYwR1BBZ3dUUlFtbnVXVFRVbkIxdnJwc3ItQ05XMGx0SV8xTGJGend4d2F4cndFT0hWX2EyY1dTR2hNLXVJWmoxdjd3RjNSdUlyaFpPYWVWUFJ4ZnZrMHNSNzFYbUFZOU0?oc=5"
+          "title": "Moradia cara faz jovens adiarem planos de independência",
+          "snippet": "Moradia cara faz jovens adiarem planos de independência&nbsp;&nbsp;SBT News...",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzBCU1Jzcm96SzBFRkRyc0F2dFV2ZGIwNG5RQzZDa0xCQ2lKZDh0amFuclhIcVpra2dCaHhobUJJRWpDZFNfZUxDd1M2T09IczBNak02ZEQyanlLMU42SFFibVhiSjNRbVNfYjU1YXNoWmhIQld0N0hvREFpMERvU2ctbHl0djgxczJjYkcxa0NRR1JlZFZ6OGJsZU0?oc=5"
         },
         {
-          "source": "Jornal Grande Bahia",
+          "source": "AJN1",
           "time": "Últimas 48h",
-          "title": "Aluguel atrasado pode levar a despejo e cobrança judicial; entenda os riscos e como impedir que a dívida cresça",
-          "snippet": "Aluguel atrasado pode levar a despejo e cobrança judicial; entenda os riscos e como impedir que a dívida cresça&nbsp;&nbsp;Jornal Grande Bahia...",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOY0pqbE5rS0g1c0Z4OWF0aGxIQnZ1SnFmUHUxYzJJODJIeWl1aXFnclVOTzZmLTd1LUhlNG9HZGY4R2tkWGd3U3h6eUtla2N6STJGQkNQOE5fUkQ1Ni1sdUJIeG9uSFdEcDNUZEpPSXNhSjd3akRRa0hPSUtJSEVDRmZYX00xZUpyeHRFb0hLLUh1cEpMWENyZnBDWTluQ3loUVlmbU16ak5mWHFaTFVZaW92RzhHUUlPMDNUM0FTeXJUTDIydjBadjk0TXZEcmJGd2tBSmc4WDlYWGhFZ2hyQ2ZQa3N0Yzg?oc=5"
+          "title": "Após menor taxa em três anos, inadimplência de aluguel volta a subir no Brasil em agosto, aponta Índice Superlógica",
+          "snippet": "Após menor taxa em três anos, inadimplência de aluguel volta a subir no Brasil em agosto, aponta Índice Superlógica&nbsp;&nbsp;AJN1...",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZ3pkV05VaUJOVkN6UXYybGhBeXY3NUwtMVo5aHFvbWhKbUJwcWs5SmxoN0pmNVpvcFdOQW81cFd2SmZzdjE1Rmg3a19ZMmw3VHh5S0E2N2ZBVDRhTmNQYk5Ya216czlDZWVTSVJnRGFSU3RxZGNHN1ROTllwLUt5S3VkVXRMUUUxTDFMZWw0eGRFTDZUOFFnalVWb3hlWTRDbklmQTZfUktlV3VaWWVoSUlnbnlYM2plSlU2WGhoVlg4WFBnVjBpS2o1dTBLbGc?oc=5"
         },
         {
-          "source": "Correio Braziliense",
+          "source": "Folha de S.Paulo",
           "time": "Últimas 48h",
-          "title": "Inquilino devolve apartamento depois de vários anos de aluguel, entrega paredes pintadas e recebe cobrança para substituir piso com marcas de uso; proprietário retém a caução e laudos de vistoria passam a ser decisivos na disputa",
-          "snippet": "Inquilino devolve apartamento depois de vários anos de aluguel, entrega paredes pintadas e recebe cobrança para substituir piso com marcas de uso; proprietário ...",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdVZzZk10dEszRURKWHNEUXIxTkZUel9CSnZ1QzRBWFVHUFNVNW5pRnVvR0kwNWdjMDdrQXdNMHZFY2Z5Wk42RVh6dHVWdHJ1STlTeU1INE80d0ZIMFpva1R6WEZmTFliYjRCSmE5bHlwUVpxRDBIaVlrODZUdlF3YXlMU0I4bkZ3SmlGY0tVRUZqeUtBT1p3X1B3?oc=5"
+          "title": "Painel S.A.: Ocupação de escritórios de alto padrão em SP atinge o dobro da média histórica",
+          "snippet": "Painel S.A.: Ocupação de escritórios de alto padrão em SP atinge o dobro da média histórica&nbsp;&nbsp;Folha de S.Paulo...",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWEVvYkFOYXJfeDhlazVNTVBIZG5BVUZfWFBUaS1rVG5XMGZYSUpmcTRFU2VaOWVUTkwzeGhubWZTMHFPdHJJVS1ETEV5aVFXSmlZU1k2MUhlNjZmVkhTczc2NkluZjN6eUNTOXlYN2lpcWVTckVRZGZKSWJUbElfQ1Q0ZGxtTklrenpENElJcXJjd0FRSkVSOFhVQWZJYnlTZTJhTTV3TzNOX011ZnhPUWhyYkZJMV9QRGFobTNxa2RJeGlCNjRGX002QWU5VmRZeUYzSm5B?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta QuintoAndar."
         }
       ]
     },
     "google": {
       "headline": {
-        "title": "Gemini Agent: Google lança agente de IA ‘universal para o trabalho’",
-        "summary": "Destaque em Estadão: Gemini Agent: Google lança agente de IA ‘universal para o trabalho’&nbsp;&nbsp;Estadão..."
+        "title": "Gemini 4 Argon: o que muda quando a IA consegue escrever um livro numa resposta só",
+        "summary": "Destaque em StartSe: Gemini 4 Argon: o que muda quando a IA consegue escrever um livro numa resposta só&nbsp;&nbsp;StartSe..."
       },
       "insights": [
         {
@@ -442,6 +435,20 @@
       ],
       "news": [
         {
+          "source": "StartSe",
+          "time": "Últimas 48h",
+          "title": "Gemini 4 Argon: o que muda quando a IA consegue escrever um livro numa resposta só",
+          "snippet": "Gemini 4 Argon: o que muda quando a IA consegue escrever um livro numa resposta só&nbsp;&nbsp;StartSe...",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY21ZbzBkOFIwT01yZkRiOVY5eXQxMHlka3lzZXU0YmxMT1N6S3RTSTRGTFh4ZFUtUGNIV2JnckY4QXBwa05UeWNSSFF0TEdwcF81ZU93TTRVTU1wVzZXZGRZc1JrYWptQ0tlQk5kdURrYzZzc1BqZWlYY0RsQndJMW0xZUY4TUxBc0s4UmI1dUdDWl9falJTN2RjcVRTRnZoMVNNclktZThwWDFzeks3cTQ0NVI?oc=5"
+        },
+        {
+          "source": "iMasters",
+          "time": "Últimas 48h",
+          "title": "AI Overviews e Modo IA: o que o Google exige do site",
+          "snippet": "AI Overviews e Modo IA: o que o Google exige do site&nbsp;&nbsp;iMasters...",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWXF5UlA1VzRSNHJFYnZDdGJKTXc4WlU2SWstREpCQUZFWW9tT2lUdU5ZeG04SWdMM3JTUVBPNnFvblRtT0RpS21zMUE2WkhuemRLcEpLNzdhdzE2b2tSNlBCZmZ5dmFMSDM4NW4waW5iTDNJRFl1cG1Tbk94TlQzSjNlQWpHbjZ5cW9LZ21qQ3V4d2t6VE5aYjhCTTRkc3U0Z3E2NjZYZEtOdDY0?oc=5"
+        },
+        {
           "source": "Estadão",
           "time": "Últimas 48h",
           "title": "Gemini Agent: Google lança agente de IA ‘universal para o trabalho’",
@@ -449,38 +456,24 @@
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeXZEc1pKR3lqbWpyMm9xUndtWFJhVGEyWEZWX3pGQ2VNb2xXWEYxQjJYTnVmX2J1QTJobUM5WkttU3hMcThVNC1QZHVZUTJnaG1nVVVjWnJWWXA4cnh4YWhUdVhYZHNiTjNkUGtHVEduQzJJVUhKd05LR2UydG9NUzJDT0ZLUmFPcy0taUFmVmZwMXUtRGRhaV9iUkNmWmRxcG9qMHJRcG5SX3RxS0tIY0NINGE0VXNkdVRwVUdyU1c2R1BnWFR0YXVQR3R3UQ?oc=5"
         },
         {
-          "source": "Canaltech",
-          "time": "Últimas 48h",
-          "title": "Google lança agente do Gemini que trabalha sozinho entre vários apps",
-          "snippet": "Google lança agente do Gemini que trabalha sozinho entre vários apps&nbsp;&nbsp;Canaltech...",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX2RZTk1TS1R2X3ZILXk3OUxyck9QN3lhX0FrczJsS0tmUW9QRVU3VzViRjBfb1l2Uy1GcEIxaHBVbHBDV3RqSS1EeWVtUnpvazVvblpoRnpXaFpHeUluQTZUZkhqaHk5SVB6VEViQWdTNHgwRFdzMmRDNW5YcHkyR2M2OUhocUNoWWhZdmtLclR1REw0bi12MktoYnVObll5eWdZSWpFWGdDVkhtVmJ1TzNvQlY1QTg2RHc?oc=5"
-        },
-        {
-          "source": "iMasters",
-          "time": "Últimas 48h",
-          "title": "Search Console e AI Overviews: o que dá pra medir",
-          "snippet": "Search Console e AI Overviews: o que dá pra medir&nbsp;&nbsp;iMasters...",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOW5VdEwxcTJQcWp3Q1J6TFFIUXU4WElvWF93ZmZ3ZHowM2N5VnZrS2U5WWlwOVRvUFZmWkoyTFItc3UzVEVqRXhnbGpTME5TODJLSUVtOFo0MzVCSnNCYUhKdmg5TkszTVVORkM0WlhxV2c0S2E1M3FyNmlxWmpQSVhUT1F4ZmlHNmYtaHQtdEJhLW00U1Bfd0MtTFdUYUYtUktrLW9XbmxYUHlD?oc=5"
-        },
-        {
           "source": "Google Discovery",
           "time": "Últimas 48h",
-          "title": "Google trava usuários gratuitos do Gemini na configuração de modelo \"Auto\"",
-          "snippet": "Google trava usuários gratuitos do Gemini na configuração de modelo \"Auto\"&nbsp;&nbsp;Google Discovery...",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT3hZaXBNeUNyemVpT2x5bFdHVEpWUzRpZHdBYmJpLVpYNWJOTnVVSGJHWDhtMDIzeUZYa3VsR2tZQUluRzBZa0g0cUpfcEhYOFhoZm5xZFgzWmpmbVIxTWVSbzVyU1gzNFJlMks3MElwT1Z4ZkpjRVJhbjlpMW9TemtUVm9hY09IQ2JGbjc1UDgtYTlpNmZWd25MU3lTODJ2V3NGaEhULVN3Sm03UU9Z?oc=5"
+          "title": "Cansou da IA no Chrome? Conheça o navegador que remove Gemini e serviços do Google",
+          "snippet": "Cansou da IA no Chrome? Conheça o navegador que remove Gemini e serviços do Google&nbsp;&nbsp;Google Discovery...",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMlJVeXFhMDJmamx3aFpoa0J5RDZva25DOXhhNXdOMzA2VVYyQnBFWVIwbHpPUjRLR3pLVnltc1R3ZHJMa01jcHNITGliVWVZRXRlUGpFYmlJZVVfbE05bENvVFNTUUNvd3dWY2xIQVlXU1JYT2sxVGcwQXhHTkdMT19YNFRMUHR1eDFXM3NwbzI1Q2NXVUtGZ3otYXE2SzNjM0RJWGl2VEpTLVRCcnNoTDNqaVlMYk5fSUww?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Google."
         }
       ]
     },
     "hbo": {
       "headline": {
-        "title": "Estreias: 11 filmes novos para assistir no Prime Video, Netflix, HBO Max e mais",
-        "summary": "Destaque em UOL: Estreias: 11 filmes novos para assistir no Prime Video, Netflix, HBO Max e mais&nbsp;&nbsp;UOL..."
+        "title": "HBO Max: lançamentos da semana (12 a 18 de outubro)",
+        "summary": "Destaque em Olhar Digital: HBO Max: lançamentos da semana (12 a 18 de outubro)&nbsp;&nbsp;Olhar Digital..."
       },
       "insights": [
         {
@@ -498,37 +491,37 @@
       ],
       "news": [
         {
+          "source": "Olhar Digital",
+          "time": "Últimas 48h",
+          "title": "HBO Max: lançamentos da semana (12 a 18 de outubro)",
+          "snippet": "HBO Max: lançamentos da semana (12 a 18 de outubro)&nbsp;&nbsp;Olhar Digital...",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTB5ZDBwM3hDdlkxNTNiY21ncjNrUi0wLUFLMlpaTnl1dUNGWDE4R1NxdV9BRGFsbnhQbkt1eml6THJ1S2pOOUFZNU85MWFzWE5DaEl3YVlaTGtCYUk4TlMwb19TNHVqMHpLYmxVck1oTXZvaUJSdU9JeXNVUmRmUkllNVZkanFXWmZmRmVkTGVZZ0FKcm5ZZ2MzTnNqZ3pqN3FQYUtUc05uMDg?oc=5"
+        },
+        {
+          "source": "O TEMPO",
+          "time": "Últimas 48h",
+          "title": "'Território do Crime' estreia nesta segunda-feira (12) na HBO Max e no Space",
+          "snippet": "'Território do Crime' estreia nesta segunda-feira (12) na HBO Max e no Space&nbsp;&nbsp;O TEMPO...",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ0hhcDVTeDAyeTBVQmk4bjRfRTZKNTIydDl0WEIydUFnbHdxRG9OSTNfT1A3dDFSWVdRX0RuUlFmdVgwdXI3eE4tU1dOcFRBZGN3SUYyTkJ1NTdvVDdyOVpaQW1WNmhXdUdNWWlRY3hNQWw3RUVycVM5MXFCVXEtRmloYkpKc0JlN0RDU0tGUnZrcmZRVGtHTjBNS28tX3VTSjItOGJpQ0xZbEhxTWd6Yl9BS2pWU1pyUWlfSUotOUZYazdyLWdDSEplMHgyVm9yV3ZHUnU0TQ?oc=5"
+        },
+        {
+          "source": "Game Overdrive",
+          "time": "Últimas 48h",
+          "title": "HBO Max: lançamentos da semana de 12 a 18 de outubro",
+          "snippet": "HBO Max: lançamentos da semana de 12 a 18 de outubro&nbsp;&nbsp;Game Overdrive...",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRWN1a0NsX1pPeTRvNEF3cjRVMmVCWFpfVFllYnVzT2FhQ3ZJZmhhYjdaVmhLY3RPMGc3WXYweUFPbEt2eG9yLVJQSzFaOENjZWYta19TZG0zQW5wRzhrdm5hdUpvN2NyYmdLYUszcjdPaDhkbEZHOUdvWlBSMjRqRA?oc=5"
+        },
+        {
           "source": "UOL",
           "time": "Últimas 48h",
           "title": "Estreias: 11 filmes novos para assistir no Prime Video, Netflix, HBO Max e mais",
           "snippet": "Estreias: 11 filmes novos para assistir no Prime Video, Netflix, HBO Max e mais&nbsp;&nbsp;UOL...",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSHlwaHlFekVlLVZIQUlYYnpuUWFwSGxBZGZKQ3JRMEFINkxTeTJ4NVBEeDN4RTV6LTBkVDFyVmdHcEJocEJoQXNWWDFkWTh4cDc3UjBIYTJkV0E1eDJYSXVIUVBoazR5RVJucUtual9QWUpZcnVVeWJKdmpZc1RwOTF2ZHVXYjcwWElFZjAwb2dNOW9xOTJMRmk2OXZNVzhuc3RRQ09BdzdCZDVIc29vcmNWMElxUlFFSVZzag?oc=5"
-        },
-        {
-          "source": "Estadão",
-          "time": "Últimas 48h",
-          "title": "Lanterna Verde: série da HBO é remodelada para focar em John Stewart; veja!",
-          "snippet": "Lanterna Verde: série da HBO é remodelada para focar em John Stewart; veja!&nbsp;&nbsp;Estadão...",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQkd0NjFlWl96aGdYTGZFandPdnhMdWtjOG1hZzRUVTNKenF5enNhZ0FBUGdkTXBkaFNsMFZ3ZnRpRUY2OUFSV0JkS2JKWEVHQ2h5QlNnUnJoeXhVR1BSRXpPYjEtSWEzSWdMSDh6UmJ3cmNXQmpmRm1FZFdrb05ZRVJTLUJBZ3hucFBRMkVRNy1yeWZUdURXMnRyUElFbmp1dUHSAacBQVVfeXFMT2QwMFp5eUs0SndOYlROV2pxMUc4dUIza1J5VjJENFRiQ1FVWmd0UUZicGk1TU41NjZVVzdBdlBHdThYdWxZTXktUFY3Y3VhLWlQOTBJZzU2dlJPQ0ZkWFdUQ0djMi1NdUFyWURQUThYNjVRem5wRV8tdDdxUUltaUd1cTdieXhIUGJteUNXUWpLWFphU2ZlSkQtZWpUY2g1S1ZfeGh2eGM?oc=5"
-        },
-        {
-          "source": "Times Brasil | CNBC",
-          "time": "Últimas 48h",
-          "title": "HBO Max e Paramount+: o que acontece com as assinaturas após a fusão?",
-          "snippet": "HBO Max e Paramount+: o que acontece com as assinaturas após a fusão?&nbsp;&nbsp;Times Brasil | CNBC...",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRGx0aldQYkxzTGJBMXBQcGhPSzNNTlVuWTFmQ056NlNDZmVSWHdmMjBqN0l0VXZNNkJOWlB3QmxVem9BZUQ5d040R3E2YmhDOURfZTJ4WlFmdUxpSFhsdmNJRVd5NUdnVmtIVV9yMUZGbWxIWWZ3SHJSRExadXUzWTVJZExmZzVpTzdkUWhZcEw0Y1A1dW1OZ1NQZlIwRzFSRDBsVlJvSzU3eWF4OFFWZTc4a0s?oc=5"
-        },
-        {
-          "source": "Jornada Geek",
-          "time": "Últimas 48h",
-          "title": "5 séries e 5 filmes em destaque na HBO Max neste fim de semana (10/10)",
-          "snippet": "5 séries e 5 filmes em destaque na HBO Max neste fim de semana (10/10)&nbsp;&nbsp;Jornada Geek...",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xVm1PRHFyV0ZqWWgzdlF3LWFTenVucWRlU2hLZ2x6MW5sY0dIa2VoYWdwS0tRRmpnWG4tekxEZkl4WmxHcFo3NWRuamhyMHBITlRvMEFOMDlQUjAxVHpmZ2JRSlN0dy1PMHJBc0NwUklXZlM0cUdZbkRjTVdDZGs?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta HBO Max / Max."
         }
       ]
@@ -561,18 +554,18 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40b2RtVDFIRzBfS016WUFveGZteXhoZEZfODhQb1R6SGVDNlVra2ZLREZqQWNfeGRfdjlNVzRZV0ZNenBYblVGdmp6eUs2QURIZ0Z4dFFjWmZSRzcyVno2VVhlV0pKelBIQjZGNm5XYjJxcUI4VXhzdlh2TQ?oc=5"
         },
         {
+          "source": "Marketeer",
+          "time": "Últimas 48h",
+          "title": "O Continente vai vender em exclusivo dois pães muito populares no Brasil e há quem já tenha saudades destes sabores",
+          "snippet": "O Continente vai vender em exclusivo dois pães muito populares no Brasil e há quem já tenha saudades destes sabores&nbsp;&nbsp;Marketeer...",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONmN5UWMyM0ZkeDh0aktRTlNfN1M0TEhDMTNMTWtsQ1AtNHVKcF9PS2lYX0VsTDNiNWkycGFOZ0lMWTh5cUVMN3J1VzcwZDZmcjJYbUdHRElYM0RYQ2VESkxZcGprY012NlhhOGhzcTZfYy10ck93SE1JTTV4a19mV0tDTGgtbmtRTUQ0Ri1lLVJqbnBnSkljaHVRNi0wc3d4Mld0WUNtN19qVGJHNC1sMWtpRGFmMHVlLUtHZERoZTRzTEFFTzRyaldKUThvU3c5ZmU5TWZNNGlJUQ?oc=5"
+        },
+        {
           "source": "jornaltribuna.com.br",
           "time": "Últimas 48h",
           "title": "Casa Decor Conceito inaugura em BC",
           "snippet": "Casa Decor Conceito inaugura em BC&nbsp;&nbsp;jornaltribuna.com.br...",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOUJUUm91cmYyWHFZZWJkQXEySFpneXJ2ZmYxaDRoSVEtZmJ5Tk1zRE5UNUdPT1JiQnEzOXRycllIdGtpaGRsYTYwNS1Ubzc1VU00ZEF5SXhOWVI3Qlh6SXRKLURzZlREYVZWN1hTWGVJVEs3WndHY1VVVUdKMWpHcg?oc=5"
-        },
-        {
-          "source": "Portal AquiVale",
-          "time": "Últimas 48h",
-          "title": "São José recebe encontro sobre inovação e tendências no setor de panificação",
-          "snippet": "São José recebe encontro sobre inovação e tendências no setor de panificação&nbsp;&nbsp;Portal AquiVale...",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkxtY3NjQ3drNUZoZXJJM093WFc3SGdKdjVKX2RTMzJlOTlhX3lZRXI5YXAzS3lqdGVwRlpKdWdYMzhYTDhfNF85ZlpSQ01rODBNVlpra0ZzWVlETGo4aUY3UDNyLVFCdlUwbWRoRDNGcVViSEM3Z3VDSC1tcDlTbE1ZM25NdFQxd2E1ZWZBaUFaUUFTZDZWNUFhV0pxd3kzNHdvVk5yQlZ3QQ?oc=5"
         },
         {
           "source": "Acia Araçatuba",
@@ -584,15 +577,15 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Panco."
         }
       ]
     },
     "geely": {
       "headline": {
-        "title": "EX2 patina e Aion UT encosta; Dolphin tenta reagir; e Dolphin Mini ignora rivais",
-        "summary": "Destaque em Webmotors: EX2 patina e Aion UT encosta; Dolphin tenta reagir; e Dolphin Mini ignora rivais&nbsp;&nbsp;Webmotors..."
+        "title": "Renault quer acelerar eletrificação no Brasil e aposta em parceria com Geely",
+        "summary": "Destaque em Motor1.com Brasil: Renault quer acelerar eletrificação no Brasil e aposta em parceria com Geely&nbsp;&nbsp;Motor1.com Brasil..."
       },
       "insights": [
         {
@@ -610,45 +603,45 @@
       ],
       "news": [
         {
+          "source": "Motor1.com Brasil",
+          "time": "Últimas 48h",
+          "title": "Renault quer acelerar eletrificação no Brasil e aposta em parceria com Geely",
+          "snippet": "Renault quer acelerar eletrificação no Brasil e aposta em parceria com Geely&nbsp;&nbsp;Motor1.com Brasil...",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTWd4OVAwSVVqZklPOWZuU0xZdk5UemxMb3U4allwZUFoX2RtOGhPb0hMVVZzeWZ6NlpFdXY3Sk5kM3BNVGVSR0ZxYjZDREJ4T3JjSVB1YUszSXVSVzc4TzNrRVkyNlpmRjM3Y2tNeFAyRW04dGpxYmlSSWdyRzNUWlF3YzYyckE?oc=5"
+        },
+        {
+          "source": "iG Carros",
+          "time": "Últimas 48h",
+          "title": "Vendas caem 18%; confira o ranking dos elétricos",
+          "snippet": "Vendas caem 18%; confira o ranking dos elétricos&nbsp;&nbsp;iG Carros...",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDJUNThpNE43b2hmS3NJMUJOTDhNTDZUUzI3S0p6OWo0ZmVVdDUxR2dLSFZwLWx5OE1NRjVpbEFuUWxGVzdINk9sT2VybE9LS2RBOG5Iem1sbVFyeEoxV2RpaTJ0YXVWYzBkSlVMUEQ1dV9CaXVoV08zaEYxUVlnbEtQNC1WOFFZeXdka1JnVWZmZDRtWGJIeDI0SWd2blVIZlHSAacBQVVfeXFMTzN3VEFxWURCSDBYVEM0S2lMN0c2elBDdTVuOVFoMkdXUlhfSnVHNXpHakRDMmxSc1lENHhCOFhPWVEzbEk5czJwY2MxcFZmbmVVNUlZNHloa1cyWGplcW1IZWM1RDU2YUdFRDlidENUMlh2bzRxNDAwYU5HelhtYU5oNXFSa09QaUQtSnFhYXBIWVJocWwzZVRUNG15LUdQSnk1VWhValE?oc=5"
+        },
+        {
+          "source": "CPG Click Petróleo e Gás",
+          "time": "Últimas 48h",
+          "title": "Renault prepara virada no Brasil após admitir atraso na eletrificação, une forças com a Geely para desenvolver carros híbridos, elétricos e flex e tenta repetir por aqui uma transformação que já fez dois em cada três veículos vendidos pela marca na Europa se",
+          "snippet": "Renault prepara virada no Brasil após admitir atraso na eletrificação, une forças com a Geely para desenvolver carros híbridos, elétricos e flex e tenta repetir...",
+          "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOaWJ4NGtLeTBodW1JZVByNU1lSHpJMGJqa05IT1VoaWpYcmEwRUdLQzdsUGt6dW5CVzJoR1ZwdkRxUHdabXNnVkpfWkdWR1hoSUNrVU5JV2lzNmFMMFdzalV1M3pBWkhsbklHLXNGVWpsN1ZoUFJvSW43OC1JaHhTbXVFc3RRWkdjYkxySXZrek0zU3NiaTNHbGlUVGkzRjBvSXpERWx1ZkEtZkgzaEpXcDZSS1BQMHZsMkR5SHhWYjVZSnJtRFVNVy02WmNpVXRhSmJnb3dnQ0FYT3dZNmZNVk5idzRxWll0aldaR1FhMkFhQWFBT01aRW12OUpvckNRaFl4dHR4N0hUMndJVGtEVXBGeWxnTXgzdTI1dDF1YWVjaEdFRTFuV2hQb0NESl84ZjFwUVdNRS1Ec19hcEtTZDlxR1ZqMjg?oc=5"
+        },
+        {
           "source": "Webmotors",
           "time": "Últimas 48h",
           "title": "EX2 patina e Aion UT encosta; Dolphin tenta reagir; e Dolphin Mini ignora rivais",
           "snippet": "EX2 patina e Aion UT encosta; Dolphin tenta reagir; e Dolphin Mini ignora rivais&nbsp;&nbsp;Webmotors...",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRnpCUndIUmtQbmppbXNacFJFdXRCLUxRalh5Mi02dUk3MWtrSUhVYnhDRHc3VHd5Z3NwczcyN1hXYTAyeEtKVGZUUDJEWGtyMG82eGFjSTNDNkcxZ0M3ZWc2aTBxaXlscTlnRlA5Z0sweHUzU1ZFenNQM0NNZnNncUUtWjB1MUw4MWlzMmE1dTRQdEZialFUaTNpb0VESXB3NllV?oc=5"
-        },
-        {
-          "source": "InsideEVs Brasil",
-          "time": "Últimas 48h",
-          "title": "Elétricos em setembro: segmento passa dos 20 mil unidades emplacadas mais uma vez; veja ranking",
-          "snippet": "Elétricos em setembro: segmento passa dos 20 mil unidades emplacadas mais uma vez; veja ranking&nbsp;&nbsp;InsideEVs Brasil...",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTVpoRzZiVVRDU0hyY2lCbkhfSmotX3JKbk02NWhEUkdIcktlZVJMZ0dSN1dTakRYc1VtY1FMUks4cllXbW81Rm1yaHVfejNkbFROeU83RE9YRzdFQlAwRk10OGhhSHZ6aG00VEYyLVNNYlRoTDhSWHlYcThRcW5Pd1N6UFc3VV91Mnc?oc=5"
-        },
-        {
-          "source": "Mobiauto",
-          "time": "Últimas 48h",
-          "title": "Salão do Automóvel de Paris terá 20 marcas chinesas e sete estreias",
-          "snippet": "Salão do Automóvel de Paris terá 20 marcas chinesas e sete estreias&nbsp;&nbsp;Mobiauto...",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUGRteEdpZlZvNDM4SHdzVklrd2hWSVhYcXJNWklnRFN2bVplMl9YQjh4b3p0azRuWjVzLXpZQzBESmFxbm5CZ1Y0SjZGWHhmRUtTN0gtbVJZbGtiSTF4YUd6a3hGTVhlZW50RmkxRlgxQXpGVzZPTlZZbkRJQVBiYlBnQXVxRkxUa2lDaWtPbW9rVHMwZERYZGhPZUlNeXN4TkowNTNVWldZSkt1eFE?oc=5"
-        },
-        {
-          "source": "BlogAuto",
-          "time": "Últimas 48h",
-          "title": "Geely inicia produção do EX5 EM-i no Brasil, primeiro modelo da marca feito nas Américas",
-          "snippet": "Geely inicia produção do EX5 EM-i no Brasil, primeiro modelo da marca feito nas Américas&nbsp;&nbsp;BlogAuto...",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZEZFWmdyS2VwVmRPUEZhYmdROWlvcjhqckVjb3haRE5IZndUS1E0dFVFS2VxRjdPNWlZcVlBand2bWdfczM4cVhYNk54dU5ETHZLUmYzcjBlVUt5akJyMkt4QnphdUxxbS12dHY0M0VvNEQtNUpZT1RxS3M1YmNmYUFSLU8wMEZjNENWUEs4WkJwWDlabGVZVWFuZkJpLWZtZXFlcGd5c1NyUFJ2SjQwU0NFejQwVDTSAbcBQVVfeXFMT2RGRVpncktlcFZkT1BGYWJnUTlpb3I4anJFY294WkROSGZ3VEtRNHRVRUtlcUY3TzVpWXFZQWp3dm1nX3MzOHFYWDZOeHVOREx2S1JmM3IwZVVLeWpCcjJLeEJ6YXVMcW0tdnR2NDNFbzRELTVKWU9UcUtzNWJjZmFBUi1PMDBGYzRDVlBLOFpCcFg5WmxlWVVhbmZCaS1mbWVxZXBneXNTclBSdko0MFNDRXo0MFQ0?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Geely."
         }
       ]
     },
     "99pay": {
       "headline": {
-        "title": "Transporte coletivo terá 945 viagens extras durante a Oktoberfest.",
-        "summary": "Destaque em Blog do Jaime: Transporte coletivo terá 945 viagens extras durante a Oktoberfest.&nbsp;&nbsp;Blog do Jaime..."
+        "title": "TikTok e PagSeguro fecham parceria para saques em carteira digital",
+        "summary": "Destaque em Estadão: TikTok e PagSeguro fecham parceria para saques em carteira digital&nbsp;&nbsp;Estadão..."
       },
       "insights": [
         {
@@ -666,37 +659,23 @@
       ],
       "news": [
         {
-          "source": "Blog do Jaime",
+          "source": "Estadão",
           "time": "Últimas 48h",
-          "title": "Transporte coletivo terá 945 viagens extras durante a Oktoberfest.",
-          "snippet": "Transporte coletivo terá 945 viagens extras durante a Oktoberfest.&nbsp;&nbsp;Blog do Jaime...",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWhVdVZhZXo0emVQWE5xTS1XWjhYVjF1a2QtS1N5XzVjQ3hWWkltN29ybzJlYmxzanRlQkJpYUM2bmxfcmFSanpnX3JQdXVCX0JIVFlBSU9wWUM3V29IaDBaejJobUYwbFFNdnBkNDNuMUpILTVwak12bVVBY1pJQjVTSFgtR1Bpa291NlRBNkpoTnJ6eGtUcUJYVQ?oc=5"
+          "title": "TikTok e PagSeguro fecham parceria para saques em carteira digital",
+          "snippet": "TikTok e PagSeguro fecham parceria para saques em carteira digital&nbsp;&nbsp;Estadão...",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSXhkaTROZ3pVQmg4REhZMUlmSXYwQWNTd191aTZfQzlGenNhQW1MXzJ6WjVFWnpWUnJXTWhuazZZanhObjQ1bDlzUVZuNGtMODBmZnRyNzluS1FmbVdKbmVYM0xVQWFfYzJJMUxhTVZ4cEUxNC0zWjV3dFZTa29Xc3lBai1VNjFaUm8wOW9kSExrVHIwTnlnTUhieDVLMVUxZTN6WHd5ek1iSlRvaGNN0gG0AUFVX3lxTE1TZXBLM2lWbWtkVXFJY3YxcVpVRmxxV0xKcjNiekFyckJ1ZDJ6QXFKNmpmanIxdWtDZHF4Z1hRS3VCbTUtZENPeFo4ckRyaWRUOEZjS2IyNFFzdXh3NGREN2JsLUFPUC1Fd3lhbm1sYUVkbkFRaGRkb05Vbnprc2NWQTA5R2NPR3kzY1BFUlBJZGNQUUFRQkZSQ1RycjdZYTVqNDJyNzFqc1pORXNpSy12alhIaQ?oc=5"
         },
         {
-          "source": "Diário do Transporte",
+          "source": "Celular.pro.br",
           "time": "Últimas 48h",
-          "title": "Bilhete Único de São Paulo é citado pela UITP entre referências mundiais de bilhetagem e PIX aparece entre novas alternativas para o transporte público",
-          "snippet": "Bilhete Único de São Paulo é citado pela UITP entre referências mundiais de bilhetagem e PIX aparece entre novas alternativas para o transporte público&nbsp;&nb...",
-          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNemotTDh1RjRWWnZMRUxiQjhqVXJKcUxoZUhBUTdCQ1JITUExVDRQdWl0bWhKM3lsMFZkTFpSaDdhZi0zdjY2ZWRhMVRtQXFpcDNYTTNEMl9qRDZaZHBYUUFPdXFuTktrN0Q3a1JiZldWeERuaU1NOE4xbDlBMkFDMkVkdEtRbGFlOTloMUpuaFIyZjl3ekcxazhJX2xJSTdMWFFNUVotcnhLQVFoYzRSNkZ2LW1CNVJYNHF2N1ZYQWJ0OTliak03cVRyV2FVR1ZOYzNpYU15T2pENkJfaXNtdnJCV2JDYWRLSXZYT29fSTgySjNxQ0lWNFZyUGFJWGNKc3h1TnQ0Vk14aWUyM3dGaUxzbUl3Z3dhblJ1MUp0b3BwUlXSAagCQVVfeXFMUFBqQ2tjN3YwYm1oRW0zUTdQMzJVSzIwcUhjNmtzN1ptajhSTjJrZnVheEdPOU4ya1J2emJuRmg0dzBLTUQtTm1tTjB6d3NlNFdhc1FBZ1pBdU1OcHZHNmNsQ1NwSUJGa0JRX2hsOGxqd2UzaVBIc09CQ0YydWRqTkxta2lKY2hCcVNCMDQzMDR5ZDY3ZjJLeUNnOXVpR1VKZmlyLU5sN3d5dTRNSmJxdDFkQW95Q0t2enpONFFXb0pmUEEwcERkbHJncXQ1Uk1WRWdSQmtFak9YV1VDNGpnSXQ3X1MwRkNCT1hjb0k5UmlYd0JuRnVVQlpaM1AzWUxRa2FjeVVuUmlPZDh0SGRXQ3AzWnBXY1MyMzhybjF2eW0tZVp3RHBMRzc?oc=5"
-        },
-        {
-          "source": "Gazeta de São Paulo",
-          "time": "Últimas 48h",
-          "title": "CNH vencida: entenda como fazer a renovação automática pelo celular",
-          "snippet": "CNH vencida: entenda como fazer a renovação automática pelo celular&nbsp;&nbsp;Gazeta de São Paulo...",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb0dmNThsbjdvZzVLMjZkQnV5NlZNbEE2NVNJUG5VU0tWVmJsTXZEcHBxWmpBWVdPSFBQZWdnQlFab1FJMnlTUGtvVmNDaDFtVEhLakhqZDhreXNRTy04ZzNCZ0NVSG5jQUxOT0ZvOVlZLXIzeURIaEU5a0JjYTRrYVFwUlhoMFdxd3ZtNW94amRlVnAtVllBZmNIeVg?oc=5"
-        },
-        {
-          "source": "dfmobilidade.com.br",
-          "time": "Últimas 48h",
-          "title": "Gol lança check-in integrado ao ChatGPT",
-          "snippet": "Gol lança check-in integrado ao ChatGPT&nbsp;&nbsp;dfmobilidade.com.br...",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcDBIdUZ4MTBCekhJN2diZENvVWFMbnlBcV8zQXpnemZPUm92UlZ3WHpFLWUyb2NIM2M2VHplXzhINnVMeFdNMDJ4TmlxRFItN0c0Z2lHN0lLY0E0MUhLY3ZFNHhkV05HbWw0Z2xHdWRRVUlTREFHSnU4eE5kUVRJbGxhbw?oc=5"
+          "title": "Aplicativo para Pagar IPVA: Como Quitar e Parcelar em até 12x Sem Pegadinhas",
+          "snippet": "Aplicativo para Pagar IPVA: Como Quitar e Parcelar em até 12x Sem Pegadinhas&nbsp;&nbsp;Celular.pro.br...",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb1kzOVMzRXpwakhsWV82dVBvTzQ2clZXaWtvejdjTTdMWTg1NFJlcHJSSFAtek1jZllZb05sX01scmpucEFiSDVCWEpxcUotQ2g4RVkxdGJKd0Q1MFVaUGpOMWlQbVM4MzZ4eHMzTEtqaDFocTFLb0FGMmhzNFVHYkdLU01HLUdrWjZqaGRGZGNWbzRUMzRldGNmT3Q2NFBP?oc=5"
         }
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta 99Pay."
         }
       ]
@@ -731,15 +710,15 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Vans."
         }
       ]
     },
     "arezzo": {
       "headline": {
-        "title": "Encontrei na Dafiti: esses sapatos tipo Birkenstock por menos de R$ 85: confortáveis e na moda entre as garotas chiques nesta Primavera",
-        "summary": "Destaque em Purepeople: Encontrei na Dafiti: esses sapatos tipo Birkenstock por menos de R$ 85: confortáveis e na moda entre as garotas chiques nesta Primavera&nbsp;&nbsp;Purepeople..."
+        "title": "Azzas 2154: Fábula se une à SmileyWorld em meio à cisão e aposta no valor de marca",
+        "summary": "Destaque em Times Brasil | CNBC: Azzas 2154: Fábula se une à SmileyWorld em meio à cisão e aposta no valor de marca&nbsp;&nbsp;Times Brasil | CNBC..."
       },
       "insights": [
         {
@@ -757,6 +736,20 @@
       ],
       "news": [
         {
+          "source": "Times Brasil | CNBC",
+          "time": "Últimas 48h",
+          "title": "Azzas 2154: Fábula se une à SmileyWorld em meio à cisão e aposta no valor de marca",
+          "snippet": "Azzas 2154: Fábula se une à SmileyWorld em meio à cisão e aposta no valor de marca&nbsp;&nbsp;Times Brasil | CNBC...",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWTZvdzMxYTNvODVUYVFybHBuSVJTZU1BMWk1ci03X3RIVE1pYTZyU0ZuNTl6eU9yQkU5aF9rUnNweklQMWFyeTIxQlZ6ZDNwbE1aa2ozNzQ0OXY0TWVpQ2ROa1RDTVg5UUotRXUzRzUxUkNXMTV5T2trM19NVE82TGZMQWNzWGNuWno3WmwtRzVjUlZmRHJfZG51NVlDZmlLZ1JpSVpPd1RTdEpuZEFPaXFNREQxQmN1aDMyNjJ3dXlaTkZKTWI4Vw?oc=5"
+        },
+        {
+          "source": "Diário do Comércio",
+          "time": "Últimas 48h",
+          "title": "Varejistas de Minas têm quase 5 mil lojas e pouca adesão a franquias",
+          "snippet": "Varejistas de Minas têm quase 5 mil lojas e pouca adesão a franquias&nbsp;&nbsp;Diário do Comércio...",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sdjhzQzg2SUQ5MFRIckJJZGhWYng5dWVGZGFCM2JQM0dGc1FmSVBaN0dVOEZ6MWhKR1dCdk5ZYmppcm83anNhVkNjWE9hVUpyYlM2cU9UNHZBdFFJTWcybDlEV1QxalZaOHpnZU5lSk42ekRLeGp4aVBpcnN1UQ?oc=5"
+        },
+        {
           "source": "Purepeople",
           "time": "Últimas 48h",
           "title": "Encontrei na Dafiti: esses sapatos tipo Birkenstock por menos de R$ 85: confortáveis e na moda entre as garotas chiques nesta Primavera",
@@ -766,7 +759,7 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Arezzo."
         }
       ]
@@ -801,7 +794,7 @@
       ],
       "archive": [
         {
-          "date": "11 OCT 2026",
+          "date": "12 OCT 2026",
           "summary": "Relatório diário gerado automaticamente para a conta Schutz."
         }
       ]
