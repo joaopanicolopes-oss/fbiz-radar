@@ -76,7 +76,6 @@
             gap: 16px;
         }
 
-        /* Container do Logo Oficial 3D Líquido da FBIZ */
         .fbiz-logo-wrapper {
             display: flex;
             align-items: center;
@@ -111,7 +110,6 @@
             margin: 0 4px;
         }
 
-        /* Badge Líquido Cromado com Brilho Metálico */
         .chrome-pill {
             font-family: var(--font-mono);
             font-size: 11px;
@@ -273,7 +271,7 @@
             z-index: 2;
         }
 
-        /* 1. SEÇÃO DE NOTÍCIAS (PRIMEIRO LUGAR!) */
+        /* 1. SEÇÃO DE NOTÍCIAS COM ABAS DE EDIÇÕES */
         .news-box {
             background: #FFFFFF;
             border: 1px solid var(--border-subtle);
@@ -310,13 +308,37 @@
             filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
         }
 
-        .section-header-sub {
+        /* Abas Elegantes para Últimas 48h vs Edições Anteriores */
+        .news-tabs-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .news-tab-btn {
+            background: #F4F5F7;
+            border: 1px solid var(--border-subtle);
+            padding: 6px 14px;
+            border-radius: 4px;
             font-family: var(--font-mono);
             font-size: 11px;
-            color: var(--text-muted);
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            font-weight: 600;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .news-tab-btn:hover {
+            color: #000000;
+            border-color: #B8BDC7;
+        }
+
+        .news-tab-btn.active {
+            background: #000000;
+            color: #FFFFFF;
+            border-color: #000000;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
         }
 
         .news-grid {
@@ -349,17 +371,64 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .news-meta-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Badges de Natureza */
+        .news-tag-badge {
+            font-family: var(--font-mono);
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            padding: 2px 7px;
+            border-radius: 3px;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        .tag-marca {
+            background: #000000;
+            color: #FFFFFF;
+        }
+
+        .tag-concorrente {
+            background: #F3F4F6;
+            color: #374151;
+            border: 1px solid #D1D5DB;
+        }
+
+        .tag-territorio {
+            background: #FFF9DB;
+            color: #7A5800;
+            border: 1px solid #FFE066;
+        }
+
+        .tag-mercado {
+            background: #F4F5F7;
+            color: #6B7280;
+            border: 1px solid #E5E7EB;
+        }
+
+        .news-card-source {
             font-family: var(--font-mono);
             font-size: 10.5px;
-            color: var(--text-muted);
-            margin-bottom: 12px;
+            color: #000000;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
 
-        .news-card-source {
-            color: #000000;
-            font-weight: 700;
+        .news-card-date {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
         }
 
         .news-card-title {
@@ -387,7 +456,7 @@
             color: #000000;
         }
 
-        /* 2. SEÇÃO ESTRATÉGICA FBIZ (LOGO ABAIXO DAS NOTÍCIAS) */
+        /* 2. SEÇÃO ESTRATÉGICA FBIZ */
         .strategic-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -494,6 +563,14 @@
             header {
                 padding: 14px 20px;
             }
+            .section-header-box {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 14px;
+            }
+            .news-tabs-container {
+                width: 100%;
+            }
             .client-nav-wrapper {
                 padding: 10px 20px;
             }
@@ -520,7 +597,6 @@
 </head>
 <body>
 
-    <!-- DEFS DE GRADIENTES CROMADOS METÁLICOS 3D -->
     <svg class="svg-defs-hidden">
         <defs>
             <linearGradient id="chromeLight" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -548,7 +624,6 @@
 
     <header>
         <div class="header-left">
-            <!-- Logo Oficial 3D Líquido da FBIZ flutuando nativamente no fundo claro -->
             <div class="fbiz-logo-wrapper">
                 <img id="fbiz-img" src="fbiz-logo.png" alt="fbiz" class="fbiz-logo-img" 
                      onerror="if (this.src.indexOf('image.png') === -1) { this.src='image.png'; } else { this.style.display='none'; document.getElementById('fbiz-fallback').style.display='block'; }">
@@ -576,9 +651,7 @@
     </header>
 
     <nav class="client-nav-wrapper">
-        <div class="nav-chips" id="nav-chips">
-            <!-- Chips gerados via JS -->
-        </div>
+        <div class="nav-chips" id="nav-chips"></div>
     </nav>
 
     <main>
@@ -598,7 +671,7 @@
             <p class="brand-hero-headline" id="hero-headline">Buscando inteligência diária do ecossistema...</p>
         </section>
 
-        <!-- 1. MONITORAMENTO DAS ÚLTIMAS 48H (PRIMEIRO LUGAR!) -->
+        <!-- 1. SEÇÃO DE NOTÍCIAS COM ABAS INTEGRADAS -->
         <section class="news-box">
             <div class="section-header-box">
                 <div class="section-header-title">
@@ -609,16 +682,20 @@
                         <polygon points="50,0 63,37 50,50" fill="url(#chromeReflect)"/>
                         <circle cx="50" cy="50" r="3" fill="#FFFFFF"/>
                     </svg>
-                    <span>MONITORAMENTO DAS ÚLTIMAS 48H</span>
+                    <span>NOTÍCIAS & MOVIMENTAÇÕES</span>
                 </div>
-                <div class="section-header-sub" id="news-count">0 NOTÍCIAS</div>
+
+                <!-- Abas Visuais Diretas -->
+                <div class="news-tabs-container">
+                    <button class="news-tab-btn active" id="tab-btn-recent" onclick="setNewsTab('recent')">✦ ÚLTIMAS 48H</button>
+                    <button class="news-tab-btn" id="tab-btn-history" onclick="setNewsTab('history')">📂 EDIÇÕES PASSADAS</button>
+                </div>
             </div>
-            <div class="news-grid" id="news-grid">
-                <!-- Notícias inseridas dinamicamente -->
-            </div>
+
+            <div class="news-grid" id="news-grid"></div>
         </section>
 
-        <!-- 2. TRINCA ESTRATÉGICA FBIZ (LOGO ABAIXO DAS NOTÍCIAS) -->
+        <!-- 2. TRINCA ESTRATÉGICA FBIZ -->
         <section>
             <div class="section-header-box">
                 <div class="section-header-title">
@@ -632,7 +709,6 @@
             </div>
 
             <div class="strategic-grid">
-                <!-- 1. O Fato -->
                 <div class="strat-card card-fato">
                     <div class="strat-card-top">
                         <div class="strat-card-title">
@@ -644,12 +720,9 @@
                         </div>
                         <div class="strat-card-badge">O ACONTECIMENTO</div>
                     </div>
-                    <div class="strat-card-content" id="strat-fato">
-                        Síntese das movimentações mais recentes do mercado...
-                    </div>
+                    <div class="strat-card-content" id="strat-fato">Síntese das movimentações mais recentes do mercado...</div>
                 </div>
 
-                <!-- 2. Leitura Estratégica -->
                 <div class="strat-card card-leitura">
                     <div class="strat-card-top">
                         <div class="strat-card-title">
@@ -662,12 +735,9 @@
                         </div>
                         <div class="strat-card-badge">IMPACTO NO NEGÓCIO</div>
                     </div>
-                    <div class="strat-card-content" id="strat-edai">
-                        Avaliando implicações no comportamento do consumidor e na categoria...
-                    </div>
+                    <div class="strat-card-content" id="strat-edai">Avaliando implicações no comportamento do consumidor e na categoria...</div>
                 </div>
 
-                <!-- 3. Oportunidade -->
                 <div class="strat-card card-oportunidade">
                     <div class="strat-card-top">
                         <div class="strat-card-title">
@@ -676,9 +746,7 @@
                         </div>
                         <div class="strat-card-badge">DIRECIONAMENTO TÁTICO</div>
                     </div>
-                    <div class="strat-card-content" id="strat-acao">
-                        Oportunidades de pauta, ativações de PR, mídia e conteúdo...
-                    </div>
+                    <div class="strat-card-content" id="strat-acao">Oportunidades de pauta, ativações de PR, mídia e conteúdo...</div>
                 </div>
             </div>
         </section>
@@ -698,7 +766,6 @@
     </footer>
 
     <script>
-        // Paletas oficiais dos 18 clientes
         const BRAND_STYLES = {
             "mms": { name: "M&M's", bg: "#FFC800", color: "#4A150B" },
             "tegra": { name: "Tegra", bg: "radial-gradient(circle at 80% 20%, #3a352c 0%, #1e1d1a 55%, #111111 100%)", color: "#FFFFFF" },
@@ -728,6 +795,7 @@
 
         let radarData = null;
         let currentClientId = "mms";
+        let currentNewsTab = "recent"; // "recent" ou "history"
 
         async function initRadar() {
             try {
@@ -743,6 +811,13 @@
                 renderNav();
                 renderClient(currentClientId);
             }
+        }
+
+        function setNewsTab(tab) {
+            currentNewsTab = tab;
+            document.getElementById('tab-btn-recent').classList.toggle('active', tab === 'recent');
+            document.getElementById('tab-btn-history').classList.toggle('active', tab === 'history');
+            renderNewsCards();
         }
 
         function getClientDisplayName(id) {
@@ -762,16 +837,14 @@
                 const btn = document.createElement('button');
                 btn.className = `chip-btn ${id === currentClientId ? 'active' : ''}`;
                 btn.innerText = displayName;
-                btn.onclick = () => selectClient(id);
+                btn.onclick = (e) => {
+                    document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentClientId = id;
+                    renderClient(id);
+                };
                 navContainer.appendChild(btn);
             });
-        }
-
-        function selectClient(id) {
-            currentClientId = id;
-            document.querySelectorAll('.chip-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            renderClient(id);
         }
 
         function formatNewsDate(dateStr) {
@@ -785,6 +858,63 @@
             }
         }
 
+        function getTagClass(tagStr) {
+            const clean = (tagStr || '').toUpperCase();
+            if (clean.includes('MARCA')) return 'tag-marca';
+            if (clean.includes('CONCORRENTE')) return 'tag-concorrente';
+            if (clean.includes('TERRITÓRIO') || clean.includes('TERRITORIO')) return 'tag-territorio';
+            return 'tag-mercado';
+        }
+
+        function renderNewsCards() {
+            const client = radarData && radarData.clients ? radarData.clients[currentClientId] : null;
+            const newsGrid = document.getElementById('news-grid');
+            newsGrid.innerHTML = '';
+
+            const list = currentNewsTab === 'recent' 
+                ? (client ? (client.news || []) : [])
+                : (client ? (client.history || []) : []);
+
+            if (list.length === 0) {
+                const emptyMsg = currentNewsTab === 'recent'
+                    ? 'VARREDURA EM ANDAMENTO PARA ESTA MARCA.'
+                    : 'HISTÓRICO ATIVO: As notícias das últimas 48h serão arquivadas aqui automaticamente conforme passarem dos próximos dias.';
+                newsGrid.innerHTML = `<p style="color: var(--text-muted); font-size: 12px; font-family: var(--font-mono); padding: 18px 0; grid-column: 1 / -1;">${emptyMsg}</p>`;
+                return;
+            }
+
+            list.forEach(item => {
+                const card = document.createElement('a');
+                card.className = 'news-card';
+                card.href = item.link || '#';
+                card.target = '_blank';
+                card.rel = 'noopener noreferrer';
+
+                const sourceTitle = item.source || 'Imprensa';
+                const dateFormatted = item.archived_date ? `ARQUIVADO EM ${item.archived_date}` : formatNewsDate(item.published);
+                const tagLabel = item.tag ? item.tag.replace('[', '').replace(']', '') : 'MERCADO';
+                const tagClass = getTagClass(item.tag);
+
+                card.innerHTML = `
+                    <div>
+                        <div class="news-card-meta">
+                            <div class="news-meta-left">
+                                <span class="news-tag-badge ${tagClass}">${tagLabel}</span>
+                                <span class="news-card-source">${sourceTitle}</span>
+                            </div>
+                            <span class="news-card-date">${dateFormatted}</span>
+                        </div>
+                        <div class="news-card-title">${item.title}</div>
+                    </div>
+                    <div class="news-card-footer">
+                        <span>ACESSAR MATÉRIA</span>
+                        <span>↗</span>
+                    </div>
+                `;
+                newsGrid.appendChild(card);
+            });
+        }
+
         function renderClient(id) {
             const style = BRAND_STYLES[id] || { name: id, bg: '#111111', color: '#FFFFFF' };
             const hero = document.getElementById('brand-hero');
@@ -796,77 +926,20 @@
             const displayName = client ? (client.name || client.client_name || style.name) : style.name;
             document.getElementById('hero-name').innerText = displayName;
 
-            // Manchete
             let headlineText = "Monitoramento e inteligência contínua do ecossistema.";
-            if (client) {
-                if (typeof client.headline === 'string' && client.headline.length > 0) {
-                    headlineText = client.headline;
-                } else if (client.headline && typeof client.headline === 'object') {
-                    headlineText = client.headline.title || client.headline.text || headlineText;
-                }
+            if (client && client.headline) {
+                headlineText = typeof client.headline === 'string' ? client.headline : (client.headline.title || headlineText);
             }
             document.getElementById('hero-headline').innerText = headlineText;
 
-            // Extrair notícias e ordenar cronologicamente decrescente
-            const rawNews = client ? (client.news || client.news_48h || []) : [];
-            const newsList = [...rawNews].sort((a, b) => {
-                const timeA = a.published ? new Date(a.published).getTime() : 0;
-                const timeB = b.published ? new Date(b.published).getTime() : 0;
-                return timeB - timeA;
-            });
+            // Renderiza as notícias conforme a aba selecionada (48h ou Histórico)
+            renderNewsCards();
 
-            // 1. RENDERIZAR NOTÍCIAS (PRIMEIRO BLOCO)
-            const newsGrid = document.getElementById('news-grid');
-            newsGrid.innerHTML = '';
-            document.getElementById('news-count').innerText = `${newsList.length} NOTÍCIAS RASTREADAS`;
-
-            if (newsList.length === 0) {
-                newsGrid.innerHTML = '<p style="color: var(--text-muted); font-size: 13px; font-family: var(--font-mono); padding: 16px 0;">VARREDURA DIÁRIA EM ANDAMENTO NAS ÚLTIMAS HORAS.</p>';
-            } else {
-                newsList.forEach(item => {
-                    const card = document.createElement('a');
-                    card.className = 'news-card';
-                    card.href = item.link || '#';
-                    card.target = '_blank';
-                    card.rel = 'noopener noreferrer';
-
-                    const sourceTitle = item.source || 'Imprensa';
-                    const dateFormatted = formatNewsDate(item.published);
-
-                    card.innerHTML = `
-                        <div>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">${sourceTitle}</span>
-                                <span>${dateFormatted}</span>
-                            </div>
-                            <div class="news-card-title">${item.title}</div>
-                        </div>
-                        <div class="news-card-footer">
-                            <span>ACESSAR MATÉRIA</span>
-                            <span>↗</span>
-                        </div>
-                    `;
-                    newsGrid.appendChild(card);
-                });
-            }
-
-            // 2. RENDERIZAR DIRECIONAMENTO ESTRATÉGICO (SEGUNDO BLOCO)
+            // Renderiza a Trinca Estratégica
             const strat = client ? (client.strategic_analysis || {}) : {};
-            let fatoText = strat.fato;
-            let edaiText = strat.e_dai;
-            let acaoText = strat.acao;
-
-            if (!fatoText) {
-                if (newsList.length > 0) {
-                    fatoText = `Destaque recente do segmento: "${newsList[0].title}".`;
-                    edaiText = `O tema reverbera diretamente no ecossistema de ${displayName}, exigindo prontidão de posicionamento e leitura de conversas.`;
-                    acaoText = `Explorar ganchos em pautas editoriais e sustentar share de voz através de ações proprietárias da agência.`;
-                } else {
-                    fatoText = `Varredura diária de marca e categoria em andamento para ${displayName}.`;
-                    edaiText = `Momento favorável para blindagem de marca e amplificação de narrativas planejadas.`;
-                    acaoText = `Manter calendário editorial ativo e monitorar movimentos de concorrentes diretos.`;
-                }
-            }
+            let fatoText = strat.fato || `Destaque recente do segmento de ${displayName}.`;
+            let edaiText = strat.e_dai || `O tema reverbera no ecossistema de ${displayName}, exigindo prontidão de posicionamento.`;
+            let acaoText = strat.acao || `Explorar ganchos editoriais e sustentar share de voz através de ações proprietárias.`;
 
             document.getElementById('strat-fato').innerText = fatoText;
             document.getElementById('strat-edai').innerText = edaiText;
