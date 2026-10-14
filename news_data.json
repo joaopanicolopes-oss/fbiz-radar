@@ -1,6 +1,5 @@
 {
-  "edition_id": "2026-10-14",
-  "updated_at": "14/10/2026 às 18:48",
+  "updated_at": "14/10/2026 às 19:17",
   "clients": {
     "mms": {
       "name": "M&M's",
@@ -30,11 +29,11 @@
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Artistas da 10ª edição do Bolsa Pampulha apresentam sessão especial de cinema no MIS BH",
-          "source": "Prefeitura de Belo Horizonte",
-          "published": "Wed, 14 Oct 2026 15:38:53 GMT",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZEpxSjNaMl9Yckc5eHlHdzRCQWVZOTVEYTNyOV83UTlLN1J0ZnRxRGNDSHBmSVptUm5sa1c1OVNsX3VScXFrNlhkaHJrVExuNEZ5REE1QlVZMWRpVVJDaFdOUVdxLXFWRXVrSmxxZnNVUEQwOXpja251cmV2VlZXX2VIX0NNZU1uMC1pNXI0QWFLX2d5VTZhWkZBR2xFZ2FIVE1tZFIxSHBWb3A2cFdkblFjSUJRcEx3YXJTV2M3OXYya2o2?oc=5",
-          "timestamp": 1791992333
+          "title": "10º Festival de Cinema Curta Caraguá começa nesta quinta e segue até 29 de outubro",
+          "source": "Prefeitura de Caraguatatuba",
+          "published": "Wed, 14 Oct 2026 15:43:38 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZTBJU1lVd0JtOFJiWU1xT3VLbzBTLWEwNTJ1N3JVSmJXcUpZZE16azNHaFpITm1lSndSQUdMT0ZndWpadXlPenQzcExkbkJPNXFsSDNzdFFObGZ2MThuak1fbDI2NVZsSDdFRnRjeHVKbmV5bThMa2hBMGJEWXoySkhPS25GQjV5RWFWU19vVGVSRXJkTkJyTTVfdy1tZmdtRk1mNjNrTXhFVXAzMkROaElyNzdidlltbjJSblBSRFh3V2tKRlNPNnpqcw?oc=5",
+          "timestamp": 1791992618
         },
         {
           "tag": "[CONCORRENTE]",
@@ -59,6 +58,17 @@
           "published": "Tue, 13 Oct 2026 17:05:21 GMT",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObmxwQ0VHM1k5WmVmRGd5c3hvNmMxUE5rUVhhY3BfSnRxUHA0eEZCY1JiYWRDZkg5SkwwaW9NdGhRSWx3VXVMOTVrbGg2Z2xXQ004THlvNkFzTi00ZDFvNDRuN2N4RExsOXU4c2tSV3ptd2hpRThuR0hLd1E1S2N3WDR3cGJlV2ZTU25MbV9B?oc=5",
           "timestamp": 1791911121
+        }
+      ],
+      "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Artistas da 10ª edição do Bolsa Pampulha apresentam sessão especial de cinema no MIS BH",
+          "source": "Prefeitura de Belo Horizonte",
+          "published": "Wed, 14 Oct 2026 15:38:53 GMT",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZEpxSjNaMl9Yckc5eHlHdzRCQWVZOTVEYTNyOV83UTlLN1J0ZnRxRGNDSHBmSVptUm5sa1c1OVNsX3VScXFrNlhkaHJrVExuNEZ5REE1QlVZMWRpVVJDaFdOUVdxLXFWRXVrSmxxZnNVUEQwOXpja251cmV2VlZXX2VIX0NNZU1uMC1pNXI0QWFLX2d5VTZhWkZBR2xFZ2FIVE1tZFIxSHBWb3A2cFdkblFjSUJRcEx3YXJTV2M3OXYya2o2?oc=5",
+          "timestamp": 1791992333,
+          "archived_date": "14/10/2026"
         }
       ]
     },
@@ -120,7 +130,8 @@
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yVzlVeU5CdndjLTYxUEtpWkNOX1FxbU1tamx6VFZka3B3amRZSzJWcEpuWFBMVklaaUxfbU1Nd2JldFg5WTVXcFlsdkktc1FlYUtYUzlBbjRVQmMxdXJHdEZRRzJRRDJOMDRnZg?oc=5",
           "timestamp": 1791964929
         }
-      ]
+      ],
+      "history": []
     },
     "twix": {
       "name": "Twix",
@@ -158,19 +169,19 @@
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Gato Joãozinho: recompensa sobe a R$ 15 mil em Campo Grande",
-          "source": "Campo Grande News",
-          "published": "Wed, 14 Oct 2026 11:37:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXpPcExmZXdHbU1fX0ZPcnpsbWhscEhXWjN4LVZlOTl1aWxBQlU2RjV0N2ZLYlh0dFQ1WEdKczNOOU5fTDFwcnc1OWVGM0lkSzhHbi13LXNKbkZSZFJQUUpYejZBblZYdkxqdUg4VE95UFB4VExEWjI5UVFfQXE5ZVgtMmFTSl8yTGZwSWhtd0d0RndwMzUyU3ZabDFKV2NPN3M0LWFLMkswd9IBqgFBVV95cUxPUnlQTkE3U0Q0YTM0QWhEZVR5RUlCUktPX0ZCbU1ZZ3A0NmJuYUpyUW5lS1dLbHVFak9FaHhYTjBBVjhjZ0xvdHZULXBmTWVoLU9Cd2pjQWR6dVA3aXY3dkk0TTNEbFR5cDRYWEo2VDI2THhJLVQtUHVoYjJyRHJmb0JsNUNzQ08ya0JjN2VkczlPSlJRWmNtMGVBcnRreHBvWF9VNHhKZWhpUQ?oc=5",
-          "timestamp": 1791977820
+          "title": "Vendedor dá pães de graça para mulher sem dinheiro e recebe recompensa inesperada; vídeo",
+          "source": "Só Notícia Boa",
+          "published": "Wed, 14 Oct 2026 12:20:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNzk1YXVnQ09yTVpwLU1jdFJ5OGUwaUw0RGNIOUFnLWZZb3AtR0NEWHlIR0VORGNOOFV6RnNpUkd4aDcxb3M4RkhFV1dBTlFrdDNXTmNJWkNyUW5MQnM1SWFhZWxhY1QtemJPTWZQa0cxbjNtWmlwTlFUdDN2dzZjRFV5WQ?oc=5",
+          "timestamp": 1791980400
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Sono? Concurso no Japão recompensa quem tira o cochilo mais rápido e profundo",
-          "source": "CNN Brasil",
-          "published": "Wed, 14 Oct 2026 06:35:03 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUjJTeEZCYVRRWnBETGVjTHZJT2daM2QyaWo1MUg1ay14ZzYxMGhlOFRQdGF6THFZY2FhLXVWcnBtdkdFbTk4Q3BjZmltVFlVMUlRaFhuVmRiMXZvbnBlSElnbWdWQUVrRURpMzNvNnVrNTFlUERDOFZkYUoybFVzNTMxd1BXLTNZeGFlbDJiU2tMRFFlV05PdHYtOVlqekpjZHRYRjlvWG9FT0FLa2VTcm9EZEJ0UFlDRzhZ?oc=5",
-          "timestamp": 1791959703
+          "title": "“Temos esperança”: recompensa por gato Joãozinho chega a R$ 15 mil",
+          "source": "Campo Grande News",
+          "published": "Wed, 14 Oct 2026 11:37:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXpPcExmZXdHbU1fX0ZPcnpsbWhscEhXWjN4LVZlOTl1aWxBQlU2RjV0N2ZLYlh0dFQ1WEdKczNOOU5fTDFwcnc1OWVGM0lkSzhHbi13LXNKbkZSZFJQUUpYejZBblZYdkxqdUg4VE95UFB4VExEWjI5UVFfQXE5ZVgtMmFTSl8yTGZwSWhtd0d0RndwMzUyU3ZabDFKV2NPN3M0LWFLMkswdw?oc=5",
+          "timestamp": 1791977820
         },
         {
           "tag": "[MARCA]",
@@ -179,6 +190,26 @@
           "published": "Fri, 09 Oct 2026 09:55:07 GMT",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTGFmdVBDeGVIMDdhSGdzTU1SajZQbDNqVjZYN1R2R1R0YzhfTEV6S3lUbS1acVp1Mk9GazNITGZUVmlpMDZHVGZzTVlBZ2U3X1NKTmk2VTVJUjJsSFRoR2ZvVVMxZVNOaHo0NlFEb2JVMTRrUE9JNTVZeFFIeWotQlFodjRQTjNqdHlPeFkzNENscDFVSlA4aTE3VVg5YkZESldJV2dkQnVlVkJnUm91UUJvOC1QZ3FSZXFZTw?oc=5",
           "timestamp": 1791539707
+        }
+      ],
+      "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Sono? Concurso no Japão recompensa quem tira o cochilo mais rápido e profundo",
+          "source": "CNN Brasil",
+          "published": "Wed, 14 Oct 2026 06:35:03 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUjJTeEZCYVRRWnBETGVjTHZJT2daM2QyaWo1MUg1ay14ZzYxMGhlOFRQdGF6THFZY2FhLXVWcnBtdkdFbTk4Q3BjZmltVFlVMUlRaFhuVmRiMXZvbnBlSElnbWdWQUVrRURpMzNvNnVrNTFlUERDOFZkYUoybFVzNTMxd1BXLTNZeGFlbDJiU2tMRFFlV05PdHYtOVlqekpjZHRYRjlvWG9FT0FLa2VTcm9EZEJ0UFlDRzhZ?oc=5",
+          "timestamp": 1791959703,
+          "archived_date": "14/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Gato Joãozinho: recompensa sobe a R$ 15 mil em Campo Grande",
+          "source": "Campo Grande News",
+          "published": "Wed, 14 Oct 2026 11:37:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXpPcExmZXdHbU1fX0ZPcnpsbWhscEhXWjN4LVZlOTl1aWxBQlU2RjV0N2ZLYlh0dFQ1WEdKczNOOU5fTDFwcnc1OWVGM0lkSzhHbi13LXNKbkZSZFJQUUpYejZBblZYdkxqdUg4VE95UFB4VExEWjI5UVFfQXE5ZVgtMmFTSl8yTGZwSWhtd0d0RndwMzUyU3ZabDFKV2NPN3M0LWFLMkswd9IBqgFBVV95cUxPUnlQTkE3U0Q0YTM0QWhEZVR5RUlCUktPX0ZCbU1ZZ3A0NmJuYUpyUW5lS1dLbHVFak9FaHhYTjBBVjhjZ0xvdHZULXBmTWVoLU9Cd2pjQWR6dVA3aXY3dkk0TTNEbFR5cDRYWEo2VDI2THhJLVQtUHVoYjJyRHJmb0JsNUNzQ08ya0JjN2VkczlPSlJRWmNtMGVBcnRreHBvWF9VNHhKZWhpUQ?oc=5",
+          "timestamp": 1791977820,
+          "archived_date": "14/10/2026"
         }
       ]
     },
@@ -232,7 +263,8 @@
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGxScEd2bDF2VEp1UmZ5MGpuT3MzTGRySVFoTDBXNlNKdVJjeFlpUklTZWdkY3licGRWa2xuTXczTzNTbmVyUXgwUmFtMEFOWlJqNk14WHRtejhRLUpwY0xDRFBTTVAtLTVUWTA0VVoydjM3ZXRUeUluRjlrcHh3UklMYmg1NGhrRlEtZWhqYTdqMjFyOUZNVWFwSmJ4WWFfV24tYQ?oc=5",
           "timestamp": 1791942600
         }
-      ]
+      ],
+      "history": []
     },
     "warner": {
       "name": "Warner Bros.",
@@ -254,19 +286,19 @@
         },
         {
           "tag": "[MARCA]",
+          "title": "Game of Thrones ganhará primeiro filme em 2029 e contará a história de Aegon, o Conquistador",
+          "source": "WH3",
+          "published": "Wed, 14 Oct 2026 14:11:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObnMyWGlKeGJGeWxEOGhialpEWG5WNGZHTG9YcmZmNHdyQWZsR0kzb29GcHpBOWR4T01MVnMtMEhJQ3FqaTBwZVc4TkY4T3RQVTFHcmRSWm41djM2am1vUVROTFJCRzdRbExqU000b1BrX09rMzFKSF9jcjkwMXZlWExlY1lVTFFocExEM2dnLXdtUjVyVUxRWFhDQUFodU9lcUFWMzdFbkFXRmRDcUhvNWJmb1V1d0ctMUxEdUFiT1pVaWg2cTQwSVRB?oc=5",
+          "timestamp": 1791987060
+        },
+        {
+          "tag": "[MARCA]",
           "title": "Nem Gandalf conseguiu prever este destino: o novo filme de O Senhor dos Anéis foi paralisado por uma disputa de bastidores em Hollywood",
           "source": "Terra",
           "published": "Wed, 14 Oct 2026 14:09:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOYUhDcDRFaVZ1Y3d4bDNoQWZ5SFVRSFZkVEZXTDMwMWZ0NzZ1cmlCS3lhWWZzRGYwWjY4TlhsU2lVUDBlUEJ1Ny1MX25IRUN3Y3pHb1U1MmhPT0FDMGJGOWVmSl9EUVBkZGF0OFZUc2J3TU1CYW5IRG9XeXc5dkYyT3RfLVJxZElGVW5RdlVkU2sxQzlvSE1QaVEwOWFvZDBxSlNrRTEtY3FLYlNWTTdKTDN1NWpqZmd2VFROS25JUk5SOV83eEh2dk50eW5RZ2V6Z2ZabGtQeUFwRTlhblJPSzdCelhzWGJQTS1RN2JTN1VhTlFOaWlHaWhPeWZTWFNRaUpzbENrUlBfRVlIaFNHUDkxMkstcWVBX0ItSlpEdHdWa0llY0h4NmZTUUVnUFBuVm94UlVXUFE4eUhfX2Q4alBvdGRQU1dSSGc?oc=5",
           "timestamp": 1791986940
-        },
-        {
-          "tag": "[MARCA]",
-          "title": "Game of Thrones ganhará primeiro filme sobre origem dos Targaryen",
-          "source": "ncnews.com.br",
-          "published": "Wed, 14 Oct 2026 13:46:08 GMT",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOazhWd1JMaEtNVmNDcTAzdnpTRmZRQ0lNVFUyRWNXbExRYmxFUVFRd3VPaTlHZHJsVlRHamUxV09Odk13Wk5VSlNFcHZydC1RYW9oak9wNEtKSnMyS2lkSFRLOGwzTkdpUElrQ0Y5RFIwMGNzbFllRnc0TnlMaEpfdzNfREwtMG5aQWcxVQ?oc=5",
-          "timestamp": 1791985568
         },
         {
           "tag": "[MERCADO]",
@@ -291,6 +323,17 @@
           "published": "Wed, 14 Oct 2026 13:20:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWY1aHRxVDdEcjl2WVFoNzM5bFZBVy1GVklRbmtfWGRPSzA1WUdkZ3dIWllpNFlTWDZMZFhvRU1MTkRZeGsxdzFLWjRHNm1WenJfbTBZMUdsZkRZcnpzSWc5cUZqWU5VbVJwMU1SdHRYWnhGRmgtVW85bEd2cTJ1UDJGbFdlb2NrSWpzMjM3OElGa1pvbndiYThneXUwVk5NZGpnSml4czdsSW5VVWVXU2EtWG1ZTGxMQzVzV3RnMlowZ29IRXl4Q21BWkQ3dw?oc=5",
           "timestamp": 1791984000
+        }
+      ],
+      "history": [
+        {
+          "tag": "[MARCA]",
+          "title": "Game of Thrones ganhará primeiro filme sobre origem dos Targaryen",
+          "source": "ncnews.com.br",
+          "published": "Wed, 14 Oct 2026 13:46:08 GMT",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOazhWd1JMaEtNVmNDcTAzdnpTRmZRQ0lNVFUyRWNXbExRYmxFUVFRd3VPaTlHZHJsVlRHamUxV09Odk13Wk5VSlNFcHZydC1RYW9oak9wNEtKSnMyS2lkSFRLOGwzTkdpUElrQ0Y5RFIwMGNzbFllRnc0TnlMaEpfdzNfREwtMG5aQWcxVQ?oc=5",
+          "timestamp": 1791985568,
+          "archived_date": "14/10/2026"
         }
       ]
     },
@@ -352,7 +395,8 @@
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbXB4aHRjTUJqb0VUMHFFYzZjNUw1ekxjR000M2JLR3BsOTFzaUw4SDZFck5qbEE1by1GNmlkVnNucGdGVTByRzVnSHVmQ1VIUjB4RHpSR01SUTUxQXEwcURVbE02b1NzeTdkN2s3Y1VPY1VuenJsYk5rckVHbG5CemZDRVlPNUxYWTZSeUNSd2wyZmthZEo0OFF4ZzNoWmVwZlFxTkpGZU0yXzdmNGxSZHVUYXdMQnJRbkctVVUwbWdvWG51MFdwRnNRUWwxbXRNVE9KRlNtOTFuQQ?oc=5",
           "timestamp": 1791897200
         }
-      ]
+      ],
+      "history": []
     },
     "snickers": {
       "name": "Snickers",
@@ -412,7 +456,8 @@
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmU0em5Nb0x2Nm4wS3NOblZxZk5DX0FZNDZiLXNjQVRmRDVwZEFTc0RGSUhObG8xOFhFalhPeDVLdWVZUGVUUlduTjVDVU5hcENhcW1JWlAzOFV2UkhwTFI1TWNfYzFFRGpoQjRDOHZKUVNDQVVlVktIeEE4WXRlcTFUMmpOaTdIMTR1cDJR?oc=5",
           "timestamp": 1791921608
         }
-      ]
+      ],
+      "history": []
     },
     "monange": {
       "name": "Monange",
@@ -464,7 +509,8 @@
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSUhoZGFuZmVVT2tzcl9sRW8zSXU5ZEFsTFIxYWN2djctN0hCaTFZSWJMbl9sdWNtUk51cVZkLTNYYk5XdmtSN1JFZjVoRE5pdjlqSVV5MWRJR1dCY2V6T19Tb3RVNFdOS0ZBTVM2WWhCVGRkS2xSQVdLa3hHc0VmdG10cldhTGh3QjF5R0hhRTVMZ0RhZzhpYWJpbEFXcEE3T2g4RkZyS1ZvRWZ0bk5kVWp4bVJ6WHQ3YnN1eVJCMG1pMWNmRmJ5ODFOSTVrWEFiTnc?oc=5",
           "timestamp": 1791482100
         }
-      ]
+      ],
+      "history": []
     },
     "cenoura": {
       "name": "Cenoura & Bronze",
@@ -500,33 +546,34 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY0laeTBaMHdvVjE2aG91dTBxYVFYVEY5ZWdUWDRQaHhwQS1DSmhiLWM4ak51ck5GT0l4dWxRczFscE9UUHNaZjVYSkpVd3IxX3JPa09hc21ZR0JSb005N2pBSmloUXc2YWpORkYwM2RXcnhJelhBa21KMGh5LTNiTmhFMGFqcXRPNFBua1VyYzlKTkY5?oc=5",
           "timestamp": 1791655229
         }
-      ]
+      ],
+      "history": []
     },
     "quintoandar": {
       "name": "QuintoAndar",
       "category": "Proptech & Moradia",
-      "headline": "Consórcio imobiliário ganha espaço diante da alta dos preços dos imóveis | SEGS Portal Nacional de...",
+      "headline": "Uso de bike impulsiona a prática de hábitos saudáveis e mudança de vida",
       "strategic_analysis": {
-        "fato": "As atenções do segmento de Proptech & Moradia hoje convergem para: Consórcio imobiliário ganha espaço diante da alta dos preços dos imóveis | SEGS Portal Nacional de....",
+        "fato": "As atenções do segmento de Proptech & Moradia hoje convergem para: Uso de bike impulsiona a prática de hábitos saudáveis e mudança de vida.",
         "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de QuintoAndar.",
         "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
       },
       "news": [
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Consórcio imobiliário ganha espaço diante da alta dos preços dos imóveis | SEGS Portal Nacional de...",
-          "source": "SEGS Portal Nacional",
-          "published": "Wed, 14 Oct 2026 16:48:08 GMT",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYnBWZ3RELUxsem1kMUQzcmNPejhsUExnb0huNV9rWW9sNGtobllIM1JmVEg5VExUbmw0b1lHSFpQTjJCYVdvc0IyMGQzbGt0U2lYWTk1SktBejc5OExPNENkMXV4OVpBOTFSYWdIbVhoRF9uYWtCVHJNUy1hNHVJVDVRVk9ZVzVLMkFBcmxha2ZmY1M4ZFB5S2RUOV9VLWhGTm9GVFRGVWlEdFIzNFNYU2RVdzlUQdIBtgFBVV95cUxQYnBWZ3RELUxsem1kMUQzcmNPejhsUExnb0huNV9rWW9sNGtobllIM1JmVEg5VExUbmw0b1lHSFpQTjJCYVdvc0IyMGQzbGt0U2lYWTk1SktBejc5OExPNENkMXV4OVpBOTFSYWdIbVhoRF9uYWtCVHJNUy1hNHVJVDVRVk9ZVzVLMkFBcmxha2ZmY1M4ZFB5S2RUOV9VLWhGTm9GVFRGVWlEdFIzNFNYU2RVdzlUQQ?oc=5",
-          "timestamp": 1791996488
+          "title": "Uso de bike impulsiona a prática de hábitos saudáveis e mudança de vida",
+          "source": "G1",
+          "published": "Wed, 14 Oct 2026 17:54:03 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNOW82VENfWTAwRG5jZ1MxZlF2NXJteEVtdWNka2RSd3VtMmNzOUhMTUg0OXNjdWNCSDdaYjFHX0llYnJ1eGQzcDZFSTFDNnJEbk5MMXo3Wk5SelJVU0d2M1ZjVkVnRzdWb1JFMV9naklWQ09VdnRaMEF1V2FCRFhCVTNlSDdoeWFsb1ZIZlU5RjRoXzBtOGJ1dmc2Z1Zjc3R2WGFrR0ZIcm1tU2VENzZHTWVUUFo2OUp4RlE1UDFUTDdpYkE2bzVQVGFwaTNjaGFZbnhwNFNqTVJxbVJNZUlLVkJ3VFhseWJoQ24zdWhaQUtidl9KamfSAYQCQVVfeXFMTzBUd1RsTzF3a3pTYVhSeTE2aG51MGY4TkJ5Q1hXSzl5WHVoSmtVeWR2RzZ1YmhydWVDbWtkWHBTUTAtWDNmS0hEVkxqSnlPQlVwSkl3dmNTeWFvcGkwVVVyLWlkSlhrSlBiSnQ3eXM0V1RNNDQwbnY1bnhTT1FzbVVkak1Vc2w3RGl2OEFGUjZDR3RqNmJYSlRKWUxHTFpXRGlSWXlLMVNhZ2pxRHFXNjRtQUtEeVJGYmNSREtfV1hkXzFlbVJxUkxPOHZEWTk4T1A4eFlHTVVpVmloNTRINHZPX2o1VGdHdDF2QTlIcEhTWFRIeEhoTE02NXdyQ3FXbUlhTGQ?oc=5",
+          "timestamp": 1792000443
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Motorista de transporte escolar celebra mudança de vida com premiação: “Garanti aposentadoria”",
-          "source": "CBN Curitiba",
-          "published": "Wed, 14 Oct 2026 13:48:40 GMT",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONlctWmF5VS02Uk1TOVkzeWxNb29zTmVCc0l6c21lU3NsWm9nU3QtSXBFVE93MU5SMlpaNWJOWEZfUE9CRFE3dVpwMk5EX2JpblF1bmF3cTJrMzVvMHk0ZjhJRldocUtsdlRLbEYxdWk1OFdaWHBITjc5V3duTm9GUFBBaHFWSjQ0c01GQXQtV0VVSGphTGxpTm45OWFPbm40WlY0c3VYZ3plMEJ5Qy1tN3dad1VkR3hsNTdSbzlRN0FBbEw1TDN3?oc=5",
-          "timestamp": 1791985720
+          "title": "Consórcio imobiliário ganha espaço diante da alta dos preços dos imóveis | SEGS Portal Nacional de...",
+          "source": "SEGS Portal Nacional",
+          "published": "Wed, 14 Oct 2026 16:19:34 GMT",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1F3ckhUVHpMTWFXdXNIODl5TWl6RWV4dVJTQjBQOWtDc3JhQUQ2LU1aTExsV3NiS084SE92cEsxTEprLWo5WmFTT0lrVTZlS1pJWFd1NzZ6UDhiRkZsdF9Zd2lwTjRUN2JjS2pncUxzbDRZWDJhTUFYVFF1cjlydVhPUWRBRUZ2WEg3VlBjV2VQM0JWN0N4cHR5RFBEdzdQWFBiSXVYbVFmNjZxM1EwONIBtgFBVV95cUxQYnBWZ3RELUxsem1kMUQzcmNPejhsUExnb0huNV9rWW9sNGtobllIM1JmVEg5VExUbmw0b1lHSFpQTjJCYVdvc0IyMGQzbGt0U2lYWTk1SktBejc5OExPNENkMXV4OVpBOTFSYWdIbVhoRF9uYWtCVHJNUy1hNHVJVDVRVk9ZVzVLMkFBcmxha2ZmY1M4ZFB5S2RUOV9VLWhGTm9GVFRGVWlEdFIzNFNYU2RVdzlUQQ?oc=5",
+          "timestamp": 1791994774
         },
         {
           "tag": "[MARCA]",
@@ -551,6 +598,17 @@
           "published": "Fri, 09 Oct 2026 20:44:25 GMT",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc2JQeEZ3ZDE3NFJmOXBaY1JWZTNPdVJOdzlMT1BQZG9XOHB0bTIyaWRjeUU3ZHppTW04SnpPSl9Kc1UwTXl1QllhN05yWTBaYUxCamlHQ1M3UHB0N29kS0YyeGpKN3I3RlNNMEhlNUIta2lVS3JOazNsZHJKUVFyZHh6QUJWRy12bDR4N1YxQWdwRVBQZ1RZTlhYdzZUd1BGR3ktbzEtcTU3NURTVUc4X0dpcENwclFxSVJjZk10QjJ1M2M?oc=5",
           "timestamp": 1791578665
+        }
+      ],
+      "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Motorista de transporte escolar celebra mudança de vida com premiação: “Garanti aposentadoria”",
+          "source": "CBN Curitiba",
+          "published": "Wed, 14 Oct 2026 13:48:40 GMT",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONlctWmF5VS02Uk1TOVkzeWxNb29zTmVCc0l6c21lU3NsWm9nU3QtSXBFVE93MU5SMlpaNWJOWEZfUE9CRFE3dVpwMk5EX2JpblF1bmF3cTJrMzVvMHk0ZjhJRldocUtsdlRLbEYxdWk1OFdaWHBITjc5V3duTm9GUFBBaHFWSjQ0c01GQXQtV0VVSGphTGxpTm45OWFPbm40WlY0c3VYZ3plMEJ5Qy1tN3dad1VkR3hsNTdSbzlRN0FBbEw1TDN3?oc=5",
+          "timestamp": 1791985720,
+          "archived_date": "14/10/2026"
         }
       ]
     },
@@ -612,26 +670,19 @@
           "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONVhNQlVNTDF3ODAwMnJocjAzcmpYSERrdnk0V1ZkYm5qZFdOTC0tZ3RzOG5hVnJ0MFNfemtBZWlSZlVzaWlQY2ZnME0xamlPTFU2RmVNMWlmM25IVU11VVhNZi1hM0hhMnZVMXh2WXZIdWo1S1E5SXNYVy1GWFJFelFaSHh3S3VNcWducG1GbnhyVkFZR1hURDFYaS1KcVcyWmlzb2pzMm4xMkhHU1JSWE01M1YwdjRYckZBb21BeldzNGVRZjJBQ2FFUVdJUjRNbG5abndmV2trXzZYUHpITDhEcEd4M1preUpjT2xOTdIB_gFBVV95cUxNRkh3Qktta3d6N2stMXhQN1JudEVYa2dBRFE0SGVZQmJTaGh5U0pTUDl1TVU1TC1JWENESHZzdXhLUGs4ZTRmZXJWYkdnY2dFRzIybVdvWW8yWTJhSjNNUXRsU0s1V21HNmdpTUxIREFHR3Z6aHRMSmpIamcyNTkzMjdxclcwc01ZUWJpYmF4ZDZ2Q20xTnFCbU1mczBpUFEycmJDb2puNVNSUkk4MTB0ckwtaWN5VTl6aTQ1RUtqRnlDZTV4T0ZXZzMtclZ2ZTllRE84b2ZTMlRmdFhPSlZSN19WdVBXMDg1YTF0UFZtWmIyRmZFdURhb0x1ZTZ5dw?oc=5",
           "timestamp": 1791981898
         }
-      ]
+      ],
+      "history": []
     },
     "hbomax": {
       "name": "HBO Max",
       "category": "Streaming & Séries",
-      "headline": "WarnerMedia divulga novos parceiros para o lançamento do HBO Max",
+      "headline": "Semifinais exclusivas da CONMEBOL Libertadores 2026 é no Disney+",
       "strategic_analysis": {
-        "fato": "As atenções do segmento de Streaming & Séries hoje convergem para: WarnerMedia divulga novos parceiros para o lançamento do HBO Max.",
+        "fato": "As atenções do segmento de Streaming & Séries hoje convergem para: Semifinais exclusivas da CONMEBOL Libertadores 2026 é no Disney+.",
         "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de HBO Max.",
         "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
       },
       "news": [
-        {
-          "tag": "[MARCA]",
-          "title": "WarnerMedia divulga novos parceiros para o lançamento do HBO Max",
-          "source": "Estadão",
-          "published": "Wed, 14 Oct 2026 15:53:13 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQl9PM2w2TnpLRGRLT3JBVGcwT0szZHBfUW11WDBzUzJlb2Z3d0N1V04ydXdTMVo3VjZBOXR6YzBEelktdm9ta2l6RWZuUWdqOFdzRm52OEVRZFVzVFpIblBsTXNKbXhMaVk1Z051R2UzVWpFMG45c21ORzB3aFlBZUhKNDFzd3RzSVR5Yno5MmNrT0NGYWxVWGdodnJhcWZ1QzNJYnZ2YkcwUdIBrwFBVV95cUxQR1k3YndwcG1LZTNqSFQ2WWE0NkxrYWZQTXFLNUhIQ056b3hZZ1p4dlp5QWV4Mnk2VFEybU5GUU5XRUNkc3p4YjRrdTh2SzB4QWUzYnlZbUZmY05YZFZVeTlEbF8wd25YT0FKOW1MalROdTFNRkpHWVlGREplYW5CWU9WNEZYaEdhcXVBNElfRzlfU3FGSWRUVkZvMEJJR0tMU0lpbTU0Ulg0SjQ2TUVr?oc=5",
-          "timestamp": 1791993193
-        },
         {
           "tag": "[CONCORRENTE]",
           "title": "Semifinais exclusivas da CONMEBOL Libertadores 2026 é no Disney+",
@@ -657,6 +708,14 @@
           "timestamp": 1791985726
         },
         {
+          "tag": "[MARCA]",
+          "title": "Nova série da DC para adultos se torna um dos maiores sucessos da HBO Max",
+          "source": "O TEMPO",
+          "published": "Wed, 14 Oct 2026 12:28:47 GMT",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVFdfdTBZbjZBNDNBS094SUxYWnI4SlhmaDFLS0NISnU2aUtTSHFYZ2NHRjVWNUE4X0dqQUJOMjVGamRQWnVVV3JaRk0wZUR4XzZ6bUZEQmx3M3VHemptczJpRFM0UUVaZHZpdGdRSUdIWkRzXzNaVUM4ODcxOHI4VWZYQU04U1IxdkR3ODhZNFhhcFFhRmJFY2hYR1VpTWtPbDZYRGpLRnFtdzhkSXJIZ0YwcWdQOXBQWGJ0VHU1N3ZXQVUxZlpYZE9fRWQ?oc=5",
+          "timestamp": 1791980927
+        },
+        {
           "tag": "[TERRITÓRIO]",
           "title": "Qual foi o melhor trailer da Comic-Con de San Diego 2018? [assista e vote]",
           "source": "Estadão",
@@ -671,6 +730,17 @@
           "published": "Tue, 13 Oct 2026 23:11:47 GMT",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BY092RWFnTUxRbnpvS2JRMmhCbHdpYVFxQ3Uwb1lIUjBSV3dRMWdESEVpTzV0VlBmWHdxVGIydlNidXF0VFhkRk5fTlR2eER3ZWh4dDhnc2hOdUFqRW0xQkN5LWFNTDA2ZThUTGFZekg4azNrWm1jXw?oc=5",
           "timestamp": 1791933107
+        }
+      ],
+      "history": [
+        {
+          "tag": "[MARCA]",
+          "title": "WarnerMedia divulga novos parceiros para o lançamento do HBO Max",
+          "source": "Estadão",
+          "published": "Wed, 14 Oct 2026 15:53:13 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQl9PM2w2TnpLRGRLT3JBVGcwT0szZHBfUW11WDBzUzJlb2Z3d0N1V04ydXdTMVo3VjZBOXR6YzBEelktdm9ta2l6RWZuUWdqOFdzRm52OEVRZFVzVFpIblBsTXNKbXhMaVk1Z051R2UzVWpFMG45c21ORzB3aFlBZUhKNDFzd3RzSVR5Yno5MmNrT0NGYWxVWGdodnJhcWZ1QzNJYnZ2YkcwUdIBrwFBVV95cUxQR1k3YndwcG1LZTNqSFQ2WWE0NkxrYWZQTXFLNUhIQ056b3hZZ1p4dlp5QWV4Mnk2VFEybU5GUU5XRUNkc3p4YjRrdTh2SzB4QWUzYnlZbUZmY05YZFZVeTlEbF8wd25YT0FKOW1MalROdTFNRkpHWVlGREplYW5CWU9WNEZYaEdhcXVBNElfRzlfU3FGSWRUVkZvMEJJR0tMU0lpbTU0Ulg0SjQ2TUVr?oc=5",
+          "timestamp": 1791993193,
+          "archived_date": "14/10/2026"
         }
       ]
     },
@@ -732,7 +802,8 @@
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZXItTDlOOE40LUF3UE5Ma3V2LVpmMDN2QlJkT0ZGU3JMVFIweWM2Vnh1cEVjekhMSmZNWG5ZSzI3S3BGN3hPQW5WUGduQ1VWQ2o0bU82cE11eHBYazJhMXhCdVZrNHQ3WFE0aUVWU1FXNkVtbE5paHA4Tmw2RDFfNWNRREV0Ty14dWdyWEgzZ0JUQV91eDJYcUlNT1E5LTkwclFabGJETkpYVklrbUtlSTNhck9XUW94MVdoMWNRU1FyT2VNdlo4LUVzV09NRUx1ODg4eg?oc=5",
           "timestamp": 1791921196
         }
-      ]
+      ],
+      "history": []
     },
     "geely": {
       "name": "Geely",
@@ -784,7 +855,8 @@
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYzRXRVhuZjV5X0tMLWs5WFI5UWhNcUJVcUZ1bzJSTlRIb2tsaEdGTzJFQ2dBODg5TFBHSUltZklFNjZiMUl5S201TzI3eG9ycUltemVsWGdsUHdVT193T0hCWkg2RVZ4VkRuVk9sNnUtTEZxUGFyVUR5U3RfU09UanJJRHNXRVRTSWRlbW5HUTM1NG1udzlPZTFrS3puUdIBowFBVV95cUxPY2kwMDl3RllGOHhCdTJocFQ5QnB5eE1pQXBHRlBpV2F2NHEwQ1ZDZDZJZHhDYUZKRnpOMkM1cjNRNGNXSmRuVFZKM2R3cVc1b1VxWk5fYlRWZzdwMjh4UFZpZVc1YUxhUk9JX05vRENOVU1PUUdnV3RCWVRMZ3hnZWVLbDlTM3dqTkp3bjlRR0ZEdDdrUUh1NHRJd1BCX051SjVJ?oc=5",
           "timestamp": 1791919138
         }
-      ]
+      ],
+      "history": []
     },
     "99pay": {
       "name": "99Pay",
@@ -844,7 +916,8 @@
           "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdzF3T0thTi1aN0RFRFBDVE5lVDh2TWowb1JaanN5R3J1ZXFaVnlyRVlJY0llWkFfTVYtOVpOUDJEeHBESUVIclNGbFBjc0Nmb2N3dThvQ3ZYaGlXSEE3VU40UmdwZnlKTWdNbXlSY3RnTWNGMWg0WEZ5VjRZbERjWDRhd1EwSVdtcVBGMEZZTm5fN1pZNVJsRjZBMklRRU1wSHliRTRIZ3ZjNnN5MElLejBBdE1LVlBHZzkxOHBGdjJzdUpVYUpNYWloQVJlNVIxdjZoSURMNTN5Y1hIcldxZ1JmLUpRem5nYnJLUVVMODlmSXhZMmFna1Y1MHRJc3o2YjZITFlB0gGUAkFVX3lxTFBlSWNSeDZRdzdDckhLYTZZSVR0OXdnSG80SUR3UFZkMGlrbThIaXlzS1MyU0htMjFmQU4zZWNWTHBQMWY4cHB0SzZRZHFGdE9KdHljOXljZGlhUGRTblowTTV2WUtINUFfdDhRVGZtQ2FBUV84dG13TzVRV0E2MHBUb1BtdWdoZ29OaVZxX1ZKdmk3blU5NlJRRkE1cHdVdDRFWUNMTUx6MGV1UUV4RWxFZ3NEcmI4c1pDcFo5Vi1KTlJzc0RncUZILU9lMTJsSUoxYVFJd2RaOHZLcEhzRU1ZY1FEMjNpcE5FNF9CbmJsOEI1MHhocjk2QlN3dVdnOFIzUzBlQnpHdU04ZXRuOHU5QXdtVQ?oc=5",
           "timestamp": 1791987990
         }
-      ]
+      ],
+      "history": []
     },
     "vans": {
       "name": "Vans",
@@ -896,7 +969,8 @@
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOakRSUzVoUlZGcWZDU1NvQ2w4V2hMVWNJbEYyOFliQU1lYVV5OHFkdGMwQlBqTlBhQW9uV3lMbTFoZFVvakNmX3lsb2xyMzVDZlFEMWtUM29xWnRILW9ZckpLUncyMG5ES0ZkSkdfWUFRekZlaXpmZGNwV05fMllLc2FlZEg0MHJfYmdV?oc=5",
           "timestamp": 1791451972
         }
-      ]
+      ],
+      "history": []
     },
     "arezzo": {
       "name": "Arezzo",
@@ -940,7 +1014,8 @@
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG9ONThZWllSOGdtc3pSZXppcjJIWTYtdXp5RE8zNHZ1OHN5Yk9rQVpyend6OXRpMFBQRFBlbDdrS3NIb2dpS2ZYZktTeDRzRmxzNW5MMzlGWS10NDFiWXNwRTdWWDcxVGo4eVFlaWtCZi16dVRvckVzQ0QyUEtTQ0lSVkk4Vk8ydFhESWNZbDloSzN5ZWc4cllUYzhBM0R2dHVoZVBfaTNiRDF5eEx1U3V1WFdQT0Fa?oc=5",
           "timestamp": 1791899076
         }
-      ]
+      ],
+      "history": []
     },
     "schutz": {
       "name": "Schutz",
@@ -968,7 +1043,8 @@
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOG9ONThZWllSOGdtc3pSZXppcjJIWTYtdXp5RE8zNHZ1OHN5Yk9rQVpyend6OXRpMFBQRFBlbDdrS3NIb2dpS2ZYZktTeDRzRmxzNW5MMzlGWS10NDFiWXNwRTdWWDcxVGo4eVFlaWtCZi16dVRvckVzQ0QyUEtTQ0lSVkk4Vk8ydFhESWNZbDloSzN5ZWc4cllUYzhBM0R2dHVoZVBfaTNiRDF5eEx1U3V1WFdQT0Fa?oc=5",
           "timestamp": 1791899076
         }
-      ]
+      ],
+      "history": []
     }
   }
 }
