@@ -2,888 +2,646 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FBIZ RADAR // Daily Client Intelligence</title>
-    <!-- Google Fonts: Lexend & JetBrains Mono -->
+    <title>FBIZ RADAR — Inteligência Diária & O "E Daí?"</title>
+    <!-- Fontes Google: Lexend & JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-base: #eef0f4;
-            --surface-glass: rgba(255, 255, 255, 0.85);
-            --surface-glass-border: rgba(255, 255, 255, 0.95);
-            --border-light: rgba(0, 0, 0, 0.08);
-            --text-primary: #121418;
-            --text-secondary: #5c6470;
-            --text-muted: #8c96a4;
-            --fbiz-dark: #0f1115;
-            --fbiz-silver: #d0d7e2;
-            --accent-chrome: #3b82f6;
-            --font-ui: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
-            --font-mono: 'JetBrains Mono', monospace;
-            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-            --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.06);
-            --shadow-glass: 0 8px 30px rgba(0, 0, 0, 0.05);
+            --bg-base: #0B0E14;
+            --bg-surface: #121721;
+            --bg-card: rgba(22, 28, 41, 0.75);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-highlight: rgba(255, 255, 255, 0.18);
+            --text-primary: #F0F4F8;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --accent-brand: #FF4D2D;
+            --accent-gradient: linear-gradient(135deg, #FF4D2D 0%, #FF8A00 100%);
             --radius-sm: 8px;
             --radius-md: 14px;
             --radius-lg: 20px;
+            --font-main: 'Lexend', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
         }
 
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
         }
 
         body {
             background-color: var(--bg-base);
-            background-image: 
-                radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.9) 0%, transparent 40%),
-                radial-gradient(circle at 85% 75%, rgba(208, 215, 226, 0.4) 0%, transparent 50%),
-                linear-gradient(to right, rgba(0,0,0,0.02) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(0,0,0,0.02) 1px, transparent 1px);
-            background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
-            font-family: var(--font-ui);
             color: var(--text-primary);
+            font-family: var(--font-main);
             min-height: 100vh;
-            padding-bottom: 60px;
-            -webkit-font-smoothing: antialiased;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 10%, rgba(255, 77, 45, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 85% 60%, rgba(0, 195, 255, 0.04) 0%, transparent 45%);
+            background-attachment: fixed;
         }
 
-        header.top-header {
-            background: rgba(15, 17, 21, 0.94);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            color: #ffffff;
+        /* Topbar Header */
+        header {
             position: sticky;
             top: 0;
             z-index: 100;
-            padding: 14px 28px;
+            background: rgba(11, 14, 20, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 16px 28px;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
 
-        .header-brand {
+        .brand-logo-area {
             display: flex;
             align-items: center;
             gap: 12px;
         }
 
         .logo-badge {
-            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
-            color: var(--fbiz-dark);
+            background: var(--accent-gradient);
+            color: #FFFFFF;
             font-weight: 800;
             font-size: 15px;
-            padding: 4px 10px;
+            letter-spacing: 1.5px;
+            padding: 6px 12px;
             border-radius: var(--radius-sm);
-            letter-spacing: 0.5px;
-            font-family: var(--font-mono);
-            box-shadow: 0 2px 10px rgba(255,255,255,0.2);
+            box-shadow: 0 4px 14px rgba(255, 77, 45, 0.35);
         }
 
-        .header-title {
-            font-size: 16px;
-            font-weight: 600;
-            letter-spacing: -0.2px;
+        .title-area h1 {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
             display: flex;
             align-items: center;
             gap: 8px;
         }
 
-        .header-title span.tag {
-            color: #94a3b8;
-            font-size: 13px;
+        .title-area span {
+            font-size: 12px;
+            color: var(--text-secondary);
             font-weight: 400;
-            font-family: var(--font-mono);
         }
 
-        .header-meta {
+        .timestamp-box {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.04);
+            padding: 6px 12px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-subtle);
             display: flex;
             align-items: center;
-            gap: 16px;
-            font-family: var(--font-mono);
-            font-size: 12px;
-            color: #94a3b8;
-        }
-
-        .live-status {
-            display: inline-flex;
-            align-items: center;
             gap: 6px;
-            background: rgba(34, 197, 94, 0.12);
-            color: #4ade80;
-            padding: 4px 10px;
-            border-radius: 20px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            font-size: 11px;
-            font-weight: 500;
         }
 
-        .live-pulse {
+        .live-dot {
             width: 7px;
             height: 7px;
-            background-color: #4ade80;
             border-radius: 50%;
-            box-shadow: 0 0 8px #4ade80;
+            background: #10B981;
+            box-shadow: 0 0 8px #10B981;
             animation: pulse 2s infinite;
         }
 
         @keyframes pulse {
-            0% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.4; transform: scale(1.2); }
-            100% { opacity: 1; transform: scale(1); }
+            0% { opacity: 0.4; transform: scale(0.9); }
+            50% { opacity: 1; transform: scale(1.2); }
+            100% { opacity: 0.4; transform: scale(0.9); }
         }
 
-        .app-container {
-            max-width: 1280px;
-            margin: 24px auto 0;
-            padding: 0 24px;
-        }
-
-        .client-tabs-wrapper {
-            background: var(--surface-glass);
-            backdrop-filter: blur(16px);
-            border: 1px solid var(--surface-glass-border);
-            border-radius: var(--radius-md);
-            padding: 8px;
-            margin-bottom: 24px;
-            box-shadow: var(--shadow-sm);
-            overflow: hidden;
-        }
-
-        .tabs-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 4px 8px 8px 8px;
-            border-bottom: 1px solid var(--border-light);
-            margin-bottom: 8px;
-        }
-
-        .tabs-title {
-            font-size: 11px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--text-muted);
-            font-family: var(--font-mono);
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .client-tabs-nav {
-            display: flex;
-            gap: 6px;
+        /* Nav horizontal de marcas */
+        .client-nav-wrapper {
+            background: rgba(18, 23, 33, 0.6);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 10px 24px;
             overflow-x: auto;
-            scroll-behavior: smooth;
-            padding-bottom: 4px;
-            -webkit-overflow-scrolling: touch;
+            white-space: nowrap;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
         }
 
-        .client-tabs-nav::-webkit-scrollbar {
-            height: 4px;
+        .client-nav-wrapper::-webkit-scrollbar {
+            height: 5px;
         }
-        .client-tabs-nav::-webkit-scrollbar-thumb {
-            background: #cbd5e1;
-            border-radius: 4px;
+        .client-nav-wrapper::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
         }
 
-        .tab-btn {
-            background: transparent;
-            border: 1px solid transparent;
+        .nav-chips {
+            display: inline-flex;
+            gap: 8px;
+        }
+
+        .chip-btn {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-subtle);
             color: var(--text-secondary);
-            padding: 8px 14px;
-            border-radius: var(--radius-sm);
-            font-family: var(--font-ui);
+            padding: 7px 16px;
+            border-radius: 30px;
+            font-family: var(--font-main);
             font-size: 13px;
             font-weight: 500;
             cursor: pointer;
-            white-space: nowrap;
-            transition: all 0.2s ease;
-            display: flex;
-            align-items: center;
-            gap: 6px;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .tab-btn:hover {
-            background: rgba(255, 255, 255, 0.7);
-            color: var(--text-primary);
+        .chip-btn:hover {
+            color: #FFFFFF;
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--border-highlight);
+            transform: translateY(-1px);
         }
 
-        .tab-btn.active {
-            background: var(--fbiz-dark);
-            color: #ffffff;
+        .chip-btn.active {
+            color: #FFFFFF;
+            background: #252D3D;
+            border-color: rgba(255, 255, 255, 0.35);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
             font-weight: 600;
-            box-shadow: 0 4px 12px rgba(15, 17, 21, 0.15);
         }
 
-        .tab-btn .dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            display: inline-block;
+        /* Container Principal */
+        main {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 32px 24px 60px;
+            flex: 1;
         }
 
-        .brand-hero-card {
+        /* Card Hero da Marca Selecionada */
+        .brand-hero {
+            padding: 36px 40px;
             border-radius: var(--radius-lg);
-            padding: 32px 36px;
-            margin-bottom: 24px;
+            margin-bottom: 32px;
             position: relative;
             overflow: hidden;
-            box-shadow: var(--shadow-md);
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+            transition: all 0.35s ease;
         }
 
-        .hero-top {
+        .brand-hero-meta {
             display: flex;
+            align-items: center;
             justify-content: space-between;
-            align-items: flex-start;
             margin-bottom: 16px;
         }
 
-        .hero-client-name {
-            font-size: 36px;
-            font-weight: 800;
-            letter-spacing: -0.8px;
-            line-height: 1.1;
-            font-family: var(--font-ui);
-        }
-
-        .hero-category-tag {
-            font-family: var(--font-mono);
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            background: rgba(0, 0, 0, 0.15);
-            backdrop-filter: blur(8px);
-            padding: 6px 12px;
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.25);
-            display: inline-block;
-        }
-
-        .hero-territories {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 14px;
-        }
-
-        .territory-pill {
-            font-size: 12px;
-            background: rgba(0, 0, 0, 0.12);
-            padding: 4px 10px;
-            border-radius: var(--radius-sm);
-            font-family: var(--font-mono);
-            backdrop-filter: blur(4px);
-        }
-
-        .headline-card {
-            background: var(--surface-glass);
-            backdrop-filter: blur(16px);
-            border: 1px solid var(--surface-glass-border);
-            border-left: 4px solid var(--fbiz-dark);
-            border-radius: var(--radius-md);
-            padding: 24px;
-            margin-bottom: 24px;
-            box-shadow: var(--shadow-glass);
-        }
-
-        .headline-badge {
+        .brand-hero-tag {
             font-family: var(--font-mono);
             font-size: 11px;
             font-weight: 700;
-            color: var(--accent-chrome);
             text-transform: uppercase;
             letter-spacing: 1.5px;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+        }
+
+        .brand-hero-title {
+            font-size: 38px;
+            font-weight: 800;
+            letter-spacing: -1.2px;
+            margin-bottom: 12px;
+            line-height: 1.15;
+        }
+
+        .brand-hero-headline {
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 1.5;
+            opacity: 0.95;
+            max-width: 900px;
+        }
+
+        /* Grid da Inteligência Estratégica ("O E Daí?") */
+        .strategic-radar-container {
+            margin-bottom: 40px;
+        }
+
+        .section-header {
             display: flex;
             align-items: center;
-            gap: 6px;
+            justify-content: space-between;
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 17px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: -0.3px;
+        }
+
+        .section-badge {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            background: rgba(255, 77, 45, 0.15);
+            color: #FF6E4A;
+            border: 1px solid rgba(255, 77, 45, 0.3);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .strategic-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .strat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            position: relative;
+            backdrop-filter: blur(12px);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .strat-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--border-highlight);
+        }
+
+        .strat-card-step {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+
+        .step-icon {
+            font-size: 20px;
+            width: 38px;
+            height: 38px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .step-label {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        .card-fato .step-label { color: #38BDF8; }
+        .card-edai .step-label { color: #FBBF24; }
+        .card-acao .step-label { color: #34D399; }
+
+        .strat-text {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #E2E8F0;
+            font-weight: 400;
+        }
+
+        /* Seção de Notícias das Últimas 48 Horas */
+        .feed-container {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 28px 32px;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .news-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 18px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .news-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .news-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-muted);
             margin-bottom: 10px;
         }
 
-        .headline-title {
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 1.35;
+        .news-source {
+            color: #38BDF8;
+            font-weight: 500;
+        }
+
+        .news-title {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.45;
             color: var(--text-primary);
             margin-bottom: 8px;
         }
 
-        .headline-summary {
-            font-size: 14px;
-            color: var(--text-secondary);
-            line-height: 1.6;
+        .news-arrow {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 8px;
+            align-self: flex-end;
+            transition: color 0.2s;
         }
 
-        .content-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 24px;
-            margin-bottom: 24px;
+        .news-item:hover .news-arrow {
+            color: var(--accent-brand);
         }
 
+        /* Rodapé */
+        footer {
+            border-top: 1px solid var(--border-subtle);
+            padding: 24px;
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+        }
+
+        /* Responsividade */
         @media (max-width: 900px) {
-            .content-grid {
+            .strategic-grid {
                 grid-template-columns: 1fr;
             }
-        }
-
-        .section-block {
-            background: var(--surface-glass);
-            backdrop-filter: blur(16px);
-            border: 1px solid var(--surface-glass-border);
-            border-radius: var(--radius-md);
-            padding: 24px;
-            box-shadow: var(--shadow-glass);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .section-header {
-            font-family: var(--font-mono);
-            font-size: 13px;
-            font-weight: 700;
-            color: var(--fbiz-dark);
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            padding-bottom: 12px;
-            border-bottom: 1px solid var(--border-light);
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .section-header .count-tag {
-            background: #e2e8f0;
-            color: var(--text-secondary);
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 11px;
-        }
-
-        .insights-list {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .insight-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 14px;
-            background: rgba(255, 255, 255, 0.6);
-            border: 1px solid rgba(0, 0, 0, 0.05);
-            padding: 14px 16px;
-            border-radius: var(--radius-sm);
-        }
-
-        .insight-number {
-            font-family: var(--font-mono);
-            font-size: 14px;
-            font-weight: 700;
-            background: var(--fbiz-dark);
-            color: #ffffff;
-            width: 26px;
-            height: 26px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .insight-body {
-            font-size: 13.5px;
-            color: var(--text-primary);
-            line-height: 1.55;
-        }
-
-        .insight-body strong {
-            font-weight: 600;
-            color: #000000;
-        }
-
-        .news-list {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-
-        .news-card {
-            background: rgba(255, 255, 255, 0.7);
-            border: 1px solid rgba(0, 0, 0, 0.06);
-            border-radius: var(--radius-sm);
-            padding: 14px 16px;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .news-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-            background: #ffffff;
-        }
-
-        .news-card-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-family: var(--font-mono);
-            font-size: 11px;
-            color: var(--text-muted);
-            margin-bottom: 6px;
-        }
-
-        .news-card-source {
-            color: var(--accent-chrome);
-            font-weight: 600;
-        }
-
-        .news-card-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-primary);
-            line-height: 1.4;
-            margin-bottom: 6px;
-        }
-
-        .news-card-snippet {
-            font-size: 12.5px;
-            color: var(--text-secondary);
-            line-height: 1.5;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .archive-section {
-            background: var(--surface-glass);
-            backdrop-filter: blur(16px);
-            border: 1px solid var(--surface-glass-border);
-            border-radius: var(--radius-md);
-            padding: 24px;
-            box-shadow: var(--shadow-glass);
-        }
-
-        .archive-accordion {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        details.archive-item {
-            background: rgba(255, 255, 255, 0.6);
-            border: 1px solid rgba(0, 0, 0, 0.06);
-            border-radius: var(--radius-sm);
-            overflow: hidden;
-            transition: background 0.2s ease;
-        }
-
-        details.archive-item[open] {
-            background: #ffffff;
-        }
-
-        summary.archive-summary {
-            padding: 14px 18px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            list-style: none;
-            font-family: var(--font-mono);
-        }
-
-        summary.archive-summary::-webkit-details-marker {
-            display: none;
-        }
-
-        summary.archive-summary::after {
-            content: "+";
-            font-size: 18px;
-            color: var(--text-muted);
-            font-weight: 400;
-        }
-
-        details[open] summary.archive-summary::after {
-            content: "−";
-        }
-
-        .archive-content {
-            padding: 0 18px 18px 18px;
-            font-size: 13px;
-            color: var(--text-secondary);
-            border-top: 1px solid rgba(0,0,0,0.04);
-            margin-top: 4px;
-            padding-top: 12px;
-        }
-
-        footer {
-            margin-top: 40px;
-            text-align: center;
-            font-family: var(--font-mono);
-            font-size: 11px;
-            color: var(--text-muted);
+            .brand-hero {
+                padding: 24px 20px;
+            }
+            .brand-hero-title {
+                font-size: 28px;
+            }
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
 
-    <header class="top-header">
-        <div class="header-brand">
+    <header>
+        <div class="brand-logo-area">
             <div class="logo-badge">FBIZ</div>
-            <div class="header-title">
-                RADAR <span class="tag">// Daily Intelligence Hub</span>
+            <div class="title-area">
+                <h1>RADAR <span>Inteligência & "E Daí?"</span></h1>
             </div>
         </div>
-        <div class="header-meta">
-            <div class="live-status">
-                <span class="live-pulse"></span> AUTO-UPDATED DAILY 06:30
-            </div>
-            <span id="current-date-display">13 OUT 2026</span>
+        <div class="timestamp-box">
+            <div class="live-dot"></div>
+            <span id="update-timestamp">Atualizando...</span>
         </div>
     </header>
 
-    <div class="app-container">
-        
-        <div class="client-tabs-wrapper">
-            <div class="tabs-header">
-                <span class="tabs-title">✦ Selecionar Cliente (18 Contas Ativas)</span>
-                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">Use ◄ ► para navegar</span>
-            </div>
-            <div class="client-tabs-nav" id="client-tabs-container">
-            </div>
+    <nav class="client-nav-wrapper">
+        <div class="nav-chips" id="nav-chips">
+            <!-- Chips gerados dinamicamente via JS -->
         </div>
+    </nav>
 
-        <div class="brand-hero-card" id="brand-hero-banner">
-            <div class="hero-top">
-                <div>
-                    <span class="hero-category-tag" id="hero-category">Categoria</span>
-                    <h1 class="hero-client-name" id="hero-client-name" style="margin-top: 8px;">Nome do Cliente</h1>
-                </div>
+    <main>
+        <!-- Hero Card da Marca -->
+        <section class="brand-hero" id="brand-hero">
+            <div class="brand-hero-meta">
+                <span class="brand-hero-tag" id="hero-tag">CLIENTE FBIZ</span>
+                <span style="font-family: var(--font-mono); font-size: 12px; opacity: 0.8;" id="hero-date">Hoje</span>
             </div>
-            <div class="hero-territories" id="hero-territories">
-            </div>
-        </div>
+            <h2 class="brand-hero-title" id="hero-name">Carregando...</h2>
+            <p class="brand-hero-headline" id="hero-headline">Buscando inteligência diária do ecossistema...</p>
+        </section>
 
-        <div class="headline-card">
-            <div class="headline-badge">
-                <span>✦</span> MANCHETE PRINCIPAL DO DIA
-            </div>
-            <h2 class="headline-title" id="headline-title">Carregando inteligência diária...</h2>
-            <p class="headline-summary" id="headline-summary">Aguarde o carregamento dos dados atualizados do RADAR FBIZ.</p>
-        </div>
-
-        <div class="content-grid">
-            
-            <div class="section-block">
-                <div class="section-header">
-                    <span>// INSIGHTS ESTRATÉGICOS</span>
-                    <span class="count-tag" id="insights-count">3 AÇÕES</span>
-                </div>
-                <div class="insights-list" id="insights-container">
-                </div>
-            </div>
-
-            <div class="section-block">
-                <div class="section-header">
-                    <span>// NOTÍCIAS & MERCADO (48H)</span>
-                    <span class="count-tag" id="news-count">4 FONTES</span>
-                </div>
-                <div class="news-list" id="news-container">
-                </div>
-            </div>
-
-        </div>
-
-        <div class="archive-section">
+        <!-- Matriz Estratégica: O E Daí? -->
+        <section class="strategic-radar-container">
             <div class="section-header">
-                <span>// EDIÇÕES ANTERIORES & HISTÓRICO</span>
-                <span class="count-tag">ÚLTIMOS 7 DIAS</span>
+                <div class="section-title">
+                    <span>⚡ RADAR DE OPORTUNIDADES & O "E DAÍ?"</span>
+                    <span class="section-badge">DIRECIONAMENTO TÁTICO</span>
+                </div>
             </div>
-            <div class="archive-accordion" id="archive-container">
-            </div>
-        </div>
 
-        <footer>
-            FBIZ RADAR &copy; 2026 // Sistema de Inteligência Automatizada para Contas e Planejamento.
-        </footer>
-    </div>
+            <div class="strategic-grid">
+                <!-- Card 1: Fato -->
+                <div class="strat-card card-fato">
+                    <div class="strat-card-step">
+                        <div class="step-icon">📌</div>
+                        <div>
+                            <div class="step-label">1. O Fato</div>
+                            <span style="font-size: 11px; color: var(--text-muted);">O que aconteceu</span>
+                        </div>
+                    </div>
+                    <p class="strat-text" id="strat-fato">Carregando síntese do fato mais relevante...</p>
+                </div>
+
+                <!-- Card 2: E Daí? -->
+                <div class="strat-card card-edai">
+                    <div class="strat-card-step">
+                        <div class="step-icon">💡</div>
+                        <div>
+                            <div class="step-label">2. E Daí?</div>
+                            <span style="font-size: 11px; color: var(--text-muted);">Impacto & Contexto</span>
+                        </div>
+                    </div>
+                    <p class="strat-text" id="strat-edai">Avaliando reflexo na categoria e no comportamento...</p>
+                </div>
+
+                <!-- Card 3: Ação FBIZ -->
+                <div class="strat-card card-acao">
+                    <div class="strat-card-step">
+                        <div class="step-icon">🚀</div>
+                        <div>
+                            <div class="step-label">3. O que a FBIZ faz</div>
+                            <span style="font-size: 11px; color: var(--text-muted);">Ação prática</span>
+                        </div>
+                    </div>
+                    <p class="strat-text" id="strat-acao">Desenhando oportunidade de pauta, PR ou mídia...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feed de Notícias 48h -->
+        <section class="feed-container">
+            <div class="section-header">
+                <div class="section-title">
+                    <span>📰 Clipping das Últimas 48h</span>
+                </div>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);" id="news-count">0 notícias</span>
+            </div>
+            <div class="news-grid" id="news-grid">
+                <!-- Notícias inseridas dinamicamente -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        FBIZ RADAR — Monitoramento Diário Automatizado & Inteligência Estratégica via Gemini AI
+    </footer>
 
     <script>
-        const CLIENTS_DB = {
-            "mm": { 
-                name: "M&M's", 
-                category: "Confeitaria & Pop Culture", 
-                bg: "#FFC800", 
-                color: "#4A150B", 
-                dot: "#4A150B", 
-                territories: ["Snack Market", "Pop Culture", "Diversidade & Inclusão", "Mars Wrigley"] 
-            },
-            "tegra": { 
-                name: "Tegra", 
-                category: "Mercado Imobiliário de Luxo", 
-                bg: "radial-gradient(circle at 80% 20%, #4a4235 0%, #22201d 55%, #141311 100%)", 
-                color: "#FFFFFF", 
-                dot: "#00D2FF", 
-                territories: ["Arquitetura de Alto Padrão", "Urbanismo Sustentável", "ESG", "PropTech"] 
-            },
-            "twix": { 
-                name: "Twix", 
-                category: "Confeitaria & Gen Z", 
-                bg: "#F5AB35", 
-                color: "#D90000", 
-                dot: "#D90000", 
-                territories: ["Pausa & Break", "Snacking Trends", "Redes Sociais", "Gamification"] 
-            },
-            "paixao": { 
-                name: "Paixão", 
-                category: "Cuidados Pessoais & Skincare", 
-                bg: "#C5002A", 
-                color: "#EAD175", 
-                dot: "#EAD175", 
-                territories: ["Hidratação Corporal", "Autocuidado", "Mercado de Beleza Coty", "Rituais de Bem-estar"] 
-            },
-            "warner": { 
-                name: "Warner Bros.", 
-                category: "Entretenimento & Cinema", 
-                bg: "#071B54", 
-                color: "#FFC800", 
-                dot: "#FFC800", 
-                territories: ["CCXP", "Bilheteria Cinema", "Lançamentos Blockbuster", "Streaming Wars"] 
-            },
-            "totvs": { 
-                name: "TOTVS", 
-                category: "Tecnologia B2B & Software", 
-                bg: "#00C3FF", 
-                color: "#021B35", 
-                dot: "#021B35", 
-                territories: ["Sistemas ERP", "Inteligência Artificial B2B", "SaaS Brasil", "Transformação Digital"] 
-            },
-            "snickers": { 
-                name: "Snickers", 
-                category: "Chocolates & Esportes", 
-                bg: "#3B1408", 
-                color: "#FFFFFF", 
-                dot: "#F39C12", 
-                territories: ["NFL Brasil", "Esports & Gaming", "Fome & Conveniência", "Campanhas Globais"] 
-            },
-            "monange": { 
-                name: "Monange", 
-                category: "Beleza & Haircare", 
-                bg: "#AD65CF", 
-                color: "#FFFFFF", 
-                dot: "#FF80AB", 
-                territories: ["Capilar & Cuidados", "Autoestima Feminina", "Beleza Acessível", "Coty Brasil"] 
-            },
-            "cenoura": { 
-                name: "Cenoura & Bronze", 
-                category: "Proteção Solar & Verão", 
-                bg: "#E45B25", 
-                color: "#FFFFFF", 
-                dot: "#F1C40F", 
-                territories: ["Tendências de Verão", "Filtro Solar & Dermatologia", "Praia & Outdoor", "Sustentabilidade"] 
-            },
-            "quintoandar": { 
-                name: "QuintoAndar", 
-                category: "Proptech & Moradia", 
-                bg: "#2B4BEB", 
-                color: "#FFFFFF", 
-                dot: "#00E5FF", 
-                territories: ["Aluguel & Compra", "Índice de Aluguel", "Inovação Imobiliária", "Design de Interiores"] 
-            },
-            "google": { 
-                name: "Google", 
-                category: "Tecnologia & AdTech", 
-                bg: "linear-gradient(135deg, #EA4335 0%, #FBBC05 33%, #34A853 66%, #4285F4 100%)", 
-                color: "#FFFFFF", 
-                dot: "#34A853", 
-                territories: ["AI Gemini", "Search Updates", "Google Cloud", "Ecossistema Anúncios"] 
-            },
-            "hbo": { 
-                name: "HBO Max", 
-                category: "Streaming & Séries", 
-                bg: "#08080A", 
-                color: "#F0F3F7", 
-                dot: "#E040FB", 
-                territories: ["Séries Premiere", "Engajamento de Fãs", "Assinaturas VOD", "Produções Nacionais"] 
-            },
-            "panco": { 
-                name: "Panco", 
-                category: "Alimentos & Panificação", 
-                bg: "#D9001B", 
-                color: "#FFFFFF", 
-                dot: "#FFC300", 
-                territories: ["Mercado de Pães", "Varejo Alimentício", "Lanches Rápidos", "Ingredientes & Saudabilidade"] 
-            },
-            "geely": { 
-                name: "Geely", 
-                category: "Automotivo & Veículos Elétricos", 
-                bg: "linear-gradient(135deg, #00D2FF 0%, #3A7BD5 33%, #FF5252 66%, #9C27B0 100%)", 
-                color: "#FFFFFF", 
-                dot: "#00D2FF", 
-                territories: ["Carros Elétricos (EV)", "Mobilidade Sustentável", "Inovação Automotiva", "Expansão Brasil"] 
-            },
-            "99pay": { 
-                name: "99Pay", 
-                category: "Fintech & Carteiras Digitais", 
-                bg: "#FFE600", 
-                color: "#000000", 
-                dot: "#000000", 
-                territories: ["Inclusão Financeira", "Pix & Cashback", "Mobilidade + Finanças", "Gen Z Economia"] 
-            },
-            "vans": { 
-                name: "Vans", 
-                category: "Streetwear & Skate", 
-                bg: "#111111", 
-                color: "#FFFFFF", 
-                dot: "#FFFFFF", 
-                territories: ["Cultura Skate", "Streetwear & Sneakerheads", "Música Independente", "VF Corp"] 
-            },
-            "arezzo": { 
-                name: "Arezzo", 
-                category: "Calçados & Moda Feminina", 
-                bg: "#111111", 
-                color: "#FFFFFF", 
-                dot: "#E0E0E0", 
-                territories: ["SPFW & Semanas de Moda", "Tendências de Calçados", "Varejo Moda Luxo", "AZZAS 2154"] 
-            },
-            "schutz": { 
-                name: "Schutz", 
-                category: "Moda Fashion & High-End", 
-                bg: "#111111", 
-                color: "#FFFFFF", 
-                dot: "#00FFCC", 
-                territories: ["Design Fashion Bold", "Acessórios Premium", "Marketing de Influência", "Coleções Internacionais"] 
-            }
+        // Paletas de cores e estilos oficiais dos 18 clientes
+        const BRAND_STYLES = {
+            "mms": { bg: "#FFC800", color: "#4A150B" },
+            "tegra": { bg: "radial-gradient(circle at 80% 20%, #4a4235 0%, #22201d 55%, #141311 100%)", color: "#FFFFFF" },
+            "twix": { bg: "#F5AB35", color: "#D90000" },
+            "paixao": { bg: "#C5002A", color: "#EAD175" },
+            "warner": { bg: "#071B54", color: "#FFC800" },
+            "totvs": { bg: "#00C3FF", color: "#021B35" },
+            "snickers": { bg: "#3B1408", color: "#FFFFFF" },
+            "monange": { bg: "#AD65CF", color: "#FFFFFF" },
+            "cenoura": { bg: "#E45B25", color: "#FFFFFF" },
+            "quintoandar": { bg: "#2B4BEB", color: "#FFFFFF" },
+            "google": { bg: "linear-gradient(135deg, #EA4335 0%, #FBBC05 33%, #34A853 66%, #4285F4 100%)", color: "#FFFFFF" },
+            "hbomax": { bg: "#08080A", color: "#F0F3F7" },
+            "panco": { bg: "#D9001B", color: "#FFFFFF" },
+            "geely": { bg: "linear-gradient(135deg, #00D2FF 0%, #3A7BD5 33%, #FF5252 66%, #9C27B0 100%)", color: "#FFFFFF" },
+            "99pay": { bg: "#FFE600", color: "#000000" },
+            "vans": { bg: "#111111", color: "#FFFFFF" },
+            "arezzo": { bg: "#111111", color: "#FFFFFF" },
+            "schutz": { bg: "#111111", color: "#FFFFFF" }
         };
 
-        let currentClientKey = "snickers";
-        let clientDataStore = {};
+        const CLIENT_ORDER = [
+            "mms", "tegra", "twix", "paixao", "warner", "totvs",
+            "snickers", "monange", "cenoura", "quintoandar", "google", "hbomax",
+            "panco", "geely", "99pay", "vans", "arezzo", "schutz"
+        ];
 
-        function generateFallbackData(clientKey) {
-            const client = CLIENTS_DB[clientKey];
-            return {
-                headline: {
-                    title: `Tendências e Movimentações Estratégicas em ${client.category}`,
-                    summary: `Análise automatizada de mercado mapeando os principais veículos e territórios de ${client.name} nas últimas 48 horas.`
-                },
-                insights: [
-                    { num: "01", text: `<strong>Posicionamento no Território:</strong> Oportunidade de amplificação em ${client.territories[0]} aproveitando engajamento crescente nas redes.` },
-                    { num: "02", text: `<strong>Benchmarking Diário:</strong> Concorrentes diretos intensificam ações focadas em ${client.territories[1] || 'inovação'}.` },
-                    { num: "03", text: `<strong>Recomendação FBIZ:</strong> Ativação rápida de conteúdo explorando sinergia entre ${client.territories[2] || 'cultura pop'} e a audiência da marca.` }
-                ],
-                news: [
-                    { source: "Exame", time: "Há 4 horas", title: `Mercado de ${client.category} registra aceleração com novas estratégias digitais`, snippet: `Especialistas indicam que marcas que investem em inovação e territórios de afinidade estão liderando o share of voice.`, url: "#" },
-                    { source: "Meio & Mensagem", time: "Há 7 horas", title: `${client.name}: Análise de presença de marca nas conversas das redes sociais`, snippet: `Mapeamento indica alta receptividade do público jovem para formatos curtos e ações interativas no setor.`, url: "#" },
-                    { source: "Valor Econômico", time: "Há 12 horas", title: `Perspectivas de consumo e varejo para as contas do segmento no Brasil`, snippet: `Dados consolidados apontam crescimento da demanda por produtos com apelo de sustentabilidade e conveniência.`, url: "#" }
-                ],
-                archive: [
-                    { date: "12 OUT 2026", summary: `Relatório diário anterior focado na expansão dos territórios de ${client.name}.` },
-                    { date: "11 OUT 2026", summary: `Resumo de mídia e clipping de notícias de concorrentes na categoria.` }
-                ]
-            };
+        let radarData = null;
+        let currentClientId = "mms";
+
+        async function initRadar() {
+            try {
+                const res = await fetch('news_data.json?v=' + Date.now());
+                if (!res.ok) throw new Error("news_data.json não encontrado");
+                radarData = await res.json();
+                
+                document.getElementById('update-timestamp').innerText = 'Atualizado em ' + (radarData.updated_at || 'Hoje');
+                renderNav();
+                renderClient(currentClientId);
+            } catch (err) {
+                console.warn("Usando fallback de dados temporários:", err);
+                renderNavFallback();
+            }
         }
 
-        function renderTabs() {
-            const container = document.getElementById("client-tabs-container");
-            container.innerHTML = "";
-            Object.keys(CLIENTS_DB).forEach(key => {
-                const client = CLIENTS_DB[key];
-                const btn = document.createElement("button");
-                btn.className = `tab-btn ${key === currentClientKey ? 'active' : ''}`;
-                btn.onclick = () => selectClient(key);
-                btn.innerHTML = `<span class="dot" style="background-color: ${client.dot};"></span> ${client.name}`;
-                container.appendChild(btn);
+        function renderNav() {
+            const navContainer = document.getElementById('nav-chips');
+            navContainer.innerHTML = '';
+
+            CLIENT_ORDER.forEach(id => {
+                const client = radarData.clients[id];
+                if (!client) return;
+
+                const btn = document.createElement('button');
+                btn.className = `chip-btn ${id === currentClientId ? 'active' : ''}`;
+                btn.innerText = client.name;
+                btn.onclick = () => selectClient(id);
+                navContainer.appendChild(btn);
             });
         }
 
-        function selectClient(key) {
-            currentClientKey = key;
-            renderTabs();
-            const client = CLIENTS_DB[key];
-            const data = clientDataStore[key] || generateFallbackData(key);
-
-            const hero = document.getElementById("brand-hero-banner");
-            hero.style.background = client.bg;
-            hero.style.color = client.color;
-            document.getElementById("hero-client-name").innerText = client.name;
-            document.getElementById("hero-client-name").style.color = client.color;
-            document.getElementById("hero-category").innerText = client.category;
-            document.getElementById("hero-category").style.color = client.color;
-
-            const terrContainer = document.getElementById("hero-territories");
-            terrContainer.innerHTML = client.territories.map(t => `<span class="territory-pill" style="color: ${client.color};">✦ ${t}</span>`).join('');
-
-            document.getElementById("headline-title").innerText = data.headline.title;
-            document.getElementById("headline-summary").innerText = data.headline.summary;
-
-            const insightsContainer = document.getElementById("insights-container");
-            insightsContainer.innerHTML = data.insights.map(item => `
-                <div class="insight-item">
-                    <div class="insight-number">${item.num}</div>
-                    <div class="insight-body">${item.text}</div>
-                </div>
-            `).join('');
-            document.getElementById("insights-count").innerText = `${data.insights.length} AÇÕES`;
-
-            const newsContainer = document.getElementById("news-container");
-            newsContainer.innerHTML = data.news.map(item => `
-                <a href="${item.url}" target="_blank" class="news-card">
-                    <div class="news-card-meta">
-                        <span class="news-card-source">${item.source}</span>
-                        <span>${item.time}</span>
-                    </div>
-                    <div class="news-card-title">${item.title}</div>
-                    <div class="news-card-snippet">${item.snippet}</div>
-                </a>
-            `).join('');
-            document.getElementById("news-count").innerText = `${data.news.length} FONTES`;
-
-            const archiveContainer = document.getElementById("archive-container");
-            archiveContainer.innerHTML = data.archive.map(item => `
-                <details class="archive-item">
-                    <summary class="archive-summary">Edição de ${item.date}</summary>
-                    <div class="archive-content">
-                        <p>${item.summary}</p>
-                    </div>
-                </details>
-            `).join('');
+        function selectClient(id) {
+            currentClientId = id;
+            document.querySelectorAll('.chip-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderClient(id);
         }
 
-        async function loadLiveData() {
-            try {
-                const response = await fetch('./news_data.json?t=' + new Date().getTime());
-                if (response.ok) {
-                    const json = await response.json();
-                    if (json.clients) {
-                        clientDataStore = json.clients;
-                        if (json.updated_at) {
-                            document.getElementById("current-date-display").innerText = json.updated_at;
-                        }
-                    }
-                }
-            } catch (e) {
-                console.log("Usando dados locais de fallback.");
+        function renderClient(id) {
+            const client = radarData.clients[id];
+            if (!client) return;
+
+            const style = BRAND_STYLES[id] || { bg: '#252D3D', color: '#FFFFFF' };
+            const hero = document.getElementById('brand-hero');
+
+            // Aplicar identidade visual
+            hero.style.background = style.bg;
+            hero.style.color = style.color;
+
+            // Dados da Marca
+            document.getElementById('hero-name').innerText = client.name;
+            document.getElementById('hero-headline').innerText = client.headline || 'Monitoramento estratégico diário.';
+
+            // Dados Estratégicos: O "E Daí?"
+            const strat = client.strategic_analysis || {};
+            document.getElementById('strat-fato').innerText = strat.fato || "Notícias em monitoramento contínuo.";
+            document.getElementById('strat-edai').innerText = strat.e_dai || "Avaliando impacto nas conversas sociais e de mercado.";
+            document.getElementById('strat-acao').innerText = strat.acao || "Alinhar oportunidades de conteúdo e ativações com o time.";
+
+            // Lista de Notícias
+            const newsGrid = document.getElementById('news-grid');
+            newsGrid.innerHTML = '';
+            const newsList = client.news || [];
+            document.getElementById('news-count').innerText = `${newsList.length} notícias rastreadas`;
+
+            if (newsList.length === 0) {
+                newsGrid.innerHTML = '<p style="color: var(--text-muted); font-size: 14px;">Nenhuma notícia registrada nas últimas horas.</p>';
+                return;
             }
-            selectClient(currentClientKey);
+
+            newsList.forEach(item => {
+                const card = document.createElement('a');
+                card.className = 'news-item';
+                card.href = item.link;
+                card.target = '_blank';
+                card.rel = 'noopener noreferrer';
+
+                card.innerHTML = `
+                    <div>
+                        <div class="news-meta">
+                            <span class="news-source">${item.source || 'Imprensa'}</span>
+                            <span>${item.published ? item.published.substring(0, 16) : ''}</span>
+                        </div>
+                        <h4 class="news-title">${item.title}</h4>
+                    </div>
+                    <div class="news-arrow">Acessar matéria ↗</div>
+                `;
+                newsGrid.appendChild(card);
+            });
         }
 
-        document.addEventListener("DOMContentLoaded", () => {
-            renderTabs();
-            loadLiveData();
-        });
+        function renderNavFallback() {
+            document.getElementById('hero-name').innerText = "Radar Ativo";
+            document.getElementById('hero-headline').innerText = "Execute o workflow no GitHub Actions para carregar a primeira rodada de inteligência.";
+        }
+
+        window.addEventListener('DOMContentLoaded', initRadar);
     </script>
 </body>
 </html>
