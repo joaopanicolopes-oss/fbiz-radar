@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026: Marca + Concorrentes + Territórios Culturais do Onepager + Mercado
+# Matriz Estratégica FBIZ 2026 com Territórios do Onepager
 CLIENTS = [
     {
         "id": "mms",
@@ -210,12 +210,10 @@ CLIENTS = [
 ]
 
 def fetch_rss_segment(query, tag, time_window="48h", limit=2):
-    """Busca notícias para um segmento específico garantindo filtro de 48h com timestamp."""
     encoded_query = urllib.parse.quote(f"{query} when:{time_window}")
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     feed = feedparser.parse(rss_url)
 
-    # Fallback para 7d caso não haja notícias recentes em 48h
     if not feed.entries and time_window == "48h":
         encoded_fallback = urllib.parse.quote(f"{query} when:7d")
         fallback_url = f"https://news.google.com/rss/search?q={encoded_fallback}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
@@ -232,7 +230,6 @@ def fetch_rss_segment(query, tag, time_window="48h", limit=2):
         published = entry.published if hasattr(entry, "published") else ""
         link = entry.link if hasattr(entry, "link") else "#"
 
-        # Timestamp para ordenação cronológica
         timestamp = 0
         if hasattr(entry, "published_parsed") and entry.published_parsed:
             timestamp = calendar.timegm(entry.published_parsed)
@@ -258,7 +255,6 @@ def fetch_rss_segment(query, tag, time_window="48h", limit=2):
     return items
 
 def fetch_balanced_client_news(client):
-    """Gera um mix unificado ordenado cronologicamente (mais recente no topo)."""
     queries = client.get("queries", {})
     all_news = []
     seen_titles = set()
@@ -274,12 +270,10 @@ def fetch_balanced_client_news(client):
                 seen_titles.add(norm_title)
                 all_news.append(item)
 
-    # ORDENAÇÃO CRONOLÓGICA ESTRITA: Mais nova no topo
     all_news.sort(key=lambda x: x["timestamp"], reverse=True)
     return all_news[:6]
 
 def generate_ai_analysis(client_name, category, news_items, api_key):
-    """Gera a Trinca Estratégica FBIZ: Fato + Leitura Estratégica + Oportunidade via Gemini"""
     if not api_key or not news_items:
         return {
             "headline": f"{client_name}: Monitoramento ativo em {category} e territórios culturais.",
@@ -296,18 +290,18 @@ def generate_ai_analysis(client_name, category, news_items, api_key):
     )
 
     prompt = f"""
-Você é o Diretor de Estratégia e Criação da agência de publicidade FBIZ Brasil.
+Você é o Diretor de Estratégia e Criação da agência FBIZ Brasil.
 Analise as notícias das últimas 48h conectadas a '{client_name}' (Segmento: {category}).
-A lista traz matérias classificadas por tags: [MARCA], [CONCORRENTE], [TERRITÓRIO] e [MERCADO].
+Classificação: [MARCA], [CONCORRENTE], [TERRITÓRIO] e [MERCADO].
 
-NOTÍCIAS DO ECOSSISTEMA:
+NOTÍCIAS:
 {titles_text}
 
 Gere uma orientação executiva de alto nível para o time da FBIZ.
-Retorne ESTRITAMENTE um objeto JSON válido, sem crases de markdown em volta, com este formato exato:
+Retorne ESTRITAMENTE um objeto JSON válido:
 {{
   "headline": "Uma manchete executiva de 1 linha sobre a principal movimentação do ecossistema nas últimas 48h",
-  "fato": "O acontecimento mais relevante de hoje (seja da marca, de um concorrente ou território cultural) em 1 ou 2 frases curtas.",
+  "fato": "O acontecimento mais relevante de hoje em 1 ou 2 frases curtas.",
   "e_dai": "Leitura Estratégica: o real impacto disso no comportamento do consumidor, na categoria ou no share da marca (2 frases).",
   "acao": "Oportunidade prática: ideia de pauta de Social, oportunidade de PR ou ativação criativa que a agência deve propor (2 frases)."
 }}
@@ -333,7 +327,6 @@ Retorne ESTRITAMENTE um objeto JSON válido, sem crases de markdown em volta, co
             )
             return json.loads(text)
     except Exception as e:
-        print(f"Fallback estratégico para {client_name}: {e}")
         top_title = (
             news_items[0]["title"]
             if news_items
@@ -346,62 +339,56 @@ Retorne ESTRITAMENTE um objeto JSON válido, sem crases de markdown em volta, co
             "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca.",
         }
 
-def save_historical_edition(output_data, today_slug, now_str):
-    """Salva a edição do dia no diretório de histórico e atualiza o índice de edições."""
-    os.makedirs("editions", exist_ok=True)
-
-    # 1. Salva o snapshot da data de hoje
-    edition_filename = f"editions/edition_{today_slug}.json"
-    with open(edition_filename, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-
-    # 2. Atualiza o índice de edições disponíveis
-    index_file = "editions/editions_index.json"
-    editions_list = []
-    if os.path.exists(index_file):
-        try:
-            with open(index_file, "r", encoding="utf-8") as f:
-                editions_list = json.load(f)
-        except Exception:
-            editions_list = []
-
-    # Checa se a edição de hoje já está no índice
-    existing_ids = [e["id"] for e in editions_list]
-    if today_slug not in existing_ids:
-        editions_list.insert(
-            0,
-            {
-                "id": today_slug,
-                "label": f"Edição {now_str.split(' às ')[0]}",
-                "file": edition_filename,
-            },
-        )
-        with open(index_file, "w", encoding="utf-8") as f:
-            json.dump(editions_list, f, ensure_ascii=False, indent=2)
-
 def main():
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     now = datetime.datetime.now()
     now_str = now.strftime("%d/%m/%Y às %H:%M")
-    today_slug = now.strftime("%Y-%m-%d")
+    date_capture = now.strftime("%d/%m/%Y")
+
+    # 1. Carrega dados anteriores para acumular o histórico sem nunca perder notícias
+    existing_data = {}
+    if os.path.exists("news_data.json"):
+        try:
+            with open("news_data.json", "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+        except Exception:
+            existing_data = {}
 
     output_data = {
-        "edition_id": today_slug,
         "updated_at": now_str,
         "clients": {},
     }
 
-    print(
-        f"Iniciando varredura estratégica de 48h com Territórios Onepager para {len(CLIENTS)} marcas..."
-    )
+    print("Iniciando varredura estratégica com preservação de histórico...")
     for client in CLIENTS:
-        print(f"Capturando: {client['name']} ({client['category']})...")
-        news = fetch_balanced_client_news(client)
+        cid = client["id"]
+        print(f"Processando: {client['name']} ({client['category']})...")
+
+        fresh_news = fetch_balanced_client_news(client)
         analysis = generate_ai_analysis(
-            client["name"], client["category"], news, api_key
+            client["name"], client["category"], fresh_news, api_key
         )
 
-        output_data["clients"][client["id"]] = {
+        # Resgata o histórico acumulado do cliente
+        old_client_data = existing_data.get("clients", {}).get(cid, {})
+        old_history = old_client_data.get("history", [])
+        old_current_news = old_client_data.get("news", [])
+
+        # Todas as notícias que deixarem de ser das 48h atuais migram para o histórico
+        fresh_titles = {n["title"].lower().strip() for n in fresh_news}
+        history_titles = {h["title"].lower().strip() for h in old_history}
+
+        merged_history = list(old_history)
+        for old_item in old_current_news:
+            norm_t = old_item.get("title", "").lower().strip()
+            if norm_t and norm_t not in fresh_titles and norm_t not in history_titles:
+                old_item["archived_date"] = old_item.get(
+                    "archived_date", date_capture
+                )
+                merged_history.insert(0, old_item)
+                history_titles.add(norm_t)
+
+        output_data["clients"][cid] = {
             "name": client["name"],
             "category": client["category"],
             "headline": analysis.get("headline", ""),
@@ -410,17 +397,18 @@ def main():
                 "e_dai": analysis.get("e_dai", ""),
                 "acao": analysis.get("acao", ""),
             },
-            "news": news,
+            "news": fresh_news,
+            "history": merged_history[
+                :30
+            ],  # Preserva até 30 matérias históricas por cliente
         }
 
-    # 1. Salva a edição principal (hoje) consumida diretamente pelo site
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    # 2. Salva no arquivo histórico diário
-    save_historical_edition(output_data, today_slug, now_str)
-
-    print("Sucesso! news_data.json e histórico de edições atualizados.")
+    print(
+        "Sucesso absoluto! news_data.json atualizado com últimas 48h e histórico preservado."
+    )
 
 if __name__ == "__main__":
     main()
