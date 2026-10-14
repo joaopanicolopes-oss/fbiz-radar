@@ -48,7 +48,6 @@
             background-attachment: fixed;
         }
 
-        /* Definições SVG globais ocultas */
         .svg-defs-hidden {
             position: absolute;
             width: 0;
@@ -549,7 +548,7 @@
 
     <header>
         <div class="header-left">
-            <!-- Logo Oficial 3D Líquido da FBIZ -->
+            <!-- Logo Oficial 3D Líquido da FBIZ flutuando nativamente no fundo claro -->
             <div class="fbiz-logo-wrapper">
                 <img id="fbiz-img" src="fbiz-logo.png" alt="fbiz" class="fbiz-logo-img" 
                      onerror="if (this.src.indexOf('image.png') === -1) { this.src='image.png'; } else { this.style.display='none'; document.getElementById('fbiz-fallback').style.display='block'; }">
@@ -860,7 +859,7 @@
             if (!fatoText) {
                 if (newsList.length > 0) {
                     fatoText = `Destaque recente do segmento: "${newsList[0].title}".`;
-                    edaiText = `O tema gera conversas diretas no ecossistema de ${displayName}, exigindo prontidão de posicionamento e leitura de conversas.`;
+                    edaiText = `O tema reverbera diretamente no ecossistema de ${displayName}, exigindo prontidão de posicionamento e leitura de conversas.`;
                     acaoText = `Explorar ganchos em pautas editoriais e sustentar share de voz através de ações proprietárias da agência.`;
                 } else {
                     fatoText = `Varredura diária de marca e categoria em andamento para ${displayName}.`;
