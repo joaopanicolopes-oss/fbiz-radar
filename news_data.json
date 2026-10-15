@@ -1,23 +1,35 @@
 {
-  "updated_at": "15/10/2026 às 14:19",
+  "updated_at": "15/10/2026 às 16:55",
   "clients": {
     "mms": {
       "name": "M&M's",
       "category": "Snacks & Chocolates",
-      "headline": "Mostra Internacional de Cinema de SP começa nesta quinta com 380 filmes de 93 países; veja programação e preços",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Snacks & Chocolates hoje convergem para: Mostra Internacional de Cinema de SP começa nesta quinta com 380 filmes de 93 países; veja programação e preços.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de M&M's.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "BIS lança BIScolé e BIS Mini Bites",
+      "executive_summary": "No campo competitivo, os concorrentes ganharam espaço com \"BIS lança BIScolé e BIS Mini Bites\". Nas tendências de mercado e território, as atenções convergem para \"CINE ESCOLA DUQUE DE CAXIAS RECEBE MOSTRA DE CINEMA CHINÊS GRATUITA. CONFIRA OS FILMES DA PROGRAMAÇÃO\".",
       "news": [
         {
+          "tag": "[CONCORRENTE]",
+          "title": "BIS lança BIScolé e BIS Mini Bites",
+          "source": "SuperHiper",
+          "published": "Thu, 15 Oct 2026 15:29:05 GMT",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vcVBSVGozSm9vTjZ2RXRzMmFwd3RnNXBvRnF3cE9fRGdERm5XOTVOV0pETlZsOHBpcF81VldPZDNhc1ZBXy1jYzVDSDd0TlVlVjR3QVFyVkRXNkNJN3BvWlJVNHY0VThPbWc2VVFBYXNsRkU?oc=5",
+          "timestamp": 1792078145
+        },
+        {
           "tag": "[TERRITÓRIO]",
-          "title": "Mostra Internacional de Cinema de SP começa nesta quinta com 380 filmes de 93 países; veja programação e preços",
-          "source": "G1",
-          "published": "Thu, 15 Oct 2026 13:43:04 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYnkxOFM2azhqdGN2dEdrWDZNeUxRbVJDY1lVVzhDZmRFd0RMSy0xTmhiU1pJdUxEYWNOMnJRRDg0dE1OcFY3NzJsUnhZcXljcnZaT1BraWVfOTJUTVdBZUloNV9SRXR6SlgxdXpwSzNONVdLdFVLZEp5a0ltdDF3ZzFmMmhMcm50Tk1PdmUyMnFlQjV5MFZCdlpaMG1QT0dDWHJ1Ym5rWkxQdWlGeVlQcHl3VWszdkdYNHNIWUIwYmJaQ0xUTHVlX3EzZE44SWNGOEMweUFLU3ZrckRfclJRYTlabnQ1V0VROFFSbDRyYjZrSThIUjZXYl9GYXBsUdIBjAJBVV95cUxPcUNDZmVGbGRxY044MWk3TnF5VHh1NkRDbTY5bEltTnRtdHUxUEk5Q3ZJY2lrMmQ1RDFIZFRVczJBaHpQdHI1UUdyMGJXWFZGZ0JRUnltNUY5bE43a2dTekU0QzY3M3Y3QkdVb3drWkJHcHNBR2F4X3lFbzVsMGQ0ZlJDZWc4RjBEZV9oVlA2dWw1SU5BaHA3emV3RFdZV1JWTk5Ob3VOWUozb1I3WTljYTJ3OG1KeXU0Z19Ud1NncEpGeFpwUFZnR2tFVjJBaHhaTjZfQnJYeGlYd2Zpc0R0UVZNbHlzLURJSC1SUGFRNTBaalRoQlNFTjBBbzdRN3pnUmF1Znp0VDRQbGpS?oc=5",
-          "timestamp": 1792071784
+          "title": "CINE ESCOLA DUQUE DE CAXIAS RECEBE MOSTRA DE CINEMA CHINÊS GRATUITA. CONFIRA OS FILMES DA PROGRAMAÇÃO",
+          "source": "Prefeitura Municipal de Duque de Caxias",
+          "published": "Thu, 15 Oct 2026 14:59:51 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOS0JZV09Oby1fUDJtMUZXQldiQkxtcXhJWGprTUFOQndXSXI2eDR0MWYxZV9Ga0dkbWU2RW5pendBN2RGZFhLSHh4a0RPUDlEQXBhcktQRFlSQ2hFVjJZVjNTVG12TlpNaEU1TlV1YmFjMW1qcmRDeTRHcUpaSW81aG5PcWFyX1VuQ2FSOW5hWF9kaklxYWd6RlVUeG14TnQ1VXo5ajhzUTBKeTgweXN1SE5xYjJpX054Tkpzc2ctdUtHbkIzclEyc05CUS1nZkZTaVZGc1VsbDljVktrcVZ1WWVYRXlfYVE?oc=5",
+          "timestamp": 1792076391
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Mostra Internacional de Cinema de SP começa nesta quinta-feira",
+          "source": "Agência Brasil",
+          "published": "Thu, 15 Oct 2026 14:25:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNUJUSmxwdDk4U0RQbkhtTnM0QTFHdzN4T1VjMTJVeWY2NGsycFJ1ZlBhU3JPM3VleGh5WjdLYlNiTTRtRzBWckw3a2RQb2FJSnpCSTM1eHdadUJGWGZlRzZHMGNGeUQ3R1Q2QTlTQUtBbkZ0enFvSnd3a3FHZ0lISHJCZXIzWFY2THBQblFHMDVtaUp4ZUxjTm4yaWFLb0V6UUgzWHdHVWhPYUJINlFYR0RNX250TG04S1hB?oc=5",
+          "timestamp": 1792074300
         },
         {
           "tag": "[CONCORRENTE]",
@@ -26,22 +38,6 @@
           "published": "Thu, 15 Oct 2026 13:21:15 GMT",
           "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdmJIR1RMR2EyRDZWUHQwdU8yUDNGSl9nRW5LaVhVWjdRcW9CRW81V0dWR0NhbXhrS0NMZTZkQmFVei14THVnMlVlU2VIcnlfTTVmdVhaSjNSMTZNZ3RKazBXVy02aWlQVmlsWUlQclliTERrTnVZcjc5ZEZULVJma0tSVE04OWxET3NKOEtZVzlzREVsTnNyRm92aGxBdkM2VWlRVno5STRNYXhpamFyRWtzbVBfcTd1Z1JPaWoxOXBVNWJHNV9PcmIxQjUydHBSUF8yUVFpSDlJeFpiN19ITDVySWJENzR5b3pwYg?oc=5",
           "timestamp": 1792070475
-        },
-        {
-          "tag": "[CONCORRENTE]",
-          "title": "BIS chega ao universo dos sorvetes com o lançamento do BIScolé e BIS Mini Bites",
-          "source": "Rota Cult",
-          "published": "Thu, 15 Oct 2026 13:03:52 GMT",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkxqV2ZLdUFmeDktR0I4N2NycTdGT29YR1lMVWVQajlVOHZmbnRCcjF5WDRWSGlTb1UzdzNrV0RWTExGUTI5dnh1UHQ1ckV5emNZWU5FVXZpSTVmSWdGb3EtYjhTVlBPTTBTWUh1czgzWTNrZEdsMU1FTUFQdmpib0NPaWVBN1FfMTZJRlVRWUdOZ09LUngzN3lCemZwbUJYbHBqdkY5STdKcHoxNWVra1hR?oc=5",
-          "timestamp": 1792069432
-        },
-        {
-          "tag": "[TERRITÓRIO]",
-          "title": "28ª Feira do Livro terá cinema, teatro, oficinas e lançamentos nesta quinta-feira",
-          "source": "Prefeitura de Bagé",
-          "published": "Thu, 15 Oct 2026 11:31:31 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVlNJbkxleXhlUmZaam83RkNuSTBIemxTeDdLN25BMUN0X05FUUV2WlNyRlRrMFpjMXotZFEzWkVoTV9hRkNSdmkxSUNtemJhNUUySkJrME01Zy13VHNuVEJQUHB2QWJWWU50V2JUNXBBRm1OMU5Wa2NFV083Sk9xdmU2RHlLcXBlUktBb1NBb3pzM2lXcGFEMTZ5Y2l0SlVvMGJISEZqLXBnRGlheEU4NzZOc3hlc0wy?oc=5",
-          "timestamp": 1792063891
         },
         {
           "tag": "[MERCADO]",
@@ -61,6 +57,33 @@
         }
       ],
       "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "28ª Feira do Livro terá cinema, teatro, oficinas e lançamentos nesta quinta-feira",
+          "source": "Prefeitura de Bagé",
+          "published": "Thu, 15 Oct 2026 11:31:31 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVlNJbkxleXhlUmZaam83RkNuSTBIemxTeDdLN25BMUN0X05FUUV2WlNyRlRrMFpjMXotZFEzWkVoTV9hRkNSdmkxSUNtemJhNUUySkJrME01Zy13VHNuVEJQUHB2QWJWWU50V2JUNXBBRm1OMU5Wa2NFV083Sk9xdmU2RHlLcXBlUktBb1NBb3pzM2lXcGFEMTZ5Y2l0SlVvMGJISEZqLXBnRGlheEU4NzZOc3hlc0wy?oc=5",
+          "timestamp": 1792063891,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "BIS chega ao universo dos sorvetes com o lançamento do BIScolé e BIS Mini Bites",
+          "source": "Rota Cult",
+          "published": "Thu, 15 Oct 2026 13:03:52 GMT",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkxqV2ZLdUFmeDktR0I4N2NycTdGT29YR1lMVWVQajlVOHZmbnRCcjF5WDRWSGlTb1UzdzNrV0RWTExGUTI5dnh1UHQ1ckV5emNZWU5FVXZpSTVmSWdGb3EtYjhTVlBPTTBTWUh1czgzWTNrZEdsMU1FTUFQdmpib0NPaWVBN1FfMTZJRlVRWUdOZ09LUngzN3lCemZwbUJYbHBqdkY5STdKcHoxNWVra1hR?oc=5",
+          "timestamp": 1792069432,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Mostra Internacional de Cinema de SP começa nesta quinta com 380 filmes de 93 países; veja programação e preços",
+          "source": "G1",
+          "published": "Thu, 15 Oct 2026 13:43:04 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYnkxOFM2azhqdGN2dEdrWDZNeUxRbVJDY1lVVzhDZmRFd0RMSy0xTmhiU1pJdUxEYWNOMnJRRDg0dE1OcFY3NzJsUnhZcXljcnZaT1BraWVfOTJUTVdBZUloNV9SRXR6SlgxdXpwSzNONVdLdFVLZEp5a0ltdDF3ZzFmMmhMcm50Tk1PdmUyMnFlQjV5MFZCdlpaMG1QT0dDWHJ1Ym5rWkxQdWlGeVlQcHl3VWszdkdYNHNIWUIwYmJaQ0xUTHVlX3EzZE44SWNGOEMweUFLU3ZrckRfclJRYTlabnQ1V0VROFFSbDRyYjZrSThIUjZXYl9GYXBsUdIBjAJBVV95cUxPcUNDZmVGbGRxY044MWk3TnF5VHh1NkRDbTY5bEltTnRtdHUxUEk5Q3ZJY2lrMmQ1RDFIZFRVczJBaHpQdHI1UUdyMGJXWFZGZ0JRUnltNUY5bE43a2dTekU0QzY3M3Y3QkdVb3drWkJHcHNBR2F4X3lFbzVsMGQ0ZlJDZWc4RjBEZV9oVlA2dWw1SU5BaHA3emV3RFdZV1JWTk5Ob3VOWUozb1I3WTljYTJ3OG1KeXU0Z19Ud1NncEpGeFpwUFZnR2tFVjJBaHhaTjZfQnJYeGlYd2Zpc0R0UVZNbHlzLURJSC1SUGFRNTBaalRoQlNFTjBBbzdRN3pnUmF1Znp0VDRQbGpS?oc=5",
+          "timestamp": 1792071784,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[MERCADO]",
           "title": "Cacau sobe em Nova York com excesso de chuvas na Costa do Marfim",
@@ -120,20 +143,32 @@
     "tegra": {
       "name": "Tegra",
       "category": "Imobiliário Alto Padrão",
-      "headline": "Even (EVEN3) registra vendas líquidas de R$ 185 mi no terceiro trimestre",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Imobiliário Alto Padrão hoje convergem para: Even (EVEN3) registra vendas líquidas de R$ 185 mi no terceiro trimestre.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Tegra.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "XP eleva preço-alvo da Caixa Seguridade (CXSE3) e vê alta de 20% na ação",
+      "executive_summary": "No ecossistema direto de Tegra, destaca-se: \"A Inovação faz parte da história da Luz\". No campo competitivo, os concorrentes ganharam espaço com \"Even (EVEN3) Tem Ações Descontadas, Mas Queda de 78% nas Vendas Frustram Analistas\". Nas tendências de mercado e território, as atenções convergem para \"XP eleva preço-alvo da Caixa Seguridade (CXSE3) e vê alta de 20% na ação\".",
       "news": [
         {
+          "tag": "[MERCADO]",
+          "title": "XP eleva preço-alvo da Caixa Seguridade (CXSE3) e vê alta de 20% na ação",
+          "source": "BPMoney",
+          "published": "Thu, 15 Oct 2026 15:55:24 GMT",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVZldlpFMVdoaDRxcDY0b2c2Z1ZCaGwzajJKSE8xNENtbWVTNzNvQktIMTNlUWNUUUE4QlFFTmZjMlk0c1NCNS1ZaFhxWmZyM1o0T3dmRHR4QjFMSVJNdTE0cnpPUVR4b1VtLWpyTkl6Zzk5Mjd1RFp3dkpBVWJzQ0EyWXhWazRraGppM2NSalI2amctMXk2NHVmYw?oc=5",
+          "timestamp": 1792079724
+        },
+        {
+          "tag": "[MERCADO]",
+          "title": "Caixa Seguridade (CXSE3): XP calcula dividendos e diz se é hora de comprar",
+          "source": "Money Times",
+          "published": "Thu, 15 Oct 2026 15:47:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQzlSUm95MHNtQ2VpRjdISHJuY1UwdUZzRjBCRnpYY3dzclJyZnNWYW5ueTZKVXhUSHZlZy16VzZSc2x2b0xvNG0yRDlod1VReXhnajJVVVZ6bkk2OFFQNnNySno5dm5SUlJRSmM3d05pd1YtUEE0M0NLZGRITnRURVdNODJ0aXpZQjhtOE55cjNNZnFUdnlZM2tkSTBvSWJxZmpJdw?oc=5",
+          "timestamp": 1792079220
+        },
+        {
           "tag": "[CONCORRENTE]",
-          "title": "Even (EVEN3) registra vendas líquidas de R$ 185 mi no terceiro trimestre",
-          "source": "InfoMoney",
-          "published": "Thu, 15 Oct 2026 11:29:40 GMT",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOWg1OWM2ZFg3cGhHcDJPQW5saDFSNUg5ZVN6WUJ1MU5jcE5aRWhQTElpaWo1WVFoOEpjMTJnUW9DZHpXTVhjaVA1cUs2QUN4TlFTNGJ3VksxTHZicGpSVDVJeEpYWTR4WHhObkpTNDJnMEVNSUh5dEVrWWlIdFdVeG9FdXdySjZKN2UtcEhjUFRxdllzTG5LNlV2b1p3Y3FJb05mdkVCdnBMRWRC0gGyAUFVX3lxTFBWenNoMkxKVnZIZm10dXoyR21DWm5TY3dqUzF1WC1jVWo4ZW43RUpzXzMwTUc3cllyWjBMd1VhdU1OZFJjUVluTy1teXpCSER1S2NHS2NGZC1pOHFqVWZ2Zk9tLVBWaXBPNFhzOF9GbFFkcnFGTGgxVFlScGJ5bEZTN25vMEd1b1J4ZXlsd1BiZnczU18zQ1FRWFNvVzBGc194NU1RbWZLU205cUxVS1pzTEE?oc=5",
-          "timestamp": 1792063780
+          "title": "Even (EVEN3) Tem Ações Descontadas, Mas Queda de 78% nas Vendas Frustram Analistas",
+          "source": "Forbes Brasil",
+          "published": "Thu, 15 Oct 2026 14:38:50 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNy1RaGtLNTFVZEM1eGpxUUt3dmZXaUd4ZVhNUW9TRkt5TFc4M3ZfVTZfUVRTUkhaN3RDdlZ2VnFJUzY5aDAwdHhJa1FhbjI2MmtYSV9yd3RTSWFHNHZDWl9IUUc3eWswcGt5VFBwRXZnUnRvSXFEa2F5M3hNMFFoWDRjLWVLVk5hV2cxVFRtLVFfMlVyTUFxUWxsYUtQaVRzOUd3?oc=5",
+          "timestamp": 1792075130
         },
         {
           "tag": "[CONCORRENTE]",
@@ -144,28 +179,12 @@
           "timestamp": 1792044575
         },
         {
-          "tag": "[MERCADO]",
-          "title": "Construção civil deve crescer até 1% em 2026, apesar de juros e custos elevados",
-          "source": "Paraíba Business",
-          "published": "Wed, 14 Oct 2026 21:30:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSFVWX3pyN01kLWdNYkQ0SGtQa1k5RG5YaGRRU3k3TG9ISi13WlMxcVpmQmxXSzdUVFZEemZqTlg2NXBJWEU1WUdRQ1d1SV9RcUVvOGhvU285MnZuS1dKQ2VIRmFiQTlwUUxCM3o3eEZKRzBuUjBhbXlhRkgyWEw0NnFwaXJsQjV0dWo1VE9HM2hFRDVqb3NpbzBoc1BnNHhkQVd4Wm1IV0Y3NlU0clE?oc=5",
-          "timestamp": 1792013400
-        },
-        {
           "tag": "[TERRITÓRIO]",
           "title": "Expo Revestir 2027 celebra 25 anos: confira quando será e como participar",
           "source": "Passeios.org",
           "published": "Wed, 14 Oct 2026 17:43:02 GMT",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11YnJmVXBwZmlhOFUyS2Qtdi05VXhPNG1Jdks4QXI4YThCWElkLXFnRERhaF8xb0lMaUp2dnk3bTNnV2RlVzFpeUZzN1UxcVVIb2Y2Y0xFQ05FTkZhMFI2SURB?oc=5",
           "timestamp": 1791999782
-        },
-        {
-          "tag": "[MERCADO]",
-          "title": "SE LIGA FLORIPA: CRECI/SC abre inscrições para curso EaD de Correspondente de Crédito Imobiliário",
-          "source": "Agora Floripa",
-          "published": "Wed, 14 Oct 2026 16:17:46 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVXUyQk9DYzRhRXJDWHZIOUk3ay1xd3NiLTBXYjVUZk96SG1qbm94ci1SOUNWWXZTbHZIcW5ldDlNaUdkR2VlNXpmQ1d5c055SnFJa2Z3SmthY0lJWXZWMndQQTQ2WkZ1cHplRzE0WjB0VTNiaTJ6R1BBZHhheU4yMHMxMkpXTDVMYWQ2a0FFcUVxWWFacFdqVi1LUzY3UUxvR3ZPS2dOMWtlVVM2dENiSFBqckVZOTNVdlJ3b1JZRi1DcFU?oc=5",
-          "timestamp": 1791994666
         },
         {
           "tag": "[MARCA]",
@@ -177,6 +196,33 @@
         }
       ],
       "history": [
+        {
+          "tag": "[MERCADO]",
+          "title": "SE LIGA FLORIPA: CRECI/SC abre inscrições para curso EaD de Correspondente de Crédito Imobiliário",
+          "source": "Agora Floripa",
+          "published": "Wed, 14 Oct 2026 16:17:46 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVXUyQk9DYzRhRXJDWHZIOUk3ay1xd3NiLTBXYjVUZk96SG1qbm94ci1SOUNWWXZTbHZIcW5ldDlNaUdkR2VlNXpmQ1d5c055SnFJa2Z3SmthY0lJWXZWMndQQTQ2WkZ1cHplRzE0WjB0VTNiaTJ6R1BBZHhheU4yMHMxMkpXTDVMYWQ2a0FFcUVxWWFacFdqVi1LUzY3UUxvR3ZPS2dOMWtlVVM2dENiSFBqckVZOTNVdlJ3b1JZRi1DcFU?oc=5",
+          "timestamp": 1791994666,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[MERCADO]",
+          "title": "Construção civil deve crescer até 1% em 2026, apesar de juros e custos elevados",
+          "source": "Paraíba Business",
+          "published": "Wed, 14 Oct 2026 21:30:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSFVWX3pyN01kLWdNYkQ0SGtQa1k5RG5YaGRRU3k3TG9ISi13WlMxcVpmQmxXSzdUVFZEemZqTlg2NXBJWEU1WUdRQ1d1SV9RcUVvOGhvU285MnZuS1dKQ2VIRmFiQTlwUUxCM3o3eEZKRzBuUjBhbXlhRkgyWEw0NnFwaXJsQjV0dWo1VE9HM2hFRDVqb3NpbzBoc1BnNHhkQVd4Wm1IV0Y3NlU0clE?oc=5",
+          "timestamp": 1792013400,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Even (EVEN3) registra vendas líquidas de R$ 185 mi no terceiro trimestre",
+          "source": "InfoMoney",
+          "published": "Thu, 15 Oct 2026 11:29:40 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOWg1OWM2ZFg3cGhHcDJPQW5saDFSNUg5ZVN6WUJ1MU5jcE5aRWhQTElpaWo1WVFoOEpjMTJnUW9DZHpXTVhjaVA1cUs2QUN4TlFTNGJ3VksxTHZicGpSVDVJeEpYWTR4WHhObkpTNDJnMEVNSUh5dEVrWWlIdFdVeG9FdXdySjZKN2UtcEhjUFRxdllzTG5LNlV2b1p3Y3FJb05mdkVCdnBMRWRC0gGyAUFVX3lxTFBWenNoMkxKVnZIZm10dXoyR21DWm5TY3dqUzF1WC1jVWo4ZW43RUpzXzMwTUc3cllyWjBMd1VhdU1OZFJjUVluTy1teXpCSER1S2NHS2NGZC1pOHFqVWZ2Zk9tLVBWaXBPNFhzOF9GbFFkcnFGTGgxVFlScGJ5bEZTN25vMEd1b1J4ZXlsd1BiZnczU18zQ1FRWFNvVzBGc194NU1RbWZLU205cUxVS1pzTEE?oc=5",
+          "timestamp": 1792063780,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[MERCADO]",
           "title": "Atualização do SBPE produz resultados",
@@ -209,36 +255,32 @@
     "twix": {
       "name": "Twix",
       "category": "Chocolates & Biscoitos",
-      "headline": "A primeira santa do Brasil nasceu na Itália e chegou aos 10 anos a um vale catarinense, onde a vila recebeu o nome da aldeia deixada para trás",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Chocolates & Biscoitos hoje convergem para: A primeira santa do Brasil nasceu na Itália e chegou aos 10 anos a um vale catarinense, onde a vila recebeu o nome da aldeia deixada para trás.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Twix.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Manutenção e Conservação em Ação: Serviços seguem em diferentes localidades de Nova Trento",
+      "executive_summary": "No ecossistema direto de Twix, destaca-se: \"Menina de 12 anos morre ao ter reação alérgica com milkshake em Londres\". No campo competitivo, os concorrentes ganharam espaço com \"Manutenção e Conservação em Ação: Serviços seguem em diferentes localidades de Nova Trento\". Nas tendências de mercado e território, as atenções convergem para \"Para proteger menores, governo pede fiscalização de seis jogos com riscos semelhantes aos das bets\".",
       "news": [
         {
           "tag": "[CONCORRENTE]",
-          "title": "A primeira santa do Brasil nasceu na Itália e chegou aos 10 anos a um vale catarinense, onde a vila recebeu o nome da aldeia deixada para trás",
-          "source": "Midiamax",
-          "published": "Thu, 15 Oct 2026 12:05:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNQVR2cG03U1NCRHQ2YkY0ZTlWdG1qSG5FMW1kM3hJMFJ2alY1NWU5MFAwWTJvUzU1Y3lXUl90VEhyU2xYVDRSdU9NWDVKbXMzZ3NrdGVVUmF0ZXIwQnh1QXN6aE40S25CcTMzT2ZJdlA1eml2V1JxSEFnSEZIRWFBTEt0R1ZnSXVTY0o0NEViR2gwZ2FPbE83ZENTQVZnTWdWTnhpZ0JVNThLcGxHTzZ1X3V6Q0JsWGlKaG1xTWxfSFRUVWJjYmstaE9tcVkyeWdaSElwZGxLSVIwZlB1V3ExdzI3dkNoT0Rxa0JhdXVyRW8zS2NhZ0ZZb0ZuRUlfSE80MWRlNU1IbGlQWnlucWpEYWFn?oc=5",
-          "timestamp": 1792065900
+          "title": "Manutenção e Conservação em Ação: Serviços seguem em diferentes localidades de Nova Trento",
+          "source": "Prefeitura Municipal de Nova Trento",
+          "published": "Thu, 15 Oct 2026 16:30:46 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUXI1clptS29sVGFTXzcwLXF3OUlzZ2Z3Q3pTeWFqemJ2R0Z4ZWlhNURsXzUtTTdXM0xsdzZJaFpjNEJ1WmdITlhjRVhjSkoxUXl3SmpZMDV4enRfN1I4Nmp6dEZaLWxUQUh0MUdHYkxiODVrZ1V6Y0JfQ1U3ZEFJcFFYV0ltc1l4SndyZ3I5Zjg0emJBUktlWjJ2Zm52ejJwMUVwMWdDZXgwcFpmd2JSdkNTcnNBOFpQNGxz?oc=5",
+          "timestamp": 1792081846
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Pesquisadores usam IA para encontrar falhas no Google Chrome e recebem R$ 1,4 milhão",
-          "source": "Estadão",
-          "published": "Thu, 15 Oct 2026 08:00:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRmJJa1l6SkJabTVUQ29hYjRLdmc3N1B0UWVNY2xQSmRmRGk5SHpOeks1RnZUOGFwYmtwRHNBb3JCZ21WcXQybGJwQzgwZFNqRDBTandFcEoyTFVBU0M5T3hqb2ZPcjI1WVpmaWo2S2ZianM0cGhqWnFVNnVwWDNKOUgxdTlPZXRyT1VuS1lSWDRiSkFIc2dWLVBNM21QQUpLdVY1MDEyUjVKMzlXNWUwMUVEWmxVV3FrNWlLVHUzQlpraFNGVEowZUs0Q1JqVnfSAdQBQVVfeXFMTXhJaW1QNGJJaEFHZ3dCNU5adlNURkctSnJLcVhhT2ZmSDhfZEF6OVNmRmhDOUpxZ1p6VHRPMm9nVmFXb3JaRVhXNGdkRU5jUUREZWhZY2FYUFVLdERQZmM1YlFnbWppS2tWdktRQVJhbmVUamprcnR6b2d0dDB4emNZY2duZWRFZndtUDlCcDB3RThnVWgzc3dKTF9jS0lUZmhWRW00YVhRWmpfN0JwZU9DejlaakQtbi1NeTF3YkNPUGl0T0V0di1tVDlDbnlGV2hUUE0?oc=5",
-          "timestamp": 1792051200
+          "title": "Para proteger menores, governo pede fiscalização de seis jogos com riscos semelhantes aos das bets",
+          "source": "G1",
+          "published": "Thu, 15 Oct 2026 15:00:45 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVS1Da3hZa0txN280WTFCYk05OWQ5VklwV3ZIcHQzNjJJVV9ldVQ5N2lPZFRzTUpxM05mVkFLUVB6dkFYQmlnUU9KaUJ6SnpLX0JLNVVxbFRKYVdlODg1R3puZEFtVE1nc3FudFNxbkxmVXJjQVFqY2lMSGdDek1kcnhLbVVpdF9aWmxnZ180aEl6dTZ1T253cDJmRU9WVTVPeVhBSkQ1SGpxWnZjbExURUxXRnRSSzNoa01xc2J4SzhiM1BhVGVBWU9FUmxhSVd1VDQ0RUVqaEU3QWMwSXh5X05PN3otYjTSAfYBQVVfeXFMUFZhaDhXRl9pSVQzVjFDR21yREJWb1lVSVA0Ri1kd1N0eU9kRldaMVk0WEd2MlFjQTJmTUoyeXUtZ0VhZXdoMVA4V2gyMm5YX3FSMEpVazhSUmhtdHhiSkcybG9QSmt1RnYwLTN3R2FOM1dTQU03N3FwZVVhcXc3UXFoUmtHRUpLYm0xc3VZM3dfbDFOblEzSnJYSnBFUlVMMXNpSGpXV3pzcEpVUUViOWJzaHRRdmxxdWtDWkRidjVTSnBxNnlvNmxRYjVrZm1qT2NadHBzT0NScEdnN2xVdHZTWDBUdWp2b3BLOUFxY2lNRVlBcmRn?oc=5",
+          "timestamp": 1792076445
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Luciano Hang oferece R$ 10 mil para identificar autor de pichação na Havan",
-          "source": "UOL Notícias",
-          "published": "Wed, 14 Oct 2026 21:30:18 GMT",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbXFMQ3V0d09ZZkUtb0EzSTFSUGNTVjNJZGNDVjJXTmpETWxwbC1pV2xGTnBxV2U4SUsyZ0xGOHNaTUNFZmp3V0lLSkFaZnZwdnpDQjlGMU5zcTA2U2dPWjdJZEtxVm1HRlczZmNseUI4d2doSjl1VF9sQkNLbEx4NXdWeElUNUFUcmpXX2V2c09lMjlMLThFb0ljSUpZYnV6RDBMVm83UHBBUWVG?oc=5",
-          "timestamp": 1792013418
+          "title": "Gato desaparece e tutor oferece R$ 15 mil de recompensa para quem encontrá-lo",
+          "source": "diariodigital.com.br",
+          "published": "Thu, 15 Oct 2026 13:47:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZFgtamZ1Tk1QNkZRb01zN0dvN09NeEFuM19FUXh1SDIzTXJZUVYxSHJ2TnBrcU9TamhJVXhqdHRtTVhhQTVWZXJqQ0lydl9tbUZ1ZkY0dEY0cm9HLVd1S1lUNG5nRGlrejhnQVEzNk9FVnBZNmVPSzlOMlBuUjhCMzZGS1lncTVuUGJDWWN6YW8zdDFpdGlqVGtGLWFfaTlxenc3YkRHNXJIM1FycHc?oc=5",
+          "timestamp": 1792072020
         },
         {
           "tag": "[CONCORRENTE]",
@@ -266,6 +308,33 @@
         }
       ],
       "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Luciano Hang oferece R$ 10 mil para identificar autor de pichação na Havan",
+          "source": "UOL Notícias",
+          "published": "Wed, 14 Oct 2026 21:30:18 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbXFMQ3V0d09ZZkUtb0EzSTFSUGNTVjNJZGNDVjJXTmpETWxwbC1pV2xGTnBxV2U4SUsyZ0xGOHNaTUNFZmp3V0lLSkFaZnZwdnpDQjlGMU5zcTA2U2dPWjdJZEtxVm1HRlczZmNseUI4d2doSjl1VF9sQkNLbEx4NXdWeElUNUFUcmpXX2V2c09lMjlMLThFb0ljSUpZYnV6RDBMVm83UHBBUWVG?oc=5",
+          "timestamp": 1792013418,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Pesquisadores usam IA para encontrar falhas no Google Chrome e recebem R$ 1,4 milhão",
+          "source": "Estadão",
+          "published": "Thu, 15 Oct 2026 08:00:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRmJJa1l6SkJabTVUQ29hYjRLdmc3N1B0UWVNY2xQSmRmRGk5SHpOeks1RnZUOGFwYmtwRHNBb3JCZ21WcXQybGJwQzgwZFNqRDBTandFcEoyTFVBU0M5T3hqb2ZPcjI1WVpmaWo2S2ZianM0cGhqWnFVNnVwWDNKOUgxdTlPZXRyT1VuS1lSWDRiSkFIc2dWLVBNM21QQUpLdVY1MDEyUjVKMzlXNWUwMUVEWmxVV3FrNWlLVHUzQlpraFNGVEowZUs0Q1JqVnfSAdQBQVVfeXFMTXhJaW1QNGJJaEFHZ3dCNU5adlNURkctSnJLcVhhT2ZmSDhfZEF6OVNmRmhDOUpxZ1p6VHRPMm9nVmFXb3JaRVhXNGdkRU5jUUREZWhZY2FYUFVLdERQZmM1YlFnbWppS2tWdktRQVJhbmVUamprcnR6b2d0dDB4emNZY2duZWRFZndtUDlCcDB3RThnVWgzc3dKTF9jS0lUZmhWRW00YVhRWmpfN0JwZU9DejlaakQtbi1NeTF3YkNPUGl0T0V0di1tVDlDbnlGV2hUUE0?oc=5",
+          "timestamp": 1792051200,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "A primeira santa do Brasil nasceu na Itália e chegou aos 10 anos a um vale catarinense, onde a vila recebeu o nome da aldeia deixada para trás",
+          "source": "Midiamax",
+          "published": "Thu, 15 Oct 2026 12:05:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNQVR2cG03U1NCRHQ2YkY0ZTlWdG1qSG5FMW1kM3hJMFJ2alY1NWU5MFAwWTJvUzU1Y3lXUl90VEhyU2xYVDRSdU9NWDVKbXMzZ3NrdGVVUmF0ZXIwQnh1QXN6aE40S25CcTMzT2ZJdlA1eml2V1JxSEFnSEZIRWFBTEt0R1ZnSXVTY0o0NEViR2gwZ2FPbE83ZENTQVZnTWdWTnhpZ0JVNThLcGxHTzZ1X3V6Q0JsWGlKaG1xTWxfSFRUVWJjYmstaE9tcVkyeWdaSElwZGxLSVIwZlB1V3ExdzI3dkNoT0Rxa0JhdXVyRW8zS2NhZ0ZZb0ZuRUlfSE80MWRlNU1IbGlQWnlucWpEYWFn?oc=5",
+          "timestamp": 1792065900,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "“Temos esperança”: recompensa por gato Joãozinho chega a R$ 15 mil",
@@ -316,27 +385,23 @@
     "paixao": {
       "name": "Paixão",
       "category": "Cuidados Corporais",
-      "headline": "Mantecorp Skincare conecta skincare, beleza e moda na SPFW",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Cuidados Corporais hoje convergem para: Mantecorp Skincare conecta skincare, beleza e moda na SPFW.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Paixão.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "SPFW N61: Jade Picon, Rafa Kalimann e outros famosos movimentam o terceiro dia de desfiles em São Paulo",
+      "executive_summary": "No campo competitivo, os concorrentes ganharam espaço com \"5 hidratantes corporais para passar antes do perfume e deixar a pele macia sem misturar fragrâncias que competem entre si\". Nas tendências de mercado e território, as atenções convergem para \"SPFW N61: Jade Picon, Rafa Kalimann e outros famosos movimentam o terceiro dia de desfiles em São Paulo\".",
       "news": [
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Mantecorp Skincare conecta skincare, beleza e moda na SPFW",
-          "source": "Live MKT News",
-          "published": "Thu, 15 Oct 2026 11:25:03 GMT",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbDZvNTZ3cTlhVU1FMU40Ym9ZYkRTbDZxODI1ZGJrclB1MHc2cEtYOWcxOEZUOHlQNkktNnV3VFQwOEFpejhNTUpmd3ZNM2xNaklfR2F4dHMtZzlNSnY2ajBvVmhiVmM1cGRmamJjYXRFQlVpdnA0dFFGNnJEUG0zOTlBTkdabTktYVBUamJoTQ?oc=5",
-          "timestamp": 1792063503
+          "title": "SPFW N61: Jade Picon, Rafa Kalimann e outros famosos movimentam o terceiro dia de desfiles em São Paulo",
+          "source": "Balada IN",
+          "published": "Thu, 15 Oct 2026 15:06:14 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNb1VHUWlTb3U4QmVYYkhzdXo4ekxHWjJkR3Y0S1ZJX1NlX1FiZm1CSWZqTTJ0bnY4RUc2T3JDVGYzQThGa0Q1a29LOTE2SzNxWXBQcndrUGFYUW96Z3Z0c1otdDhiM1I0dFdNaWhpMEhnOEdBR2d0LWV5UnZQNTByU2VWdTVJMW1kaVlOTFZ3ZlJHQVU2MlYyZWdOT1BQMGxpX2ZCY0UzMkdlMjRCUUk3cDNUNlNUZ0dYcE1Dem1xRkFUSzc2WktXTUJYY3lIZ01MdmxWSHB4bnY?oc=5",
+          "timestamp": 1792076774
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Artemisi",
+          "title": "Mercado Livre",
           "source": "São Paulo Fashion Week -",
           "published": "Thu, 15 Oct 2026 09:54:43 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CZkRHZTJYRFNXNHlzVlRGTGgxak85NC0xb1NFNnJnU2phYjRJZ2FodFMtZ25CTzJjNDhVWHVOX2Q5MmJSNll4M2g3ZEpGRVV0?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yLW9oQ09lUExfN3pNRTNPTzJISnRHbXlpRG9tcVU5Q3ZwanFTcEZLUHhZN0pib1ZtaE5pTjZHRmxXbzF1bmJkU1ZlNjR3MWtfVEdCWGNRNA?oc=5",
           "timestamp": 1792058083
         },
         {
@@ -357,6 +422,24 @@
         }
       ],
       "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Artemisi",
+          "source": "São Paulo Fashion Week -",
+          "published": "Thu, 15 Oct 2026 09:54:43 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CZkRHZTJYRFNXNHlzVlRGTGgxak85NC0xb1NFNnJnU2phYjRJZ2FodFMtZ25CTzJjNDhVWHVOX2Q5MmJSNll4M2g3ZEpGRVV0?oc=5",
+          "timestamp": 1792058083,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Mantecorp Skincare conecta skincare, beleza e moda na SPFW",
+          "source": "Live MKT News",
+          "published": "Thu, 15 Oct 2026 11:25:03 GMT",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbDZvNTZ3cTlhVU1FMU40Ym9ZYkRTbDZxODI1ZGJrclB1MHc2cEtYOWcxOEZUOHlQNkktNnV3VFQwOEFpejhNTUpmd3ZNM2xNaklfR2F4dHMtZzlNSnY2ajBvVmhiVmM1cGRmamJjYXRFQlVpdnA0dFFGNnJEUG0zOTlBTkdabTktYVBUamJoTQ?oc=5",
+          "timestamp": 1792063503,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[CONCORRENTE]",
           "title": "5 body splashes nacionais com cheiro de frutas para renovar o perfume ao longo do dia, da manga tropical à maçã caramelada com baunilha",
@@ -398,28 +481,40 @@
     "warner": {
       "name": "Warner Bros.",
       "category": "Cinema & Entretenimento",
-      "headline": "Festival Yasumi reúne cultura pop asiática e show internacional gratuito no Recife",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Cinema & Entretenimento hoje convergem para: Festival Yasumi reúne cultura pop asiática e show internacional gratuito no Recife.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Warner Bros..",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Maricá reúne cinema e cultura pop no Cine Henfil nesta sexta e sábado (16 e 17/10)",
+      "executive_summary": "No campo competitivo, os concorrentes ganharam espaço com \"Character.AI declara falência e deve vender tecnologia para a Disney\". Nas tendências de mercado e território, as atenções convergem para \"Maricá reúne cinema e cultura pop no Cine Henfil nesta sexta e sábado (16 e 17/10)\".",
       "news": [
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Festival Yasumi reúne cultura pop asiática e show internacional gratuito no Recife",
-          "source": "TV Guararapes",
-          "published": "Thu, 15 Oct 2026 13:21:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS2pvZkNpU3ljSWN0Y0Y2VmN5bkRJYXhaeDNiVnJpZG5jSWNndHp5S1pKR2h1Slo2aG1iWnRZVTBoZVc2cnozZzdGY09iZVNEM0NDTlpnSlZiVmFRSFl2VWpiY1NENHdCQWdOR0tHUFYzTHJGUnl6U2hERUhkd212RFlTQjRrcjFrVE5JX0NyNWVNWUJqQm5ST3U3NGNlOGUwZHBZWnRGQ1pPWm05bERCbzNfYUVDZmlJVExvZ2ZQU2lFRVd3LXBrWVc1VzNjcXdMYzh3ag?oc=5",
-          "timestamp": 1792070460
+          "title": "Maricá reúne cinema e cultura pop no Cine Henfil nesta sexta e sábado (16 e 17/10)",
+          "source": "Prefeitura de Maricá",
+          "published": "Thu, 15 Oct 2026 16:23:24 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEVFNEVzWUZLTVJWRnppaWZobEc0Mzc0OE9TRFZKby1qVE5GaDN4WVEtclBTdTk2dFdjMno0N1BYQklfdmthSTZidUIzWDRIMHJZT25FWlpqNzhITF9FZFpxbUd5UVhxdVRaa1VqcUlLRUUwcTFnSl9vV01JOXdBSDJoMGNNaVlrZHkxMTJlMmJfRXEyTFlrLTVXQWZuZktFZnlpZVM5bkg1VnhxQnUzWTZRb2ZvMHFsUlE?oc=5",
+          "timestamp": 1792081404
         },
         {
-          "tag": "[MARCA]",
-          "title": "Netflix anuncia mil demissões no maior corte desde 2022",
-          "source": "Portal Márcia Piovesan",
-          "published": "Thu, 15 Oct 2026 12:38:52 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUTY5RUIzZFNDQzB1aElSMG1ScmNTLWhvdmZYYS1fdXhpTzY2bXJZLUV0cVFETlpBeWZIMjRRZ2xIODZjbVhUcjFBOFFQTnBjZTc4YzI5dVc4RmpseDdYOW5oazV3T1JDbGhaQkljTU5LSWM2b2xWVW9Jdng5cVc2VWVPNjBmWEhWRVJxRkZhcjNUMGpjUzZWSzNsNmpDbEI0TkU4?oc=5",
-          "timestamp": 1792067932
+          "tag": "[TERRITÓRIO]",
+          "title": "Dos fandoms às urnas: quem convoca agora são os fãs",
+          "source": "Diplomatique",
+          "published": "Thu, 15 Oct 2026 16:15:24 GMT",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN013TWJacHhQQ2Fub25GTE5zcHpSWU9VQTB2dDl6YThVdGt2Zy1SUmdGdGtzMlpMQ1RWcXV3R1F5UU82ZldVLUdVRE5DUnZnZU1obHFNZlpQc1Q4TldzMDliOHd4MkZVaUdtQUdIYzZtYTdqeWZLMk5oeVZDWW81Z2xqakV5UQ?oc=5",
+          "timestamp": 1792080924
+        },
+        {
+          "tag": "[MERCADO]",
+          "title": "Vencedora do Oscar, Hilary Swank anuncia gravidez aos 52 anos",
+          "source": "VEJA",
+          "published": "Thu, 15 Oct 2026 14:26:34 GMT",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUmZMM2dFOG80blJtc3pGeV9RajZCOFdIT2kwQmQ2am94UUIxRjBzV09lR0taVUhBMFg0WWloVzVtMnFEa1I4WVpxU1F2eXJoWHY2eGNvYzlVdWZPSm1uLWwwREJVVXkyOG9qN19kR205QnhDSXhkTmk0ZGZhQWw0YlRfekxxV0NXczFyUXFrNzk0b0t3NFhOcFNQRQ?oc=5",
+          "timestamp": 1792074394
+        },
+        {
+          "tag": "[MERCADO]",
+          "title": "Céline Dion ganha Barbie inspirada no vestido icônico do Oscar de 1998",
+          "source": "Billboard Brasil",
+          "published": "Thu, 15 Oct 2026 14:10:51 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfZWlTbjh3UVNsNHIyVEVkUFhqOTZzZnZpQlVxZUJPVzBRV1dHcGxqMnZjS3cxOERMTk96S1Y5SlR6X2t6Z1lKbUdET1paU0JGWU1NSFk2MDY4R2psdXVXOTlUNjFVdw?oc=5",
+          "timestamp": 1792073451
         },
         {
           "tag": "[CONCORRENTE]",
@@ -430,31 +525,51 @@
           "timestamp": 1792062477
         },
         {
-          "tag": "[TERRITÓRIO]",
-          "title": "Das redes sociais para as ruas: como fandoms de K-pop impulsionam campanha para reeleger Lula",
-          "source": "Opera Mundi",
-          "published": "Thu, 15 Oct 2026 10:00:06 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUG5MTGQ5SVU5WHhWUkxKU3pYdGZNM3RnODE4WjA0NGxlbXB3ZkdUSU9XcUdBVUl1YUpFNUhTcmdKVmYyU0xuYjZYak1xb2k1Z2F2OGI3eWZGNnU1aEF6NGFndUJicmU2SnBza1huMHkyODR1VmJELU8wZXpianJUX01TeDBzMUJVZkhaSXMyRWg0cTVVMFN2M2xVeHdfSExlUnA4cG1kX24wX2cwSERqeDdkWm9JVm9rc1dZTTNZa2J3S3FfcExyYlRMTEdNX1JlTHZsaXl2UzUwdw?oc=5",
-          "timestamp": 1792058406
-        },
-        {
           "tag": "[CONCORRENTE]",
           "title": "Janela curta de “Brand New Day” no Disney+ inaugura o cofre digital da Marvel",
           "source": "Rádio Geek",
           "published": "Thu, 15 Oct 2026 08:56:18 GMT",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLVdYNGszV1duMGhIQ0tqNm9VbFJRZmJRSGVJZkRvS0NGZjZsNWd2VC1rTzFZLUdjbTRIaWhXNTlDV2VvUFVNdDJ5QjhzRG9JU2FFWmhKdWxEYnlrMjhaSWNBMF91MDIwZGdhTG9sZkVwSkNoRWlIaEFSYmZOZkRydEVTMlZtRm9VTERWMl9Yb18?oc=5",
           "timestamp": 1792054578
-        },
+        }
+      ],
+      "history": [
         {
           "tag": "[MARCA]",
           "title": "Ações da Skydance caem 22% com distribuição de 471 milhões de warrants após aquisição da Warner Bros. Discovery - Notícias e Estatísticas",
           "source": "IndexBox",
           "published": "Wed, 14 Oct 2026 23:10:56 GMT",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRVVKeEZRU2JTU0hnZC1HMnpyR01ac0RCV1JPLThuMGdra05USXBrTGRHb3lsZ0xwcXh3cVlXeVBEN1hKVHdScldVQkFzVUY4N0tKUWtLNUw3RklLT2JKWDhPQTI3YjRYM3g1OEp6LVJxV0xWOUpfVDh4ZklzQThFT3p6NnFMZWl1Z25TTTBnaW9yTmFSVDdWZXRoT3huNVJoTjRySmlSUTFNWHR6bXY2a1VYcXdmZEtMRHlVaUN5azdId3lHVXZB?oc=5",
-          "timestamp": 1792019456
-        }
-      ],
-      "history": [
+          "timestamp": 1792019456,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Das redes sociais para as ruas: como fandoms de K-pop impulsionam campanha para reeleger Lula",
+          "source": "Opera Mundi",
+          "published": "Thu, 15 Oct 2026 10:00:06 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUG5MTGQ5SVU5WHhWUkxKU3pYdGZNM3RnODE4WjA0NGxlbXB3ZkdUSU9XcUdBVUl1YUpFNUhTcmdKVmYyU0xuYjZYak1xb2k1Z2F2OGI3eWZGNnU1aEF6NGFndUJicmU2SnBza1huMHkyODR1VmJELU8wZXpianJUX01TeDBzMUJVZkhaSXMyRWg0cTVVMFN2M2xVeHdfSExlUnA4cG1kX24wX2cwSERqeDdkWm9JVm9rc1dZTTNZa2J3S3FfcExyYlRMTEdNX1JlTHZsaXl2UzUwdw?oc=5",
+          "timestamp": 1792058406,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[MARCA]",
+          "title": "Netflix anuncia mil demissões no maior corte desde 2022",
+          "source": "Portal Márcia Piovesan",
+          "published": "Thu, 15 Oct 2026 12:38:52 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUTY5RUIzZFNDQzB1aElSMG1ScmNTLWhvdmZYYS1fdXhpTzY2bXJZLUV0cVFETlpBeWZIMjRRZ2xIODZjbVhUcjFBOFFQTnBjZTc4YzI5dVc4RmpseDdYOW5oazV3T1JDbGhaQkljTU5LSWM2b2xWVW9Jdng5cVc2VWVPNjBmWEhWRVJxRkZhcjNUMGpjUzZWSzNsNmpDbEI0TkU4?oc=5",
+          "timestamp": 1792067932,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Festival Yasumi reúne cultura pop asiática e show internacional gratuito no Recife",
+          "source": "TV Guararapes",
+          "published": "Thu, 15 Oct 2026 13:21:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS2pvZkNpU3ljSWN0Y0Y2VmN5bkRJYXhaeDNiVnJpZG5jSWNndHp5S1pKR2h1Slo2aG1iWnRZVTBoZVc2cnozZzdGY09iZVNEM0NDTlpnSlZiVmFRSFl2VWpiY1NENHdCQWdOR0tHUFYzTHJGUnl6U2hERUhkd212RFlTQjRrcjFrVE5JX0NyNWVNWUJqQm5ST3U3NGNlOGUwZHBZWnRGQ1pPWm05bERCbzNfYUVDZmlJVExvZ2ZQU2lFRVd3LXBrWVc1VzNjcXdMYzh3ag?oc=5",
+          "timestamp": 1792070460,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "Como o Ursinho Pooh, aos cem anos, foi de livro infantil a símbolo da cultura pop",
@@ -523,20 +638,16 @@
     "totvs": {
       "name": "TOTVS",
       "category": "Tecnologia & ERP Corporativo",
-      "headline": "TOTVS aposta na combinação entre IA e inteligência humana para transformar o varejo",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Tecnologia & ERP Corporativo hoje convergem para: TOTVS aposta na combinação entre IA e inteligência humana para transformar o varejo.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de TOTVS.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Universo TOTVS 2026 debate como transformar inteligência artificial em resultados",
+      "executive_summary": "No ecossistema direto de TOTVS, destaca-se: \"Universo TOTVS 2026 debate como transformar inteligência artificial em resultados\". No campo competitivo, os concorrentes ganharam espaço com \"Primeiro emprego em TI: Senior Sistemas abre vagas de estágio em Blumenau\". Nas tendências de mercado e território, as atenções convergem para \"Transformação Digital na Saúde: por que ainda não avançou?\".",
       "news": [
         {
           "tag": "[MARCA]",
-          "title": "TOTVS aposta na combinação entre IA e inteligência humana para transformar o varejo",
-          "source": "Giro News",
-          "published": "Thu, 15 Oct 2026 13:40:09 GMT",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWThFZnk1RWZ2bjJoQ3VrWERodHFsdXU2WHdoX1hOdHBka3RCUW9FYXNReUtDYXBEN1NrUFQ0X3BFbl9pc3JmUkg3ZEg3UXplV1Y5ZmpXQ21Nc0dYcVZobGVtSU9JQmJ6bDIzYXo1N0dIaVFNWV83cjEtOC1MUVF5THFJV3BrbGk5Q1dLMGdYREJCY2x2VmNmSWdLQWQyUnJsX2FDSi0wWEtxU1Fnc2stRXFkMjg?oc=5",
-          "timestamp": 1792071609
+          "title": "Universo TOTVS 2026 debate como transformar inteligência artificial em resultados",
+          "source": "Jornal Correio",
+          "published": "Thu, 15 Oct 2026 14:43:54 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeVRFMFYyUjBHU1lWay02UWlKTk5MaVpqcUhGNTdiaXpMaGZUT3Z5cGRXZU5PdVJNeG9Ra013V0VYbVh2Wk1nUml5WUF5emxvdVJRT2Q3bk1ubEUxQW1ySjY5Q05FcXV5b0hPLXZPY256NFIxNjBrMXpjZU9PV1BuaUFJakdaZDVDWGFQallFSVVib1ozZV9LRGdqWGZhbFIwMldkVktHaTZlZ2loWEY4RXl6VGEwZ2RuWEVSenZINlZiaWhLZFVDZWE5MA?oc=5",
+          "timestamp": 1792075434
         },
         {
           "tag": "[CONCORRENTE]",
@@ -572,14 +683,32 @@
         },
         {
           "tag": "[CONCORRENTE]",
+          "title": "IA nas vendas B2B: o que automatizar e onde o fator humano pesa mais",
+          "source": "InfoMoney",
+          "published": "Wed, 14 Oct 2026 14:10:22 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOThCYVczZHRRZG1kRktfOGI2RjZSNlltOWFQa1VIdTJLenBUQkJGQm4xdDk1OXdqNGd1aVJzemtxa2RPR2JXMnFKQVR3SlZTVFkwUWJfZ3p0YWhIMnVqc3RfQ1FsTkpmTWsxZmNtMElaZ2RvcWNyalJQV0t2VjhodmNvbEMxVm5SSGVGdU44R2NUb2c1VnZEQTd1N0pRd25yM0VsRWMtUVFEeXNPRTUw0gGvAUFVX3lxTE45OEJhVzNkdFFkbWRGS184YjZGNlI2WW05YVBrVUh1Mkt6cFRCQkZCbjF0OTU5d2o0Z3VpUnN6a3FrZE9HYlcycUpBVHdKVlNUWTBRYl9nenRhaEgydWpzdF9DUWxOSmZNazFmY20wSVpnZG9xY3JqUlBXS3ZWOGh2Y29sQzFWblJIZUZ1TjhHY1RvZzVWdkRBN3U3SlF3bnIzRWxFYy1RUUR5c09FNTA?oc=5",
+          "timestamp": 1791987022
+        }
+      ],
+      "history": [
+        {
+          "tag": "[CONCORRENTE]",
           "title": "Bemol acelera acesso a dados em tempo real e fortalece estratégia de IA com SAP Business Data Cloud",
           "source": "SAP News Center",
           "published": "Tue, 13 Oct 2026 14:55:34 GMT",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUjZFeVZxMmI1N3ZNN0UyQTY0bTE5bkdHWkVCNTdWUEhUaU5kRkVDV0xTX1hfUXg0bGhWWnRxb2JzUGNlUER6amR5MmRMazVyYkg2eTNER1l3ZTR3N3A4SHg5blhvNGRKeEtiLUdxRTVnZGN1NlUwQWxrWnpOYXI2cHNNUGdZT2Y2cDVGaUJjWUx0MGs2cjJIYS1memFtN0dtSXIwbWFOLXoyUURIdXk4UGdDRUdneHFWMjlfVkpmTDRrTFN4N2pLQm5HTUcwLVJ5RkE?oc=5",
-          "timestamp": 1791903334
-        }
-      ],
-      "history": [
+          "timestamp": 1791903334,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[MARCA]",
+          "title": "TOTVS aposta na combinação entre IA e inteligência humana para transformar o varejo",
+          "source": "Giro News",
+          "published": "Thu, 15 Oct 2026 13:40:09 GMT",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWThFZnk1RWZ2bjJoQ3VrWERodHFsdXU2WHdoX1hOdHBka3RCUW9FYXNReUtDYXBEN1NrUFQ0X3BFbl9pc3JmUkg3ZEg3UXplV1Y5ZmpXQ21Nc0dYcVZobGVtSU9JQmJ6bDIzYXo1N0dIaVFNWV83cjEtOC1MUVF5THFJV3BrbGk5Q1dLMGdYREJCY2x2VmNmSWdLQWQyUnJsX2FDSi0wWEtxU1Fnc2stRXFkMjg?oc=5",
+          "timestamp": 1792071609,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "OpenRAN@Brasil apresenta protótipo de rádio 5G e oportunidades de experimentação no Futurecom 2026",
@@ -630,28 +759,32 @@
     "snickers": {
       "name": "Snickers",
       "category": "Snacks & Barras de Chocolate",
-      "headline": "GUARION FALA DIRETO COM GERAÇÃO Z",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Snacks & Barras de Chocolate hoje convergem para: GUARION FALA DIRETO COM GERAÇÃO Z.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Snickers.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Manutenção e Conservação em Ação: Serviços seguem em diferentes localidades de Nova Trento",
+      "executive_summary": "No campo competitivo, os concorrentes ganharam espaço com \"Manutenção e Conservação em Ação: Serviços seguem em diferentes localidades de Nova Trento\". Nas tendências de mercado e território, as atenções convergem para \"Geração Z desconfia da IA no emprego, mas confia seu dinheiro\".",
       "news": [
         {
-          "tag": "[TERRITÓRIO]",
-          "title": "GUARION FALA DIRETO COM GERAÇÃO Z",
-          "source": "Blog do Adonis",
-          "published": "Thu, 15 Oct 2026 13:51:05 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMExBVWJrTEYxX0VnOWdPTU1MVTZNQXl2N1h0VVh2Wk1vdG1DWHZyamR0TFJoeXBNWkZEc2pFSEwxQ2VoWTJxX0NJUkhHUnR1bGNPU054ajJPNDlNbjdjRDdfcUhkYmtZNlZGcHJXU2ZVdXFNZzdRempseW1kb0JGM1dJYVF4WHI5WlU0?oc=5",
-          "timestamp": 1792072265
+          "tag": "[CONCORRENTE]",
+          "title": "Manutenção e Conservação em Ação: Serviços seguem em diferentes localidades de Nova Trento",
+          "source": "Prefeitura Municipal de Nova Trento",
+          "published": "Thu, 15 Oct 2026 16:30:46 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUXI1clptS29sVGFTXzcwLXF3OUlzZ2Z3Q3pTeWFqemJ2R0Z4ZWlhNURsXzUtTTdXM0xsdzZJaFpjNEJ1WmdITlhjRVhjSkoxUXl3SmpZMDV4enRfN1I4Nmp6dEZaLWxUQUh0MUdHYkxiODVrZ1V6Y0JfQ1U3ZEFJcFFYV0ltc1l4SndyZ3I5Zjg0emJBUktlWjJ2Zm52ejJwMUVwMWdDZXgwcFpmd2JSdkNTcnNBOFpQNGxz?oc=5",
+          "timestamp": 1792081846
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Para a psicologia, a Geração Z enfrenta o desafio de lidar com mudanças sem transformar a própria adaptação em esgotamento",
-          "source": "Revista Oeste",
-          "published": "Thu, 15 Oct 2026 11:45:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU21QQW44cVVLMEVUclRQSHVQMEZvbTVJMElqQWR0MkRlbnNXNDEwUURxeW1ObW5od05nalQtMTlMcHJyVFFOUVB0aXUzdTBWQzNOVXR6U0s5QjZNYlJ6eGtiN3RjUV92U2lOdVIxMWUxT2ZaNkhGT0U2OU5XUU5URjBtN0RZWHZZTDJ0UzdlRE5vYkZ4Qmp0Si1iZUtUTEZRLXVjRVRSV0E0U1RETzN5Wm94X2pfYkcwSU0zd2xWZ3FsMUY2Vl9sUzlFeVlocVVDVW1hdGxrOGhqWVpqUm1wX081VU9ZQWpWbFJ4VFBDNTIwZHI0MW5WUW82MHQ0Zw?oc=5",
-          "timestamp": 1792064700
+          "title": "Geração Z desconfia da IA no emprego, mas confia seu dinheiro",
+          "source": "Educa Mais Brasil",
+          "published": "Thu, 15 Oct 2026 14:26:15 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPME9TSnZSdk50NTdNcVhSbVRCUk11U3dSNlVsR1ZqVkFfMXZJbzFSQW5hTnI5RzlvaEg5eHlCUGpSMjBEa0Z3WmtLQzd3bXcxeGJKalJaMkpNcHJyc3ItRThoN1prSVJyZUJoOUV5eDNEMDZtaTYwLW9hbm1CLTl6Tm5WZ09qRDZNa3FMU3YtVXY4cVk1N1RjSFk3ZnJOS0NRR3JEQjBTNGJkRm85TFJOSXdEWQ?oc=5",
+          "timestamp": 1792074375
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Como a geração Z colocou os livros para circular",
+          "source": "PublishNews",
+          "published": "Thu, 15 Oct 2026 12:52:58 GMT",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGlBU0ZTeUwyNHFRV2NpSkpXWG9kc1NjczhfRkxsMHgyTTRXbWxJTThBak5Xd2FaZVdLR2tnYktGck9MOEdUV3dVQ3pzVnlXUDZPMEsweE5sbE9ETFF0cUVOLU82YWhrZzRqYlpzNTFkSHhEeW5Eekd0a1I1Y3dtcUI4YjVhM3ozYkZORm5jWmNoNUwxMGxJQ3UyazJZY01L?oc=5",
+          "timestamp": 1792068778
         },
         {
           "tag": "[MERCADO]",
@@ -671,22 +804,50 @@
         },
         {
           "tag": "[CONCORRENTE]",
-          "title": "Eleições 2026",
-          "source": "Jornal Opção",
-          "published": "Wed, 14 Oct 2026 18:02:21 GMT",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEYwT3lhVnVuSDVILVRFM1VUSFBkcEgtRk4zZms0WDBHbzhUSHBvaElGb1ZBTWtvdWFOZ2FTaGJNY0g3enFYY0U1ZkZ3RU9qZ0pURmFmcmptRjhQeHc1a3VCUEE1WTk1dTJPUGZWc2RXLXdrZFlMQlBQZUxNak9YMVZOTk50RTJpTzd2VG1iX1pDWDByNjBKXw?oc=5",
-          "timestamp": 1792000941
-        },
+          "title": "Maior fábrica de KitKat das Américas abre visita de 1,5 km e termina o passeio em uma loja dentro da unidade",
+          "source": "O POVO",
+          "published": "Wed, 14 Oct 2026 16:01:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeEF1X3ZYTjFzYlVTVjd5Vk4zd21mdldUc2FnbGl0RVNQQW51NDhzZERNbGFPQ3QyU3RtQzd2NzJud3h5enRtZTZoWjlwT3NZZE5sRFlZQnZtYjZ4TVNUQWg4a3hSRjNYNzRVcW4zdnhQUDZmY1ZveldoYTNFcnZVQm55Wi15Smd1aElITmtMM2JGYi1sSjFoRHZFNFV6Vmk4a2V4Rnh6SlF0OU0yNDdnNEhhTXlGdzc1OTI4ODRPODVPV2ttRFF2NnZMRHZOS2pFWFZtSlVaSQ?oc=5",
+          "timestamp": 1791993660
+        }
+      ],
+      "history": [
         {
           "tag": "[MARCA]",
           "title": "FLUXO W7M é tetracampeão brasileiro de Free Fire e vence o FFWS Brasil 2026 – Split 2",
           "source": "Gamers & Games",
           "published": "Wed, 14 Oct 2026 16:05:56 GMT",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZzVfUHpnUDQ1TVcyNy1IY2Vzb2kyWDAtaHhHUjNzMEN3TmVqVTZBRzd3LW5LZFV1bU1MUTVzRExtQy12NUZ6Skg3OFRjbEYwZkRhczQ2QWtYY01Lb21IQ3FObXd2UnhES3Z1WDNyQWhVdC1ER2JVekl5Wl8zbXRjVXRtWG11MVVNeDAxMEZiRE9QR0xiQnpINnowM0dGWlZVWUpGRlhtMVJ5dXNkUUczWnVKN25nOWIzN2hFNlVISFBHNEdrWHfSAcsBQVVfeXFMTWNSVnQ5RHUzbEtmSnNKQXR5cUtkcGlZRVc1TGVvc3NkWlNhd3o2U1QzUW9vZzhlRHVJaHRmUDRMNkNRTGw5ODRNc3FydUVjR0JOdDhWcEtvLXRlREZoeEN3V2EzNnotN1dVdFVHNDk5XzhnTXhkVzdCRDdvd2xGN1RNV1Z1VGY5bXhzNmRyM04xckxUMkRlV2RpcTk3RmVZME1BTzRJMGdGZU5ibzF2NGd2djJJcE00VHQ3cU4xWG1xa3BsMG0yOGNLSms?oc=5",
-          "timestamp": 1791993956
-        }
-      ],
-      "history": [
+          "timestamp": 1791993956,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Eleições 2026",
+          "source": "Jornal Opção",
+          "published": "Wed, 14 Oct 2026 18:02:21 GMT",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEYwT3lhVnVuSDVILVRFM1VUSFBkcEgtRk4zZms0WDBHbzhUSHBvaElGb1ZBTWtvdWFOZ2FTaGJNY0g3enFYY0U1ZkZ3RU9qZ0pURmFmcmptRjhQeHc1a3VCUEE1WTk1dTJPUGZWc2RXLXdrZFlMQlBQZUxNak9YMVZOTk50RTJpTzd2VG1iX1pDWDByNjBKXw?oc=5",
+          "timestamp": 1792000941,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Para a psicologia, a Geração Z enfrenta o desafio de lidar com mudanças sem transformar a própria adaptação em esgotamento",
+          "source": "Revista Oeste",
+          "published": "Thu, 15 Oct 2026 11:45:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU21QQW44cVVLMEVUclRQSHVQMEZvbTVJMElqQWR0MkRlbnNXNDEwUURxeW1ObW5od05nalQtMTlMcHJyVFFOUVB0aXUzdTBWQzNOVXR6U0s5QjZNYlJ6eGtiN3RjUV92U2lOdVIxMWUxT2ZaNkhGT0U2OU5XUU5URjBtN0RZWHZZTDJ0UzdlRE5vYkZ4Qmp0Si1iZUtUTEZRLXVjRVRSV0E0U1RETzN5Wm94X2pfYkcwSU0zd2xWZ3FsMUY2Vl9sUzlFeVlocVVDVW1hdGxrOGhqWVpqUm1wX081VU9ZQWpWbFJ4VFBDNTIwZHI0MW5WUW82MHQ0Zw?oc=5",
+          "timestamp": 1792064700,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "GUARION FALA DIRETO COM GERAÇÃO Z",
+          "source": "Blog do Adonis",
+          "published": "Thu, 15 Oct 2026 13:51:05 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMExBVWJrTEYxX0VnOWdPTU1MVTZNQXl2N1h0VVh2Wk1vdG1DWHZyamR0TFJoeXBNWkZEc2pFSEwxQ2VoWTJxX0NJUkhHUnR1bGNPU054ajJPNDlNbjdjRDdfcUhkYmtZNlZGcHJXU2ZVdXFNZzdRempseW1kb0JGM1dJYVF4WHI5WlU0?oc=5",
+          "timestamp": 1792072265,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[MERCADO]",
           "title": "Fini lança nova experiência com marshmallows recheados",
@@ -737,13 +898,17 @@
     "monange": {
       "name": "Monange",
       "category": "Higiene & Cuidados Pessoais",
-      "headline": "CazéTV e YouTube renovam patrocínio de oito marcas para Copa Feminina 2027",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Higiene & Cuidados Pessoais hoje convergem para: CazéTV e YouTube renovam patrocínio de oito marcas para Copa Feminina 2027.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Monange.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Show-aula de música brasileira leva apresentações gratuitas a Goiás",
+      "executive_summary": "No ecossistema direto de Monange, destaca-se: \"Público, audiência e patrocínio: O balanço dos negócios do Brasileirão Feminino 2026\". No campo competitivo, os concorrentes ganharam espaço com \"Rexona Clinical detalha proteção de 96h contra suor e odor\". Nas tendências de mercado e território, as atenções convergem para \"Show-aula de música brasileira leva apresentações gratuitas a Goiás\".",
       "news": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Show-aula de música brasileira leva apresentações gratuitas a Goiás",
+          "source": "Agência Goiás de Notícias",
+          "published": "Thu, 15 Oct 2026 13:23:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb3pyaEFfaHp5T19LN1Q3aGpBdGZiRURmWlZLeXJnenZ0a2JmcXZQN085em1KaHNnOTRzNlUyWm40aDBzcHYwRnEzemFKUy1TMml2cVVNNXY4QlF5LUtQRi15RzNIM1RKTkJJMk5lOTBwMldLRE0xU3MtT050WW1hVmV2UzZhWWFiOEZvaF9BNU1ubm9CQ1pMcklB?oc=5",
+          "timestamp": 1792070580
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "CazéTV e YouTube renovam patrocínio de oito marcas para Copa Feminina 2027",
@@ -751,14 +916,6 @@
           "published": "Thu, 15 Oct 2026 12:31:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYXdkR0oyanI4a0VqWmQzMWwySWRfSGpicTBBdXd6RENFbWgtSWRMU1RKeGR5eHgxRXBoR3ZmeTdOU0RxZlBaVDN6WF9OdWNQRlhudmlHSnZua1lfR2F3YUZyblFsZzJKTnBxc3NLbTdZeGZQaUtoZTRJUlNic2lZd3E3YUdYX0dicUVYTkt4aTRnNVVRb2xScGRqRGExbHV0NjdaYWd5V0hMeFk?oc=5",
           "timestamp": 1792067460
-        },
-        {
-          "tag": "[TERRITÓRIO]",
-          "title": "Duo Alísios aproxima música brasileira e latino-americana em concerto na Rabeca Cultural",
-          "source": "Carta Campinas",
-          "published": "Thu, 15 Oct 2026 02:17:01 GMT",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYWZTVkxLTWhFM0FWb20xN29fN3F4azJnWkU1ZXZBY0NPX0EwcjlhTHFzelpvYi02NldvZGk0MlRzVTY4NmFfbzRBMFVPWHJ2OFR2Y29qbjRQaFp0Uk0zbUNNWnhaMER6U2E2b0dnVUlmc0NMMzZYUXZSSF9lSVZkQl9ldHE2ME5XVzB3Tk4zckhuYzlkSWdlb1MzRkZ0RzhkRVVSblFjZjFyYU5VSkZUUjVGNmprSExpTzdmckF0ay0yVzlm0gHKAUFVX3lxTE1zSmJkODFpUWhUaFMta2hIb0xLRUF0bkN6ZUJSU0RRNGxTU1plQ2R0Y2M4cHdDN2pQRHFYRzJJU1FramZNNTJoNmNSeXR0THNCcG1zMV9zNVNaYWNUaHE4Y2F0VENCZkwtODh6SUdTZHprUndZNTh5eXNsblBMTDF1NGpyM2FjS1NaNXRoWHQ3bldFN19hY2I4eFp3OTUtYmtVd0ljZXlrZ1YxTlY0aERJdVhCWFJXZHR6Rm8zYVZSRVV0TTB1a2pYS2c?oc=5",
-          "timestamp": 1792030621
         },
         {
           "tag": "[CONCORRENTE]",
@@ -795,6 +952,15 @@
       ],
       "history": [
         {
+          "tag": "[TERRITÓRIO]",
+          "title": "Duo Alísios aproxima música brasileira e latino-americana em concerto na Rabeca Cultural",
+          "source": "Carta Campinas",
+          "published": "Thu, 15 Oct 2026 02:17:01 GMT",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYWZTVkxLTWhFM0FWb20xN29fN3F4azJnWkU1ZXZBY0NPX0EwcjlhTHFzelpvYi02NldvZGk0MlRzVTY4NmFfbzRBMFVPWHJ2OFR2Y29qbjRQaFp0Uk0zbUNNWnhaMER6U2E2b0dnVUlmc0NMMzZYUXZSSF9lSVZkQl9ldHE2ME5XVzB3Tk4zckhuYzlkSWdlb1MzRkZ0RzhkRVVSblFjZjFyYU5VSkZUUjVGNmprSExpTzdmckF0ay0yVzlm0gHKAUFVX3lxTE1zSmJkODFpUWhUaFMta2hIb0xLRUF0bkN6ZUJSU0RRNGxTU1plQ2R0Y2M4cHdDN2pQRHFYRzJJU1FramZNNTJoNmNSeXR0THNCcG1zMV9zNVNaYWNUaHE4Y2F0VENCZkwtODh6SUdTZHprUndZNTh5eXNsblBMTDF1NGpyM2FjS1NaNXRoWHQ3bldFN19hY2I4eFp3OTUtYmtVd0ljZXlrZ1YxTlY0aERJdVhCWFJXZHR6Rm8zYVZSRVV0TTB1a2pYS2c?oc=5",
+          "timestamp": 1792030621,
+          "archived_date": "15/10/2026"
+        },
+        {
           "tag": "[CONCORRENTE]",
           "title": "Oito meses antes, a Copa do Mundo Feminina já mexe com as marcas",
           "source": "Promoview",
@@ -817,13 +983,17 @@
     "cenoura": {
       "name": "Cenoura & Bronze",
       "category": "Proteção Solar & Verão",
-      "headline": "Renato Lombardi celebra desempenho em corrida de rua e é exaltado por André Azeredo: ‘Exemplo de vitalidade’",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Proteção Solar & Verão hoje convergem para: Renato Lombardi celebra desempenho em corrida de rua e é exaltado por André Azeredo: ‘Exemplo de vitalidade’.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Cenoura & Bronze.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Porto Alegre recebe terceira edição da Ladies Run, corrida de rua em alusão ao Outubro Rosa",
+      "executive_summary": "No campo competitivo, os concorrentes ganharam espaço com \"Nem todo produto de beleza é para criança! Veja os cuidados necessários com a pele infantil\". Nas tendências de mercado e território, as atenções convergem para \"Porto Alegre recebe terceira edição da Ladies Run, corrida de rua em alusão ao Outubro Rosa\".",
       "news": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Porto Alegre recebe terceira edição da Ladies Run, corrida de rua em alusão ao Outubro Rosa",
+          "source": "GZH",
+          "published": "Thu, 15 Oct 2026 16:21:44 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQTEdxZ2xsZndSMXlUODRGNmFEc1FHaUgwTVJueE9UeFRiODlJNVpCTFZZT2dqZjJYR3BoRi0yVmYtb3pCZ1pWOUFjaElJdkxQWHY3elpxTFR4a2tHRjNzbUluMUtjTWt4UkVHdTFCYzE4OWhKSjVwTUVsMHBnelVacldaLXZyRVlVeEhJV1VoTk5MajhXRjlTX0lrdEVZdlRYUm0wa1kwbjJvUWhhQUFpVW9yNVlsaUE5OGhfWVFNWHF3V0lWOWZKam04MnA2N096MFZXZ04xcVVrUWxrOXpjVTJDZTdFWnJtakFBdlpXN2FUaldWbTVPZUdzSmx4TnpnMXJfclV1elk4dw?oc=5",
+          "timestamp": 1792081304
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "Renato Lombardi celebra desempenho em corrida de rua e é exaltado por André Azeredo: ‘Exemplo de vitalidade’",
@@ -831,14 +1001,6 @@
           "published": "Thu, 15 Oct 2026 05:00:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYXAzRHZvOUZJNDM4VDBlT2RDY01WM2ZmV1l5aHJmblpDdjFocGhaYmw4VFFVa2xOWFNyTHFYOGdXRkc1SVdzelBvRzdSMjhRV2o2YXpOa3VMZjFGNFRHWmpZbnl5YnNrdldBVHZEVUEzX3BiT3dXVm1OeTZFTTdWRjlNVWoyWnJlWVZzSHNIamNNMjBXQVIyQ3Y1VGQ0d3l3ODVvTTNVVF82ZEZ6YXEzYnBRa3Nrbnl6SDVfQXJYRS1Zc3I4QzJ1dGVBS3VXRjdOeWthNTlkZS1hQUZCejMwdmtOUjNNdw?oc=5",
           "timestamp": 1792040400
-        },
-        {
-          "tag": "[TERRITÓRIO]",
-          "title": "Rio aposta em boom da corrida de rua para receber Mundial em 2028: ‘Todos querem correr no Brasil’",
-          "source": "Estadão",
-          "published": "Thu, 15 Oct 2026 00:19:03 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYjd4LXJrLWtub3FiZ1RhR3hYUngtWW84MzBJWHlXRm5TV2hXR2xlaVJYLVlEVnVpaXBfVV9aR1dNWHZ1Rm5RV19yM1Jad0NRc1RBWDM0dFpCVUpCaWFPbktLaFdoWDFWMldwWXBWSEVoekVCT2JDVFBaMjVCUEQ2Yk1saU1TaXlQb2FaSHJXaDlQNjFuaS1tbmc1RFAxYzEzR21MS0tsUHZXQkQ5V0cxR0ZoTl81cVlSOGV2R2hUSzctYU5sZFNNNjNTM0s5RExxZ0E?oc=5",
-          "timestamp": 1792023543
         },
         {
           "tag": "[CONCORRENTE]",
@@ -850,6 +1012,15 @@
         }
       ],
       "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Rio aposta em boom da corrida de rua para receber Mundial em 2028: ‘Todos querem correr no Brasil’",
+          "source": "Estadão",
+          "published": "Thu, 15 Oct 2026 00:19:03 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYjd4LXJrLWtub3FiZ1RhR3hYUngtWW84MzBJWHlXRm5TV2hXR2xlaVJYLVlEVnVpaXBfVV9aR1dNWHZ1Rm5RV19yM1Jad0NRc1RBWDM0dFpCVUpCaWFPbktLaFdoWDFWMldwWXBWSEVoekVCT2JDVFBaMjVCUEQ2Yk1saU1TaXlQb2FaSHJXaDlQNjFuaS1tbmc1RFAxYzEzR21MS0tsUHZXQkQ5V0cxR0ZoTl81cVlSOGV2R2hUSzctYU5sZFNNNjNTM0s5RExxZ0E?oc=5",
+          "timestamp": 1792023543,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "Ponta Negra terá corrida de rua com 350 vagas em novembro, em Manaus",
@@ -874,11 +1045,7 @@
       "name": "QuintoAndar",
       "category": "Proptech & Moradia",
       "headline": "SEBRAE-SP abre processo seletivo para consultor de políticas públicas",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Proptech & Moradia hoje convergem para: SEBRAE-SP abre processo seletivo para consultor de políticas públicas.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de QuintoAndar.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "executive_summary": "No ecossistema direto de QuintoAndar, destaca-se: \"Seleção lista vagas remotas em várias áreas\". No campo competitivo, os concorrentes ganharam espaço com \"SEBRAE-SP abre processo seletivo para consultor de políticas públicas\". Nas tendências de mercado e território, as atenções convergem para \"Com consórcio imobiliário em alta, saiba como se proteger de golpes\".",
       "news": [
         {
           "tag": "[CONCORRENTE]",
@@ -963,13 +1130,33 @@
     "google": {
       "name": "Google",
       "category": "Big Tech & Publicidade Digital",
-      "headline": "OpenAI alerta PF sobre ameaças de morte contra presidente Lula feitas no ChatGPT",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Big Tech & Publicidade Digital hoje convergem para: OpenAI alerta PF sobre ameaças de morte contra presidente Lula feitas no ChatGPT.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Google.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Fim da escala 6x1: empresário alerta para riscos e desafios da redução da jornada",
+      "executive_summary": "No ecossistema direto de Google, destaca-se: \"Tech Day CNC 2026: Amazon, Google, iFood, Uber e Mercado Livre destacam avanços no Brasil\". No campo competitivo, os concorrentes ganharam espaço com \"OpenAI aborda uso da inteligência artificial nas salas de aula\". Nas tendências de mercado e território, as atenções convergem para \"Fim da escala 6x1: empresário alerta para riscos e desafios da redução da jornada\".",
       "news": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Fim da escala 6x1: empresário alerta para riscos e desafios da redução da jornada",
+          "source": "Primeira Página",
+          "published": "Thu, 15 Oct 2026 14:42:29 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeDlQdWpkcWptcC1iSk1vcjlFTDY5TjFZMW9BWFh1bW14cVZyNXVTU1oxZ1c3NUN0S3ZFR2xXM2w2a3NGTEVSTjlFVXZGUjdfZXlITDdDRlhiQnEwV0h5cV9DNktCcWQ0Z2xVeHJMMjVTbU1xZFljUVRtd3RTd0tnczE4Tmd0eDUwRVVITmRKbHNUNVFBTDl5YTBja0JsLXBoRHVpZjduZzJwbEVQM3FmWDlsMFAwRXROdmUyaU01U05wWWdiODRuQUNYS1BCZnpuaWxWRA?oc=5",
+          "timestamp": 1792075349
+        },
+        {
+          "tag": "[MARCA]",
+          "title": "Tech Day CNC 2026: Amazon, Google, iFood, Uber e Mercado Livre destacam avanços no Brasil",
+          "source": "Panrotas",
+          "published": "Thu, 15 Oct 2026 14:33:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSGlOZmdWMnhBSmh1ZjI5ZmdxQ00wQnVhOV9uLVpFdUlIcGpMSUtqcUljdWhreFhqUnR4YVA4cXRMdTNlbkdMU1BTZ1lwWWE0RTYwVGFkNUgtVF9kbkdUQVF3SXJvdWNxdGxlY0QwMVNidWhlWVJFSUJrMVdfS011Z0tvMl9WWUItTzVDYV9jNDZCMk53U2NaSkpCbG5qb1VqUHpNd3RtdTFnYVAzU1NkcG1jOWs1Ql90OHRIYy14cmJXdlZsQ3lCdG1GZXJvQlhVVVp1cHJnb3I0ckE5bjRiOFd3SHNpTU0?oc=5",
+          "timestamp": 1792074780
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "OpenAI aborda uso da inteligência artificial nas salas de aula",
+          "source": "Meio e Mensagem",
+          "published": "Thu, 15 Oct 2026 13:09:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMjNBZlNfVGlPbkJVejFJTHA4UnVXQVp0eVh2NTg4YWk1ZFlRaHZ1dFZCWUk2QVZ3Y3g0SENJdWpBZjBQYTJJbF9Pa1AyTXJ4UFpJaGxDZWtUejNGYlk1Z2kxd3N3WDRWMmt4Wnc4N0JzWjl1d1hoaDFTNVNkZ3M4QjhNSk5wbDhROXVWN0UyVU5XTlJEQzlZN0VOdVhWNWFzeFhZaE5OSW9GVlU?oc=5",
+          "timestamp": 1792069740
+        },
         {
           "tag": "[CONCORRENTE]",
           "title": "OpenAI alerta PF sobre ameaças de morte contra presidente Lula feitas no ChatGPT",
@@ -977,22 +1164,6 @@
           "published": "Thu, 15 Oct 2026 12:24:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR1ZLZGlaLVZMY2tocjlyVVBrWjF2UnNpZVlUZ015S1dCa0dSR21CSElNbWNrSDJyWFFaYWNUTWx0SFYzRm1RbGhUcWZsbmpNdWJCRDc1eWptaHZqNmJYYndkWjVrV3A3V0ZsY2V3WFE4cDJCS3A2TFpveVlMSDV5cW5ZN0Q0UWNSYTlRVDRKdzRXYTNydjJwWkZxbDk5SFlWY2RvVlBzb1dwanpwR1A3UWwzc2ZTTGFZQm8tWjZYNExUQQ?oc=5",
           "timestamp": 1792067040
-        },
-        {
-          "tag": "[CONCORRENTE]",
-          "title": "OpenAI acusa ex-funcionário de levar arquivos sobre aparelho não lançado para a Apple",
-          "source": "G1",
-          "published": "Thu, 15 Oct 2026 11:51:35 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRWIxaVNmNjdOT1g1VGllaXIyRzhwcVRJOTZlWVFaZ2ZXV0xyVkNFTW1kVkhkUHdGU1F0U0hqZDNyQkdLdmQyZ3BuUE1lMDlWMlZvamMwalJ4S2hVZ1FmZ0hBYUJDYjJoQ1d6RVR5SGxsc3FMX19SZEF4a1JIeXpkNGZSSnNob2dsd1EtVmpCdmJyd1Z1WFlwY3hIM0dSSVZLbV80eV9WUl9JMGt4aVY4dUNCdzBLZGI1OHpZSTM0dE12SkdVamtOQ2taeTNHZVZBLUFOcV9MUFd5Zw?oc=5",
-          "timestamp": 1792065095
-        },
-        {
-          "tag": "[TERRITÓRIO]",
-          "title": "'Sou a favor do fim da escala 6x1, mas abri mão do meu negócio pelos custos': a preocupação de empresários que precisarão contratar mais pessoas",
-          "source": "Época Negócios",
-          "published": "Thu, 15 Oct 2026 11:35:32 GMT",
-          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPZHdGTnVaV0RSeEpEQURRWHRWa2NFekx6V1JNV05iTWFManR4R21pTlpZTlh5Mm53a1Q4eExsZmpkZEpNYnROUzlFMlhsRDRKd3FTLWs5TExCMkptUENBVEZZdk9DQWNEakZpUndHVzFtcGh3OEpVZjZ1czc3aWNDdEliUy12UHVwZHJfZU1OVG1Rell3M20yd05ZZEc4RFVwbmVYcEJBSEJiUzZoVjFTZ1dUMkhxMzZtd0c2YW5Gb0QxTEVaMEVRdjFQZnEzMWxWMW0zYXlwLUpGMXpUeVFWdDFHQXhLN1VmODl0UkFMZXJhSm1mcTlHeElKX2dmMmtrdTg3akNfUTQyZ3AzNTdYY004NVJCOHNSVmFQcTN3bEZFVnZiU1BZUm5xY1JSb0xOVHpYdGx4bkN0cG5KWUVB0gHOAkFVX3lxTE13VVhNRTlWNmt4QjFnazI0RlhBcjdFcDhTS1ZaYzhubThkbUpZUnRPYm9IaHcyOGVuYzk4Ry13bVJnbEdXV1hJLUVobHNTWmZmVDR2REdPeTExWkZ2MnRLTzJSZDhqRE1wUmwyOTFUa1RFa2NDNmg4c09TdG5kVjBQUHc1NkpTcDQ1YjAyMi1XdTZucHl3RDBYMWR1VG4tUjlfUjh0eWg2N1B6SHQtSndQclFSSDV4WUVQRk02eUtWeGM5T0lYQ1lqbk9nYzMxMHBvMi1ybWhJQzJIZXJvWnBoSk51c2VBdzU1dUV2Mzh2ZzM0cGdWTVBTNWdiejB6RDVXZk1VRFhBNHV1bDBlVU16S29TTVk3VElibkRheHlVWmdtenUybVJDZDZBMXgyQXJfR2hRWmg1OWtFWC1LaHVoSHFGSl9YTXYwcUp3S1E?oc=5",
-          "timestamp": 1792064132
         },
         {
           "tag": "[TERRITÓRIO]",
@@ -1009,17 +1180,36 @@
           "published": "Wed, 14 Oct 2026 22:53:51 GMT",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVllPQVJ3TFBXX1dTNVBEWUNnWTdnUzliZTc5UURQcUUteVZDd29NM2pPSTNTRk1acC13NmlodmkxODJfWXBKX2NpSG5aOHVuVjF3S25rQm9jcjlLQmFkbFB1eVZ4MGVEVXdjV0NPdkxuSk5iUmZKRjdUV1o4cUFITFZEOFJNTlJJeUVOWi1yNlVvMUxIQkNiYkpkNkEtd1RFWHFCMElnZkZqd3JsRm9kTWx2bWxmc1RiOGVPS283M3VUOFV1bG81Mkc2NU4?oc=5",
           "timestamp": 1792018431
-        },
+        }
+      ],
+      "history": [
         {
           "tag": "[MARCA]",
           "title": "Google Cloud chega ao Tech Day 2026 e propõe relação entre IA e criatividade para potencializar empresas",
           "source": "Portal do Comércio",
           "published": "Wed, 14 Oct 2026 17:01:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUURXWFhmNmdUZEF1TXJnOTVZUFg1Y2J1eUJ3aGYxOHpDZUp2RVRTVzZYMXBsMTFwRC1UNmtUNF9JTThHb2tBUm5XWHAyTHFFZzlEbGZ4Z0w4dGNOeWQwN1IyMG82aDc2c2VsMjJndTF6MnNLcVdOaTRuTUgza015TnY1eEVkWENjcFRqeUZLQlBwdm5VTVNSaEhNRHpla0tVbEhHLWdQU0xQdkVjb2hKYWVvZzM1UDdMVWVyVkhRSFh3SDgyMTF0TC12aGd3TUFkNHVGZWFSYnNZRG5ZdEtZV05jT3Y3MVZ1amE4SmhDZw?oc=5",
-          "timestamp": 1791997260
-        }
-      ],
-      "history": [
+          "timestamp": 1791997260,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "'Sou a favor do fim da escala 6x1, mas abri mão do meu negócio pelos custos': a preocupação de empresários que precisarão contratar mais pessoas",
+          "source": "Época Negócios",
+          "published": "Thu, 15 Oct 2026 11:35:32 GMT",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPZHdGTnVaV0RSeEpEQURRWHRWa2NFekx6V1JNV05iTWFManR4R21pTlpZTlh5Mm53a1Q4eExsZmpkZEpNYnROUzlFMlhsRDRKd3FTLWs5TExCMkptUENBVEZZdk9DQWNEakZpUndHVzFtcGh3OEpVZjZ1czc3aWNDdEliUy12UHVwZHJfZU1OVG1Rell3M20yd05ZZEc4RFVwbmVYcEJBSEJiUzZoVjFTZ1dUMkhxMzZtd0c2YW5Gb0QxTEVaMEVRdjFQZnEzMWxWMW0zYXlwLUpGMXpUeVFWdDFHQXhLN1VmODl0UkFMZXJhSm1mcTlHeElKX2dmMmtrdTg3akNfUTQyZ3AzNTdYY004NVJCOHNSVmFQcTN3bEZFVnZiU1BZUm5xY1JSb0xOVHpYdGx4bkN0cG5KWUVB0gHOAkFVX3lxTE13VVhNRTlWNmt4QjFnazI0RlhBcjdFcDhTS1ZaYzhubThkbUpZUnRPYm9IaHcyOGVuYzk4Ry13bVJnbEdXV1hJLUVobHNTWmZmVDR2REdPeTExWkZ2MnRLTzJSZDhqRE1wUmwyOTFUa1RFa2NDNmg4c09TdG5kVjBQUHc1NkpTcDQ1YjAyMi1XdTZucHl3RDBYMWR1VG4tUjlfUjh0eWg2N1B6SHQtSndQclFSSDV4WUVQRk02eUtWeGM5T0lYQ1lqbk9nYzMxMHBvMi1ybWhJQzJIZXJvWnBoSk51c2VBdzU1dUV2Mzh2ZzM0cGdWTVBTNWdiejB6RDVXZk1VRFhBNHV1bDBlVU16S29TTVk3VElibkRheHlVWmdtenUybVJDZDZBMXgyQXJfR2hRWmg1OWtFWC1LaHVoSHFGSl9YTXYwcUp3S1E?oc=5",
+          "timestamp": 1792064132,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "OpenAI acusa ex-funcionário de levar arquivos sobre aparelho não lançado para a Apple",
+          "source": "G1",
+          "published": "Thu, 15 Oct 2026 11:51:35 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRWIxaVNmNjdOT1g1VGllaXIyRzhwcVRJOTZlWVFaZ2ZXV0xyVkNFTW1kVkhkUHdGU1F0U0hqZDNyQkdLdmQyZ3BuUE1lMDlWMlZvamMwalJ4S2hVZ1FmZ0hBYUJDYjJoQ1d6RVR5SGxsc3FMX19SZEF4a1JIeXpkNGZSSnNob2dsd1EtVmpCdmJyd1Z1WFlwY3hIM0dSSVZLbV80eV9WUl9JMGt4aVY4dUNCdzBLZGI1OHpZSTM0dE12SkdVamtOQ2taeTNHZVZBLUFOcV9MUFd5Zw?oc=5",
+          "timestamp": 1792065095,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[TERRITÓRIO]",
           "title": "Fim da escala 6x1: o que acontece se o Senado aprovar a proposta? E se rejeitar? Entenda",
@@ -1071,11 +1261,7 @@
       "name": "HBO Max",
       "category": "Streaming & Séries",
       "headline": "KATSEYE: WILD HEARTS leva você para o mundo desse fenômeno do k-pop",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Streaming & Séries hoje convergem para: KATSEYE: WILD HEARTS leva você para o mundo desse fenômeno do k-pop.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de HBO Max.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "executive_summary": "No ecossistema direto de HBO Max, destaca-se: \"Epitáfios retorna em 4K à HBO Max; veja onde assistir\". No campo competitivo, os concorrentes ganharam espaço com \"KATSEYE: WILD HEARTS leva você para o mundo desse fenômeno do k-pop\". Nas tendências de mercado e território, as atenções convergem para \"Marvel aciona Tobey Maguire em sizzle da Comic-Con e transforma nostalgia em combustível para Avengers: Doomsday\".",
       "news": [
         {
           "tag": "[CONCORRENTE]",
@@ -1186,13 +1372,17 @@
     "panco": {
       "name": "Panco",
       "category": "Panificação & Alimentos",
-      "headline": "Cade autoriza aquisição da marca Nutrella pela Panco",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Panificação & Alimentos hoje convergem para: Cade autoriza aquisição da marca Nutrella pela Panco.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Panco.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Pullman Vila Olímpia terá Halloween com show do CPM22",
+      "executive_summary": "No ecossistema direto de Panco, destaca-se: \"Cade autoriza aquisição da marca Nutrella pela Panco\". No campo competitivo, os concorrentes ganharam espaço com \"Pullman Vila Olímpia terá Halloween com show do CPM22\". Nas tendências de mercado e território, as atenções convergem para \"Quer um lanche da tarde leve? Aprenda essa receita fácil de biscoito de polvilho\".",
       "news": [
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Pullman Vila Olímpia terá Halloween com show do CPM22",
+          "source": "Revista Hotéis",
+          "published": "Thu, 15 Oct 2026 14:52:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMEMwSjd2ZzRGc1pZMldpR3Z3bzlHeUlEWmxUVWRVOTIyT1JuSm5uQ2hmazVoYVNwNzVsV250M1B6d1E4anVhNmFwM2xyZHNHMmxUN2xLLUl6N3pLaTN5bGNPSGJkWWFQQ2NPX2dUU3VlcE52NEdTbVZPRjNlWGVNMk9kOHVINFAxRGxZ?oc=5",
+          "timestamp": 1792075920
+        },
         {
           "tag": "[MARCA]",
           "title": "Cade autoriza aquisição da marca Nutrella pela Panco",
@@ -1200,14 +1390,6 @@
           "published": "Thu, 15 Oct 2026 13:27:07 GMT",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWcxY05ycWt2RzdpN0xzaTZyUnFpc0ZlakJ3cW5SSVNQcHV6NVZRMEFOOE9kYzlWNEdXbEZObW1vdk5wTTQ0dzhKNzJUd0xkU3dCdjVWSElmV21XTVZDUndzbW5lMDNPRzhzWDdMNW5EdnBVNGNpRE1BemRiYldHdFQwWW1KRzJ5VnZaUkdoOHpJRHgtazFqeXRYWk5iNVB6Q0VtcQ?oc=5",
           "timestamp": 1792070827
-        },
-        {
-          "tag": "[CONCORRENTE]",
-          "title": "Bauducco e Kibon se unem em picolé para as festas de fim de ano",
-          "source": "MilkPoint",
-          "published": "Thu, 15 Oct 2026 12:05:06 GMT",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNTdjSF8yb3J4S1JhMmViTzNDUzZlREhZV3lnNnl4M3FsMWRCdm03T3o2bFFjb2xOM3gtbW9FVk5aRk1nZTlUa2dGbWQwQmxadDFzQk1hdDdSdVZXS2JsU0dYWTNjY19pb2REU3F5QlVYbkFKelVLUFNCYnVqVnNnVDh4ZTVySUJ6SXhTZjlhc2FSekJCclRZQkRya1pPRFVhQ0tlQ2FyTmdVcEExWmN4R3Y3eFJYbTNYWnNJTnNpNnh6SmQySHd5eTdzTEllUQ?oc=5",
-          "timestamp": 1792065906
         },
         {
           "tag": "[TERRITÓRIO]",
@@ -1243,6 +1425,15 @@
         }
       ],
       "history": [
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Bauducco e Kibon se unem em picolé para as festas de fim de ano",
+          "source": "MilkPoint",
+          "published": "Thu, 15 Oct 2026 12:05:06 GMT",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNTdjSF8yb3J4S1JhMmViTzNDUzZlREhZV3lnNnl4M3FsMWRCdm03T3o2bFFjb2xOM3gtbW9FVk5aRk1nZTlUa2dGbWQwQmxadDFzQk1hdDdSdVZXS2JsU0dYWTNjY19pb2REU3F5QlVYbkFKelVLUFNCYnVqVnNnVDh4ZTVySUJ6SXhTZjlhc2FSekJCclRZQkRya1pPRFVhQ0tlQ2FyTmdVcEExWmN4R3Y3eFJYbTNYWnNJTnNpNnh6SmQySHd5eTdzTEllUQ?oc=5",
+          "timestamp": 1792065906,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[MERCADO]",
           "title": "Prefeitura celebra o Dia Mundial da Alimentação com serviços gratuitos na Praça Antônio João",
@@ -1293,13 +1484,17 @@
     "geely": {
       "name": "Geely",
       "category": "Automotivo & Carros Elétricos",
-      "headline": "Supercarregador da Geely recarrega carro em 4,5 minutos",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Automotivo & Carros Elétricos hoje convergem para: Supercarregador da Geely recarrega carro em 4,5 minutos.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Geely.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "BYD estreia no SPFW conectando moda e mobilidade sustentável",
+      "executive_summary": "No ecossistema direto de Geely, destaca-se: \"Supercarregador da Geely recarrega carro em 4,5 minutos\". No campo competitivo, os concorrentes ganharam espaço com \"BYD realiza primeira SIPAT no complexo industrial de Camaçari\". Nas tendências de mercado e território, as atenções convergem para \"BYD estreia no SPFW conectando moda e mobilidade sustentável\".",
       "news": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "BYD estreia no SPFW conectando moda e mobilidade sustentável",
+          "source": "Motor Mais",
+          "published": "Thu, 15 Oct 2026 16:41:39 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSHczUUYzV214WkJpS3htRDFNdUtRYWd2YzNlZHpPZDltNjdoQ0Vuazc0S216c084Yy1BTnphc25fWVV2Tl9xbHZ1VFAtVXQ4LWdRWUdGTUZBUy1uc0F2NmNQQU8yTi1BajlEWTlFNVI1OXoteVRvSFRLSm9rX0xFTjhQSDcyMTBabEM0?oc=5",
+          "timestamp": 1792082499
+        },
         {
           "tag": "[MARCA]",
           "title": "Supercarregador da Geely recarrega carro em 4,5 minutos",
@@ -1315,14 +1510,6 @@
           "published": "Wed, 14 Oct 2026 22:24:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQzZDR3lpUEFpekNNY0NmT2F3M2J3Qm9vaW02cjBCY1hoTEJTZ290Y0p2djFzbjJ1VFJuTW5CNUMwZm94LWJjZG4wbHB6TnhjakJHWGNkOC10VksyV3MtMC1TYUtJV3ZYeS1fVmZVRG1QNUhTbmhtZUJpRmVWMV91c3duQ3oybUQ1ajdCeFNNTUd2ZnMxRUVsbkdqcm1OY1FmbC1CVHJNS21SakZ6ckhpSkZn?oc=5",
           "timestamp": 1792016640
-        },
-        {
-          "tag": "[TERRITÓRIO]",
-          "title": "Com estratégias de descarbonização e expansão global, Marcopolo conquista duplo reconhecimento no Top de Marketing ADVB/RS 2026",
-          "source": "Radio Caxias FM",
-          "published": "Wed, 14 Oct 2026 16:37:37 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeWVVWVdKVDZUcmQtRDV6aXMtcVpoYWxpTy13M0FEd0dRaDZ4QkxNRW45akJvQkRzdXlJOTdLSlMtc0RvRkpUTWdPTlJVRDcybGdBSHMyaG13Q0lFUUpwVm0wRWpnMzVJeUl6UEdNVGV0YUdtQmFxZG9PR3VEQWUtRmc2amE2cE5XYmhLYUZvQ3kwUnZxaUdqaVc5cTFGTnRZQ2NxOWhLeVRfVzlMZ2tuN2NVNmZNQkg1c3hMeFo3SWo3OHNLVGMtS19HS2QwVVlTUk92VzR3enpLdUMyaFNyVnFsM0hDM1pQY2NrTnFoUQ?oc=5",
-          "timestamp": 1791995857
         },
         {
           "tag": "[CONCORRENTE]",
@@ -1342,6 +1529,15 @@
         }
       ],
       "history": [
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Com estratégias de descarbonização e expansão global, Marcopolo conquista duplo reconhecimento no Top de Marketing ADVB/RS 2026",
+          "source": "Radio Caxias FM",
+          "published": "Wed, 14 Oct 2026 16:37:37 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeWVVWVdKVDZUcmQtRDV6aXMtcVpoYWxpTy13M0FEd0dRaDZ4QkxNRW45akJvQkRzdXlJOTdLSlMtc0RvRkpUTWdPTlJVRDcybGdBSHMyaG13Q0lFUUpwVm0wRWpnMzVJeUl6UEdNVGV0YUdtQmFxZG9PR3VEQWUtRmc2amE2cE5XYmhLYUZvQ3kwUnZxaUdqaVc5cTFGTnRZQ2NxOWhLeVRfVzlMZ2tuN2NVNmZNQkg1c3hMeFo3SWo3OHNLVGMtS19HS2QwVVlTUk92VzR3enpLdUMyaFNyVnFsM0hDM1pQY2NrTnFoUQ?oc=5",
+          "timestamp": 1791995857,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[MARCA]",
           "title": "Autos Segredos: Geely EX5: o que já descobrimos sobre a produção nacional do SUV híbrido",
@@ -1366,11 +1562,7 @@
       "name": "99Pay",
       "category": "Fintech & Carteira Digital",
       "headline": "Aplicativo de rede de postos do Paraná oferece cashback de R$ 0,20 por litro no abastecimento de gasolina ou etanol",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Fintech & Carteira Digital hoje convergem para: Aplicativo de rede de postos do Paraná oferece cashback de R$ 0,20 por litro no abastecimento de gasolina ou etanol.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de 99Pay.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "executive_summary": "No ecossistema direto de 99Pay, destaca-se: \"99Pay vai ter cartão de crédito? Veja o que diz a empresa\". No campo competitivo, os concorrentes ganharam espaço com \"Nubank lança nova ferramenta que orienta decisões de investimento sem conflitos\". Nas tendências de mercado e território, as atenções convergem para \"Aplicativo de rede de postos do Paraná oferece cashback de R$ 0,20 por litro no abastecimento de gasolina ou etanol\".",
       "news": [
         {
           "tag": "[TERRITÓRIO]",
@@ -1382,27 +1574,27 @@
         },
         {
           "tag": "[CONCORRENTE]",
-          "title": "Nubank lança ferramenta de IA que promete recomendações neutras de investimento",
-          "source": "Bloomberg Línea Brasil",
-          "published": "Thu, 15 Oct 2026 13:07:55 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS0c5bjkyb0Z4UVU5dWR5ekU3MFhLQk9yQXJ6emtiZVk4cndfU2FYaklQVlJhTFNXVm1OM3dVQVFnOWwwNHhuUUc1S2tQTHV5T1p1YkJnWDE4d3R3VGg2Wk9NOGNhSmRONW8yZk1mVk9fam5xdTAtdkxhMEtBcjZWM0UzdDVnaVlNQjFhaTF0aUhzNmlWUm5EUE5QUHpyejZKM0NadE5LZ3RiQksxSzNxSlRLUGVVYzRSUUYw0gHPAUFVX3lxTE9kS1ZyTkhnTk1oNG1PZ2ljZjF1STRaNjFQQjNRWHFQU0ZTZUFXVm1FM0ZpZ2lLbXFyX09nMUU4OE1nVlBTSXJjdXJXbkhkd2NRMm9tVFlOaGJwbVNScEtUQTRUTkNoOWp3VzJpa2NJNV9mcG9GdnVnQTRLaXpHY0RjSVVJM21aQzdXOEt5MzBaeERyZnJvR0V2LWJOUWVpdkxvYURjTDJUUUpRMDU3Q0NSLXM3ZXNUMmdkQkRwMFBTYi1xd0ZZUmhIaXR5MmxrNA?oc=5",
-          "timestamp": 1792069675
+          "title": "Nubank lança nova ferramenta que orienta decisões de investimento sem conflitos",
+          "source": "Nubank",
+          "published": "Thu, 15 Oct 2026 13:15:31 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNMlFwX0hncm5BRzJPNkNmYlpkU2ZQZUh1eW44cmVVZkotN0dfUzVLV1A1UUo5QklNd1Y3aXZFWFBnVUh1cWZIUWtzRlNHMmJLNHdKVzAzbVZmbVhaVTROT01CaWdaQWVMN0UtNF9paVZ6V0xKLUFhZTBVNWQ5bmJ5aDhsS0t2OXFldEpmQldSNFo0ZkNkWThHZEVxdjdlZ05Hdm5ZanZERVFyOGlKbWNmSDNsNmRpZ0dfd3NjaWI4TmZRdW1idU1aX0IxRVRpOHZDZDkyb19NdzVrRkJKY0lBQkxPdTZGWGlSOWNnUDZzaFBrejNET203QnMyWldVWVl1LWlnbWdxeXJncDU1LXhyVVI4VGRldGRab1BfWkFTaDM1dnB3QjRXeg?oc=5",
+          "timestamp": 1792070131
         },
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Reforma tributária terá de provar que vale a pena",
-          "source": "JOTA Info",
-          "published": "Thu, 15 Oct 2026 08:15:22 GMT",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUEs3TjEyLWF2eldXeW81YXBEZEJHMHNmVkpkLTdmV1B1SmlQMExjRENMdlY5SVdiYUFjbEJYN1ExSW5kM1ZLeS12d05MMzVUNm5jUWk3MzgyT1pRa05fbHBENzAtYTh6LWlwakRFNXhVUlVjSnhWWHhaSXhFT0h1SE9iSC1mVUxwZDV6QVFiZ2kwaU1WOW50d0U4OHNwSVVjM1JZZ09sYUU2T1NRZFVlRg?oc=5",
-          "timestamp": 1792052122
+          "title": "Claude Cashback: Como Deixar o Claude 20% Mais Barato em 2026",
+          "source": "Bleap",
+          "published": "Thu, 15 Oct 2026 13:00:18 GMT",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yRE15V21XUWhHVlJ3UEdkd3FfT05jNEpLVktHazZISGpYSUhWQVFhU0todkF0Y0FhZXNlM1dIN0VOUWlJd3BNMTVDZE5PR0R5VXE1UTlnYW9GeHNQbXpCMlEzRTZDbVJFOU00Q3V6WmlwNzMtd3JjeQ?oc=5",
+          "timestamp": 1792069218
         },
         {
           "tag": "[CONCORRENTE]",
-          "title": "Patria compra ‘quartel-general’ do Nubank em São Paulo",
-          "source": "Estadão",
-          "published": "Thu, 15 Oct 2026 01:00:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbjM3UWpLLWVzMUkyNTZNNG9VWXhSUFZoYlRMSUo4NF9VbFN2blp4RGFlRF9QeHBqMVdxemZrTU5KLWFxbFVnTlJZZUtCLWo1VTFyU3NqWWJQLVA2WXhrVWw0eDhrWkM3c0Y0SEc0VFJDbW84cjJXVmFkSllyU2w0N3BSMkd5SHZpOHctYzdxakhYaDVrNVp1c1U3bmYtdVZYY3BvdUlzVm7SAa4BQVVfeXFMT3RoYXhSR3k3Ym9JNENIS1QwdWptTUdYR05EMVc1emVjdzRzbldFa1pTZF8wbU9KdFh3TnJvejN2U2lzQWs0NnVYc1NXUUp2V29GNUlTSUlfT2ZMQjhabWd6aWo0MWNlaVdXRjRadVZCVVVmYm5yYWNHTkZvVldIMzFDN3oydnZpbXR2OVFUamVBdDZRcTMzcV9kRThHenlJQzM2SWx0WUxYeU5ibEl3?oc=5",
-          "timestamp": 1792026000
+          "title": "Como abrir uma conta no Nubank: passo a passo completo",
+          "source": "Nord Investimentos",
+          "published": "Thu, 15 Oct 2026 12:50:05 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40bGM2LXlsYmpOWEQ0a3ZhQmJmYlVUamNmbjBsNWtiZ1ZXVU9qVW9XbXA5VHdhTUVIZjN6RndUVkQ5R2lFOElKVEczdGE2eUdfalc4VVktT1N6RDA3QjhZbkotYjF3Z9IBa0FVX3lxTE9XSUJMRmJLa2NiOVZDZHhMU2FmbFhYSHpPZTdpem1SNmRONlozUmNyMHFOSXpKRXNWbG5mNkp4V1lQOTJTS0pLbDZObldpajhoWDd6MXlQTlN6SDJDY3A5RG5mVWxLaHlEMmJV?oc=5",
+          "timestamp": 1792068605
         },
         {
           "tag": "[MARCA]",
@@ -1422,6 +1614,33 @@
         }
       ],
       "history": [
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Patria compra ‘quartel-general’ do Nubank em São Paulo",
+          "source": "Estadão",
+          "published": "Thu, 15 Oct 2026 01:00:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbjM3UWpLLWVzMUkyNTZNNG9VWXhSUFZoYlRMSUo4NF9VbFN2blp4RGFlRF9QeHBqMVdxemZrTU5KLWFxbFVnTlJZZUtCLWo1VTFyU3NqWWJQLVA2WXhrVWw0eDhrWkM3c0Y0SEc0VFJDbW84cjJXVmFkSllyU2w0N3BSMkd5SHZpOHctYzdxakhYaDVrNVp1c1U3bmYtdVZYY3BvdUlzVm7SAa4BQVVfeXFMT3RoYXhSR3k3Ym9JNENIS1QwdWptTUdYR05EMVc1emVjdzRzbldFa1pTZF8wbU9KdFh3TnJvejN2U2lzQWs0NnVYc1NXUUp2V29GNUlTSUlfT2ZMQjhabWd6aWo0MWNlaVdXRjRadVZCVVVmYm5yYWNHTkZvVldIMzFDN3oydnZpbXR2OVFUamVBdDZRcTMzcV9kRThHenlJQzM2SWx0WUxYeU5ibEl3?oc=5",
+          "timestamp": 1792026000,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[TERRITÓRIO]",
+          "title": "Reforma tributária terá de provar que vale a pena",
+          "source": "JOTA Info",
+          "published": "Thu, 15 Oct 2026 08:15:22 GMT",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUEs3TjEyLWF2eldXeW81YXBEZEJHMHNmVkpkLTdmV1B1SmlQMExjRENMdlY5SVdiYUFjbEJYN1ExSW5kM1ZLeS12d05MMzVUNm5jUWk3MzgyT1pRa05fbHBENzAtYTh6LWlwakRFNXhVUlVjSnhWWHhaSXhFT0h1SE9iSC1mVUxwZDV6QVFiZ2kwaU1WOW50d0U4OHNwSVVjM1JZZ09sYUU2T1NRZFVlRg?oc=5",
+          "timestamp": 1792052122,
+          "archived_date": "15/10/2026"
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Nubank lança ferramenta de IA que promete recomendações neutras de investimento",
+          "source": "Bloomberg Línea Brasil",
+          "published": "Thu, 15 Oct 2026 13:07:55 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS0c5bjkyb0Z4UVU5dWR5ekU3MFhLQk9yQXJ6emtiZVk4cndfU2FYaklQVlJhTFNXVm1OM3dVQVFnOWwwNHhuUUc1S2tQTHV5T1p1YkJnWDE4d3R3VGg2Wk9NOGNhSmRONW8yZk1mVk9fam5xdTAtdkxhMEtBcjZWM0UzdDVnaVlNQjFhaTF0aUhzNmlWUm5EUE5QUHpyejZKM0NadE5LZ3RiQksxSzNxSlRLUGVVYzRSUUYw0gHPAUFVX3lxTE9kS1ZyTkhnTk1oNG1PZ2ljZjF1STRaNjFQQjNRWHFQU0ZTZUFXVm1FM0ZpZ2lLbXFyX09nMUU4OE1nVlBTSXJjdXJXbkhkd2NRMm9tVFlOaGJwbVNScEtUQTRUTkNoOWp3VzJpa2NJNV9mcG9GdnVnQTRLaXpHY0RjSVVJM21aQzdXOEt5MzBaeERyZnJvR0V2LWJOUWVpdkxvYURjTDJUUUpRMDU3Q0NSLXM3ZXNUMmdkQkRwMFBTYi1xd0ZZUmhIaXR5MmxrNA?oc=5",
+          "timestamp": 1792069675,
+          "archived_date": "15/10/2026"
+        },
         {
           "tag": "[CONCORRENTE]",
           "title": "PicPay mira clientes de alta renda e lança cartão Epic World Legend Mastercard; veja benefícios",
@@ -1463,20 +1682,16 @@
     "vans": {
       "name": "Vans",
       "category": "Streetwear & Skate",
-      "headline": "Festival Mada, Fernando Pedrosa e Rodrigo Teaser: veja agenda cultural do fim de semana em Natal",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Streetwear & Skate hoje convergem para: Festival Mada, Fernando Pedrosa e Rodrigo Teaser: veja agenda cultural do fim de semana em Natal.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Vans.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "headline": "Tomorrowland amplia negócios para além dos festivais e aposta em novas propriedades e marcas",
+      "executive_summary": "No ecossistema direto de Vans, destaca-se: \"BlackRock compra 5% da Azzas 2154, dona da Arezzo e Hering\". No campo competitivo, os concorrentes ganharam espaço com \"Após sete anos, o Nike Air Force 1 Low “What The LA” ganha data de retorno\". Nas tendências de mercado e território, as atenções convergem para \"Tomorrowland amplia negócios para além dos festivais e aposta em novas propriedades e marcas\".",
       "news": [
         {
           "tag": "[TERRITÓRIO]",
-          "title": "Festival Mada, Fernando Pedrosa e Rodrigo Teaser: veja agenda cultural do fim de semana em Natal",
-          "source": "G1",
-          "published": "Thu, 15 Oct 2026 09:00:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPX1BKNS1lblEwc2R4TEdydnVWUjd6cURjZ1lLSW1UQzU1cDhueUpCd19GVk5QVmNlZFhUbG52TkVyUWxDcDdpU2lTcHVadkZMTlZvVmVKZHRNeWlrbDNISTJ5VDdJTTl5VUNMQ2NfSnNVUlY0Sk14aThiRFlEWFJudWdfbmowUEJYUlh1XzRJNnhDODlwVDdSZmRnOUFQY3hMN1lFbFdtN21PMGxDVUxtYlFKVWRXa08wOWJnZk9tdzBJOEs2MVdBbVlpME5XUE9xLWpJMXJzRVVNRnpSMHJGLTk3V3JJdXhERzdtSk5FcWs2Rkh1eDc4cEV6SzE4WVUzbUh2dXQyY1V2MmJEd3ZQRHhZcDVZZGV4WFlHZmdhM2hxa0lGZzlZYmNldEfSAawCQVVfeXFMT19QSjUtZW5RMHNkeExHcnZ1VlI3enFEY2dZS0ltVEM1NXA4bnlKQndfRlZOUFZjZWRYVGxudk5FclFsQ3A3aVNpU3B1WnZGTE5Wb1ZlSmR0TXlpa2wzSEkyeVQ3SU05eVVDTENjX0pzVVJWNEpNeGk4YkRZRFhSbnVnX25qMFBCWFJYdV80STZ4Qzg5cFQ3UmZkZzlBUGN4TDdZRWxXbTdtTzBsQ1VMbWJRSlVkV2tPMDliZ2ZPbXcwSThLNjFXQW1ZaTBOV1BPcS1qSTFyc0VVTUZ6UjByRi05N1dySXV4REc3bUpORXFrNkZIdXg3OHBFeksxOFlVM21IdnV0MmNVdjJiRHd2UER4WXA1WWRleFhZR2ZnYTNocWtJRmc5WWJjZXRH?oc=5",
-          "timestamp": 1792054800
+          "title": "Tomorrowland amplia negócios para além dos festivais e aposta em novas propriedades e marcas",
+          "source": "Portal Radar",
+          "published": "Thu, 15 Oct 2026 10:46:39 GMT",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa2FRUFVnME1vaWhkQmpyQTRNYl85Y1czc1N0QzJmZF9yLVRTV2I4RHF4dVZXYnJRRzNLZUg4bGdwSl8xVURDdlVqalVJU25JaE1paHdCck15WWw3SFg1djFnWk9EUE1GTkU1dXBhdWdwanJUZVVVMzVZTnFxSXdUYmhNT29sV2MtQ0VfVVY1Smdha0M4M3Z0S0lya0dGaTZuRi1GWTJHTVZseW1raUQ0amplckRyVHF1blI4ZQ?oc=5",
+          "timestamp": 1792061199
         },
         {
           "tag": "[CONCORRENTE]",
@@ -1521,6 +1736,15 @@
       ],
       "history": [
         {
+          "tag": "[TERRITÓRIO]",
+          "title": "Festival Mada, Fernando Pedrosa e Rodrigo Teaser: veja agenda cultural do fim de semana em Natal",
+          "source": "G1",
+          "published": "Thu, 15 Oct 2026 09:00:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPX1BKNS1lblEwc2R4TEdydnVWUjd6cURjZ1lLSW1UQzU1cDhueUpCd19GVk5QVmNlZFhUbG52TkVyUWxDcDdpU2lTcHVadkZMTlZvVmVKZHRNeWlrbDNISTJ5VDdJTTl5VUNMQ2NfSnNVUlY0Sk14aThiRFlEWFJudWdfbmowUEJYUlh1XzRJNnhDODlwVDdSZmRnOUFQY3hMN1lFbFdtN21PMGxDVUxtYlFKVWRXa08wOWJnZk9tdzBJOEs2MVdBbVlpME5XUE9xLWpJMXJzRVVNRnpSMHJGLTk3V3JJdXhERzdtSk5FcWs2Rkh1eDc4cEV6SzE4WVUzbUh2dXQyY1V2MmJEd3ZQRHhZcDVZZGV4WFlHZmdhM2hxa0lGZzlZYmNldEfSAawCQVVfeXFMT19QSjUtZW5RMHNkeExHcnZ1VlI3enFEY2dZS0ltVEM1NXA4bnlKQndfRlZOUFZjZWRYVGxudk5FclFsQ3A3aVNpU3B1WnZGTE5Wb1ZlSmR0TXlpa2wzSEkyeVQ3SU05eVVDTENjX0pzVVJWNEpNeGk4YkRZRFhSbnVnX25qMFBCWFJYdV80STZ4Qzg5cFQ3UmZkZzlBUGN4TDdZRWxXbTdtTzBsQ1VMbWJRSlVkV2tPMDliZ2ZPbXcwSThLNjFXQW1ZaTBOV1BPcS1qSTFyc0VVTUZ6UjByRi05N1dySXV4REc3bUpORXFrNkZIdXg3OHBFeksxOFlVM21IdnV0MmNVdjJiRHd2UER4WXA1WWRleFhZR2ZnYTNocWtJRmc5WWJjZXRH?oc=5",
+          "timestamp": 1792054800,
+          "archived_date": "15/10/2026"
+        },
+        {
           "tag": "[CONCORRENTE]",
           "title": "Arte Antwerp x adidas GSG9 aposta no tom sobre tom em “Off-White”",
           "source": "Hypebeast",
@@ -1562,11 +1786,7 @@
       "name": "Arezzo",
       "category": "Calçados & Moda Feminina",
       "headline": "Cade aprova cisão da Azzas 2154 e separa Arezzo&Co e Grupo Soma",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Calçados & Moda Feminina hoje convergem para: Cade aprova cisão da Azzas 2154 e separa Arezzo&Co e Grupo Soma.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Arezzo.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "executive_summary": "No ecossistema direto de Arezzo, destaca-se: \"Azzas 2154 (AZZA3): ‘Divórcio’ entre Arezzo e Soma avança com aval do Cade\". No campo competitivo, os concorrentes ganharam espaço com \"Cade aprova cisão da Azzas 2154 e separa Arezzo&Co e Grupo Soma\". Nas tendências de mercado e território, as atenções convergem para \"SPFW: moda, personalidade e ousadia nas passarelas! 🖤 - Ponto Norte - O seu ponto de referência [...]\".",
       "news": [
         {
           "tag": "[CONCORRENTE]",
@@ -1643,11 +1863,7 @@
       "name": "Schutz",
       "category": "Moda Premium & Sapatos",
       "headline": "Azzas 2154 (AZZA3): ‘Divórcio’ entre Arezzo e Soma avança com aval do Cade",
-      "strategic_analysis": {
-        "fato": "As atenções do segmento de Moda Premium & Sapatos hoje convergem para: Azzas 2154 (AZZA3): ‘Divórcio’ entre Arezzo e Soma avança com aval do Cade.",
-        "e_dai": "O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de Schutz.",
-        "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca."
-      },
+      "executive_summary": "No campo competitivo, os concorrentes ganharam espaço com \"Azzas 2154 (AZZA3): ‘Divórcio’ entre Arezzo e Soma avança com aval do Cade\".",
       "news": [
         {
           "tag": "[CONCORRENTE]",
