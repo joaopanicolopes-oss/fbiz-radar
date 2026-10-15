@@ -273,14 +273,50 @@ def fetch_balanced_client_news(client):
     all_news.sort(key=lambda x: x["timestamp"], reverse=True)
     return all_news[:6]
 
-def generate_ai_analysis(client_name, category, news_items, api_key):
+def build_fallback_summary(client_name, category, news_items):
+    """Gera um resumo executivo factual diretamente a partir das matérias rastreadas."""
+    if not news_items:
+        return f"Monitoramento ativo nas últimas 48h para {client_name} no segmento de {category}. Nenhuma movimentação extraordinária com grande ruído de imprensa foi detectada no período."
+
+    marca_titles = [
+        n["title"] for n in news_items if "[MARCA]" in n.get("tag", "")
+    ]
+    rival_titles = [
+        n["title"] for n in news_items if "[CONCORRENTE]" in n.get("tag", "")
+    ]
+    other_titles = [
+        n["title"]
+        for n in news_items
+        if "[MARCA]" not in n.get("tag", "")
+        and "[CONCORRENTE]" not in n.get("tag", "")
+    ]
+
+    parts = []
+    if marca_titles:
+        parts.append(
+            f"No ecossistema direto de {client_name}, destaca-se: \"{marca_titles[0]}\"."
+        )
+
+    if rival_titles:
+        parts.append(
+            f"No campo competitivo, os concorrentes ganharam espaço com \"{rival_titles[0]}\"."
+        )
+
+    if other_titles:
+        parts.append(
+            f"Nas tendências de mercado e território, as atenções convergem para \"{other_titles[0]}\"."
+        )
+    elif not marca_titles and not rival_titles:
+        parts.append(
+            f"As principais notícias das últimas 48h concentram-se em: \"{news_items[0]['title']}\"."
+        )
+
+    return " ".join(parts)
+
+def generate_executive_summary(client_name, category, news_items, api_key):
+    """Gera o Resumo Executivo Factual das últimas 48h sem conselhos vazios de publicidade."""
     if not api_key or not news_items:
-        return {
-            "headline": f"{client_name}: Monitoramento ativo em {category} e territórios culturais.",
-            "fato": "Estabilidade no fluxo de movimentações de mercado nas últimas 48h.",
-            "e_dai": "Momento oportuno para a marca liderar conversas autênticas sem ruído competitivo.",
-            "acao": "Ativar pautas nos territórios prioritários do briefing e sustentar presença social.",
-        }
+        return build_fallback_summary(client_name, category, news_items)
 
     titles_text = "\n".join(
         [
@@ -290,31 +326,24 @@ def generate_ai_analysis(client_name, category, news_items, api_key):
     )
 
     prompt = f"""
-Você é o Diretor de Estratégia e Criação da agência FBIZ Brasil.
-Analise as notícias das últimas 48h conectadas a '{client_name}' (Segmento: {category}).
-Classificação: [MARCA], [CONCORRENTE], [TERRITÓRIO] e [MERCADO].
+Você é um analista de inteligência de mercado e negócios.
+Faça um RESUMO EXECUTIVO de 1 parágrafo sólido (3 a 4 frases diretas e bem conectadas) sintetizando as movimentações reais das últimas 48h para o ecossistema de '{client_name}' (Segmento: {category}).
 
-NOTÍCIAS:
+NOTÍCIAS RASTREADAS:
 {titles_text}
 
-Gere uma orientação executiva de alto nível para o time da FBIZ.
-Retorne ESTRITAMENTE um objeto JSON válido:
-{{
-  "headline": "Uma manchete executiva de 1 linha sobre a principal movimentação do ecossistema nas últimas 48h",
-  "fato": "O acontecimento mais relevante de hoje em 1 ou 2 frases curtas.",
-  "e_dai": "Leitura Estratégica: o real impacto disso no comportamento do consumidor, na categoria ou no share da marca (2 frases).",
-  "acao": "Oportunidade prática: ideia de pauta de Social, oportunidade de PR ou ativação criativa que a agência deve propor (2 frases)."
-}}
+DIRETRIZES:
+- Seja puramente FACTUAL e informativo.
+- Relate o que aconteceu com a marca, concorrentes ou mercado.
+- NÃO dê conselhos publicitários, não sugira "pautas de PR" e não use clichês.
+- Retorne apenas o parágrafo de texto corrido em português, sem formatações de markdown adicionais.
 """
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
         headers = {"Content-Type": "application/json"}
         payload = {
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "temperature": 0.35,
-                "responseMimeType": "application/json",
-            },
+            "generationConfig": {"temperature": 0.25},
         }
 
         req = urllib.request.Request(
@@ -322,22 +351,12 @@ Retorne ESTRITAMENTE um objeto JSON válido:
         )
         with urllib.request.urlopen(req, timeout=20) as response:
             result = json.loads(response.read().decode("utf-8"))
-            text = (
-                result["candidates"][0]["content"]["parts"][0]["text"].strip()
-            )
-            return json.loads(text)
+            summary = result["candidates"][0]["content"]["parts"][0][
+                "text"
+            ].strip()
+            return summary
     except Exception as e:
-        top_title = (
-            news_items[0]["title"]
-            if news_items
-            else f"Movimentações recentes em {category}"
-        )
-        return {
-            "headline": top_title,
-            "fato": f"As atenções do segmento de {category} hoje convergem para: {top_title}.",
-            "e_dai": f"O movimento repercute na percepção do público e exige posicionamento atento em relação aos concorrentes de {client_name}.",
-            "acao": "Aproveitar o gancho das conversas para pautas oportunas de conteúdo e sustentação da marca.",
-        }
+        return build_fallback_summary(client_name, category, news_items)
 
 def main():
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
@@ -345,7 +364,6 @@ def main():
     now_str = now.strftime("%d/%m/%Y às %H:%M")
     date_capture = now.strftime("%d/%m/%Y")
 
-    # 1. Carrega dados anteriores para acumular o histórico sem nunca perder notícias
     existing_data = {}
     if os.path.exists("news_data.json"):
         try:
@@ -359,22 +377,20 @@ def main():
         "clients": {},
     }
 
-    print("Iniciando varredura estratégica com preservação de histórico...")
+    print("Iniciando varredura com geração de Resumo Executivo das 48h...")
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
 
         fresh_news = fetch_balanced_client_news(client)
-        analysis = generate_ai_analysis(
+        summary = generate_executive_summary(
             client["name"], client["category"], fresh_news, api_key
         )
 
-        # Resgata o histórico acumulado do cliente
         old_client_data = existing_data.get("clients", {}).get(cid, {})
         old_history = old_client_data.get("history", [])
         old_current_news = old_client_data.get("news", [])
 
-        # Todas as notícias que deixarem de ser das 48h atuais migram para o histórico
         fresh_titles = {n["title"].lower().strip() for n in fresh_news}
         history_titles = {h["title"].lower().strip() for h in old_history}
 
@@ -388,27 +404,25 @@ def main():
                 merged_history.insert(0, old_item)
                 history_titles.add(norm_t)
 
+        headline_text = (
+            fresh_news[0]["title"]
+            if fresh_news
+            else f"Movimentações recentes em {client['category']}"
+        )
+
         output_data["clients"][cid] = {
             "name": client["name"],
             "category": client["category"],
-            "headline": analysis.get("headline", ""),
-            "strategic_analysis": {
-                "fato": analysis.get("fato", ""),
-                "e_dai": analysis.get("e_dai", ""),
-                "acao": analysis.get("acao", ""),
-            },
+            "headline": headline_text,
+            "executive_summary": summary,
             "news": fresh_news,
-            "history": merged_history[
-                :30
-            ],  # Preserva até 30 matérias históricas por cliente
+            "history": merged_history[:30],
         }
 
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print(
-        "Sucesso absoluto! news_data.json atualizado com últimas 48h e histórico preservado."
-    )
+    print("Sucesso! news_data.json gerado com Resumo Executivo factual.")
 
 if __name__ == "__main__":
     main()
