@@ -271,7 +271,7 @@
             z-index: 2;
         }
 
-        /* 1. SEÇÃO DE NOTÍCIAS COM ABAS DE EDIÇÕES */
+        /* 1. SEÇÃO DE NOTÍCIAS COM ABAS */
         .news-box {
             background: #FFFFFF;
             border: 1px solid var(--border-subtle);
@@ -308,7 +308,6 @@
             filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
         }
 
-        /* Abas Elegantes para Últimas 48h vs Edições Anteriores */
         .news-tabs-container {
             display: flex;
             align-items: center;
@@ -380,7 +379,6 @@
             gap: 8px;
         }
 
-        /* Badges de Natureza */
         .news-tag-badge {
             font-family: var(--font-mono);
             font-size: 9px;
@@ -456,68 +454,43 @@
             color: #000000;
         }
 
-        /* 2. SEÇÃO ESTRATÉGICA FBIZ */
-        .strategic-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 22px;
-        }
-
-        .strat-card {
+        /* 2. CARD ÚNICO: RESUMO EXECUTIVO DAS ÚLTIMAS 48H */
+        .executive-summary-card {
             background: #FFFFFF;
             border: 1px solid var(--border-subtle);
             border-radius: 6px;
-            padding: 30px 26px;
-            display: flex;
-            flex-direction: column;
+            padding: 34px 38px;
             position: relative;
-            transition: all 0.25s ease;
             box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+            transition: all 0.25s ease;
         }
 
-        .strat-card:hover {
+        .executive-summary-card:hover {
             border-color: #000000;
-            transform: translateY(-3px);
-            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
         }
 
-        .card-fato::before {
+        .executive-summary-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
-            background: linear-gradient(90deg, #111111 0%, #7A818C 50%, #111111 100%);
-            border-radius: 6px 6px 0 0;
-        }
-        .card-leitura::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #B5B9C2 0%, #FFFFFF 50%, #686F7A 100%);
-            border-radius: 6px 6px 0 0;
-        }
-        .card-oportunidade::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-yellow) 0%, #FFF3A8 50%, var(--accent-yellow) 100%);
+            background: linear-gradient(90deg, #111111 0%, var(--accent-yellow) 50%, #111111 100%);
             border-radius: 6px 6px 0 0;
         }
 
-        .strat-card-top {
+        .summary-card-top {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 16px;
-            padding-bottom: 12px;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
             border-bottom: 1px solid var(--border-subtle);
         }
 
-        .strat-card-title {
+        .summary-card-title {
             font-family: var(--font-display);
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -527,21 +500,20 @@
             gap: 10px;
         }
 
-        .strat-card-badge {
+        .summary-card-badge {
             font-family: var(--font-mono);
-            font-size: 10px;
+            font-size: 10.5px;
             color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 600;
+            letter-spacing: 1.2px;
+            font-weight: 700;
         }
 
-        .strat-card-content {
-            font-size: 15px;
-            line-height: 1.7;
-            color: #374151;
+        .summary-card-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #2B2F38;
             font-weight: 400;
-            flex: 1;
         }
 
         /* Rodapé Minimalista FBIZ */
@@ -586,10 +558,10 @@
             .news-box {
                 padding: 24px 20px;
             }
-            .news-grid {
-                grid-template-columns: 1fr;
+            .executive-summary-card {
+                padding: 26px 20px;
             }
-            .strategic-grid {
+            .news-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -671,7 +643,7 @@
             <p class="brand-hero-headline" id="hero-headline">Buscando inteligência diária do ecossistema...</p>
         </section>
 
-        <!-- 1. SEÇÃO DE NOTÍCIAS COM ABAS INTEGRADAS -->
+        <!-- 1. SEÇÃO DE NOTÍCIAS COM ABAS -->
         <section class="news-box">
             <div class="section-header-box">
                 <div class="section-header-title">
@@ -685,7 +657,6 @@
                     <span>NOTÍCIAS & MOVIMENTAÇÕES</span>
                 </div>
 
-                <!-- Abas Visuais Diretas -->
                 <div class="news-tabs-container">
                     <button class="news-tab-btn active" id="tab-btn-recent" onclick="setNewsTab('recent')">✦ ÚLTIMAS 48H</button>
                     <button class="news-tab-btn" id="tab-btn-history" onclick="setNewsTab('history')">📂 EDIÇÕES PASSADAS</button>
@@ -695,58 +666,32 @@
             <div class="news-grid" id="news-grid"></div>
         </section>
 
-        <!-- 2. TRINCA ESTRATÉGICA FBIZ -->
+        <!-- 2. CARD ÚNICO: RESUMO EXECUTIVO DAS ÚLTIMAS 48H -->
         <section>
             <div class="section-header-box">
                 <div class="section-header-title">
                     <svg class="star-chrome-svg" viewBox="0 0 100 100">
-                        <path d="M15,20 C35,5 65,35 85,20 C105,5 85,75 60,60 C35,45 15,80 35,90" fill="none" stroke="url(#chromeLight)" stroke-width="12" stroke-linecap="round"/>
-                        <path d="M15,20 C35,5 65,35 85,20 C105,5 85,75 60,60 C35,45 15,80 35,90" fill="none" stroke="url(#chromeDark)" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+                        <polygon points="50,0 63,37 100,50 63,63 50,100 37,63 0,50 37,37" fill="url(#chromeLight)"/>
+                        <polygon points="50,0 50,50 0,50 37,37" fill="url(#chromeDark)" opacity="0.95"/>
+                        <polygon points="50,100 50,50 100,50 63,63" fill="url(#chromeDark)" opacity="0.95"/>
+                        <polygon points="50,0 63,37 50,50" fill="url(#chromeReflect)"/>
+                        <circle cx="50" cy="50" r="3" fill="#FFFFFF"/>
                     </svg>
-                    <span>DIRECIONAMENTO ESTRATÉGICO</span>
+                    <span>RESUMO EXECUTIVO DAS ÚLTIMAS 48H</span>
                 </div>
-                <div class="section-header-sub">ANÁLISE DE IMPACTO & AÇÃO</div>
+                <div class="section-header-sub">SÍNTESE DO ECOSSISTEMA</div>
             </div>
 
-            <div class="strategic-grid">
-                <div class="strat-card card-fato">
-                    <div class="strat-card-top">
-                        <div class="strat-card-title">
-                            <svg width="18" height="18" viewBox="0 0 100 100">
-                                <polygon points="50,0 65,35 100,50 65,65 50,100 35,65 0,50 35,35" fill="url(#chromeLight)"/>
-                                <polygon points="50,0 50,50 0,50 35,35" fill="url(#chromeDark)"/>
-                            </svg>
-                            <span>1. O FATO</span>
-                        </div>
-                        <div class="strat-card-badge">O ACONTECIMENTO</div>
+            <div class="executive-summary-card">
+                <div class="summary-card-top">
+                    <div class="summary-card-title">
+                        <span style="color: var(--accent-yellow); font-size: 18px; line-height: 0; filter: drop-shadow(0 2px 4px rgba(255, 204, 0, 0.4));">✦</span>
+                        <span>PANORAMA DO DIA</span>
                     </div>
-                    <div class="strat-card-content" id="strat-fato">Síntese das movimentações mais recentes do mercado...</div>
+                    <div class="summary-card-badge">LEITURA FACTUAL</div>
                 </div>
-
-                <div class="strat-card card-leitura">
-                    <div class="strat-card-top">
-                        <div class="strat-card-title">
-                            <svg width="18" height="18" viewBox="0 0 100 100">
-                                <polygon points="50,0 63,37 100,50 63,63 50,100 37,63 0,50 37,37" fill="url(#chromeReflect)"/>
-                                <polygon points="50,0 50,50 0,50 37,37" fill="url(#chromeDark)"/>
-                                <polygon points="50,100 50,50 100,50 63,63" fill="url(#chromeLight)"/>
-                            </svg>
-                            <span>2. LEITURA ESTRATÉGICA</span>
-                        </div>
-                        <div class="strat-card-badge">IMPACTO NO NEGÓCIO</div>
-                    </div>
-                    <div class="strat-card-content" id="strat-edai">Avaliando implicações no comportamento do consumidor e na categoria...</div>
-                </div>
-
-                <div class="strat-card card-oportunidade">
-                    <div class="strat-card-top">
-                        <div class="strat-card-title">
-                            <span style="color: var(--accent-yellow); font-size: 20px; line-height: 0; filter: drop-shadow(0 2px 4px rgba(255, 204, 0, 0.4));">✦</span>
-                            <span>3. OPORTUNIDADE</span>
-                        </div>
-                        <div class="strat-card-badge">DIRECIONAMENTO TÁTICO</div>
-                    </div>
-                    <div class="strat-card-content" id="strat-acao">Oportunidades de pauta, ativações de PR, mídia e conteúdo...</div>
+                <div class="summary-card-content" id="summary-text">
+                    Sintetizando os principais acontecimentos das últimas 48h...
                 </div>
             </div>
         </section>
@@ -795,7 +740,7 @@
 
         let radarData = null;
         let currentClientId = "mms";
-        let currentNewsTab = "recent"; // "recent" ou "history"
+        let currentNewsTab = "recent";
 
         async function initRadar() {
             try {
@@ -932,18 +877,11 @@
             }
             document.getElementById('hero-headline').innerText = headlineText;
 
-            // Renderiza as notícias conforme a aba selecionada (48h ou Histórico)
             renderNewsCards();
 
-            // Renderiza a Trinca Estratégica
-            const strat = client ? (client.strategic_analysis || {}) : {};
-            let fatoText = strat.fato || `Destaque recente do segmento de ${displayName}.`;
-            let edaiText = strat.e_dai || `O tema reverbera no ecossistema de ${displayName}, exigindo prontidão de posicionamento.`;
-            let acaoText = strat.acao || `Explorar ganchos editoriais e sustentar share de voz através de ações proprietárias.`;
-
-            document.getElementById('strat-fato').innerText = fatoText;
-            document.getElementById('strat-edai').innerText = edaiText;
-            document.getElementById('strat-acao').innerText = acaoText;
+            // Renderiza o Resumo Executivo das Últimas 48h
+            const summaryText = client ? (client.executive_summary || (client.strategic_analysis ? client.strategic_analysis.fato : null)) : null;
+            document.getElementById('summary-text').innerText = summaryText || `Varredura de inteligência ativa para ${displayName} nas últimas 48h.`;
         }
 
         window.addEventListener('DOMContentLoaded', initRadar);
