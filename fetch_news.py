@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 Blindada contra Homônimos e Ruídos
+# Matriz Estratégica FBIZ 2026: Varredura Completa do Ecossistema
 CLIENTS = [
     {
         "id": "mms",
@@ -15,9 +15,9 @@ CLIENTS = [
         "category": "Snacks & Chocolates",
         "queries": {
             "MARCA": '("M&M\'s" OR "M&Ms" OR "Mars Wrigley") -futebol',
-            "CONCORRENTE": '("KitKat" OR "Lacta" OR "chocolate Bis" OR "Bis Lacta" OR "Nestlé chocolates") -"14-Bis" -ópera -"Santos Dumont" -show',
-            "TERRITÓRIO": '("cultura pop" OR "universo geek" OR "estreias cinema" OR "bilheterias de cinema" OR "lançamento de filmes" OR "Geração Z") -religião -igreja -missa',
-            "MERCADO": '("mercado de chocolates" OR "preço do cacau" OR "snacks doces") -soja -milho -safra',
+            "CONCORRENTE": '("KitKat" OR "Lacta" OR "chocolate Bis" OR "Nestlé chocolates" OR "Mondelēz") -"14-Bis" -ópera -"Santos Dumont"',
+            "TERRITÓRIO": '("cultura pop" OR "universo geek" OR cinema OR streaming OR "Geração Z") (estreia OR filme OR série OR bilheteria) -religião -igreja',
+            "MERCADO": '(chocolate OR cacau OR snacks OR confeitos) (mercado OR consumo OR vendas OR indústria OR varejo) -soja',
         },
     },
     {
@@ -25,10 +25,10 @@ CLIENTS = [
         "name": "Tegra",
         "category": "Imobiliário Alto Padrão",
         "queries": {
-            "MARCA": '("Tegra Incorporadora" OR "Tegra empreendimentos") -futebol',
-            "CONCORRENTE": '("Cyrela" OR "Even construtora" OR "Mitre Realty" OR "JHSF") -futebol',
-            "TERRITÓRIO": '("quiet luxury" OR "torneio de tênis ATP" OR "arquitetura de luxo" OR "decoração alto padrão" OR "Expo Revestir")',
-            "MERCADO": '("mercado imobiliário alto padrão" OR "imóveis luxo São Paulo" OR "crédito imobiliário luxo")',
+            "MARCA": '("Tegra Incorporadora" OR Tegra) (imóveis OR residencial OR empreendimento OR incorporadora) -futebol',
+            "CONCORRENTE": '(Cyrela OR Even OR Mitre OR JHSF OR Gafisa) (lançamento OR imóveis OR luxo OR residencial) -futebol',
+            "TERRITÓRIO": '("quiet luxury" OR tênis OR arquitetura OR decoração OR design) (luxo OR sofisticado OR São Paulo)',
+            "MERCADO": '("mercado imobiliário" OR "imóveis de luxo" OR "crédito imobiliário" OR "alto padrão") (São Paulo OR Brasil)',
         },
     },
     {
@@ -36,10 +36,10 @@ CLIENTS = [
         "name": "Twix",
         "category": "Chocolates & Biscoitos",
         "queries": {
-            "MARCA": '("chocolate Twix" OR "Twix Mars") -futebol',
-            "CONCORRENTE": '("KitKat" OR "chocolate Snickers" OR "chocolate Trento" OR "Trento Peccin") -futebol -time -Itália -série -jogo -Dolomiti',
-            "TERRITÓRIO": '("pausa café" OR "café da tarde snack" OR "biscoito doce pausa" OR "Zennials consumo") -prefeitura -queimadas -presos -polícia',
-            "MERCADO": '("mercado de confeitos" OR "consumo de chocolates Brasil" OR "alta do cacau doces")',
+            "MARCA": '("chocolate Twix" OR "Twix Mars" OR Twix) (chocolate OR biscoito OR doce OR caramelo OR snack) -futebol',
+            "CONCORRENTE": '("KitKat" OR "chocolate Snickers" OR "chocolate Trento" OR Peccin) -futebol -time -Itália -Dolomiti',
+            "TERRITÓRIO": '("pausa café" OR "café da tarde" OR sobremesa OR "hora do café") (snack OR doce OR biscoito OR pausa) -prefeitura -queimadas -crime',
+            "MERCADO": '(biscoitos OR chocolates OR confeitos OR snacks) (mercado OR consumo OR varejo OR indústria)',
         },
     },
     {
@@ -47,10 +47,10 @@ CLIENTS = [
         "name": "Paixão",
         "category": "Cuidados Corporais",
         "queries": {
-            "MARCA": '("Óleo Paixão" OR "Paixão hidratante" OR "Cosméticos Paixão") -futebol -clube -"paixão de cristo"',
-            "CONCORRENTE": '("Natura Tododia" OR "Boticário Cuide-se Bem" OR "Nivea loção corporal")',
-            "TERRITÓRIO": '("sensualidade feminina autocuidado" OR "SPFW beleza" OR "moda brasileira" OR "Afropunk Salvador")',
-            "MERCADO": '("mercado de óleos corporais" OR "perfumaria feminina massa" OR "cuidados com a pele corporal")',
+            "MARCA": '("Óleo Paixão" OR "hidratante Paixão" OR "Cosméticos Paixão" OR "Paixão amêndoas") -futebol -clube -"de cristo"',
+            "CONCORRENTE": '(Natura OR Boticário OR Nivea) (hidratante OR "óleo corporal" OR loção OR "cuidados corporais" OR skincare)',
+            "TERRITÓRIO": '(sensualidade OR autocuidado OR beleza OR moda OR SPFW OR festival) (feminino OR mulher OR pele)',
+            "MERCADO": '("cuidados com a pele" OR hidratantes OR cosméticos OR perfumaria) (mercado OR tendências OR consumo)',
         },
     },
     {
@@ -58,10 +58,10 @@ CLIENTS = [
         "name": "Warner Bros.",
         "category": "Cinema & Entretenimento",
         "queries": {
-            "MARCA": '("Warner Bros" OR "Warner Bros Discovery" OR "filmes Warner") -futebol',
-            "CONCORRENTE": '("Disney Studios" OR "Universal Pictures" OR "Sony Pictures cinema")',
-            "TERRITÓRIO": '("Cultura Pop geek" OR "bilheteria cinema Brasil" OR "CCXP" OR "San Diego Comic-Con" OR "estreias cinema Hollywood")',
-            "MERCADO": '("mercado de cinema Brasil" OR "indústria cinematográfica lançamentos")',
+            "MARCA": '("Warner Bros" OR "Warner Bros Discovery" OR "Warner Pictures") -futebol',
+            "CONCORRENTE": '(Disney OR Universal OR Sony Pictures OR Paramount) (filmes OR cinema OR bilheteria OR estúdio)',
+            "TERRITÓRIO": '("cultura pop" OR CCXP OR Comic-Con OR cinema OR geek OR fandom OR premiação OR Oscar)',
+            "MERCADO": '(cinema OR bilheteria OR "indústria cinematográfica" OR Hollywood OR exibição) (Brasil OR estreia)',
         },
     },
     {
@@ -69,10 +69,10 @@ CLIENTS = [
         "name": "TOTVS",
         "category": "Tecnologia & ERP Corporativo",
         "queries": {
-            "MARCA": '("TOTVS" OR "TOTVS software") -futebol',
-            "CONCORRENTE": '("SAP Brasil" OR "Oracle ERP Brasil" OR "Senior Sistemas")',
-            "TERRITÓRIO": '("Reforma Tributária empresas software" OR "IA corporativa negócios" OR "FutureCom" OR "VTEX DAY")',
-            "MERCADO": '("software de gestão ERP" OR "tecnologia corporativa B2B" OR "gestão fiscal empresas")',
+            "MARCA": 'TOTVS (software OR ERP OR gestão OR tecnologia OR resultados OR aquisição) -futebol',
+            "CONCORRENTE": '(SAP OR Oracle OR Senior Sistemas OR Linx) (software OR ERP OR empresas OR gestão)',
+            "TERRITÓRIO": '("Reforma Tributária" OR "inteligência artificial" OR produtividade OR inovação) empresas',
+            "MERCADO": '("software de gestão" OR tecnologia B2B OR SaaS OR nuvem OR transformação digital) Brasil',
         },
     },
     {
@@ -80,10 +80,10 @@ CLIENTS = [
         "name": "Snickers",
         "category": "Snacks & Barras de Chocolate",
         "queries": {
-            "MARCA": '("chocolate Snickers" OR "Snickers Mars") -tênis',
-            "CONCORRENTE": '("chocolate Trento" OR "KitKat" OR "barras de proteína snacks") -Itália -futebol -time',
-            "TERRITÓRIO": '("e-sports Brasil" OR "CBLOL games" OR "NFL Brasil transmissões" OR "Geração Z snacks")',
-            "MERCADO": '("mercado de confeitos doces" OR "preço do cacau chocolates")',
+            "MARCA": '("chocolate Snickers" OR "Snickers Mars" OR Snickers) (chocolate OR barra OR amendoim OR snack) -tênis',
+            "CONCORRENTE": '("chocolate Trento" OR KitKat OR "barra de proteína" OR chocolates) (doce OR snack) -Itália -futebol',
+            "TERRITÓRIO": '(games OR "e-sports" OR CBLOL OR NFL OR "futebol snack" OR "Geração Z")',
+            "MERCADO": '(chocolates OR confeitos OR snacks OR barras) (consumo OR mercado OR tendências OR vendas)',
         },
     },
     {
@@ -91,10 +91,10 @@ CLIENTS = [
         "name": "Monange",
         "category": "Higiene & Cuidados Pessoais",
         "queries": {
-            "MARCA": '("Monange" OR "hidratante Monange" OR "desodorante Monange") -futebol',
-            "CONCORRENTE": '("Nivea desodorante" OR "Dove hidratação" OR "Rexona antitranspirante")',
-            "TERRITÓRIO": '("autocuidado feminino rotina" OR "treino ao ar livre corrida feminina" OR "música brasileira festivais")',
-            "MERCADO": '("cuidados pessoais beleza mercado de massa" OR "mercado de higiene e desodorantes")',
+            "MARCA": 'Monange (hidratante OR desodorante OR cabelo OR pele OR beleza OR cosméticos) -futebol',
+            "CONCORRENTE": '(Nivea OR Dove OR Rexona) (desodorante OR hidratante OR sabonete OR cuidados)',
+            "TERRITÓRIO": '(autocuidado OR "skincare acessível" OR rotina OR música OR corrida) (feminino OR mulher)',
+            "MERCADO": '("higiene pessoal" OR desodorantes OR cuidados pessoais OR beleza) (mercado OR consumo OR varejo)',
         },
     },
     {
@@ -102,10 +102,10 @@ CLIENTS = [
         "name": "Cenoura & Bronze",
         "category": "Proteção Solar & Verão",
         "queries": {
-            "MARCA": '("Cenoura & Bronze" OR "protetor Cenoura e Bronze") -bolo -receita -salada -legume',
-            "CONCORRENTE": '("Sundown protetor" OR "Nivea Sun" OR "Australian Gold protetor")',
-            "TERRITÓRIO": '("praia e sol cuidados" OR "corrida de rua sol" OR "Lollapalooza festival sol" OR "lifestyle solar")',
-            "MERCADO": '("mercado de proteção solar Brasil" OR "vendas de protetor solar verão")',
+            "MARCA": '("Cenoura & Bronze" OR "Cenoura e Bronze") -bolo -receita -salada -legume',
+            "CONCORRENTE": '(Sundown OR "Nivea Sun" OR "Australian Gold" OR "La Roche-Posay" OR Episol) (protetor OR bronzeador OR solar)',
+            "TERRITÓRIO": '(praia OR piscina OR verão OR sol OR calor OR corrida OR esporte) (protetor OR pele OR cuidados)',
+            "MERCADO": '("protetor solar" OR bronzeador OR fotoproteção OR "mercado solar" OR dermatologia) (Brasil OR calor OR verão)',
         },
     },
     {
@@ -113,10 +113,10 @@ CLIENTS = [
         "name": "QuintoAndar",
         "category": "Proptech & Moradia",
         "queries": {
-            "MARCA": '("QuintoAndar" OR "Quinto Andar imobiliária")',
-            "CONCORRENTE": '("Loft imóveis" OR "Zap Imóveis" OR "VivaReal imóveis")',
-            "TERRITÓRIO": '("primeiro aluguel morar sozinho" OR "mudança de apartamento" OR "consórcio imobiliário moradia")',
-            "MERCADO": '("preço do aluguel São Paulo FipeZap" OR "Índice FipeZap locação" OR "taxa Selic financiamento imobiliário")',
+            "MARCA": 'QuintoAndar (aluguel OR imóveis OR compra OR imobiliária OR moradia OR proptech)',
+            "CONCORRENTE": '(Loft OR "Zap Imóveis" OR VivaReal OR imobiliária) (imóveis OR aluguel OR moradia)',
+            "TERRITÓRIO": '("primeiro aluguel" OR "morar sozinho" OR mudança OR reforma OR apartamento OR condomínio)',
+            "MERCADO": '("preço do aluguel" OR FipeZap OR "taxa Selic" OR financiamento imobiliário OR habitação)',
         },
     },
     {
@@ -124,10 +124,10 @@ CLIENTS = [
         "name": "Google",
         "category": "Big Tech & Publicidade Digital",
         "queries": {
-            "MARCA": '("Google Brasil" OR "Google Workspace" OR "Google Cloud Brasil" OR "Google Gemini")',
-            "CONCORRENTE": '("OpenAI inteligência artificial" OR "Microsoft Copilot corporativo" OR "Meta Ads publicidade")',
-            "TERRITÓRIO": '("futuro do trabalho tecnologia" OR "produtividade colaborativa empresas" OR "Google I/O" OR "RD Summit")',
-            "MERCADO": '("publicidade digital Brasil" OR "mercado de busca inteligência artificial")',
+            "MARCA": 'Google (Brasil OR Workspace OR Cloud OR Gemini OR publicidade OR anúncios)',
+            "CONCORRENTE": '(OpenAI OR Microsoft Copilot OR "Meta Ads" OR ChatGPT OR TikTok) (IA OR empresas OR anúncios OR publicidade)',
+            "TERRITÓRIO": '("futuro do trabalho" OR produtividade OR colaboração OR IA corporativa OR busca)',
+            "MERCADO": '("publicidade digital" OR marketing digital OR inteligência artificial OR big tech) empresas',
         },
     },
     {
@@ -135,10 +135,10 @@ CLIENTS = [
         "name": "HBO Max",
         "category": "Streaming & Séries",
         "queries": {
-            "MARCA": '("HBO Max" OR "Max streaming Brasil" OR "séries HBO")',
-            "CONCORRENTE": '("Netflix lançamentos" OR "Disney+ streaming" OR "Prime Video séries")',
-            "TERRITÓRIO": '("maratona de séries streaming" OR "premiação Emmy Awards" OR "San Diego Comic-Con séries")',
-            "MERCADO": '("audiência de streaming no Brasil" OR "guerra dos streamings assinaturas")',
+            "MARCA": '("HBO Max" OR Max) (série OR streaming OR filme OR assinatura OR Warner OR estreia)',
+            "CONCORRENTE": '(Netflix OR Disney+ OR Prime Video OR Globoplay OR Apple TV) (série OR streaming OR estreia)',
+            "TERRITÓRIO": '("maratona de séries" OR Emmy OR audiência OR cultura pop OR FOMO streaming)',
+            "MERCADO": '(streaming OR assinaturas OR catálogo OR audiovisual) (Brasil OR mercado OR entretenimento)',
         },
     },
     {
@@ -146,10 +146,10 @@ CLIENTS = [
         "name": "Panco",
         "category": "Panificação & Alimentos",
         "queries": {
-            "MARCA": '("Panco alimentos" OR "pão Panco" OR "biscoito Panco")',
-            "CONCORRENTE": '("Wickbold pães" OR "Bauducco torradas" OR "Pullman pão de forma")',
-            "TERRITÓRIO": '("café da manhã família" OR "lanche da tarde hábitos" OR "volta às aulas merenda escolar")',
-            "MERCADO": '("mercado de panificação Brasil" OR "preço do trigo panificação" OR "indústria de alimentos")',
+            "MARCA": 'Panco (pão OR biscoito OR bolo OR alimentos OR fábrica OR padaria OR lançamento)',
+            "CONCORRENTE": '(Wickbold OR Bauducco OR Pullman OR Visconti OR Marilan) (pão OR torrada OR biscoito OR bolo)',
+            "TERRITÓRIO": '("café da manhã" OR lanche OR merenda OR família OR padaria)',
+            "MERCADO": '(panificação OR "pão de forma" OR torrada OR indústria de alimentos) Brasil',
         },
     },
     {
@@ -157,10 +157,10 @@ CLIENTS = [
         "name": "Geely",
         "category": "Automotivo & Carros Elétricos",
         "queries": {
-            "MARCA": '("Geely Brasil" OR "Geely carros" OR "Geely montadora")',
-            "CONCORRENTE": '("BYD Brasil carros" OR "GWM carros elétricos" OR "Volvo elétricos Brasil")',
-            "TERRITÓRIO": '("carros elétricos chineses Brasil" OR "guerra dos carros elétricos" OR "baterias veículos elétricos")',
-            "MERCADO": '("imposto de importação carros elétricos" OR "venda de carros elétricos e híbridos Brasil")',
+            "MARCA": 'Geely (Brasil OR carro OR elétrico OR híbrido OR montadora OR lançamento)',
+            "CONCORRENTE": '(BYD OR GWM OR Volvo) (carros OR elétricos OR híbridos OR montadora OR vendas)',
+            "TERRITÓRIO": '("carros elétricos" OR eletrificação OR baterias OR recarga OR mobilidade) Brasil',
+            "MERCADO": '("indústria automobilística" OR venda de carros OR imposto de importação) (elétricos OR veículos)',
         },
     },
     {
@@ -168,10 +168,10 @@ CLIENTS = [
         "name": "99Pay",
         "category": "Fintech & Carteira Digital",
         "queries": {
-            "MARCA": '("99Pay" OR "carteira digital 99Pay") -acidente -corrida -passageiro -motorista',
-            "CONCORRENTE": '("Nubank conta" OR "Mercado Pago rendimento" OR "PicPay rendimento")',
-            "TERRITÓRIO": '("rendimento 100% CDI conta" OR "Pix parcelado crédito" OR "educação financeira gastos cotidianos")',
-            "MERCADO": '("carteiras digitais juros Selic" OR "fintechs no Brasil Banco Central")',
+            "MARCA": '99Pay (carteira OR rendimento OR Pix OR dinheiro OR conta OR pagamentos) -acidente -corrida',
+            "CONCORRENTE": '(Nubank OR "Mercado Pago" OR PicPay OR C6 OR Inter) (conta OR rendimento OR Pix OR banco)',
+            "TERRITÓRIO": '("educação financeira" OR economizar OR cashback OR finanças pessoais OR orçamento)',
+            "MERCADO": '(fintechs OR "carteiras digitais" OR Selic OR Banco Central OR Pix crédito)',
         },
     },
     {
@@ -179,10 +179,10 @@ CLIENTS = [
         "name": "Vans",
         "category": "Streetwear & Skate",
         "queries": {
-            "MARCA": '("tênis Vans" OR "Vans calçados" OR "Vans skate" OR "Vans Brasil") -transporte -passageiros -escolar -van -lotada',
-            "CONCORRENTE": '("Nike SB tênis" OR "Converse All Star" OR "Adidas Originals sneakers")',
-            "TERRITÓRIO": '("cultura do skate" OR "streetwear moda urbana tênis" OR "estilo festivais de música Lollapalooza")',
-            "MERCADO": '("mercado de sneakers calçados" OR "varejo de calçados streetwear")',
+            "MARCA": '("tênis Vans" OR Vans) (skate OR tênis OR calçado OR streetwear OR coleção) -transporte -passageiro -escolar',
+            "CONCORRENTE": '("Nike SB" OR Converse OR "Adidas Originals" OR Puma) (tênis OR sneaker OR skate OR streetwear)',
+            "TERRITÓRIO": '(skate OR streetwear OR "moda urbana" OR festival OR música) (estilo OR jovem)',
+            "MERCADO": '(sneakers OR "mercado de calçados" OR calçados urbanos OR moda jovem)',
         },
     },
     {
@@ -190,10 +190,10 @@ CLIENTS = [
         "name": "Arezzo",
         "category": "Calçados & Moda Feminina",
         "queries": {
-            "MARCA": '("Arezzo calçados" OR "Arezzo sapatos" OR "Arezzo bolsas" OR "Arezzo&Co") -Toscana -Itália',
-            "CONCORRENTE": '("Luiza Barcelos calçados" OR "Santa Lolla sapatos" OR "Schutz calçados")',
-            "TERRITÓRIO": '("SPFW tendências calçados" OR "Met Gala moda feminina" OR "tendências sapatos femininos")',
-            "MERCADO": '("varejo de calçados femininos Brasil" OR "mercado de calçados e vestuário")',
+            "MARCA": 'Arezzo (sapatos OR bolsas OR calçados OR Arezzo&Co OR coleção OR desfile) -Toscana -Itália',
+            "CONCORRENTE": '("Luiza Barcelos" OR "Santa Lolla" OR Schutz OR Anacapri OR Corello) (sapatos OR bolsas OR calçados)',
+            "TERRITÓRIO": '(SPFW OR "moda feminina" OR desfile OR tendências OR passarela OR acessórios)',
+            "MERCADO": '("varejo de moda" OR "mercado de calçados" OR vestuário OR calçados femininos) Brasil',
         },
     },
     {
@@ -201,48 +201,47 @@ CLIENTS = [
         "name": "Schutz",
         "category": "Moda Premium & Sapatos",
         "queries": {
-            "MARCA": '("Schutz bolsas" OR "Schutz sapatos" OR "Schutz calçados")',
-            "CONCORRENTE": '("Arezzo sapatos" OR "Luiza Barcelos bolsas" OR "Alexandre Birman luxo")',
-            "TERRITÓRIO": '("moda festival Coachella look" OR "Rock in Rio glamour calçados" OR "tendências salto alto bolsas de luxo")',
-            "MERCADO": '("consumo de moda feminina premium" OR "mercado de luxo calçados e bolsas")',
+            "MARCA": 'Schutz (bolsas OR sapatos OR sandálias OR salto OR coleção OR calçados OR festa)',
+            "CONCORRENTE": '(Arezzo OR "Luiza Barcelos" OR "Alexandre Birman" OR Capodarte) (luxo OR calçados OR bolsas)',
+            "TERRITÓRIO": '(Coachella OR "Rock in Rio" OR glamour OR "salto alto" OR festa OR estilo)',
+            "MERCADO": '("mercado de luxo" OR "moda premium" OR bolsas e calçados) Brasil',
         },
     },
 ]
 
 def is_blacklisted(title):
-    """Filtro de segurança extra para descartar ruídos comuns em português."""
     lower = title.lower()
     blacklist = [
         "14-bis",
         "santos dumont",
         "pedir bis",
         "pede bis",
-        "dúzia de bis",
         "bellunesi x trento",
-        "dias dedicados ao cinema, à cultura e à fé",
         "prefeitura oferece recompensa",
         "julga contas da prefeitura",
         "van escolar",
         "transporte clandestino",
         "acidente com van",
+        "cidade das artes recebe ópera",
+        "museu de cabangu",
     ]
     return any(b in lower for b in blacklist)
 
-def fetch_rss_segment(query, tag, time_window="48h", limit=2):
+def fetch_rss_query(query, tag, time_window="48h"):
     encoded_query = urllib.parse.quote(f"{query} when:{time_window}")
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     feed = feedparser.parse(rss_url)
 
+    # Se nas últimas 48h não houver nada, busca nos últimos 7 dias para garantir frescor
     if not feed.entries and time_window == "48h":
         encoded_fallback = urllib.parse.quote(f"{query} when:7d")
         fallback_url = f"https://news.google.com/rss/search?q={encoded_fallback}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
         feed = feedparser.parse(fallback_url)
 
     items = []
-    for entry in feed.entries:
+    # Permite capturar até 4 matérias de cada pilar (Marca, Concorrente, Território, Mercado)
+    for entry in feed.entries[:4]:
         title = entry.title if hasattr(entry, "title") else ""
-
-        # Limpeza básica do título
         if " - " in title:
             parts = title.rsplit(" - ", 1)
             title = parts[0]
@@ -254,7 +253,6 @@ def fetch_rss_segment(query, tag, time_window="48h", limit=2):
                 else "Imprensa"
             )
 
-        # Filtro de segurança contra homônimos
         if is_blacklisted(title):
             continue
 
@@ -278,12 +276,10 @@ def fetch_rss_segment(query, tag, time_window="48h", limit=2):
             }
         )
 
-        if len(items) >= limit:
-            break
-
     return items
 
-def fetch_balanced_client_news(client):
+def fetch_all_relevant_news(client):
+    """Busca todas as notícias genuínas do ecossistema sem corte arbitrário."""
     queries = client.get("queries", {})
     all_news = []
     seen_titles = set()
@@ -292,51 +288,53 @@ def fetch_balanced_client_news(client):
         q = queries.get(tag)
         if not q:
             continue
-        segment_items = fetch_rss_segment(q, tag, time_window="48h", limit=2)
-        for item in segment_items:
+        items = fetch_rss_query(q, tag, time_window="48h")
+        for item in items:
             norm_title = item["title"].lower().strip()
             if norm_title not in seen_titles:
                 seen_titles.add(norm_title)
                 all_news.append(item)
 
+    # Ordenação cronológica real (mais recente no topo)
     all_news.sort(key=lambda x: x["timestamp"], reverse=True)
-    return all_news[:6]
+    # Teto generoso de até 12 matérias úteis (se houver) para manter a agilidade da página
+    return all_news[:12]
 
 def build_fallback_summary(client_name, category, news_items):
     if not news_items:
-        return f"Monitoramento ativo nas últimas 48h para {client_name} no segmento de {category}. Fluxo regular sem ocorrências atípicas no período."
+        return f"Monitoramento ativo nas últimas 48h para {client_name} no segmento de {category}. Cenário de estabilidade sem picos anômalos de imprensa."
 
-    marca_titles = [
+    parts = []
+    marca_items = [
         n["title"] for n in news_items if "[MARCA]" in n.get("tag", "")
     ]
-    rival_titles = [
+    rival_items = [
         n["title"] for n in news_items if "[CONCORRENTE]" in n.get("tag", "")
     ]
-    other_titles = [
+    other_items = [
         n["title"]
         for n in news_items
         if "[MARCA]" not in n.get("tag", "")
         and "[CONCORRENTE]" not in n.get("tag", "")
     ]
 
-    parts = []
-    if marca_titles:
+    if marca_items:
         parts.append(
-            f"No ecossistema de {client_name}, a principal movimentação foi: \"{marca_titles[0]}\"."
+            f"No ecossistema direto de {client_name}, a matéria em destaque é \"{marca_items[0]}\"."
         )
 
-    if rival_titles:
+    if rival_items:
         parts.append(
-            f"Entre os concorrentes diretos, o destaque recente é \"{rival_titles[0]}\"."
+            f"Entre os principais concorrentes, a movimentação relevante foi \"{rival_items[0]}\"."
         )
 
-    if other_titles:
+    if other_items:
         parts.append(
-            f"No cenário de mercado e tendências, registrou-se: \"{other_titles[0]}\"."
+            f"No cenário de mercado e tendências, apurou-se \"{other_items[0]}\"."
         )
-    elif not marca_titles and not rival_titles:
+    elif not marca_items and not rival_items:
         parts.append(
-            f"A principal matéria apurada no período foi: \"{news_items[0]['title']}\"."
+            f"A principal matéria apurada no período foi \"{news_items[0]['title']}\"."
         )
 
     return " ".join(parts)
@@ -348,21 +346,20 @@ def generate_executive_summary(client_name, category, news_items, api_key):
     titles_text = "\n".join(
         [
             f"- {n.get('tag', '')} {n['title']} (Fonte: {n['source']})"
-            for n in news_items
+            for n in news_items[:8]
         ]
     )
 
     prompt = f"""
-Você é um analista de inteligência de negócios da agência FBIZ.
-Faça um RESUMO EXECUTIVO de 1 parágrafo (3 a 4 frases diretas) sintetizando os acontecimentos reais das últimas 48h para '{client_name}' (Segmento: {category}).
+Você é um analista sênior de inteligência de mercado da agência FBIZ.
+Faça um RESUMO EXECUTIVO de 1 parágrafo (3 a 4 frases diretas e factuais) sintetizando as movimentações reais das últimas 48h para '{client_name}' (Segmento: {category}).
 
 NOTÍCIAS RASTREADAS:
 {titles_text}
 
 DIRETRIZES:
-- Seja 100% FACTUAL e informativo.
-- Relate o que aconteceu com a marca, os concorrentes ou o setor.
-- NÃO dê conselhos publicitários, não sugira "pautas de PR" ou campanhas.
+- Seja puramente FACTUAL e informativo sobre o que aconteceu no mercado.
+- NÃO dê conselhos de publicidade ou ideias de campanhas.
 - Retorne apenas o parágrafo corrido.
 """
     try:
@@ -403,12 +400,12 @@ def main():
         "clients": {},
     }
 
-    print("Iniciando varredura com queries blindadas contra ruídos...")
+    print("Iniciando varredura orgânica e completa das notícias...")
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
 
-        fresh_news = fetch_balanced_client_news(client)
+        fresh_news = fetch_all_relevant_news(client)
         summary = generate_executive_summary(
             client["name"], client["category"], fresh_news, api_key
         )
@@ -423,7 +420,6 @@ def main():
         merged_history = list(old_history)
         for old_item in old_current_news:
             norm_t = old_item.get("title", "").lower().strip()
-            # Só arquiva matérias que não sejam ruído
             if (
                 norm_t
                 and not is_blacklisted(norm_t)
@@ -454,9 +450,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print(
-        "Sucesso absoluto! Todas as 18 marcas rastreadas com precisão cirúrgica."
-    )
+    print("Sucesso! Volume orgânico e fiel ao dia capturado com precisão.")
 
 if __name__ == "__main__":
     main()
