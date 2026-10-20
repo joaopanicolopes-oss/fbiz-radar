@@ -148,8 +148,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Panco (pão OR biscoito OR bolo OR alimentos OR fábrica OR padaria OR lançamento)',
             "CONCORRENTE": '(Wickbold OR Bauducco OR Pullman OR Visconti OR Marilan) (pão OR torrada OR biscoito OR bolo)',
-            "TERRITÓRIO": '("café da manhã" OR lanche OR merenda OR família OR padaria)',
-            "MERCADO": '(panificação OR "pão de forma" OR torrada OR indústria de alimentos) Brasil',
+            "TERRITÓRIO": '("café da manhã" OR "lanche da tarde" OR merenda OR padaria OR panificadoras) -"Bolsa Família" -benefício -governo',
+            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família"',
         },
     },
     {
@@ -224,6 +224,10 @@ def is_blacklisted(title):
         "acidente com van",
         "cidade das artes recebe ópera",
         "museu de cabangu",
+        "bolsa família",
+        "beneficiários do bolsa",
+        "benefício do bolsa",
+        "excluir beneficiários",
     ]
     return any(b in lower for b in blacklist)
 
@@ -232,14 +236,12 @@ def fetch_rss_query(query, tag, time_window="48h"):
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     feed = feedparser.parse(rss_url)
 
-    # Se nas últimas 48h não houver nada, busca nos últimos 7 dias para garantir frescor
     if not feed.entries and time_window == "48h":
         encoded_fallback = urllib.parse.quote(f"{query} when:7d")
         fallback_url = f"https://news.google.com/rss/search?q={encoded_fallback}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
         feed = feedparser.parse(fallback_url)
 
     items = []
-    # Permite capturar até 4 matérias de cada pilar (Marca, Concorrente, Território, Mercado)
     for entry in feed.entries[:4]:
         title = entry.title if hasattr(entry, "title") else ""
         if " - " in title:
@@ -279,7 +281,6 @@ def fetch_rss_query(query, tag, time_window="48h"):
     return items
 
 def fetch_all_relevant_news(client):
-    """Busca todas as notícias genuínas do ecossistema sem corte arbitrário."""
     queries = client.get("queries", {})
     all_news = []
     seen_titles = set()
@@ -295,9 +296,7 @@ def fetch_all_relevant_news(client):
                 seen_titles.add(norm_title)
                 all_news.append(item)
 
-    # Ordenação cronológica real (mais recente no topo)
     all_news.sort(key=lambda x: x["timestamp"], reverse=True)
-    # Teto generoso de até 12 matérias úteis (se houver) para manter a agilidade da página
     return all_news[:12]
 
 def build_fallback_summary(client_name, category, news_items):
@@ -400,7 +399,7 @@ def main():
         "clients": {},
     }
 
-    print("Iniciando varredura orgânica e completa das notícias...")
+    print("Iniciando varredura com exclusão do Bolsa Família...")
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
@@ -450,7 +449,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Volume orgânico e fiel ao dia capturado com precisão.")
+    print("Sucesso! Base limpa de política e Bolsa Família.")
 
 if __name__ == "__main__":
     main()
