@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 - Precisão Absoluta 100%
+# Matriz Estratégica FBIZ 2026 com Horário de Brasília e Pente Fino Absoluto
 CLIENTS = [
     {
         "id": "mms",
@@ -161,8 +161,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Panco (pão OR biscoito OR bolo OR alimentos OR fábrica OR padaria OR lançamento)',
             "CONCORRENTE": '(Wickbold OR Bauducco OR Pullman OR Visconti OR Marilan) (pão OR torrada OR biscoito OR bolo)',
-            "TERRITÓRIO": '("café da manhã" OR "lanche da tarde" OR panificadoras OR "padarias de SP") -"Bolsa Família" -merenda -escolar -prefeitura -governo -tiramisù -salustiano -"pizza brotinho"',
-            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família" -receita -merenda -salustiano',
+            "TERRITÓRIO": '("consumo de pães" OR "padarias de São Paulo" OR "hábito do café") (panificação OR pão OR biscoito) -podcast -stf -ministro -merenda -escolar -prefeitura -governo -receitas -fubá -liquidificador -salustiano -corrida',
+            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família" -receita -merenda -salustiano -podcast',
         },
     },
     {
@@ -183,10 +183,10 @@ CLIENTS = [
         "category": "Fintech & Carteira Digital",
         "territory_tag": "FINANÇAS",
         "queries": {
-            "MARCA": '99Pay (carteira OR rendimento OR Pix OR pagamentos OR fintech) -acidente -corrida -nba -casaco -columbia -vale3',
-            "CONCORRENTE": '(Nubank OR "Mercado Pago" OR PicPay OR C6 OR "Banco Inter") (conta OR rendimento OR Pix OR banco) -goleiro -futebol -vasco -time -casaco',
-            "TERRITÓRIO": '("educação financeira" OR economizar OR cashback OR finanças pessoais) -malha fina -crianças -vale3 -casaco -columbia',
-            "MERCADO": '(fintechs OR "carteiras digitais" OR Selic OR Banco Central OR Pix crédito) -vale3 -ações -casaco',
+            "MARCA": '99Pay (carteira OR rendimento OR Pix OR pagamentos OR fintech) -acidente -corrida -nba -casaco -columbia -vale3 -steam -jogos',
+            "CONCORRENTE": '(Nubank OR "Mercado Pago" OR PicPay OR C6 OR "Banco Inter") (conta OR rendimento OR Pix OR banco) -goleiro -futebol -vasco -time -casaco -steam',
+            "TERRITÓRIO": '("educação financeira" OR economizar OR cashback OR "finanças pessoais") -malha fina -crianças -vale3 -casaco -columbia -steam -"jogos de pc"',
+            "MERCADO": '(fintechs OR "carteiras digitais" OR Selic OR Banco Central OR Pix crédito) -vale3 -ações -casaco -steam',
         },
     },
     {
@@ -288,6 +288,12 @@ def is_blacklisted(title):
         "padaria salustiano",
         "filha de apresentadora da globo",
         "mariana ximenes fala sobre o desejo de ser mãe",
+        "o café da manhã desta terça",
+        "jogos de pc a partir de r$",
+        "steam renova as ofertas",
+        "bolo de fubá",
+        "receitas de liquidificador",
+        "corrida quem corre são elas",
     ]
     return any(b in lower for b in blacklist)
 
@@ -450,9 +456,12 @@ DIRETRIZES:
 
 def main():
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
-    now = datetime.datetime.now()
-    now_str = now.strftime("%d/%m/%Y às %H:%M")
-    date_capture = now.strftime("%d/%m/%Y")
+
+    # FIX DO RELÓGIO: Converte UTC do servidor para o Horário Oficial de Brasília (UTC-3)
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+    now_brasilia = now_utc - datetime.timedelta(hours=3)
+    now_str = now_brasilia.strftime("%d/%m/%Y às %H:%M")
+    date_capture = now_brasilia.strftime("%d/%m/%Y")
 
     existing_data = {}
     if os.path.exists("news_data.json"):
@@ -467,7 +476,9 @@ def main():
         "clients": {},
     }
 
-    print("Iniciando varredura 100% blindada e limpa...")
+    print(
+        f"Iniciando varredura com Horário de Brasília ({now_str}) e filtros cirúrgicos..."
+    )
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
@@ -517,7 +528,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Base 100% calibrada sem nenhum resíduo.")
+    print("Sucesso absoluto! Relógio de Brasília cravado e ruídos eliminados.")
 
 if __name__ == "__main__":
     main()
