@@ -7,7 +7,6 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 - Pente Fino e Schutz Recalibrada
 CLIENTS = [
     {
         "id": "mms",
@@ -221,8 +220,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Schutz (bolsas OR sapatos OR sandálias OR salto OR coleção OR calçados OR Azzas)',
             "CONCORRENTE": '("Luiza Barcelos" OR Vicenza OR "Santa Lolla" OR Corello OR "Jorge Bischoff" OR Capodarte) (sapatos OR bolsas OR calçados)',
-            "TERRITÓRIO": '("tendências de sapatos" OR "sandálias de salto" OR "botas femininas" OR "bolsas femininas" OR "street style moda") -prefeitura -igreja -festa -jabuticaba',
-            "MERCADO": '("calçados femininos" OR "varejo de calçados" OR "moda contemporânea" OR "semana de moda") Brasil -ostomia -estoma -médico',
+            "TERRITÓRIO": '("tendências de sapatos" OR "sandálias de salto" OR "botas femininas" OR "bolsas femininas" OR "street style moda") -prefeitura -igreja -festa -jabuticaba -ferragamo -lvmh -"7 for all mankind"',
+            "MERCADO": '("calçados femininos" OR "varejo de calçados" OR "moda contemporânea" OR "semana de moda") Brasil -ostomia -estoma -médico -ferragamo -lvmh -"7 for all mankind" -automobilismo',
         },
     },
 ]
@@ -294,6 +293,11 @@ def is_blacklisted(title):
         "bolo de fubá",
         "receitas de liquidificador",
         "corrida quem corre são elas",
+        # PURGA DEFINITIVA DO ULTRA-LUXO DA SCHUTZ:
+        "ferragamo",
+        "lvmh",
+        "7 for all mankind",
+        "mercado de luxo aposta no automobilismo",
     ]
     return any(b in lower for b in blacklist)
 
@@ -480,7 +484,7 @@ def main():
     }
 
     print(
-        f"Iniciando varredura com Schutz calibrada e Horário de Brasília ({now_str})..."
+        f"Iniciando varredura com purga de Ferragamo/LVMH e Horário de Brasília ({now_str})..."
     )
     for client in CLIENTS:
         cid = client["id"]
@@ -503,6 +507,7 @@ def main():
 
         for item in pool:
             norm_t = item.get("title", "").lower().strip()
+            # SE ESTIVER NA BLACKLIST (ex: Ferragamo, LVMH), É DESCARTADO IMEDIATAMENTE!
             if not norm_t or is_blacklisted(norm_t) or norm_t in seen_titles:
                 continue
             seen_titles.add(norm_t)
@@ -534,7 +539,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Schutz recalibrada e base 100% atualizada.")
+    print("Sucesso! Ferragamo e LVMH purgados da memória da Schutz.")
 
 if __name__ == "__main__":
     main()
