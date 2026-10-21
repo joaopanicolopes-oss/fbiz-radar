@@ -823,7 +823,7 @@
             if (list.length === 0) {
                 const emptyMsg = currentNewsTab === 'recent'
                     ? 'VARREDURA EM ANDAMENTO PARA ESTA MARCA.'
-                    : 'HISTÓRICO ATIVO: As notícias das últimas 48h serão arquivadas aqui automaticamente conforme passarem dos próximos dias.';
+                    : 'HISTÓRICO ATIVO: Matérias que completarem mais de 48 horas serão arquivadas aqui automaticamente.';
                 newsGrid.innerHTML = `<p style="color: var(--text-muted); font-size: 12px; font-family: var(--font-mono); padding: 18px 0; grid-column: 1 / -1;">${emptyMsg}</p>`;
                 return;
             }
@@ -836,7 +836,8 @@
                 card.rel = 'noopener noreferrer';
 
                 const sourceTitle = item.source || 'Imprensa';
-                const dateFormatted = item.archived_date ? `ARQUIVADO EM ${item.archived_date}` : formatNewsDate(item.published);
+                // EXIBE SEMPRE A DATA REAL DE PUBLICAÇÃO DA MATÉRIA
+                const dateFormatted = formatNewsDate(item.published);
                 const tagLabel = item.tag ? item.tag.replace('[', '').replace(']', '') : 'MERCADO';
                 const tagClass = getTagClass(item.tag);
 
