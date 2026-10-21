@@ -1,5 +1,5 @@
 {
-  "updated_at": "21/10/2026 às 14:05",
+  "updated_at": "21/10/2026 às 14:28",
   "clients": {
     "mms": {
       "name": "M&M's",
@@ -38,6 +38,14 @@
           "published": "Wed, 21 Oct 2026 12:33:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRTQwM0xwWG0tTDd2QS14RklvSk1SYTZ3V3M5cEpJRWRDRlBNclN2OWZPTEJUN0JJLU05ZklMMTJWMzFQV2xCWGpiMklMbURfTmR0SXdqY3haZjhzM2JmN0lpMDZTXzloYUsxdjBjTFZrYjVyZnhFR1pyQzhtRHktaGJKMWpGUmdFSE5TSEZn?oc=5",
           "timestamp": 1792585980
+        },
+        {
+          "tag": "[MERCADO]",
+          "title": "Rondônia conquista seis vagas entre os 20 finalistas do Concurso Nacional de Cacau Especial",
+          "source": "Mercado do Cacau",
+          "published": "Wed, 21 Oct 2026 12:16:47 GMT",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOS1USU1wRGc0blpuNjRUVHNqTUkxeTFyc0dzMmJxMXhONWM2aDR5ZTByWFhxRkIyNWlBWDJRMGlQSjRyRzJ2OWh3ZzItQkxJRG9Cc2NBR0pFRThIQXVEQWlZazlOYmhmZnV3WFRwa0k0SzhicG5IcXpxWjhJeThqdUxqQUFzVkhveXdIU0ludmxLX3pDeWJDa1VTODZYSlRzZDNSN2JnamtTTzhyRUNjSkdfY2tRcm9Hc25GOUZkVQ?oc=5",
+          "timestamp": 1792585007
         },
         {
           "tag": "[MERCADO]",
@@ -95,15 +103,6 @@
           "published": "Tue, 20 Oct 2026 22:00:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYmJOS1NpY0VrNG5RbUF2N2lGVEZfck5MRkV4SEs0SktDVmxPLTh6aXllSWFpa0szVzkweFNGVzNSV2NUbzY1ZnBMMDd6dUsxWldsUFhYSlVNb2xyakJBcjFiR2FEbjBhWDNpd29zZ1JfSzRJODc2UUQwZDFxbUpYbDBFdzVVUkx4b1ZEbC1PcFZEMUlLS1JtR2Ixb1pvODlUdGU0RVA5REQwUlRTdE5VOEhWYndJZnZOekxrS3gyb29NVmc0QUNEcmM4NUNueDFDUnFZQ25CdU13UGl0aHE5a2ZnS3ZRdk0?oc=5",
           "timestamp": 1792533600,
-          "archived_date": "21/10/2026"
-        },
-        {
-          "tag": "[MERCADO]",
-          "title": "Escola Indústria de Chocolate avança em Novo Repartimento",
-          "source": "Gazeta Carajás",
-          "published": "Tue, 20 Oct 2026 21:21:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaHczaDlURlNJc3JibXFET3N1cG5KMVA4REtPX3BycEJ3ZnhEYkFnenlISHVmQ0xOY2x0bE5peEhUN0ZTWmEySGpUNG04dFpHdFZ5NElvTmRIZ2F1bXFPbU1hODl4bzZBa01LdS1SYXRaMjFqeFNFX0Fzd0tZdHVCdDNITkt5NFhwWm96QV9lcEhuVXNwOGRoTEZKRQ?oc=5",
-          "timestamp": 1792531260,
           "archived_date": "21/10/2026"
         }
       ],
@@ -742,9 +741,17 @@
     "paixao": {
       "name": "Paixão",
       "category": "Cuidados Corporais",
-      "headline": "Empreendedorismo feminino: Márcia Miranda transforma experiência em vendas em expansão de negócios na Bahia",
-      "executive_summary": "Entre os principais concorrentes, a movimentação relevante foi \"Boticário lança “Cuide-se Bem Acerola e Vai” e conecta o autocuidado ao universo do sport care\". No cenário setorial e tendências, apurou-se \"Empreendedorismo feminino: Márcia Miranda transforma experiência em vendas em expansão de negócios na Bahia\".",
+      "headline": "Cosméticos capilares brasileiros ganham espaço internacional",
+      "executive_summary": "Entre os principais concorrentes, a movimentação relevante foi \"Boticário lança “Cuide-se Bem Acerola e Vai” e conecta o autocuidado ao universo do sport care\". No cenário setorial e tendências, apurou-se \"Cosméticos capilares brasileiros ganham espaço internacional\".",
       "news": [
+        {
+          "tag": "[MERCADO]",
+          "title": "Cosméticos capilares brasileiros ganham espaço internacional",
+          "source": "Rádio Real News",
+          "published": "Wed, 21 Oct 2026 16:04:04 GMT",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTlBjZDktSHI3RldkaXZwMzdZN2FEOFlCZVZWY2oyUnktX3FQcGVQNk9KNXlUcjV6a3gyVzRCeTY0bFhwSkZYWjVxRTZISjZRSS15UHZoQ0VTSEJQTDJGMTVSSmx2WWgtWXNJd0wtamxMXzY3bDVrMVBvbWRLNU55ZUdELUxweUdqQ1N2OHQzNV9qNGRiUl93?oc=5",
+          "timestamp": 1792598644
+        },
         {
           "tag": "[MERCADO]",
           "title": "Empreendedorismo feminino: Márcia Miranda transforma experiência em vendas em expansão de negócios na Bahia",
@@ -835,15 +842,6 @@
           "published": "Tue, 20 Oct 2026 22:29:50 GMT",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHRhNi14TC1xc1Y4NmhZSmhjbDJMVTY4Z201eXY0a09tNDhya0FZOTJoN1U2RkEwX3gtVVY3Y1Z6LU1XRThyWXBOYXNfMWZfWGlJY3pjR3M2bDRXcnBYZmwwWW8xMWVXUGpVcGk0ZDJfZl9hbmQ2R3RLY3ZOOVRQTkJRYjZITTVOU1JsTUh3?oc=5",
           "timestamp": 1792535390
-        },
-        {
-          "tag": "[BELEZA & MODA]",
-          "title": "SECDH | Outubro Rosa e Verde : Sesau promove ação de autocuidado para servidoras",
-          "source": "Prefeitura de Ananindeua",
-          "published": "Tue, 20 Oct 2026 20:18:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSkZsYW1mUVp6aDg2UnFlMy14ZFhwVlA5ekNhcW1ucnAxekk3NjBaWVFHcGVkV2Z1SDlrU2hzMkJkWHh4N191OENlYThSbktmdVBoQ0pPcy1JUGlNdXRuNWlYdE85MkE1cE5JOHRVMWtGVFZ6SVVOSm4yZDFHRWV5ODR4RFl2c0pJZkRIbEpJZzE3WkdYYkdJQlJEaENPM3Zjd2xibDNlNWdfeXJBdXlxa1FDYnVSX1pJZS02SzFVMkI?oc=5",
-          "timestamp": 1792527480,
-          "archived_date": "21/10/2026"
         }
       ],
       "history": [
@@ -942,9 +940,17 @@
     "warner": {
       "name": "Warner Bros.",
       "category": "Cinema & Entretenimento",
-      "headline": "Dois brasileiros brilham na lista dos 51-100 melhores restaurantes do mundo",
-      "executive_summary": "Entre os principais concorrentes, a movimentação relevante foi \"Marina Ruy Barbosa e João Guilherme gravam cenas de novo filme no Brás, em São Paulo\". No cenário setorial e tendências, apurou-se \"Dois brasileiros brilham na lista dos 51-100 melhores restaurantes do mundo\".",
+      "headline": "John Leguizamo vem ao Brasil para a Mostra Internacional de Cinema em São Paulo",
+      "executive_summary": "No ecossistema direto de Warner Bros., a matéria em destaque é \"Autodesk mergulha no universo de 'O Gato de Chapéu' em nova série 'Made to Make'\". Entre os principais concorrentes, a movimentação relevante foi \"Roberta Fraissat lidera marketing de cinema da Amazon MGM\". No cenário setorial e tendências, apurou-se \"John Leguizamo vem ao Brasil para a Mostra Internacional de Cinema em São Paulo\".",
       "news": [
+        {
+          "tag": "[MERCADO]",
+          "title": "John Leguizamo vem ao Brasil para a Mostra Internacional de Cinema em São Paulo",
+          "source": "Terra",
+          "published": "Wed, 21 Oct 2026 17:12:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVzFyOW1OR1l2b3dzaXh2LUtob3dEQ2NXdDUxUWY0b1RvUkNjLUVNQVRIbnhfU2tySjZteE9rRU0xQWxVZkpqVm5Ic0g5RUZHZ0s4YVJVb0JXMGxNNTJVMnU0cHplaHJXMjVlWXJERnBmeXMwWFBFYXhIcVpVci1TSVFYOWdPeUVHTWZNQVh4a0RnSlpDNUpqWWhhMjFURURYUG92MVVJVUVZSkU3U1BJN0hpVVdnODNOQnhQWjBObEg4bUlyemV2OTBmQzhCcEtkRGhNR1A0eEVaVmZNQjN6N1VVQVBaNVcyTGpXVG1pWU1zSDRJNHFFdmUzTnU3NjJ1LXBla29wTTBJdw?oc=5",
+          "timestamp": 1792602720
+        },
         {
           "tag": "[CULTURA POP]",
           "title": "Dois brasileiros brilham na lista dos 51-100 melhores restaurantes do mundo",
@@ -968,6 +974,14 @@
           "published": "Wed, 21 Oct 2026 15:17:59 GMT",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUGRCdW10ZHFTZGF4T2lzYlpVWWN2NDVhZ3RQRjFrQllfbWx4VG9XanFoeHFBWVRBTWU2WUtMOElFUnZhejJQSVhNangwaV9yMlVQaTNMVDgyU0J0YW85dG1zLUJrVnJCQ2xTQmtibGg0emZCYXFDQlpqNlZEdDNHTkF2V1B5RDRHZmtTN1NTbVFHVHgyTHRydFRDN3o?oc=5",
           "timestamp": 1792595879
+        },
+        {
+          "tag": "[MARCA]",
+          "title": "Autodesk mergulha no universo de 'O Gato de Chapéu' em nova série 'Made to Make'",
+          "source": "Animation Magazine",
+          "published": "Wed, 21 Oct 2026 15:00:16 GMT",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2F0bXhzeklaMU5xVXN2bTl1Y01WN1RLcDVsb09BZlNsejFCY1JGMWU1bURKbzN6UjZ4bmdGS1h2ZW5WLXA0X2tHbU1HeEhfYnRGU3V6MjNHbGhxOHI0eDVWYzNOYTROeXJwaTlwM0ZRZlZYbmNGYXNQNUgxSGNEcTNCVDU1Z29ZRzJoZHlIX01uN2hZMkJSdUc5TDFaOGpHeDJGYnBNaGlvVk9JNkxndQ?oc=5",
+          "timestamp": 1792594816
         },
         {
           "tag": "[MERCADO]",
@@ -1024,23 +1038,6 @@
           "published": "Wed, 21 Oct 2026 13:33:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWm1fcXpFOVZRcXhhUldMV1FsUWh3bDBUb3FwSGNuZzIzVDdQeHEzOHgyOU9KLVY1WDFhZk4tTnFzdHRlY09YcVVTcEpVZV9La3VmT1VOVGhtTGd4WmxXVjltR0dtSTVST1M0ZXBYampFMHRqWV91UjVVNlZsSHdQamhYMnBfVjF1NHdNRkJjVTNJU1hVdDNYVm95MDdsbGg1Zy1LZDlYTkVQc2pkT2hlWQ?oc=5",
           "timestamp": 1792589580
-        },
-        {
-          "tag": "[MERCADO]",
-          "title": "Roberta Fraissat assume o marketing de cinema da Amazon MGM no Brasil",
-          "source": "Filme B",
-          "published": "Wed, 21 Oct 2026 13:32:25 GMT",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb0dPQVZHOF9UcDZBM2tUbXNZT1U4WkY1Z1JneE9ENGJaWk1UMGVfVUw5ZmNsV1BlbllpVmxfMWJVcjZZalNHYUl1TDhyNXYtVDZ4SXhTQ3JPZXpEOTFwb1lxTERXY1BvejI3ekZhazliQmtlOGFFdXBNbXMzWVRWQWVadV9Ha2Jsa3RDUlRFdHZfcWQtUEZFUXBMWnVFVFRMVzBiYnY0SQ?oc=5",
-          "timestamp": 1792589545
-        },
-        {
-          "tag": "[MERCADO]",
-          "title": "Animação A Princesa e o Plebeu estreia quinta nos cinemas",
-          "source": "Portal ABC do ABC",
-          "published": "Wed, 21 Oct 2026 13:32:23 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMVFTLTR6UjEwMjRuX21ZM2dsNk5naE81Z3dpaFRpYnZXWkszVVdEVTVzSWpaUXdKU3RwOEFoLUFFMFRvWk1VWUlnSmZXekZzbWF0VlhmLVF3Qm15ZTlDNlRxaldvRU9uRUUwSnkwLXBpY2pHUW1QU0NjYkM0eWRBeXJn?oc=5",
-          "timestamp": 1792589543,
-          "archived_date": "21/10/2026"
         }
       ],
       "history": [
@@ -1077,7 +1074,7 @@
       "name": "TOTVS",
       "category": "Tecnologia & ERP Corporativo",
       "headline": "Máquinas inteligentes, pessoas preparadas: a fórmula do futuro do trabalho",
-      "executive_summary": "No ecossistema direto de TOTVS, a matéria em destaque é \"Máquinas inteligentes, pessoas preparadas: a fórmula do futuro do trabalho\". Entre os principais concorrentes, a movimentação relevante foi \"Oracle e AstraZeneca unem forças para inovar na saúde com IA\". No cenário setorial e tendências, apurou-se \"TIM usa Oracle para entrar na briga do negócio de Nuvem e IA no B2B\".",
+      "executive_summary": "No ecossistema direto de TOTVS, a matéria em destaque é \"Máquinas inteligentes, pessoas preparadas: a fórmula do futuro do trabalho\". Entre os principais concorrentes, a movimentação relevante foi \"Oracle e AstraZeneca unem forças para inovar na saúde com IA\". No cenário setorial e tendências, apurou-se \"Especial IT Forum 35 anos: tecnologia só gera impacto quando transforma pessoas e negócios\".",
       "news": [
         {
           "tag": "[MARCA]",
@@ -1094,6 +1091,14 @@
           "published": "Wed, 21 Oct 2026 16:07:58 GMT",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORVhYMi14VENzbzRiQ1RHbjI1VFpFUVkzNVdEM3lTazEtZFhFVzFZTWxyUEh6aHlqLUhQdDB4TUhTVzZwMndlckZVX1Bfeko0ajZiTW5oT0N0cFlYMnhZNVRrd0dOam1tUGQzZHpoUzBmV29Rby1zSXJWb3M3VTBOYXE0VjR4WGVRZDhxYjdiZHQybHlkNHh0RGlBZ2d3UGhLWmxoUE53NU1kdkV2ZVF6UGJVcWxacTgyZE53RGRLeC02T1BxaEVYaXBR?oc=5",
           "timestamp": 1792598878
+        },
+        {
+          "tag": "[MERCADO]",
+          "title": "Especial IT Forum 35 anos: tecnologia só gera impacto quando transforma pessoas e negócios",
+          "source": "IT Forum",
+          "published": "Wed, 21 Oct 2026 15:25:28 GMT",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uMmYtVnhlNVEzN2ItSm5OZUc1Ry1tdjlpUkpOOUM1VTA5MDBkUG5SUFZzakl1VUpZOWRWb2hfS0h0T2xwNDVZc1dsTjR2bmhMeXd4UTk2aHktMDBKLWNCYlpnOExyYWw3czhmejVGalFsTWNOZmxhVy1INEJJMEnSAX9BVV95cUxPbjJmLVZ4ZTVRMzdiLUpuTmVHNUctbXY5aVJKTjlDNVUwOTAwZFBuUlBWc2pJdVVKWTlkVm9oX0tIdE9scDQ1WXNXbE40dm5oTHl3eFE5Nmh5LTAwSi1jQmJaZzhMcmFsN3M4Zno1RmpRbE1jTmZsYVctSDRCSTBJ?oc=5",
+          "timestamp": 1792596328
         },
         {
           "tag": "[MERCADO]",
@@ -1167,14 +1172,6 @@
           "published": "Wed, 21 Oct 2026 11:39:34 GMT",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3B0WkZmRGVyNmRDSk1BVUZSZWxfaUd4OXpoMm9NS0hMMHFfVlJMNVc0dkRxdTc0akVkUUZYaDRKSjNmZ3B3YmJZUDh2a2ZnU2FGazlpWUluNnhSTEdpem85d1d0NGhTeFJ4TEZRQUk1ZTdTOTRYZE4ybnlsVDBsa09mZEjSAYQBQVVfeXFMTV9wdFpGZkRlcjZkQ0pNQVVGUmVsX2lHeDl6aDJvTUtITDBxX1ZSTDVXNHZEcXU3NGpFZFFGWGg0SkozZmdwd2JiWVA4dmtmZ1NhRms5aVlJbjZ4UkxHaXpvOXdXdDRoU3hSeExGUUFJNWU3Uzk0WGROMm55bFQwbGtPZmRI?oc=5",
           "timestamp": 1792582774
-        },
-        {
-          "tag": "[MERCADO]",
-          "title": "IA e experiência humana vão redefinir competitividade das empresas",
-          "source": "FecomercioSP",
-          "published": "Wed, 21 Oct 2026 04:13:03 GMT",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQMi1hb3Y5d1pBNGlDZWJ5SjlRdzdBQ0VRTmR0YkdEcEJHQW9TUER5V0xqTUdmcU9hMHJmTHZkN0FOajZnazF5VEt3N01uOFJ3c2RMYkxRaUh5RnhHT3pmRDN6X2FHSkhsaE9VRDVrNEZfaFNFQUVqMGVTN0kwZTI5LW41c2dtazNfVWxNRGg1WHNlTGNCeGRhTXB1OWtUV2JfX0xWSDl2ZjBDYktiVzRBcnl4eWZ2bHVDSHdubUNlNU5jS01wRW5rMVNWUEVLTkhDU1FoT1d5YnRSV0E1UmxzaWhqdEtkckFIV3g0QzNkRy1qM0pqQXB5THRxWmZjMlRKVnBRcUF3MVFpbThv?oc=5",
-          "timestamp": 1792555983
         }
       ],
       "history": [
@@ -1694,7 +1691,7 @@
       "name": "Cenoura & Bronze",
       "category": "Proteção Solar & Verão",
       "headline": "Cuidado, carinho e aprendizado marcam especialização de enfermeiros de Angola em PG",
-      "executive_summary": "Entre os principais concorrentes, a movimentação relevante foi \"NIVEA SUN lança protetor solar em stick com tecnologia coreana para transformar a rotina de reaplicação solar\". No cenário setorial e tendências, apurou-se \"Cuidado, carinho e aprendizado marcam especialização de enfermeiros de Angola em PG\".",
+      "executive_summary": "Entre os principais concorrentes, a movimentação relevante foi \"NIVEA SUN lança protetor solar em stick com tecnologia coreana para transformar a rotina de reaplicação solar\". No cenário setorial e tendências, apurou-se \"Manchas na pele depois dos 50 não aparecem por acaso: dermatologista explica como o sol de anos atrás pode deixar marcas no rosto\".",
       "news": [
         {
           "tag": "[MERCADO]",
@@ -2128,7 +2125,7 @@
       "name": "Google",
       "category": "Big Tech & Publicidade Digital",
       "headline": "Wascer Investe R$ 1,25 Milhão Em Infraestrutura De Dados Para Competir No Mercado Global",
-      "executive_summary": "No ecossistema direto de Google, a matéria em destaque é \"Antigas rivais, Google agora oferece modelos de linguagem da OpenAI\". Entre os principais concorrentes, a movimentação relevante foi \"A OpenAI expande a publicidade no ChatGPT para mais 26 países.\". No cenário setorial e tendências, apurou-se \"Wascer Investe R$ 1,25 Milhão Em Infraestrutura De Dados Para Competir No Mercado Global\".",
+      "executive_summary": "No ecossistema direto de Google, a matéria em destaque é \"OpenAI fecha parceria com Google Cloud para oferecer modelos de IA às empresas\". Entre os principais concorrentes, a movimentação relevante foi \"A OpenAI expande a publicidade no ChatGPT para mais 26 países.\". No cenário setorial e tendências, apurou-se \"Wascer Investe R$ 1,25 Milhão Em Infraestrutura De Dados Para Competir No Mercado Global\".",
       "news": [
         {
           "tag": "[MERCADO]",
@@ -2147,12 +2144,28 @@
           "timestamp": 1792601257
         },
         {
+          "tag": "[INOVAÇÃO B2B]",
+          "title": "Embrapa Cerrados apresenta pesquisas sobre saúde do solo na Universidade da Geórgia, nos EUA",
+          "source": "A Embrapa",
+          "published": "Wed, 21 Oct 2026 15:58:53 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNX0FEaHhqd2pLZm9FTEIzTEkxZlZqcllQeVUwUUlaWmp2NVVwV3ZjUGJ6bXhRUThycWlTalUyYjB4LU4tMElHN25VUTYzZXdvdjNGX2RXU3FDVVdFVG1mN0pfQUpzdm1sZHZoSnRWT1pYcFczZHFnbHVPenA1OXplZzk3MGdtY3RhMUI3eFV1MmVkLVlnM0F3ZUZFaUpNaExRMG5tRDZaOU5sVE9QZHNOUV9rZS10bVhyUU9DZDlETjY3VHpKTC1oM3Z0eXh4Q2hXZ3A2dXFEdnlrNkhSMHJjdlhfOHU1aWRaUUhMRUFLVmpoNExsZmxzVw?oc=5",
+          "timestamp": 1792598333
+        },
+        {
           "tag": "[MERCADO]",
           "title": "Accor implementa mais de 100 pilotos de agentes de Inteligência Artificial",
           "source": "ConvergenciaDigital",
           "published": "Wed, 21 Oct 2026 15:18:34 GMT",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb0ZlYnprR1NLUEpsSFZOMVJUNlN4WWpDOV9lbVZtZHE4eUxjamMtTENBaF9GNU1JSU1fd1VPdm15X21rU1Z0R0tabWJEVzE2bnhVTHIxTS13LVBBTkFuaEg0WHpzWFFHTmduZ3JyOEF6U3plTy1DZmsyaDdCS2V2TGMwbXlhUFp2LUFsTHZHT2Y3eWE1SkhiNm9GaVZRSzJxcWpxUUk3akd4UUFmMDFCa0JKYkUyTDlPSWFz?oc=5",
           "timestamp": 1792595914
+        },
+        {
+          "tag": "[MARCA]",
+          "title": "OpenAI fecha parceria com Google Cloud para oferecer modelos de IA às empresas",
+          "source": "IT Forum",
+          "published": "Wed, 21 Oct 2026 14:31:59 GMT",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52enRRLUVwVUo2YnAtX051Wkx1b3NtSS1yRlJ1andVSmY0QnJqWmtrelIxVzROOVBvQ2ZmNjU2b0hYSEU0c19jYlc0Z3BuQ1RfZjY1bzNuT2V0djVLcUNfSENRTGxIQVhLNlFZVThMdmtHTknSAXhBVV95cUxNWVkxSm9kSk90RFRKcWJ5VkNWXzlYeHdzZlhpVllEakktRExOeGtaNy1PRVRlenlfckhFUHpjNGNWOVkwSzlhU3AwNUJhc0Ezbk45QmVQdUcxNEEzX2FleFo5RXNRZ05OQUlWNUR3NHF3WXlWWkhjcHI?oc=5",
+          "timestamp": 1792593119
         },
         {
           "tag": "[CONCORRENTE]",
@@ -2211,23 +2224,6 @@
           "published": "Wed, 21 Oct 2026 12:54:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbzJYS0hSMHdGWDd3aHRTZDNVdnc5TWR4elpBc3RuWG94SUVrWjM0SDlKLWJHdlZkaDFaTWVHQW9TcU5pOC1DVGgwVTl6a0J3ME5SM2hSZ2VsOUNYM1VRcXcyc2o2anlibFZ4eS11OFlrTjhZQV94UTdscmNrWE9acmt30gGCAUFVX3lxTE9vMlhLSFIwd0ZYN3dodFNkM1V2dzlNZHh6WkFzdG5Yb3hJRWtaMzRIOUotYkd2VmRoMVpNZUdBb1NxTmk4LUNUaDBVOXprQncwTlIzaFJnZWw5Q1gzVVFxdzJzajZqeWJsVnh5LXU4WWtOOFlBX3hRN2xyY2tYT1pya3c?oc=5",
           "timestamp": 1792587240
-        },
-        {
-          "tag": "[MARCA]",
-          "title": "OpenAI expande acesso ao Google Cloud enquanto rivais de IA estreitam laços - Investing.com Brasil",
-          "source": "Finanças, Câmbio e Investimentos",
-          "published": "Wed, 21 Oct 2026 12:22:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLWpvVENYU09wRU1sNnJ5OTRILWp6U1Y0YmFjMnZTT1JKWkRGTnlrSmNUNkVLbnBtZzRSS1VPV1h1czBlYkktZkNPRWIxcmJMdmVIOV81M2RBY0s1dnN2UFFWalY1SEc5SkhWNDU2ckhDRzFQNXE2a2VkTHVWOF90c1VqSEJaOHJMYXpVZ3VRZTRhblM3OHpQMmFUR1J4RVBOWkNuZnFjRDdnSjE2M055UzVkWFlEVl9zWnU1aTFMaXhHSDd1bjhXRTdPUQ?oc=5",
-          "timestamp": 1792585320
-        },
-        {
-          "tag": "[MARCA]",
-          "title": "OpenAI vai vender seus principais modelos no Google Cloud em mais uma iniciativa corporativa",
-          "source": "TradingView",
-          "published": "Wed, 21 Oct 2026 12:00:31 GMT",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40UVlfUnBOdjdMYUNUTEhjX2RhVEJWUEt5OUc4bllLbWVfU29EckZrSldxYkl1NjlWRzc4cXVUcmNNTkcxdFllYnNhdjhFSzZHTVlydTFTVHpkRjI4UjlhVmgyNFA0MVZpWXdMNHg4MEVOcWtYZzRr?oc=5",
-          "timestamp": 1792584031,
-          "archived_date": "21/10/2026"
         }
       ],
       "history": []
@@ -2235,9 +2231,17 @@
     "hbomax": {
       "name": "HBO Max",
       "category": "Streaming & Séries",
-      "headline": "Prime Video divulga trailer e novos cartazes da terceira temporada de O Senhor dos Anéis: Os Anéis de Poder",
-      "executive_summary": "No ecossistema direto de HBO Max, a matéria em destaque é \"Lille x Galatasaray AO VIVO: link para assistir online (21/10)\". Entre os principais concorrentes, a movimentação relevante foi \"Prime Video divulga trailer e novos cartazes da terceira temporada de O Senhor dos Anéis: Os Anéis de Poder\". No cenário setorial e tendências, apurou-se \"MiQ lança Watching Intelligence para integrar TV e digital\".",
+      "headline": "Marília Mendonça: Sentimento Louco Estreia no Prime Video",
+      "executive_summary": "No ecossistema direto de HBO Max, a matéria em destaque é \"Lille x Galatasaray AO VIVO: link para assistir online (21/10)\". Entre os principais concorrentes, a movimentação relevante foi \"Marília Mendonça: Sentimento Louco Estreia no Prime Video\". No cenário setorial e tendências, apurou-se \"MiQ lança Watching Intelligence para integrar TV e digital\".",
       "news": [
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Marília Mendonça: Sentimento Louco Estreia no Prime Video",
+          "source": "About Amazon Brasil",
+          "published": "Wed, 21 Oct 2026 17:25:54 GMT",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYnc1VGFiYVJiNkZZZDhueUtKMUVTZUw1NDc5OUZHUEROcmdIcC1wOTJtRTVjMzZMb05HMG1VRkhfYXpWcG1uM3ZpUWI5MmxNRWxyb0Fxc2lETGxjZk8zYUF2bHZ0SFE1TFBpejA2R3JVa196T1FCQ21famE5ZjBvdHpFSGhGZDBDYXkzNTJJMWRNbThyQ01BM0dRLWpFcmkwZ0p0MXRqNlA4UGhQRmVPOA?oc=5",
+          "timestamp": 1792603554
+        },
         {
           "tag": "[CONCORRENTE]",
           "title": "Prime Video divulga trailer e novos cartazes da terceira temporada de O Senhor dos Anéis: Os Anéis de Poder",
@@ -2327,14 +2331,6 @@
           "published": "Wed, 21 Oct 2026 12:00:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbEp5RFYyMGRMb1pzNFdVSFhfZEdVd0ZPaFkyNGtxRnp2M3FWRnVYbzRpYmRLZHBEMHAza0RFcUhQUU5VeGNGdGZla3pHMlc5eUFaeEhnMEdrX0tKU2REb0hMSDlyTkd3aXp2cVhndlZ4MVRlSTNyRHVZQ29YbGJ0MDEzWWhhSGhuaUtaT0NvRy1ZYW15RXhvaUxUdWZvQmvSAZ8BQVVfeXFMUGxKeURWMjBkTG9aczRXVUhYX2RHVXdGT2hZMjRrcUZ6djNxVkZ1WG80aWJkS2RwRDBwM2tERXFIUFFOVXhjRnRmZWt6RzJXOXlBWnhIZzBHa19LSlNkRG9ITEg5ck5Hd2l6dnFYZ3ZWeDFUZUkzckR1WUNvWGxidDAxM1loYUhobmlLWk9Db0ctWWFteUV4b2lMVHVmb0Jr?oc=5",
           "timestamp": 1792584000
-        },
-        {
-          "tag": "[CULTURA POP]",
-          "title": "Suspense com Ben Affleck vira fenômeno na Netflix em apenas 14 dias",
-          "source": "UOL",
-          "published": "Wed, 21 Oct 2026 12:00:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWC1ZS2pEWVBWZHdEdWhzR1ZNOWNzN1N4aVZIOFhKbVdtUVJHNTd4UG9WZ0I4VTI4cWRSSUNPT2lldXBlZ01mbGp6Nm96WUFON0RwVmdCNFN6MFQyWHVoNVFhcGdNd2RpZ0hZeGRZYXNvekpKVUZjNjZwMjFGSVRBZDFfcF85akZiUXVNQ3dJZkhubHJXc01BR2lUSFprNmVwV1pvaFRCOC1oa01jS2NWX1BFQnFFZHFESWxmYXhweFJOODlua1ZubDJTZTl5Rlk1bWpvNlRabTR2NHl4VUVGY1JTSTRoWGk3NnN6V0NRenZVSE1XZ251REpJMFU0aWtHWVBxa1NlTGs3NTRjcDZaVlV3?oc=5",
-          "timestamp": 1792584000
         }
       ],
       "history": [
@@ -2405,7 +2401,7 @@
           "title": "Indústria vê agravamento do déficit de trigo para panificação no Paraná",
           "source": "Globo Rural",
           "published": "Wed, 21 Oct 2026 14:14:47 GMT",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOERwNWFOR1VZeVJvU2hINVZPQ3hlWEYtR19takhNQUM3LUJTTHlaOF9rQTdMT2p5RVh3aVZ3X19wQmZPd0JRUWVoSTlPMzNkbE56VjZJb3dUckVMbmVVZlVmZmNUTktYdC1QdE0tUFBmZ0U0U0poWFhPQXRhQXBpQ3FWRDVzMUZwUDJjam9rSVJmTGdkeUJCUS1lQlRvQ3BLRFdtYkU2OTlZTFZtdlJkYUFQUXB4Yl9sR2Flbzh2Smo1X1VuQnp1ZmROUGxRdENTcnRic2Q0b9IB5gFBVV95cUxPNjNmTWlEQmFKQllkNVFqYmF6blFfWFdMbG1UdUs3XzAtQktEZG10QU1PU3RORFBYM3p5SllpUGpfTDNReEY5RV9iTzltNTBBZUNKUHZVZ1FvVXp3MW93aWtrTmtaWHFpbkVEWUxOM1NHZFFiZWZHakxKSzdTV1FZendGYzlycTRiOG1oUVF4Y2tSaHVkcFdnaVFUM0VpMFM0QnBBbG11NGlQejQ4eFRVLVBfVURlVTVHSVJpOE8telY0MHBhZTdWMWFieXVhNDNLU2hBUkYxU3UxUG1icXp5a3dPRVJ1Zw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNjNmTWlEQmFKQllkNVFqYmF6blFfWFdMbG1UdUs3XzAtQktEZG10QU1PU3RORFBYM3p5SllpUGpfTDNReEY5RV9iTzltNTBBZUNKUHZVZ1FvVXp3MW93aWtrTmtaWHFpbkVEWUxOM1NHZFFiZWZHakxKSzdTV1FZendGYzlycTRiOG1oUVF4Y2tSaHVkcFdnaVFUM0VpMFM0QnBBbG11NGlQejQ4eFRVLVBfVURlVTVHSVJpOE8telY0MHBhZTdWMWFieXVhNDNLU2hBUkYxU3UxUG1icXp5a3dPRVJ1Z9IB5gFBVV95cUxPNjNmTWlEQmFKQllkNVFqYmF6blFfWFdMbG1UdUs3XzAtQktEZG10QU1PU3RORFBYM3p5SllpUGpfTDNReEY5RV9iTzltNTBBZUNKUHZVZ1FvVXp3MW93aWtrTmtaWHFpbkVEWUxOM1NHZFFiZWZHakxKSzdTV1FZendGYzlycTRiOG1oUVF4Y2tSaHVkcFdnaVFUM0VpMFM0QnBBbG11NGlQejQ4eFRVLVBfVURlVTVHSVJpOE8telY0MHBhZTdWMWFieXVhNDNLU2hBUkYxU3UxUG1icXp5a3dPRVJ1Zw?oc=5",
           "timestamp": 1792592087
         },
         {
@@ -2828,7 +2824,7 @@
       "name": "99Pay",
       "category": "Fintech & Carteira Digital",
       "headline": "99Food inicia operações em Teresina com 1,3 mil restaurantes cadastrados",
-      "executive_summary": "No ecossistema direto de 99Pay, a matéria em destaque é \"99Food inicia operações em Teresina com 1,3 mil restaurantes cadastrados\". Entre os principais concorrentes, a movimentação relevante foi \"WIZC3 despenca 20% após venda ao Banco Inter: oportunidade de compra ou sinal de alerta?\". No cenário setorial e tendências, apurou-se \"Grupo Primo levará educação financeira gratuita a empresas\".",
+      "executive_summary": "No ecossistema direto de 99Pay, a matéria em destaque é \"99Food inicia operações em Teresina com 1,3 mil restaurantes cadastrados\". Entre os principais concorrentes, a movimentação relevante foi \"Muito bom! Cartões PicPay Black ou Epic com 1 ano de anuidade grátis\". No cenário setorial e tendências, apurou-se \"Grupo Primo levará educação financeira gratuita a empresas\".",
       "news": [
         {
           "tag": "[MARCA]",
@@ -2853,6 +2849,14 @@
           "published": "Wed, 21 Oct 2026 15:40:00 GMT",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS1VDUlVMNWNwMkJSY3hLWjJ0VWE4dTcxcEpXR3JZU2hiakN2Wk1QRUJzQ3B5cW1qdWRiZzBGWkV6bW1CODBFRVRrQjRVNldNdDBNVTFZVDJYYWtCZFVobmRYNDVqdmlwWnZqNU8yM3N2bjY1WTNGN0t1T0tiRmQ4dnBLOFV4T2xoZURpR3FaNjJvUQ?oc=5",
           "timestamp": 1792597200
+        },
+        {
+          "tag": "[CONCORRENTE]",
+          "title": "Muito bom! Cartões PicPay Black ou Epic com 1 ano de anuidade grátis",
+          "source": "Melhores Cartões",
+          "published": "Wed, 21 Oct 2026 15:12:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbHNaNTBRT3dqSU1OaVZvUXBidjBUcEFQMG9kZ2Z4RjB1UWt4UF82MDRieWhvYUJWVlNJT0JFazd0Y3kxRndYcTdKZWgycDNuY2h6c2FtRmRhanZkRjJheUNyNkxoWjZnWVh3UGM2Sy1fYkVBb3lWd0FnTWJyYUwwZGdB?oc=5",
+          "timestamp": 1792595520
         },
         {
           "tag": "[MARCA]",
@@ -2913,20 +2917,12 @@
           "timestamp": 1792589696
         },
         {
-          "tag": "[MARCA]",
-          "title": "Ethereum reduz rendimento do staking para 2,63% no trimestre",
-          "source": "portalcripto.com.br",
-          "published": "Wed, 21 Oct 2026 12:13:11 GMT",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUzc0bTAwaXlhQVFxdjB6NGVLRVZ0eXJNSVh0RkdUdEszN1JmekM3dEpncWI4NlVqb2JkNGNNUTNNTW91UzJ2NFlxMDZiZFNhSHlST3J3eFVmWGRLVFRCNlJvX1J1cjc1TGVPbWRIZlA1WTh5VmN4d1NIWXRQOEVfREdocW1CaEJqWEhUbTJTdDBfQzktV1pZRWZhaUV5UXJZMTVSV213?oc=5",
-          "timestamp": 1792584791
-        },
-        {
           "tag": "[FINANÇAS]",
-          "title": "Reunião estratégica do Fecop alinha ações com foco em educação financeira",
-          "source": "Governo do Estado do Ceará",
-          "published": "Wed, 21 Oct 2026 11:30:01 GMT",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlY0M2dYTVgzVjlVNmJJZnZfXzAxWDVzVmc3WHF5Nm1mRUdwWGc5eG8xdXBFWWNFMlh4Q05mMGtHLTdqT3NBcjluRjhIdU9naE5kZXJRUk1lX2NTTzlscHYtVEE0M0RpTmVlQjFacXJaYUFXMGFwT1dqdUdRNUhQRWIxMnpzNHcxZzJpOHV6d0xWVlNHakFlR1FJNU1TWGk2Vl9tUlZOR2Jya1A0MEpPU1BtR2ZiZHd2Tl9HRA?oc=5",
-          "timestamp": 1792582201
+          "title": "Em 24/10, São José dos Campos recebe o 5º Encontro Brasileiro de Educação Financeira",
+          "source": "Diario de Suzano",
+          "published": "Wed, 21 Oct 2026 12:20:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUkUwcDFnaHd6V2NQQXdUaHZsalpmd1N4aFA3TWRLSEZHNE9JTFlPazA5TE94NWFIZFQxQUI2MzNuX1lvSVJ6emM5a0MtcXo1Y2diWDJtNzBHUVlDZnpuaE84RTE3RE9ocnlMX2U4U3JSTjQ3MGZLUUxhSjFKdWZBMzhSWl84dHFsbUtaR1dPbWMwMlJJXzE2YmI5VVZER1dPeVpBbm5pem9ORkVnVzlmcmpOZWJrbXBZVFMwSk8yaUs1S054YlBtMXE5dmdQeXR2clh3bVp3?oc=5",
+          "timestamp": 1792585200
         }
       ],
       "history": []
@@ -2934,9 +2930,17 @@
     "vans": {
       "name": "Vans",
       "category": "Streetwear & Skate",
-      "headline": "Rayssa Leal sofre quedas, termina em sétimo e Brasil fica sem pódio no Mundial de Skate Street",
-      "executive_summary": "No ecossistema direto de Vans, a matéria em destaque é \"Goiânia Crew Attack em SP: Vans reúne esporte, música e homenagens as skateshops locais\". Entre os principais concorrentes, a movimentação relevante foi \"Puma Suede XL sai por menos de R$ 300 na promoção da Authentic Feet\". No cenário setorial e tendências, apurou-se \"Rayssa Leal sofre quedas, termina em sétimo e Brasil fica sem pódio no Mundial de Skate Street\".",
+      "headline": "Consumidores que não existem: como a IA pode testar ideias de produtos",
+      "executive_summary": "No ecossistema direto de Vans, a matéria em destaque é \"Consumidores que não existem: como a IA pode testar ideias de produtos\". Entre os principais concorrentes, a movimentação relevante foi \"Puma Suede XL sai por menos de R$ 300 na promoção da Authentic Feet\". No cenário setorial e tendências, apurou-se \"Rayssa Leal sofre quedas, termina em sétimo e Brasil fica sem pódio no Mundial de Skate Street\".",
       "news": [
+        {
+          "tag": "[MARCA]",
+          "title": "Consumidores que não existem: como a IA pode testar ideias de produtos",
+          "source": "Diário do Nordeste",
+          "published": "Wed, 21 Oct 2026 17:00:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdTNRbll0SmtQamtLeEdOdlZxbVpNOEgxbjgya3hZREc3YmFybHZPTmluREh6THF1b0dvNDk5a1RKb3BlTUl1VGpfMjFtVFBSbHI0NF8xVENIc1ZlczFHdmhVRFJQSXNaMEo3WW1pMEwwMXJ4OXptbFdzTUJBZno5MGQ2SG1FMlIwX3k5UHI5WkprY0d1SEdrQjdRSUpGcUFlQ0t0LWpoR2FoR0o0bURxck9TbWNZQmFzTW0zNVZjZTFOZWF1MkE2OHJLWXdZUHJ3anI2VFVRV29Qa2FjcVFyZWRiOURvRDVlX1BtOVNuMA?oc=5",
+          "timestamp": 1792602000
+        },
         {
           "tag": "[STREETWEAR]",
           "title": "Rayssa Leal sofre quedas, termina em sétimo e Brasil fica sem pódio no Mundial de Skate Street",
@@ -3025,15 +3029,6 @@
           "published": "Tue, 20 Oct 2026 14:18:51 GMT",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3V2cFdSUG14QkRtMTcxZkJUTEZSeFRMY0g5bTFBWVpZMFNuaFQ4WWpfWHBZU01xeDkwRGMzal9YSVpFdzN1cGtJN0ZlWWdhV09FdURBNmpUZUpGYmxjbExnX09qTkZuSkZ0YmdlX3d4SlBOSl9nSmY4S1h0U3dKTHRiSDB5U2FFTTVLRGdrQ09zQnMxVThYUkhlSU9QVzlRcHo4cGRkMDRjMm9aYWZWWG84enFjZjQyV3BOWkZCSHVTbkM1?oc=5",
           "timestamp": 1792505931
-        },
-        {
-          "tag": "[CONCORRENTE]",
-          "title": "McLaren e Puma lançam juntas uma coleção inspirada no estilo de James Hunt, o polêmico campeão da F1 em 1976",
-          "source": "Arkade",
-          "published": "Tue, 20 Oct 2026 13:15:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOFJXYkZWTXJWSWNWUnlLOVB1UjFKNUdrTVZWTUk2NTZsTGQ1UDRLMG80OWF4TkVzamh5TFVCMFZuSGNQX0VQVFFOa3RWNjFIRVRNMHJvVXV1ZnotcGtEOVRMUDN2b0xhN2dSZFhfeGtJemNrQV9sNnlzOTJZRndiX3dHbWVWZjljNEVhdF9RWWxUVkhDOWlGa1BlbmtPUVA5Z0RHS3NGMjlnZElZTWE0UUliZEVhdE5MNlBydnFGMWdwSUFLN3hsVzVR?oc=5",
-          "timestamp": 1792502100,
-          "archived_date": "21/10/2026"
         }
       ],
       "history": [
@@ -3533,9 +3528,9 @@
     },
     "schutz": {
       "name": "Schutz",
-      "category": "Moda Premium & Sapatos",
+      "category": "Moda Premium & Calçados",
       "headline": "A grife americana 7 For All Mankind escolheu o Brasil para ser um dos principais mercados para o crescimento global da companhia, que se tornou conhecida pelas calças jeans vendidas a mais de R$ 2 mil. A empresa vê potencial no mercado de luxo do p",
-      "executive_summary": "No ecossistema direto de Schutz, a matéria em destaque é \"Schutz apresenta novos modelos de sapatos e bolsas para atualizar os looks da temporada!\". Entre os principais concorrentes, a movimentação relevante foi \"Morre Adalberto Leist, empresário que comandou a Paquetá Calçados, aos 82 anos\". No cenário setorial e tendências, apurou-se \"A grife americana 7 For All Mankind escolheu o Brasil para ser um dos principais mercados para o crescimento global da companhia, que se tornou conhecida pelas calças jeans vendidas a mais de R$ 2 mil. A empresa vê potencial no mercado de luxo do p\".",
+      "executive_summary": "No ecossistema direto de Schutz, a matéria em destaque é \"Schutz apresenta novos modelos de sapatos e bolsas para atualizar os looks da temporada!\". Entre os principais concorrentes, a movimentação relevante foi \"Morre Adalberto Leist, empresário que comandou a Paquetá Calçados, aos 82 anos\". No cenário setorial e tendências, apurou-se \"Mantecorp assume naming rights do SPFW e muda nome da semana de moda em 2027\".",
       "news": [
         {
           "tag": "[MERCADO]",
@@ -3612,6 +3607,14 @@
           "timestamp": 1792527156
         },
         {
+          "tag": "[MERCADO]",
+          "title": "Mantecorp assume naming rights do SPFW e muda nome da semana de moda em 2027",
+          "source": "Rede Atlântida",
+          "published": "Tue, 20 Oct 2026 18:17:14 GMT",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQenNSZXM2QVZqRnVjNjBPWDFsdmVGSU5PckdWbktPYVdLeDZ6SFUtY2JIUXEwM1RCNHRPR0VVUEFuS2xjck9kR2pqODF2Y3kxcmUwY3h1QURYYURoeElTSkZNQjZfUVo5Wl9ib2cxamxoODI0VUx4VDhlbEFXbDFZU3lSanBuTGpsYmhtZTJEYV9ZNHJjUzVtQkl0NVUwLXNqbnRDTDN4WXM0X2kxNVdrSkZvMW9BU2d4NC1IWUZIRFNERy1jdWUzWTFmMktzRXU3VlhuWUIzZkpMcTAwQnNZdzVMcjBuUDdsWXdKeEwxWDZGSjhEOWlB?oc=5",
+          "timestamp": 1792520234
+        },
+        {
           "tag": "[TERRITÓRIO]",
           "title": "Giulia Be abre álbum de festa pós casamento em Copacabana: \"Inegociável\"",
           "source": "CNN Brasil",
@@ -3627,14 +3630,6 @@
           "published": "Tue, 20 Oct 2026 16:14:49 GMT",
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOGxRSjJZVTR3T1FKeWRNRjE3Y1N2clV3Q3JzRWJmcENqWGc0ZXQxdld0X1JfQjBpU3k0WDNqNXBVa09xV2RvU1ZkeFRQbnVmYTNTdWxhaVhENUxDSGpkb0pTU3Z2MldZcWZtME91WFlQaS0wbUlqeVFiZVRaRU5vR0Y0d0hneWRhMVR4UVVFNFhsY0xtYXRWTmpRcnlXaGJJSEl4ck5CeGtUWm5BU0VaUjBLejZvd1IzU1k1SVdTYXpfdGZUd2J6UkZTTk5YdFhmYmM2V1E5Q2tSeE1Ma3R1ZW94c3pTWDZGQjFxc21fTW1vSU0?oc=5",
           "timestamp": 1792512889
-        },
-        {
-          "tag": "[MARCA]",
-          "title": "Azzas 2154 (AZZA3): lucro despenca quase 90% e cisão entre Arezzo e Soma muda o futuro da empresa",
-          "source": "O Petróleo",
-          "published": "Tue, 20 Oct 2026 14:56:00 GMT",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb0dYdkszNmVlRHNDWkRSa3E3blctZTJJRTUyR0p3ZUxlNmVXLXZZQjNrZFhGNTZfWmVmWndKdTVYbXN6U0hwWkJEeWNzV0ZRNGRyeVUxY2lfM0NaUGhzY0tfYXNWUXlHRnNwaXZ5bVBCSHV0a2VQUk9BUVRXM0JocFJUOTNweUVkSmpPdnk0bGY4RkR1azVFTWhSbTBVeWpENUhHSkFvbUNUY1FhblJ6MTQ2RWtJa3hTdi1z?oc=5",
-          "timestamp": 1792508160
         }
       ],
       "history": [
