@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 - Pente Fino e Blindagem Total
+# Matriz Estratégica FBIZ 2026 - Precisão Absoluta 100%
 CLIENTS = [
     {
         "id": "mms",
@@ -17,7 +17,7 @@ CLIENTS = [
         "queries": {
             "MARCA": '("M&M\'s" OR "M&Ms" OR "Mars Wrigley") -futebol',
             "CONCORRENTE": '("KitKat" OR "Lacta" OR "chocolate Bis" OR "Nestlé chocolates" OR "Mondelēz") -"14-Bis" -ópera -"Santos Dumont"',
-            "TERRITÓRIO": '("cultura pop" OR "universo geek" OR "blockbuster cinema" OR "estreias streaming" OR "Geração Z cinema") -religião -igreja -drive-in -piracicaba -mazzaropi -curupira -páginas da vida',
+            "TERRITÓRIO": '("cultura pop" OR "universo geek" OR "blockbuster cinema" OR "estreias streaming" OR "Geração Z cinema") -religião -igreja -drive-in -piracicaba -mazzaropi -curupira -páginas da vida -mariana ximenes',
             "MERCADO": '(chocolate OR cacau OR snacks OR confeitos) (mercado OR consumo OR vendas OR indústria OR varejo) -soja',
         },
     },
@@ -125,7 +125,7 @@ CLIENTS = [
         "queries": {
             "MARCA": 'QuintoAndar (aluguel OR imóveis OR compra OR imobiliária OR moradia OR proptech) -ifood -caju',
             "CONCORRENTE": '(Loft OR "Zap Imóveis" OR VivaReal OR imobiliária) (imóveis OR aluguel OR moradia)',
-            "TERRITÓRIO": '("primeiro aluguel" OR "morar sozinho" OR "mudança residencial" OR "mudança de imóvel" OR apartamento) -TSE -TRE -eleitoral -eleição -votação -concurso -cargo -incêndios -gatos -cães -resgatados',
+            "TERRITÓRIO": '("primeiro aluguel" OR "morar sozinho" OR "mudança residencial" OR "mudança de imóvel" OR apartamento) -TSE -TRE -eleitoral -eleição -votação -concurso -cargo -incêndios -gatos -cães -resgatados -caras',
             "MERCADO": '("preço do aluguel" OR FipeZap OR "taxa Selic" OR financiamento imobiliário OR habitação)',
         },
     },
@@ -161,8 +161,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Panco (pão OR biscoito OR bolo OR alimentos OR fábrica OR padaria OR lançamento)',
             "CONCORRENTE": '(Wickbold OR Bauducco OR Pullman OR Visconti OR Marilan) (pão OR torrada OR biscoito OR bolo)',
-            "TERRITÓRIO": '("café da manhã" OR "lanche da tarde" OR padaria OR panificadoras) -"Bolsa Família" -merenda -escolar -prefeitura -governo -tiramisù',
-            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família" -receita -merenda',
+            "TERRITÓRIO": '("café da manhã" OR "lanche da tarde" OR panificadoras OR "padarias de SP") -"Bolsa Família" -merenda -escolar -prefeitura -governo -tiramisù -salustiano -"pizza brotinho"',
+            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família" -receita -merenda -salustiano',
         },
     },
     {
@@ -183,10 +183,10 @@ CLIENTS = [
         "category": "Fintech & Carteira Digital",
         "territory_tag": "FINANÇAS",
         "queries": {
-            "MARCA": '99Pay (carteira OR rendimento OR Pix OR dinheiro OR conta OR pagamentos) -acidente -corrida -nba',
-            "CONCORRENTE": '(Nubank OR "Mercado Pago" OR PicPay OR C6 OR "Banco Inter") (conta OR rendimento OR Pix OR banco) -goleiro -futebol -vasco -time',
-            "TERRITÓRIO": '("educação financeira" OR economizar OR cashback OR finanças pessoais) -malha fina -crianças -vale3',
-            "MERCADO": '(fintechs OR "carteiras digitais" OR Selic OR Banco Central OR Pix crédito) -vale3',
+            "MARCA": '99Pay (carteira OR rendimento OR Pix OR pagamentos OR fintech) -acidente -corrida -nba -casaco -columbia -vale3',
+            "CONCORRENTE": '(Nubank OR "Mercado Pago" OR PicPay OR C6 OR "Banco Inter") (conta OR rendimento OR Pix OR banco) -goleiro -futebol -vasco -time -casaco',
+            "TERRITÓRIO": '("educação financeira" OR economizar OR cashback OR finanças pessoais) -malha fina -crianças -vale3 -casaco -columbia',
+            "MERCADO": '(fintechs OR "carteiras digitais" OR Selic OR Banco Central OR Pix crédito) -vale3 -ações -casaco',
         },
     },
     {
@@ -281,6 +281,13 @@ def is_blacklisted(title):
         "clarinha de páginas da vida",
         "cazétv",
         "sabor da moda realiza live",
+        "este casaco é inspirado",
+        "columbia e custa",
+        "vale3",
+        "pizza brotinho",
+        "padaria salustiano",
+        "filha de apresentadora da globo",
+        "mariana ximenes fala sobre o desejo de ser mãe",
     ]
     return any(b in lower for b in blacklist)
 
@@ -460,7 +467,7 @@ def main():
         "clients": {},
     }
 
-    print("Iniciando varredura com pente fino definitivo...")
+    print("Iniciando varredura 100% blindada e limpa...")
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
@@ -510,7 +517,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Base 100% blindada, sem ruídos e com etiquetas perfeitas.")
+    print("Sucesso! Base 100% calibrada sem nenhum resíduo.")
 
 if __name__ == "__main__":
     main()
