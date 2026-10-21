@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 com Horário de Brasília e Pente Fino Absoluto
+# Matriz Estratégica FBIZ 2026 - Pente Fino e Separação Estrita de 48h
 CLIENTS = [
     {
         "id": "mms",
@@ -457,11 +457,14 @@ DIRETRIZES:
 def main():
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
 
-    # FIX DO RELÓGIO: Converte UTC do servidor para o Horário Oficial de Brasília (UTC-3)
+    # Horário Oficial de Brasília (UTC-3)
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     now_brasilia = now_utc - datetime.timedelta(hours=3)
     now_str = now_brasilia.strftime("%d/%m/%Y às %H:%M")
-    date_capture = now_brasilia.strftime("%d/%m/%Y")
+    current_timestamp = time.time()
+    cutoff_48h = (
+        current_timestamp - (48 * 3600)
+    )  # Marco de 48h atrás em segundos
 
     existing_data = {}
     if os.path.exists("news_data.json"):
@@ -476,9 +479,7 @@ def main():
         "clients": {},
     }
 
-    print(
-        f"Iniciando varredura com Horário de Brasília ({now_str}) e filtros cirúrgicos..."
-    )
+    print(f"Iniciando varredura com separação estrita de 48h ({now_str})...")
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
@@ -492,27 +493,31 @@ def main():
         old_history = old_client_data.get("history", [])
         old_current_news = old_client_data.get("news", [])
 
-        fresh_titles = {n["title"].lower().strip() for n in fresh_news}
-        history_titles = {h["title"].lower().strip() for h in old_history}
+        # Junta todas as matérias já vistas
+        pool = fresh_news + old_current_news + old_history
+        seen_titles = set()
+        active_48h = []
+        past_editions = []
 
-        merged_history = list(old_history)
-        for old_item in old_current_news:
-            norm_t = old_item.get("title", "").lower().strip()
-            if (
-                norm_t
-                and not is_blacklisted(norm_t)
-                and norm_t not in fresh_titles
-                and norm_t not in history_titles
-            ):
-                old_item["archived_date"] = old_item.get(
-                    "archived_date", date_capture
-                )
-                merged_history.insert(0, old_item)
-                history_titles.add(norm_t)
+        for item in pool:
+            norm_t = item.get("title", "").lower().strip()
+            if not norm_t or is_blacklisted(norm_t) or norm_t in seen_titles:
+                continue
+            seen_titles.add(norm_t)
+
+            ts = item.get("timestamp", 0)
+            # REGRA ESTRITA: Se tem menos de 48h vai para ÚLTIMAS 48H. Se tem mais de 48h vai para EDIÇÕES PASSADAS!
+            if ts >= cutoff_48h:
+                active_48h.append(item)
+            else:
+                past_editions.append(item)
+
+        active_48h.sort(key=lambda x: x["timestamp"], reverse=True)
+        past_editions.sort(key=lambda x: x["timestamp"], reverse=True)
 
         headline_text = (
-            fresh_news[0]["title"]
-            if fresh_news
+            active_48h[0]["title"]
+            if active_48h
             else f"Movimentações recentes em {client['category']}"
         )
 
@@ -521,14 +526,14 @@ def main():
             "category": client["category"],
             "headline": headline_text,
             "executive_summary": summary,
-            "news": fresh_news,
-            "history": merged_history[:30],
+            "news": active_48h[:12],
+            "history": past_editions[:30],
         }
 
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso absoluto! Relógio de Brasília cravado e ruídos eliminados.")
+    print("Sucesso! Separação cronológica estrita de 48h concluída.")
 
 if __name__ == "__main__":
     main()
