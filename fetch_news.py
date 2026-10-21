@@ -7,6 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
+# Matriz Estratégica FBIZ 2026 - Lógica Limpa sem Notícias Fantasma
 CLIENTS = [
     {
         "id": "mms",
@@ -293,7 +294,7 @@ def is_blacklisted(title):
         "bolo de fubá",
         "receitas de liquidificador",
         "corrida quem corre são elas",
-        # PURGA DEFINITIVA DO ULTRA-LUXO DA SCHUTZ:
+        # EXCLUSÃO TOTAL DO ULTRA-LUXO E FANTASMAS DA SCHUTZ:
         "ferragamo",
         "lvmh",
         "7 for all mankind",
@@ -379,7 +380,7 @@ def fetch_all_relevant_news(client):
 
 def build_fallback_summary(client_name, category, news_items):
     if not news_items:
-        return f"Monitoramento ativo nas últimas 48h para {client_name} no segmento de {category}. Cenário de estabilidade sem picos anômalos de imprensa."
+        return f"Monitoramento ativo nas últimas 48h para {client_name} no segmento de {category}."
 
     parts = []
     marca_items = [
@@ -466,9 +467,7 @@ def main():
     now_brasilia = now_utc - datetime.timedelta(hours=3)
     now_str = now_brasilia.strftime("%d/%m/%Y às %H:%M")
     current_timestamp = time.time()
-    cutoff_48h = (
-        current_timestamp - (48 * 3600)
-    )  # Marco de 48h atrás em segundos
+    cutoff_48h = current_timestamp - (48 * 3600)
 
     existing_data = {}
     if os.path.exists("news_data.json"):
@@ -484,46 +483,42 @@ def main():
     }
 
     print(
-        f"Iniciando varredura com purga de Ferragamo/LVMH e Horário de Brasília ({now_str})..."
+        f"Iniciando varredura com limpeza estrita de fantasmas ({now_str})..."
     )
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
 
+        # 1. A ABA 'ÚLTIMAS 48H' MOSTRA ESTRITAMENTE O QUE A BUSCA DE AGORA ENCONTROU!
         fresh_news = fetch_all_relevant_news(client)
         summary = generate_executive_summary(
             client["name"], client["category"], fresh_news, api_key
         )
 
+        # 2. O HISTÓRICO GUARDA APENAS AS MATÉRIAS ANTIGAS QUE REALMENTE PASSARAM DE 48H
         old_client_data = existing_data.get("clients", {}).get(cid, {})
         old_history = old_client_data.get("history", [])
         old_current_news = old_client_data.get("news", [])
 
-        # Junta todas as matérias já vistas
-        pool = fresh_news + old_current_news + old_history
-        seen_titles = set()
-        active_48h = []
-        past_editions = []
+        fresh_titles = {n["title"].lower().strip() for n in fresh_news}
+        history_titles = {h["title"].lower().strip() for h in old_history}
 
-        for item in pool:
-            norm_t = item.get("title", "").lower().strip()
-            # SE ESTIVER NA BLACKLIST (ex: Ferragamo, LVMH), É DESCARTADO IMEDIATAMENTE!
-            if not norm_t or is_blacklisted(norm_t) or norm_t in seen_titles:
-                continue
-            seen_titles.add(norm_t)
-
-            ts = item.get("timestamp", 0)
-            if ts >= cutoff_48h:
-                active_48h.append(item)
-            else:
-                past_editions.append(item)
-
-        active_48h.sort(key=lambda x: x["timestamp"], reverse=True)
-        past_editions.sort(key=lambda x: x["timestamp"], reverse=True)
+        merged_history = list(old_history)
+        for old_item in old_current_news:
+            norm_t = old_item.get("title", "").lower().strip()
+            # Só arquiva se não for lixo (blacklist) e não estiver na tela principal de agora
+            if (
+                norm_t
+                and not is_blacklisted(norm_t)
+                and norm_t not in fresh_titles
+                and norm_t not in history_titles
+            ):
+                merged_history.insert(0, old_item)
+                history_titles.add(norm_t)
 
         headline_text = (
-            active_48h[0]["title"]
-            if active_48h
+            fresh_news[0]["title"]
+            if fresh_news
             else f"Movimentações recentes em {client['category']}"
         )
 
@@ -532,14 +527,14 @@ def main():
             "category": client["category"],
             "headline": headline_text,
             "executive_summary": summary,
-            "news": active_48h[:12],
-            "history": past_editions[:30],
+            "news": fresh_news,  # ZERO MISTURA COM MATÉRIAS ANTIGAS
+            "history": merged_history[:30],
         }
 
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Ferragamo e LVMH purgados da memória da Schutz.")
+    print("Sucesso! Base limpa de matérias fantasma.")
 
 if __name__ == "__main__":
     main()
