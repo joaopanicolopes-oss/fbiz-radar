@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 - Pente Fino e Separação Estrita de 48h
+# Matriz Estratégica FBIZ 2026 - Pente Fino e Schutz Recalibrada
 CLIENTS = [
     {
         "id": "mms",
@@ -216,13 +216,13 @@ CLIENTS = [
     {
         "id": "schutz",
         "name": "Schutz",
-        "category": "Moda Premium & Sapatos",
-        "territory_tag": "MODA & LUXO",
+        "category": "Moda Premium & Calçados",
+        "territory_tag": "TENDÊNCIAS & MODA",
         "queries": {
             "MARCA": 'Schutz (bolsas OR sapatos OR sandálias OR salto OR coleção OR calçados OR Azzas)',
-            "CONCORRENTE": '(Arezzo OR "Luiza Barcelos" OR "Alexandre Birman" OR Capodarte) (luxo OR calçados OR bolsas)',
-            "TERRITÓRIO": '("moda de luxo" OR "tapete vermelho" OR "salto alto" OR "desfile de luxo") -jabuticaba -padroeiro -igreja -paróquia -diocese -santo -religiosa -congado -casamento',
-            "MERCADO": '("mercado de luxo" OR "moda premium" OR sapatos) Brasil -ostomia -estoma -médico -cirúrgico -estomizado',
+            "CONCORRENTE": '("Luiza Barcelos" OR Vicenza OR "Santa Lolla" OR Corello OR "Jorge Bischoff" OR Capodarte) (sapatos OR bolsas OR calçados)',
+            "TERRITÓRIO": '("tendências de sapatos" OR "sandálias de salto" OR "botas femininas" OR "bolsas femininas" OR "street style moda") -prefeitura -igreja -festa -jabuticaba',
+            "MERCADO": '("calçados femininos" OR "varejo de calçados" OR "moda contemporânea" OR "semana de moda") Brasil -ostomia -estoma -médico',
         },
     },
 ]
@@ -479,7 +479,9 @@ def main():
         "clients": {},
     }
 
-    print(f"Iniciando varredura com separação estrita de 48h ({now_str})...")
+    print(
+        f"Iniciando varredura com Schutz calibrada e Horário de Brasília ({now_str})..."
+    )
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
@@ -506,7 +508,6 @@ def main():
             seen_titles.add(norm_t)
 
             ts = item.get("timestamp", 0)
-            # REGRA ESTRITA: Se tem menos de 48h vai para ÚLTIMAS 48H. Se tem mais de 48h vai para EDIÇÕES PASSADAS!
             if ts >= cutoff_48h:
                 active_48h.append(item)
             else:
@@ -533,7 +534,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Separação cronológica estrita de 48h concluída.")
+    print("Sucesso! Schutz recalibrada e base 100% atualizada.")
 
 if __name__ == "__main__":
     main()
