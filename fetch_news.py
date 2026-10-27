@@ -8,7 +8,6 @@ import urllib.parse
 import urllib.request
 import feedparser
 
-# Matriz Estratégica FBIZ 2026 com Trava Anti-Spam Internacional
 CLIENTS = [
     {
         "id": "mms",
@@ -16,10 +15,10 @@ CLIENTS = [
         "category": "Snacks & Chocolates",
         "territory_tag": "CULTURA POP",
         "queries": {
-            "MARCA": '("M&M\'s" OR "M&Ms" OR "Mars Wrigley") -futebol -abacaxis -fungos',
+            "MARCA": '("M&M\'s" OR "M&Ms" OR "Mars Wrigley") -futebol -abacaxis -fungos -preso -furto',
             "CONCORRENTE": '("KitKat" OR "Lacta" OR "chocolate Bis" OR "Nestlé chocolates" OR "Mondelēz") -"14-Bis" -ópera -"Santos Dumont"',
             "TERRITÓRIO": '("cultura pop" OR "universo geek" OR "blockbuster cinema" OR "estreias streaming" OR "Geração Z cinema") -religião -igreja -drive-in -piracicaba -mazzaropi -curupira -páginas da vida -mariana ximenes',
-            "MERCADO": '(chocolate OR cacau OR snacks OR confeitos) (mercado OR consumo OR vendas OR indústria OR varejo) -soja -abacaxis',
+            "MERCADO": '(chocolate OR cacau OR snacks OR confeitos) (mercado OR consumo OR vendas OR indústria OR varejo) -soja -abacaxis -preso -furtar',
         },
     },
     {
@@ -28,10 +27,10 @@ CLIENTS = [
         "category": "Imobiliário Alto Padrão",
         "territory_tag": "ALTO PADRÃO",
         "queries": {
-            "MARCA": '("Tegra Incorporadora" OR Tegra) (imóveis OR residencial OR empreendimento OR incorporadora) -futebol -cazétv -nvidia -geforce -nintendo -switch -chip -processador -console',
-            "CONCORRENTE": '(Cyrela OR Even OR Mitre OR JHSF OR Gafisa) (lançamento OR imóveis OR luxo OR residencial) -futebol -"virginia fonseca" -babá',
+            "MARCA": '("Tegra Incorporadora" OR Tegra) (imóveis OR residencial OR empreendimento OR incorporadora) -futebol -cazétv -nvidia -geforce -nintendo -switch -chip -processador -console -iphone -apple',
+            "CONCORRENTE": '(Cyrela OR Even OR Mitre OR JHSF OR Gafisa) (lançamento OR imóveis OR luxo OR residencial) -futebol -"virginia fonseca" -babá -iphone',
             "TERRITÓRIO": '("quiet luxury" OR "torneio de tênis ATP" OR "arquitetura de luxo" OR "decoração de luxo") (São Paulo OR Jardins OR "Faria Lima") -itaúna -religioso -"tom ford beauty"',
-            "MERCADO": '("mercado imobiliário" OR "imóveis de luxo" OR "crédito imobiliário" OR "alto padrão") (São Paulo OR Brasil)',
+            "MERCADO": '("mercado imobiliário" OR "imóveis de luxo" OR "crédito imobiliário" OR "alto padrão") (São Paulo OR Brasil) -iphone',
         },
     },
     {
@@ -40,10 +39,10 @@ CLIENTS = [
         "category": "Chocolates & Biscoitos",
         "territory_tag": "SNACKING",
         "queries": {
-            "MARCA": '("chocolate Twix" OR "Twix Mars" OR Twix) (chocolate OR biscoito OR caramelo OR snack) -futebol',
+            "MARCA": '("chocolate Twix" OR "Twix Mars" OR Twix) (chocolate OR biscoito OR caramelo OR snack) -futebol -preso -furto',
             "CONCORRENTE": '("KitKat" OR "chocolate Snickers" OR "chocolate Trento" OR "Peccin chocolates") -futebol -time -Itália -Dolomiti -campeã -vôlei -"jogos do sesi" -triel-ht',
             "TERRITÓRIO": '("pausa café" OR "café da tarde" OR "hora do lanche") (snack OR chocolate OR biscoito) -prefeitura -queimadas -crime -receita -bolo -tiramisù -brigadeiro',
-            "MERCADO": '(biscoitos OR chocolates OR confeitos OR snacks) (mercado OR consumo OR varejo OR indústria) -receita -tiramisù',
+            "MERCADO": '(biscoitos OR chocolates OR confeitos OR snacks) (mercado OR consumo OR varejo OR indústria) -receita -tiramisù -preso -furtar',
         },
     },
     {
@@ -66,7 +65,7 @@ CLIENTS = [
         "queries": {
             "MARCA": '("Warner Bros" OR "Warner Bros Discovery" OR "Warner Pictures") -futebol',
             "CONCORRENTE": '(Disney OR Universal OR Sony Pictures OR Paramount) (filmes OR cinema OR bilheteria OR estúdio)',
-            "TERRITÓRIO": '("cultura pop" OR CCXP OR Comic-Con OR "filmes Hollywood" OR fandom OR Oscar OR Emmy) -"oscar do turismo" -"oscar freire" -hotéis -turismo -tribunal -justiça -TJ -servidores -produtividade -drive-in -guarapari -ufop',
+            "TERRITÓRIO": '("cultura pop" OR CCXP OR Comic-Con OR "filmes Hollywood" OR fandom OR "ao Oscar" OR "do Oscar" OR Emmy) -"oscar do turismo" -"oscar freire" -"oscar rodrigues" -"oscar lopez" -hotéis -turismo -tribunal -justiça -TJ -servidores -produtividade -drive-in -guarapari -ufop -eleição -política',
             "MERCADO": '(cinema OR bilheteria OR "indústria cinematográfica" OR Hollywood OR exibição) (Brasil OR estreia) -drive-in -"oscar do turismo" -"oscar freire"',
         },
     },
@@ -76,10 +75,10 @@ CLIENTS = [
         "category": "Tecnologia & ERP Corporativo",
         "territory_tag": "INOVAÇÃO B2B",
         "queries": {
-            "MARCA": 'TOTVS (software OR ERP OR gestão OR tecnologia OR aquisição) -futebol',
-            "CONCORRENTE": '(SAP OR Oracle OR Senior Sistemas OR Linx) (software OR ERP OR empresas OR gestão)',
-            "TERRITÓRIO": '("Reforma Tributária" OR "inteligência artificial" OR inovação corporativa) empresas -concurso -estágio -vagas',
-            "MERCADO": '("software de gestão" OR tecnologia B2B OR SaaS OR nuvem OR transformação digital) Brasil -vietnam',
+            "MARCA": 'TOTVS (software OR ERP OR gestão OR tecnologia OR aquisição) -futebol -cães -hotel -caseiro -monitor',
+            "CONCORRENTE": '(SAP OR Oracle OR Senior Sistemas OR Linx) (software OR ERP OR empresas OR gestão) -cães',
+            "TERRITÓRIO": '("Reforma Tributária" OR "inteligência artificial" OR inovação corporativa) empresas -concurso -estágio -vagas -cães',
+            "MERCADO": '("software de gestão" OR tecnologia B2B OR SaaS OR nuvem OR transformação digital) Brasil -vietnam -cães',
         },
     },
     {
@@ -88,10 +87,10 @@ CLIENTS = [
         "category": "Snacks & Barras de Chocolate",
         "territory_tag": "GAMES & NFL",
         "queries": {
-            "MARCA": '("chocolate Snickers" OR "Snickers Mars" OR Snickers) (chocolate OR barra OR amendoim OR snack) -tênis',
+            "MARCA": '("chocolate Snickers" OR "Snickers Mars" OR Snickers) (chocolate OR barra OR amendoim OR snack) -tênis -preso -furto',
             "CONCORRENTE": '("chocolate Trento" OR KitKat OR "barra de proteína" OR chocolates) (doce OR snack) -Itália -futebol',
             "TERRITÓRIO": '(games OR "e-sports" OR CBLOL OR "NFL Brasil" OR "intervalo da NFL") -orquestra -sinfônica -açúcar -saqueada -voadora',
-            "MERCADO": '(chocolates OR confeitos OR snacks OR barras) (consumo OR mercado OR tendências OR vendas) -infância -doenças',
+            "MERCADO": '(chocolates OR confeitos OR snacks OR barras) (consumo OR mercado OR tendências OR vendas) -infância -doenças -preso -furtar',
         },
     },
     {
@@ -138,8 +137,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Google (Brasil OR Workspace OR Cloud OR Gemini OR publicidade OR anúncios) -bolsonaro -lula -janones -assassinar',
             "CONCORRENTE": '(OpenAI OR Microsoft Copilot OR "Meta Ads" OR ChatGPT OR TikTok) (IA OR empresas OR anúncios OR publicidade) -assassinar -lula -pf -brasileirão -mirassol',
-            "TERRITÓRIO": '("futuro do trabalho" OR produtividade OR colaboração OR IA corporativa OR busca) -bolsonaro -lula -brasileirão',
-            "MERCADO": '("publicidade digital" OR marketing digital OR inteligência artificial OR big tech) empresas -vietnam',
+            "TERRITÓRIO": '("futuro do trabalho" OR produtividade OR colaboração OR IA corporativa OR busca) -bolsonaro -lula -brasileirão -suínos -granja',
+            "MERCADO": '("publicidade digital" OR marketing digital OR inteligência artificial OR big tech) empresas -vietnam -suínos -granjas',
         },
     },
     {
@@ -162,8 +161,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Panco (pão OR biscoito OR bolo OR alimentos OR fábrica OR padaria OR lançamento)',
             "CONCORRENTE": '(Wickbold OR Bauducco OR Pullman OR Visconti OR Marilan) (pão OR torrada OR biscoito OR bolo)',
-            "TERRITÓRIO": '("consumo de pães" OR "padarias de São Paulo" OR "hábito do café") (panificação OR pão OR biscoito) -podcast -stf -ministro -merenda -escolar -prefeitura -governo -receitas -fubá -liquidificador -salustiano -corrida',
-            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família" -receita -merenda -salustiano -podcast',
+            "TERRITÓRIO": '("consumo de pães" OR "padarias de São Paulo" OR "hábito do café") (panificação OR pão OR biscoito) -podcast -stf -ministro -merenda -escolar -prefeitura -governo -receitas -receita -fubá -liquidificador -salustiano -corrida -primavera',
+            "MERCADO": '(panificação OR "pão de forma" OR torrada OR "indústria de alimentos" OR biscoitos) Brasil -"Bolsa Família" -receita -receitas -merenda -salustiano -podcast',
         },
     },
     {
@@ -174,8 +173,8 @@ CLIENTS = [
         "queries": {
             "MARCA": 'Geely (Brasil OR carro OR elétrico OR híbrido OR montadora OR lançamento)',
             "CONCORRENTE": '(BYD OR GWM OR Volvo) (carros OR elétricos OR híbridos OR montadora OR vendas)',
-            "TERRITÓRIO": '("carros elétricos" OR eletrificação OR baterias OR recarga OR mobilidade) Brasil',
-            "MERCADO": '("indústria automobilística" OR venda de carros OR imposto de importação) (elétricos OR veículos)',
+            "TERRITÓRIO": '("carros elétricos" OR eletrificação OR baterias OR recarga OR mobilidade) Brasil -prisão -preso -tre-ba -secretário',
+            "MERCADO": '("indústria automobilística" OR venda de carros OR imposto de importação) (elétricos OR veículos) -sapo',
         },
     },
     {
@@ -198,8 +197,8 @@ CLIENTS = [
         "queries": {
             "MARCA": '("tênis Vans" OR Vans) (skate OR tênis OR calçado OR streetwear OR coleção) -transporte -passageiro -escolar -van',
             "CONCORRENTE": '("Nike SB" OR Converse OR "Adidas Originals" OR "tênis Puma" OR "Puma sneaker") (tênis OR sneaker OR skate OR streetwear) -vasco -futebol -jogador',
-            "TERRITÓRIO": '(skate OR streetwear OR "moda urbana" OR "cultura sneaker" OR "festival de música") -orquestra -sinfônica -filarmônica -"tom jobim" -israel -gaza -guerra -sequestro -penedo -prefeitura',
-            "MERCADO": '(sneakers OR "mercado de calçados" OR calçados urbanos OR moda jovem)',
+            "TERRITÓRIO": '(skate OR streetwear OR "moda urbana" OR "cultura sneaker" OR "festival de música") -orquestra -sinfônica -filarmônica -"tom jobim" -israel -gaza -guerra -sequestro -penedo -prefeitura -gelo -patinação -artística',
+            "MERCADO": '(sneakers OR "mercado de calçados" OR calçados urbanos OR moda jovem) -gelo -patinação',
         },
     },
     {
@@ -208,10 +207,10 @@ CLIENTS = [
         "category": "Calçados & Moda Feminina",
         "territory_tag": "MODA & ESTILO",
         "queries": {
-            "MARCA": 'Arezzo (sapatos OR bolsas OR calçados OR Arezzo&Co OR coleção OR desfile OR Azzas) -Toscana -Itália -"m. dias branco" -sampdoria -"vila valério" -"sabor da moda"',
-            "CONCORRENTE": '("Luiza Barcelos" OR "Santa Lolla" OR Schutz OR Anacapri OR Corello) (sapatos OR bolsas OR calçados) -sampdoria',
-            "TERRITÓRIO": '(SPFW OR "semana de moda" OR "passarela de moda" OR "tendências de sapatos") -prefeitura -cívico -militar -patrimônio -caxias -"vila valério" -"sabor da moda"',
-            "MERCADO": '("varejo de moda" OR "mercado de calçados" OR vestuário OR calçados femininos) Brasil -b3 -"bolsa de valores" -ibovespa -"m. dias branco"',
+            "MARCA": 'Arezzo (sapatos OR bolsas OR calçados OR Arezzo&Co OR coleção OR desfile OR Azzas) -Toscana -Itália -"m. dias branco" -sampdoria -"vila valério" -"sabor da moda" -bazar -beneficente -brechó -domino -dominos',
+            "CONCORRENTE": '("Luiza Barcelos" OR "Santa Lolla" OR Schutz OR Anacapri OR Corello) (sapatos OR bolsas OR calçados) -sampdoria -bazar',
+            "TERRITÓRIO": '(SPFW OR "semana de moda" OR "passarela de moda" OR "tendências de sapatos") -prefeitura -cívico -militar -patrimônio -caxias -"vila valério" -"sabor da moda" -bazar -brechó',
+            "MERCADO": '("varejo de moda" OR "mercado de calçados" OR vestuário OR calçados femininos) Brasil -b3 -"bolsa de valores" -ibovespa -"m. dias branco" -bazar',
         },
     },
     {
@@ -220,21 +219,18 @@ CLIENTS = [
         "category": "Moda Premium & Calçados",
         "territory_tag": "TENDÊNCIAS & MODA",
         "queries": {
-            "MARCA": 'Schutz (bolsas OR sapatos OR sandálias OR salto OR coleção OR calçados OR Azzas) -"vila valério" -"sabor da moda"',
-            "CONCORRENTE": '("Luiza Barcelos" OR Vicenza OR "Santa Lolla" OR Corello OR "Jorge Bischoff" OR Capodarte) (sapatos OR bolsas OR calçados) -sampdoria',
-            "TERRITÓRIO": '("tendências de sapatos" OR "sandálias de salto" OR "botas femininas" OR "bolsas femininas" OR "street style moda") -prefeitura -igreja -festa -jabuticaba -ferragamo -lvmh -"7 for all mankind"',
-            "MERCADO": '("calçados femininos" OR "varejo de calçados" OR "moda contemporânea" OR "semana de moda") Brasil -ostomia -estoma -médico -ferragamo -lvmh -"7 for all mankind" -automobilismo',
+            "MARCA": 'Schutz (bolsas OR sapatos OR sandálias OR salto OR coleção OR calçados OR Azzas) -"vila valério" -"sabor da moda" -bazar -beneficente -brechó',
+            "CONCORRENTE": '("Luiza Barcelos" OR Vicenza OR "Santa Lolla" OR Corello OR "Jorge Bischoff" OR Capodarte) (sapatos OR bolsas OR calçados) -sampdoria -bazar',
+            "TERRITÓRIO": '("tendências de sapatos" OR "sandálias de salto" OR "botas femininas" OR "bolsas femininas" OR "street style moda") -prefeitura -igreja -festa -jabuticaba -ferragamo -lvmh -"7 for all mankind" -bazar',
+            "MERCADO": '("calçados femininos" OR "varejo de calçados" OR "moda contemporânea" OR "semana de moda") Brasil -ostomia -estoma -médico -ferragamo -lvmh -"7 for all mankind" -automobilismo -bazar',
         },
     },
 ]
 
 def is_foreign_or_spam(title, source):
-    """Trava Anti-Spam Internacional: descarta caracteres chineses, cirílicos ou fontes bot."""
     combined = f"{title} {source}"
-    # Detecta caracteres chineses/orientais (como 白鲸出海)
     if re.search(r"[\u4e00-\u9fff]", combined):
         return True
-    # Detecta caracteres cirílicos / russos
     if re.search(r"[\u0400-\u04ff]", combined):
         return True
     return False
@@ -332,9 +328,10 @@ def is_blacklisted(title, source=""):
         "chef de trento",
         "cidade de trento",
         "zena recebe chef",
-        # NOVOS 5 PENETRAS EXTINTOS:
         "virgem do volei de praia",
         "oscar freire",
+        "oscar rodrigues",
+        "oscar lopez",
         "nivea stelmann",
         "nívea stelmann",
         "virginia fonseca",
@@ -346,6 +343,19 @@ def is_blacklisted(title, source=""):
         "festival de música de penedo",
         "preparar bebidas no apartamento em belém",
         "movimentações bancárias suspeitas, incompatíveis",
+        # FAXINA GERAL DEFINITIVA:
+        "homem é preso após furtar",
+        "hotel de cães",
+        "iphone duo",
+        "granjas de suínos",
+        "skate canada",
+        "patinação artística",
+        "bazar beneficente",
+        "bazar chic em campo grande",
+        "domino’s contrata coo",
+        "dominos contrata coo",
+        "confira receitas para trazer o frescor",
+        "ordem de prisão contra secretário",
     ]
     return any(b in lower for b in blacklist)
 
@@ -373,7 +383,6 @@ def fetch_rss_query(query, tag, time_window="48h"):
                 else "Imprensa"
             )
 
-        # Filtro de segurança anti-spam e blacklist
         if is_blacklisted(title, source):
             continue
 
@@ -528,12 +537,12 @@ def main():
         "clients": {},
     }
 
-    print(f"Iniciando varredura com proteção anti-spam ({now_str})...")
+    print(f"Iniciando varredura com pente fino total ({now_str})...")
     for client in CLIENTS:
         cid = client["id"]
         print(f"Processando: {client['name']} ({client['category']})...")
 
-        # 1. ABA 'ÚLTIMAS 48H': SEMPRE A BUSCA FRESCA LIMPA
+        # 1. ABA 'ÚLTIMAS 48H': SEMPRE A BUSCA FRESCA E PURIFICADA
         fresh_news = fetch_all_relevant_news(client)
         summary = generate_executive_summary(
             client["name"], client["category"], fresh_news, api_key
@@ -586,7 +595,7 @@ def main():
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Sucesso! Base 100% esterilizada e protegida contra spam.")
+    print("Sucesso! Base 100% esterilizada, sem bazar, sem patinação no gelo.")
 
 if __name__ == "__main__":
     main()
